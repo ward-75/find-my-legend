@@ -1,4 +1,6 @@
 "use client";
+import { useLanguage, LocaleText } from "@/lib/i18n/react";
+import { displayLegendName } from "@/lib/i18n/names";
 import { useToday } from "@/lib/useToday";
 import { useMemo, useState } from "react";
 import { SETS, championKo, setById } from "@/lib/data";
@@ -23,6 +25,7 @@ export function LegendBrowser({ matches, compareIds, onToggleCompare, onOpenDeta
   onOpenDetail: (id: string) => void;
   onBack: () => void;
 }) {
+  const { locale } = useLanguage();
   const { legends } = useLegendStore();
   const today = useToday();
   const [q, setQ] = useState("");
@@ -65,7 +68,7 @@ export function LegendBrowser({ matches, compareIds, onToggleCompare, onOpenDeta
   const reset = () => { setQ(""); setCutoff(LATEST); setMode("cumulative"); setSup(true); setDomains([]); setArch(""); setDiff(0); };
 
   return (
-    <section className="mx-auto max-w-6xl px-5 pb-32 pt-8">
+    <LocaleText><section className="mx-auto max-w-6xl px-5 pb-32 pt-8">
       <Button variant="quiet" onClick={onBack} className="-ml-2">돌아가기</Button>
       <h1 className="mt-3 font-display text-[clamp(28px,5vw,40px)] font-semibold">모든 전설</h1>
       <p className="mt-1 text-vellum/75">출시된 세트의 전설을 세트, 도메인, 성향으로 찾아보세요.{matches.length > 0 && " 테스트 결과가 있으면 적합도가 함께 표시됩니다."}</p>
@@ -142,7 +145,7 @@ export function LegendBrowser({ matches, compareIds, onToggleCompare, onOpenDeta
                 </button>
                 <div className="mt-2.5 flex items-start justify-between gap-2">
                   <div className="min-w-0">
-                    <p className="truncate font-display text-lg leading-tight">{championKo(l)}</p>
+                    <p className="truncate font-display text-lg leading-tight">{displayLegendName(l, locale)}</p>
                     <p className="truncate text-xs text-haze">{l.officialData.title}</p>
                   </div>
                   {p !== undefined && <span className="shrink-0 font-display tabular-nums">{p}점</span>}
@@ -164,6 +167,6 @@ export function LegendBrowser({ matches, compareIds, onToggleCompare, onOpenDeta
           })}
         </ul>
       )}
-    </section>
+    </section></LocaleText>
   );
 }

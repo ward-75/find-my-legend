@@ -1,0 +1,3917 @@
+{
+  "언어": {
+    "ko": "언어",
+    "en": "Language",
+    "zh-CN": "语言"
+  },
+  "나의 Riftbound 전설 찾기 · Find My Legend": {
+    "ko": "나의 Riftbound 전설 찾기 · Find My Legend",
+    "en": "Find My Riftbound Legend · Find My Legend",
+    "zh-CN": "寻找适合我的 Riftbound 传奇 · Find My Legend"
+  },
+  "소진": {
+    "ko": "소진",
+    "en": "Exhaust",
+    "zh-CN": "横置"
+  },
+  "파워 1": {
+    "ko": "파워 1",
+    "en": "1 Power",
+    "zh-CN": "1点符能"
+  },
+  "힘": {
+    "ko": "힘",
+    "en": "Might",
+    "zh-CN": "战力"
+  },
+  "능력 텍스트 미등록 (TODO)": {
+    "ko": "능력 텍스트 미등록 (TODO)",
+    "en": "Ability text not yet available",
+    "zh-CN": "技能原文尚未收录"
+  },
+  "내 결과": {
+    "ko": "내 결과",
+    "en": "My result",
+    "zh-CN": "我的结果"
+  },
+  "전설 목록": {
+    "ko": "전설 목록",
+    "en": "Legends",
+    "zh-CN": "传奇列表"
+  },
+  "공유 링크를 읽지 못했습니다. 질문지가 바뀌었거나 링크가 잘렸을 수 있어요. 새로 테스트해 보세요.": {
+    "ko": "공유 링크를 읽지 못했습니다. 질문지가 바뀌었거나 링크가 잘렸을 수 있어요. 새로 테스트해 보세요.",
+    "en": "We couldn't read this shared result. The questions may have changed or the link may be incomplete. Please start a new test.",
+    "zh-CN": "无法读取分享结果。问题可能已更新，或链接不完整。请重新测试。"
+  },
+  "비교함": {
+    "ko": "비교함",
+    "en": "Compare",
+    "zh-CN": "对比栏"
+  },
+  "비우기": {
+    "ko": "비우기",
+    "en": "Clear",
+    "zh-CN": "清空"
+  },
+  "비교하기": {
+    "ko": "비교하기",
+    "en": "Compare",
+    "zh-CN": "开始对比"
+  },
+  "카드 데이터 출처: Riftcodex API, riftdecks.com (각 전설 상세에 개별 링크). 카드 이미지는 Riot Games 서버의 원본을 직접 불러옵니다.": {
+    "ko": "카드 데이터 출처: Riftcodex API, riftdecks.com (각 전설 상세에 개별 링크). 카드 이미지는 Riot Games 서버의 원본을 직접 불러옵니다.",
+    "en": "Card data: Riftcodex API and riftdecks.com (links in each Legend's details). Original card images load directly from Riot Games servers.",
+    "zh-CN": "卡牌资料来源：Riftcodex API、riftdecks.com（链接见各传奇详情）。卡牌原图直接从 Riot Games 服务器加载。"
+  },
+  "Find My Legend는 Riot Games의 \"Legal Jibber Jabber\" 정책에 따라 Riot Games 소유 자산을 사용한 팬 프로젝트이며, Riot Games가 보증하거나 후원하지 않습니다.": {
+    "ko": "Find My Legend는 Riot Games의 \"Legal Jibber Jabber\" 정책에 따라 Riot Games 소유 자산을 사용한 팬 프로젝트이며, Riot Games가 보증하거나 후원하지 않습니다.",
+    "en": "Find My Legend is a fan project using Riot Games assets under its \"Legal Jibber Jabber\" policy. It is not endorsed or sponsored by Riot Games.",
+    "zh-CN": "Find My Legend 是依据 Riot Games 的“Legal Jibber Jabber”政策使用其素材的粉丝项目，未获 Riot Games 认可或赞助。"
+  },
+  "오류": {
+    "ko": "오류",
+    "en": "Errors",
+    "zh-CN": "错误"
+  },
+  "건": {
+    "ko": "건",
+    "en": "items",
+    "zh-CN": "项"
+  },
+  "경고": {
+    "ko": "경고",
+    "en": "Warnings",
+    "zh-CN": "警告"
+  },
+  "돌아가기": {
+    "ko": "돌아가기",
+    "en": "Back",
+    "zh-CN": "返回"
+  },
+  "데이터 관리": {
+    "ko": "데이터 관리",
+    "en": "Data management",
+    "zh-CN": "数据管理"
+  },
+  "새 확장팩 전설을 JSON으로 추가하거나 추천 수치를 조정합니다. 변경 사항은 이 브라우저에만 적용되며, 배포본에 반영하려면 내려받은 legends.json을": {
+    "ko": "새 확장팩 전설을 JSON으로 추가하거나 추천 수치를 조정합니다. 변경 사항은 이 브라우저에만 적용되며, 배포본에 반영하려면 내려받은 legends.json을",
+    "en": "Import Legends as JSON or edit recommendation ratings. Changes apply only to this browser. To publish them, put the downloaded legends.json in",
+    "zh-CN": "可通过 JSON 添加传奇或编辑推荐评分。修改仅保存在当前浏览器中。要发布修改，请将下载的 legends.json 放入"
+  },
+  "에 덮어쓰세요.": {
+    "ko": "에 덮어쓰세요.",
+    "en": "and replace the existing file.",
+    "zh-CN": "并覆盖原文件。"
+  },
+  "이 환경은 브라우저 저장소를 쓸 수 없어 새로고침하면 가져온 데이터가 사라집니다.": {
+    "ko": "이 환경은 브라우저 저장소를 쓸 수 없어 새로고침하면 가져온 데이터가 사라집니다.",
+    "en": "Browser storage is unavailable. Imported data will be lost on refresh.",
+    "zh-CN": "浏览器存储不可用，刷新后导入的数据将丢失。"
+  },
+  "세트와 전설 현황": {
+    "ko": "세트와 전설 현황",
+    "en": "Sets and Legends",
+    "zh-CN": "系列与传奇概况"
+  },
+  "순서": {
+    "ko": "순서",
+    "en": "Order",
+    "zh-CN": "顺序"
+  },
+  "세트": {
+    "ko": "세트",
+    "en": "Sett",
+    "zh-CN": "Sett"
+  },
+  "코드": {
+    "ko": "코드",
+    "en": "Code",
+    "zh-CN": "代码"
+  },
+  "발매": {
+    "ko": "발매",
+    "en": "Release",
+    "zh-CN": "发售"
+  },
+  "상태": {
+    "ko": "상태",
+    "en": "Status",
+    "zh-CN": "状态"
+  },
+  "전설": {
+    "ko": "전설",
+    "en": "Legend",
+    "zh-CN": "传奇"
+  },
+  "보조": {
+    "ko": "보조",
+    "en": "Supplemental",
+    "zh-CN": "补充"
+  },
+  "미정": {
+    "ko": "미정",
+    "en": "TBA",
+    "zh-CN": "待定"
+  },
+  "출시": {
+    "ko": "출시",
+    "en": "Released",
+    "zh-CN": "已发售"
+  },
+  "미출시 (후보 제외)": {
+    "ko": "미출시 (후보 제외)",
+    "en": "Unreleased (not eligible)",
+    "zh-CN": "未发售（不参与推荐）"
+  },
+  "전체": {
+    "ko": "전체",
+    "en": "Total",
+    "zh-CN": "总计"
+  },
+  "장 · 가져온 데이터": {
+    "ko": "장 · 가져온 데이터",
+    "en": "cards · Imported",
+    "zh-CN": "张 · 已导入"
+  },
+  "장 · 수치 검토 필요": {
+    "ko": "장 · 수치 검토 필요",
+    "en": "cards · Ratings to review",
+    "zh-CN": "张 · 评分待审核"
+  },
+  "장 · 데이터 오류": {
+    "ko": "장 · 데이터 오류",
+    "en": "cards · Data errors",
+    "zh-CN": "张 · 数据错误"
+  },
+  "Legend JSON 가져오기": {
+    "ko": "Legend JSON 가져오기",
+    "en": "Import Legend JSON",
+    "zh-CN": "导入传奇 JSON"
+  },
+  "배열,": {
+    "ko": "배열,",
+    "en": "Accepts an array,",
+    "zh-CN": "支持数组、"
+  },
+  ", 단일 객체 모두 됩니다. 분리형(officialData/recommendationData)과 평면형 필드 모두 받으며, 누락된 점수는 50으로 채우고 검토 필요 + 추천 후보 비활성 상태로 표시합니다. 같은 id는 교체됩니다.": {
+    "ko": ", 단일 객체 모두 됩니다. 분리형(officialData/recommendationData)과 평면형 필드 모두 받으며, 누락된 점수는 50으로 채우고 검토 필요 + 추천 후보 비활성 상태로 표시합니다. 같은 id는 교체됩니다.",
+    "en": ", or a single object. Both nested (officialData/recommendationData) and flat fields are supported. Missing scores default to 50, require review, and are excluded from recommendations. Matching IDs are replaced.",
+    "zh-CN": "或单个对象。支持嵌套字段（officialData/recommendationData）及平铺字段。缺失评分补为50，标记为待审核并暂停推荐。同一 ID 的记录将被替换。"
+  },
+  "가져올 JSON": {
+    "ko": "가져올 JSON",
+    "en": "JSON to import",
+    "zh-CN": "待导入的 JSON"
+  },
+  "파일 선택": {
+    "ko": "파일 선택",
+    "en": "Choose file",
+    "zh-CN": "选择文件"
+  },
+  "검사하기": {
+    "ko": "검사하기",
+    "en": "Validate",
+    "zh-CN": "验证"
+  },
+  "적용": {
+    "ko": "적용",
+    "en": "Apply",
+    "zh-CN": "应用"
+  },
+  "추천 수치 조정": {
+    "ko": "추천 수치 조정",
+    "en": "Edit recommendation ratings",
+    "zh-CN": "编辑推荐评分"
+  },
+  "공식 카드 정보는 그대로 두고 recommendationData만 수정합니다. 검토를 마친 전설은 needsReview를 false로, 실제 추천에 넣을 준비가 끝나면 recommendationReady를 true로 바꾸세요.": {
+    "ko": "공식 카드 정보는 그대로 두고 recommendationData만 수정합니다. 검토를 마친 전설은 needsReview를 false로, 실제 추천에 넣을 준비가 끝나면 recommendationReady를 true로 바꾸세요.",
+    "en": "Edit only recommendationData; official card information stays unchanged. Set needsReview to false after review, and recommendationReady to true when ready for recommendations.",
+    "zh-CN": "只修改 recommendationData，官方卡牌资料保持不变。审核完成后将 needsReview 设为 false，准备参与推荐时将 recommendationReady 设为 true。"
+  },
+  "불러오기": {
+    "ko": "불러오기",
+    "en": "Load",
+    "zh-CN": "加载"
+  },
+  "recommendationData 편집": {
+    "ko": "recommendationData 편집",
+    "en": "Edit recommendationData",
+    "zh-CN": "编辑 recommendationData"
+  },
+  "수치 적용": {
+    "ko": "수치 적용",
+    "en": "Apply ratings",
+    "zh-CN": "应用评分"
+  },
+  "내보내기와 초기화": {
+    "ko": "내보내기와 초기화",
+    "en": "Export and reset",
+    "zh-CN": "导出与重置"
+  },
+  "legends.json 내려받기": {
+    "ko": "legends.json 내려받기",
+    "en": "Download legends.json",
+    "zh-CN": "下载 legends.json"
+  },
+  "가져온 것만 내려받기": {
+    "ko": "가져온 것만 내려받기",
+    "en": "Download imported records",
+    "zh-CN": "仅下载导入记录"
+  },
+  "가져온 데이터를 지웠습니다.": {
+    "ko": "가져온 데이터를 지웠습니다.",
+    "en": "Imported data cleared.",
+    "zh-CN": "已清除导入的数据。"
+  },
+  "가져온 데이터 초기화": {
+    "ko": "가져온 데이터 초기화",
+    "en": "Clear imported data",
+    "zh-CN": "清除导入数据"
+  },
+  "새 세트 공식 데이터 초안은": {
+    "ko": "새 세트 공식 데이터 초안은",
+    "en": "Fetch an official data draft for a new set with",
+    "zh-CN": "新系列官方资料草稿可使用"
+  },
+  "로 Riftcodex API에서 받아 이 화면에서 가져올 수 있습니다. 추천 수치는 초안에서 모두 검토 필요 상태로 시작합니다.": {
+    "ko": "로 Riftcodex API에서 받아 이 화면에서 가져올 수 있습니다. 추천 수치는 초안에서 모두 검토 필요 상태로 시작합니다.",
+    "en": "from the Riftcodex API, then import it here. All draft recommendation ratings require review.",
+    "zh-CN": "从 Riftcodex API 获取，再在此导入。草稿中的推荐评分均需审核。"
+  },
+  "당신": {
+    "ko": "당신",
+    "en": "You",
+    "zh-CN": "你"
+  },
+  "Riftbound 플레이스타일 테스트": {
+    "ko": "Riftbound 플레이스타일 테스트",
+    "en": "Riftbound playstyle test",
+    "zh-CN": "Riftbound 玩法偏好测试"
+  },
+  "나와 가장 잘 맞는": {
+    "ko": "나와 가장 잘 맞는",
+    "en": "Which Riftbound Legend",
+    "zh-CN": "哪位 Riftbound 传奇"
+  },
+  "Riftbound 전설은?": {
+    "ko": "Riftbound 전설은?",
+    "en": "fits you best?",
+    "zh-CN": "最适合你？"
+  },
+  "Riftbound를 처음 보는 사람도 답할 수 있는 {n}개의 질문으로 플레이 성향을 읽고, 경험 수준과 선택한 카드풀까지 고려해 잘 맞는 전설 다섯을 찾아 드립니다.": {
+    "ko": "Riftbound를 처음 보는 사람도 답할 수 있는 {n}개의 질문으로 플레이 성향을 읽고, 경험 수준과 선택한 카드풀까지 고려해 잘 맞는 전설 다섯을 찾아 드립니다.",
+    "en": "Answer {n} beginner-friendly questions to discover your playstyle and five Legends that suit your experience and selected card pool.",
+    "zh-CN": "回答 {n} 道新手也能理解的问题，分析你的玩法偏好，并结合经验和所选卡池推荐五位传奇。"
+  },
+  "테스트 시작": {
+    "ko": "테스트 시작",
+    "en": "Start test",
+    "zh-CN": "开始测试"
+  },
+  "모든 전설 보기": {
+    "ko": "모든 전설 보기",
+    "en": "Browse all Legends",
+    "zh-CN": "查看所有传奇"
+  },
+  "약 {n}분 · {q}문항 · 완전 입문자 지원 · 로그인 없음": {
+    "ko": "약 {n}분 · {q}문항 · 완전 입문자 지원 · 로그인 없음",
+    "en": "About {n} min · {q} questions · Beginner-friendly · No login",
+    "zh-CN": "约 {n} 分钟 · {q} 道题 · 新手友好 · 无需登录"
+  },
+  "여섯 도메인은 여섯 가지 플레이 성향입니다": {
+    "ko": "여섯 도메인은 여섯 가지 플레이 성향입니다",
+    "en": "Six domains, six playstyle tendencies",
+    "zh-CN": "六种领域，六类玩法倾向"
+  },
+  "출시순": {
+    "ko": "출시순",
+    "en": "Release order",
+    "zh-CN": "发售顺序"
+  },
+  "이름순": {
+    "ko": "이름순",
+    "en": "Name",
+    "zh-CN": "名称"
+  },
+  "공격적 → 수비적": {
+    "ko": "공격적 → 수비적",
+    "en": "Aggressive → defensive",
+    "zh-CN": "进攻 → 防守"
+  },
+  "쉬움 → 어려움": {
+    "ko": "쉬움 → 어려움",
+    "en": "Easy → difficult",
+    "zh-CN": "简单 → 困难"
+  },
+  "모든 전설": {
+    "ko": "모든 전설",
+    "en": "All Legends",
+    "zh-CN": "所有传奇"
+  },
+  "출시된 세트의 전설을 세트, 도메인, 성향으로 찾아보세요.": {
+    "ko": "출시된 세트의 전설을 세트, 도메인, 성향으로 찾아보세요.",
+    "en": "Explore released Legends by set, domain, and playstyle.",
+    "zh-CN": "按系列、领域和玩法查看已发售的传奇。"
+  },
+  "테스트 결과가 있으면 적합도가 함께 표시됩니다.": {
+    "ko": "테스트 결과가 있으면 적합도가 함께 표시됩니다.",
+    "en": "Your recommendation scores appear after you finish the test.",
+    "zh-CN": "完成测试后会显示推荐评分。"
+  },
+  "챔피언 이름 검색": {
+    "ko": "챔피언 이름 검색",
+    "en": "Search champion names",
+    "zh-CN": "搜索英雄名称"
+  },
+  "챔피언 이름 검색 (예: 아리, Yasuo)": {
+    "ko": "챔피언 이름 검색 (예: 아리, Yasuo)",
+    "en": "Search champion names (e.g. Ahri, Yasuo)",
+    "zh-CN": "搜索英雄英文名（如 Ahri、Yasuo）"
+  },
+  "정렬": {
+    "ko": "정렬",
+    "en": "Sort",
+    "zh-CN": "排序"
+  },
+  "확장팩": {
+    "ko": "확장팩",
+    "en": "Expansion",
+    "zh-CN": "扩展系列"
+  },
+  "최신 세트": {
+    "ko": "최신 세트",
+    "en": "Latest set",
+    "zh-CN": "最新系列"
+  },
+  "범위": {
+    "ko": "범위",
+    "en": "Range",
+    "zh-CN": "范围"
+  },
+  "까지 모두": {
+    "ko": "까지 모두",
+    "en": "Up to this set",
+    "zh-CN": "包含此前所有系列"
+  },
+  "에서 출시된 것만": {
+    "ko": "에서 출시된 것만",
+    "en": "This set only",
+    "zh-CN": "仅此系列"
+  },
+  "보조 세트 포함": {
+    "ko": "보조 세트 포함",
+    "en": "Supplemental sets included",
+    "zh-CN": "包含补充系列"
+  },
+  "도메인 필터 (최대 2개, 모두 포함)": {
+    "ko": "도메인 필터 (최대 2개, 모두 포함)",
+    "en": "Domain filter (match both, up to 2)",
+    "zh-CN": "领域筛选（最多2个，须全部符合）"
+  },
+  "아키타입": {
+    "ko": "아키타입",
+    "en": "Archetype",
+    "zh-CN": "套牌类型"
+  },
+  "모든 아키타입": {
+    "ko": "모든 아키타입",
+    "en": "All archetypes",
+    "zh-CN": "所有套牌类型"
+  },
+  "난이도": {
+    "ko": "난이도",
+    "en": "Difficulty",
+    "zh-CN": "难度"
+  },
+  "모든 난이도": {
+    "ko": "모든 난이도",
+    "en": "All difficulties",
+    "zh-CN": "所有难度"
+  },
+  "{n}장": {
+    "ko": "{n}장",
+    "en": "{n} cards",
+    "zh-CN": "{n} 张"
+  },
+  "장": {
+    "ko": "장",
+    "en": "cards",
+    "zh-CN": "张"
+  },
+  "필터 초기화": {
+    "ko": "필터 초기화",
+    "en": "Reset filters",
+    "zh-CN": "重置筛选"
+  },
+  "조건에 맞는 전설이 없습니다.": {
+    "ko": "조건에 맞는 전설이 없습니다.",
+    "en": "No Legends match these filters.",
+    "zh-CN": "没有符合条件的传奇。"
+  },
+  "{n}점": {
+    "ko": "{n}점",
+    "en": "{n} pts",
+    "zh-CN": "{n} 分"
+  },
+  "점": {
+    "ko": "점",
+    "en": "pts",
+    "zh-CN": "分"
+  },
+  "추천 준비 중": {
+    "ko": "추천 준비 중",
+    "en": "Recommendation pending",
+    "zh-CN": "推荐资料待完善"
+  },
+  "비교에 담김": {
+    "ko": "비교에 담김",
+    "en": "Added to compare",
+    "zh-CN": "已加入对比"
+  },
+  "비교에 담기": {
+    "ko": "비교에 담기",
+    "en": "Add to compare",
+    "zh-CN": "加入对比"
+  },
+  "비교할 전설을 결과 화면이나 전설 목록에서 담아 주세요.": {
+    "ko": "비교할 전설을 결과 화면이나 전설 목록에서 담아 주세요.",
+    "en": "Add Legends from your results or the Legend list to compare them.",
+    "zh-CN": "请从结果或传奇列表中添加要对比的传奇。"
+  },
+  "당신과 가장 가까운 선택은": {
+    "ko": "당신과 가장 가까운 선택은",
+    "en": "Your closest match is",
+    "zh-CN": "最适合你的选择是"
+  },
+  "입니다.": {
+    "ko": "입니다.",
+    "en": ".",
+    "zh-CN": "。"
+  },
+  "빼기": {
+    "ko": "빼기",
+    "en": "Remove",
+    "zh-CN": "移除"
+  },
+  "추천 점수": {
+    "ko": "추천 점수",
+    "en": "Recommendation score",
+    "zh-CN": "推荐评分"
+  },
+  "도메인": {
+    "ko": "도메인",
+    "en": "Domain",
+    "zh-CN": "领域"
+  },
+  "닫기": {
+    "ko": "닫기",
+    "en": "Close",
+    "zh-CN": "关闭"
+  },
+  "보조 세트": {
+    "ko": "보조 세트",
+    "en": "Supplemental set",
+    "zh-CN": "补充系列"
+  },
+  "카드 번호": {
+    "ko": "카드 번호",
+    "en": "Card number",
+    "zh-CN": "卡牌编号"
+  },
+  "일러스트": {
+    "ko": "일러스트",
+    "en": "Artist",
+    "zh-CN": "画师"
+  },
+  "출처": {
+    "ko": "출처",
+    "en": "Sources",
+    "zh-CN": "来源"
+  },
+  "데이터 메모:": {
+    "ko": "데이터 메모:",
+    "en": "Data note:",
+    "zh-CN": "资料备注："
+  },
+  "전설 능력 (원문)": {
+    "ko": "전설 능력 (원문)",
+    "en": "Legend ability (original)",
+    "zh-CN": "传奇技能（原文）"
+  },
+  "서비스 평가": {
+    "ko": "서비스 평가",
+    "en": "Our assessment",
+    "zh-CN": "本站评估"
+  },
+  "수치 검토 중": {
+    "ko": "수치 검토 중",
+    "en": "Ratings under review",
+    "zh-CN": "评分审核中"
+  },
+  "입문 안내:": {
+    "ko": "입문 안내:",
+    "en": "Beginner guidance:",
+    "zh-CN": "入门提示："
+  },
+  "추천 수치를 검토 중이므로 난이도 안내도 아직 확정되지 않았어요.": {
+    "ko": "추천 수치를 검토 중이므로 난이도 안내도 아직 확정되지 않았어요.",
+    "en": "Ratings are under review, so difficulty guidance is not final yet.",
+    "zh-CN": "推荐评分仍在审核，难度提示尚未确定。"
+  },
+  "강점": {
+    "ko": "강점",
+    "en": "Strengths",
+    "zh-CN": "优势"
+  },
+  "약점": {
+    "ko": "약점",
+    "en": "Weaknesses",
+    "zh-CN": "弱点"
+  },
+  "잘 맞는 이유": {
+    "ko": "잘 맞는 이유",
+    "en": "Why it fits",
+    "zh-CN": "推荐理由"
+  },
+  "주의할 점": {
+    "ko": "주의할 점",
+    "en": "Things to consider",
+    "zh-CN": "注意事项"
+  },
+  "1위": {
+    "ko": "1위",
+    "en": "#1",
+    "zh-CN": "第1名"
+  },
+  "{n}위": {
+    "ko": "{n}위",
+    "en": "#{n}",
+    "zh-CN": "第{n}名"
+  },
+  "위": {
+    "ko": "위",
+    "en": "rank",
+    "zh-CN": "名"
+  },
+  "비교 접기": {
+    "ko": "비교 접기",
+    "en": "Hide comparison",
+    "zh-CN": "收起对比"
+  },
+  "왜 나랑 잘 맞지?": {
+    "ko": "왜 나랑 잘 맞지?",
+    "en": "Why this match?",
+    "zh-CN": "为什么适合我？"
+  },
+  "카드 정보": {
+    "ko": "카드 정보",
+    "en": "Card details",
+    "zh-CN": "卡牌详情"
+  },
+  "{n}개 답함": {
+    "ko": "{n}개 답함",
+    "en": "{n} answered",
+    "zh-CN": "已回答 {n} 题"
+  },
+  "개 답함": {
+    "ko": "개 답함",
+    "en": "answered",
+    "zh-CN": "题已回答"
+  },
+  "진행률": {
+    "ko": "진행률",
+    "en": "Progress",
+    "zh-CN": "进度"
+  },
+  "왼쪽에 매우 가깝다": {
+    "ko": "왼쪽에 매우 가깝다",
+    "en": "Strongly prefer the left",
+    "zh-CN": "非常偏向左侧"
+  },
+  "왼쪽에 조금 가깝다": {
+    "ko": "왼쪽에 조금 가깝다",
+    "en": "Slightly prefer the left",
+    "zh-CN": "稍微偏向左侧"
+  },
+  "중간": {
+    "ko": "중간",
+    "en": "Neutral",
+    "zh-CN": "中间"
+  },
+  "오른쪽에 조금 가깝다": {
+    "ko": "오른쪽에 조금 가깝다",
+    "en": "Slightly prefer the right",
+    "zh-CN": "稍微偏向右侧"
+  },
+  "오른쪽에 매우 가깝다": {
+    "ko": "오른쪽에 매우 가깝다",
+    "en": "Strongly prefer the right",
+    "zh-CN": "非常偏向右侧"
+  },
+  "Riftbound 용어를 몰라도 느낌대로 고르면 됩니다.": {
+    "ko": "Riftbound 용어를 몰라도 느낌대로 고르면 됩니다.",
+    "en": "No Riftbound terminology needed. Choose what feels right.",
+    "zh-CN": "不了解 Riftbound 术语也没关系，凭感觉选择即可。"
+  },
+  "문항 이동": {
+    "ko": "문항 이동",
+    "en": "Question navigation",
+    "zh-CN": "题目导航"
+  },
+  "설정 다시 고르기": {
+    "ko": "설정 다시 고르기",
+    "en": "Change settings",
+    "zh-CN": "重新选择设置"
+  },
+  "이전 질문": {
+    "ko": "이전 질문",
+    "en": "Previous",
+    "zh-CN": "上一题"
+  },
+  "결과 보기": {
+    "ko": "결과 보기",
+    "en": "See results",
+    "zh-CN": "查看结果"
+  },
+  "다음 질문": {
+    "ko": "다음 질문",
+    "en": "Next",
+    "zh-CN": "下一题"
+  },
+  "빈 문항으로 이동": {
+    "ko": "빈 문항으로 이동",
+    "en": "Go to unanswered question",
+    "zh-CN": "前往未答题目"
+  },
+  "공유받은 결과입니다. 나도 해 보고 싶다면": {
+    "ko": "공유받은 결과입니다. 나도 해 보고 싶다면",
+    "en": "You're viewing a shared result. Try it yourself:",
+    "zh-CN": "这是分享的结果。想自己试试？"
+  },
+  "당신의 플레이스타일은": {
+    "ko": "당신의 플레이스타일은",
+    "en": "Your playstyle is",
+    "zh-CN": "你的玩法风格是"
+  },
+  "의 기질도 엿보입니다.": {
+    "ko": "의 기질도 엿보입니다.",
+    "en": "is also part of your style.",
+    "zh-CN": "也是你的风格之一。"
+  },
+  "도메인 성향": {
+    "ko": "도메인 성향",
+    "en": "Domain preferences",
+    "zh-CN": "领域偏好"
+  },
+  "두드러진 스타일 TOP 6": {
+    "ko": "두드러진 스타일 TOP 6",
+    "en": "Your top 6 traits",
+    "zh-CN": "最突出的六项偏好"
+  },
+  "잘 맞는 전설 TOP {n}": {
+    "ko": "잘 맞는 전설 TOP {n}",
+    "en": "Your top {n} Legends",
+    "zh-CN": "最适合你的 {n} 位传奇"
+  },
+  "잘 맞는 전설 TOP": {
+    "ko": "잘 맞는 전설 TOP",
+    "en": "Top Legends",
+    "zh-CN": "最适合你的传奇"
+  },
+  "까지": {
+    "ko": "까지",
+    "en": "and earlier",
+    "zh-CN": "及以前"
+  },
+  "만": {
+    "ko": "만",
+    "en": "only",
+    "zh-CN": "仅限"
+  },
+  "포함": {
+    "ko": "포함",
+    "en": "Included",
+    "zh-CN": "包含"
+  },
+  "제외": {
+    "ko": "제외",
+    "en": "Excluded",
+    "zh-CN": "不包含"
+  },
+  "후보 {n}명": {
+    "ko": "후보 {n}명",
+    "en": "{n} candidates",
+    "zh-CN": "{n} 位候选"
+  },
+  "후보": {
+    "ko": "후보",
+    "en": "Candidates",
+    "zh-CN": "候选"
+  },
+  "명": {
+    "ko": "명",
+    "en": "Legends",
+    "zh-CN": "位"
+  },
+  "입문 추천 1위:": {
+    "ko": "입문 추천 1위:",
+    "en": "Top beginner recommendation:",
+    "zh-CN": "入门推荐第1名："
+  },
+  "순수 취향 일치 1위:": {
+    "ko": "순수 취향 일치 1위:",
+    "en": "Closest playstyle match:",
+    "zh-CN": "纯偏好匹配第1名："
+  },
+  "지금 순위는 시작 난이도까지 함께 고려한 추천입니다. 어려운 전설도 취향이 맞으면 후보에 남습니다.": {
+    "ko": "지금 순위는 시작 난이도까지 함께 고려한 추천입니다. 어려운 전설도 취향이 맞으면 후보에 남습니다.",
+    "en": "This ranking also considers how easy it is to get started. Difficult Legends remain eligible when they match your taste.",
+    "zh-CN": "当前排名也考虑入门难度。只要符合偏好，较难的传奇仍会参与推荐。"
+  },
+  "이 범위에는 추천 준비가 완료된 전설이 없습니다. 다시 테스트에서 다른 세트를 선택하거나 전설 목록을 확인해 주세요.": {
+    "ko": "이 범위에는 추천 준비가 완료된 전설이 없습니다. 다시 테스트에서 다른 세트를 선택하거나 전설 목록을 확인해 주세요.",
+    "en": "No recommendation-ready Legends are available in this range. Retake the test with another set or browse the Legend list.",
+    "zh-CN": "此范围内没有已准备好参与推荐的传奇。请重新测试并选择其他系列，或查看传奇列表。"
+  },
+  "나머지 {n}명 적합도 보기": {
+    "ko": "나머지 {n}명 적합도 보기",
+    "en": "See the other {n} matches",
+    "zh-CN": "查看其余 {n} 位的匹配评分"
+  },
+  "나머지": {
+    "ko": "나머지",
+    "en": "Other",
+    "zh-CN": "其余"
+  },
+  "명 적합도 보기": {
+    "ko": "명 적합도 보기",
+    "en": "more matches",
+    "zh-CN": "位的匹配评分"
+  },
+  "다시 테스트": {
+    "ko": "다시 테스트",
+    "en": "Retake test",
+    "zh-CN": "重新测试"
+  },
+  "추천 점수와 스타일 수치는 전설 능력 텍스트와 도메인 성향을 근거로 한 서비스 자체 1차 평가값이며 확률(%)이 아니고, 실제 대회 성적이나 메타 순위도 아닙니다. 카드 정보(이름, 세트, 번호, 도메인, 능력 원문)는 출처가 기록된 데이터만 사용합니다.": {
+    "ko": "추천 점수와 스타일 수치는 전설 능력 텍스트와 도메인 성향을 근거로 한 서비스 자체 1차 평가값이며 확률(%)이 아니고, 실제 대회 성적이나 메타 순위도 아닙니다. 카드 정보(이름, 세트, 번호, 도메인, 능력 원문)는 출처가 기록된 데이터만 사용합니다.",
+    "en": "Recommendation scores and traits are our initial assessment based on Legend abilities and domain tendencies. They are not probabilities (%), tournament results, or meta rankings. Card facts use documented sources.",
+    "zh-CN": "推荐评分和偏好数值是本站根据传奇技能与领域倾向作出的初步评估，并非概率（%）、赛事成绩或环境排名。卡牌资料均附有来源。"
+  },
+  "처음으로": {
+    "ko": "처음으로",
+    "en": "Home",
+    "zh-CN": "首页"
+  },
+  "먼저 플레이 경험을 알려주세요": {
+    "ko": "먼저 플레이 경험을 알려주세요",
+    "en": "How much have you played?",
+    "zh-CN": "你有多少游戏经验？"
+  },
+  "완전 입문자는 카드 용어 대신 쉬운 표현으로 질문하고, 첫 전설로 너무 어려운 선택은 살짝 낮춰 추천합니다.": {
+    "ko": "완전 입문자는 카드 용어 대신 쉬운 표현으로 질문하고, 첫 전설로 너무 어려운 선택은 살짝 낮춰 추천합니다.",
+    "en": "New players get plain-language questions, with a small ranking adjustment for Legends that are harder to learn.",
+    "zh-CN": "新手将看到通俗的问题，较难上手的传奇会得到轻微的推荐分调整。"
+  },
+  "어느 확장팩까지 포함할까요?": {
+    "ko": "어느 확장팩까지 포함할까요?",
+    "en": "Which sets should we include?",
+    "zh-CN": "要包含哪些扩展系列？"
+  },
+  "고른 세트와 그 이전에 나온 세트의 전설이 모두 추천 후보가 됩니다. 가진 카드나 참가하는 대회 환경에 맞춰 고르세요.": {
+    "ko": "고른 세트와 그 이전에 나온 세트의 전설이 모두 추천 후보가 됩니다. 가진 카드나 참가하는 대회 환경에 맞춰 고르세요.",
+    "en": "Legends from the selected set and earlier sets are eligible. Choose based on your collection or tournament format.",
+    "zh-CN": "所选系列及此前系列的传奇均可参与推荐。请根据已有卡牌或比赛环境选择。"
+  },
+  "최신 세트까지": {
+    "ko": "최신 세트까지",
+    "en": "Through the latest set",
+    "zh-CN": "包含至最新系列"
+  },
+  "지금은 {set}까지. 등록된 다음 세트의 발매일이 되면 자동으로 넓어집니다.": {
+    "ko": "지금은 {set}까지. 등록된 다음 세트의 발매일이 되면 자동으로 넓어집니다.",
+    "en": "Currently through {set}. Registered future sets activate on their release dates.",
+    "zh-CN": "目前包含至 {set}。已登记的后续系列将在发售日自动启用。"
+  },
+  "세트 발매 순서": {
+    "ko": "세트 발매 순서",
+    "en": "Set release order",
+    "zh-CN": "系列发售顺序"
+  },
+  "고급 옵션": {
+    "ko": "고급 옵션",
+    "en": "Advanced options",
+    "zh-CN": "高级选项"
+  },
+  "카드풀 범위": {
+    "ko": "카드풀 범위",
+    "en": "Card pool range",
+    "zh-CN": "卡池范围"
+  },
+  "선택한 세트까지 모두 포함": {
+    "ko": "선택한 세트까지 모두 포함",
+    "en": "Include selected and earlier sets",
+    "zh-CN": "包含所选及此前所有系列"
+  },
+  "선택한 세트에서 출시된 전설만": {
+    "ko": "선택한 세트에서 출시된 전설만",
+    "en": "Only Legends released in the selected set",
+    "zh-CN": "仅包含所选系列发售的传奇"
+  },
+  "(Proving Grounds 스타터 전설 4종)": {
+    "ko": "(Proving Grounds 스타터 전설 4종)",
+    "en": "(4 Proving Grounds starter Legends)",
+    "zh-CN": "（4位 Proving Grounds 入门传奇）"
+  },
+  "추천 후보": {
+    "ko": "추천 후보",
+    "en": "Eligible Legends",
+    "zh-CN": "推荐候选"
+  },
+  "질문 시작하기": {
+    "ko": "질문 시작하기",
+    "en": "Begin questions",
+    "zh-CN": "开始答题"
+  },
+  "이 범위에는 추천 준비가 완료된 전설이 없습니다. 다른 세트나 \"선택한 세트까지 모두 포함\"을 고르세요.": {
+    "ko": "이 범위에는 추천 준비가 완료된 전설이 없습니다. 다른 세트나 \"선택한 세트까지 모두 포함\"을 고르세요.",
+    "en": "No recommendation-ready Legends are available here. Choose another set or include earlier sets.",
+    "zh-CN": "此范围内没有已准备好参与推荐的传奇。请选择其他系列，或包含此前系列。"
+  },
+  "나의 Riftbound 전설": {
+    "ko": "나의 Riftbound 전설",
+    "en": "My Riftbound Legend",
+    "zh-CN": "我的 Riftbound 传奇"
+  },
+  "링크를 복사했습니다.": {
+    "ko": "링크를 복사했습니다.",
+    "en": "Link copied.",
+    "zh-CN": "链接已复制。"
+  },
+  "복사가 막힌 환경입니다. 아래 링크를 직접 복사해 주세요.": {
+    "ko": "복사가 막힌 환경입니다. 아래 링크를 직접 복사해 주세요.",
+    "en": "Copying is unavailable. Please copy the link below manually.",
+    "zh-CN": "此环境无法自动复制，请手动复制下方链接。"
+  },
+  "이미지를 저장했습니다.": {
+    "ko": "이미지를 저장했습니다.",
+    "en": "Image saved.",
+    "zh-CN": "图片已保存。"
+  },
+  "결과 공유하기": {
+    "ko": "결과 공유하기",
+    "en": "Share your result",
+    "zh-CN": "分享结果"
+  },
+  "링크를 받은 사람은 같은 답변과 같은 카드풀로 똑같은 결과를 보게 됩니다.": {
+    "ko": "링크를 받은 사람은 같은 답변과 같은 카드풀로 똑같은 결과를 보게 됩니다.",
+    "en": "The link restores your answers and card pool to reproduce your result.",
+    "zh-CN": "链接会恢复相同的答案和卡池，以重现你的结果。"
+  },
+  "링크 복사": {
+    "ko": "링크 복사",
+    "en": "Copy link",
+    "zh-CN": "复制链接"
+  },
+  "이미지 저장": {
+    "ko": "이미지 저장",
+    "en": "Save image",
+    "zh-CN": "保存图片"
+  },
+  "공유 링크": {
+    "ko": "공유 링크",
+    "en": "Share link",
+    "zh-CN": "分享链接"
+  },
+  "플레이스타일": {
+    "ko": "플레이스타일",
+    "en": "Playstyle",
+    "zh-CN": "玩法风格"
+  },
+  "난이도 취향": {
+    "ko": "난이도 취향",
+    "en": "Difficulty preference",
+    "zh-CN": "难度偏好"
+  },
+  "주도/대응": {
+    "ko": "주도/대응",
+    "en": "Proactive/reactive",
+    "zh-CN": "主动／应对"
+  },
+  "안정/고점": {
+    "ko": "안정/고점",
+    "en": "Consistency/ceiling",
+    "zh-CN": "稳定／上限"
+  },
+  "당신과": {
+    "ko": "당신과",
+    "en": "You and",
+    "zh-CN": "你与"
+  },
+  "의 스타일 점수 비교": {
+    "ko": "의 스타일 점수 비교",
+    "en": "style score comparison",
+    "zh-CN": "的风格评分对比"
+  },
+  "항목": {
+    "ko": "항목",
+    "en": "Trait",
+    "zh-CN": "项目"
+  },
+  "적합도 구성 (가중치)": {
+    "ko": "적합도 구성 (가중치)",
+    "en": "Score breakdown (weights)",
+    "zh-CN": "评分构成（权重）"
+  },
+  "완전 처음이에요": {
+    "ko": "완전 처음이에요",
+    "en": "Completely new",
+    "zh-CN": "完全新手"
+  },
+  "첫 입문": {
+    "ko": "첫 입문",
+    "en": "New player",
+    "zh-CN": "新手"
+  },
+  "규칙과 카드 용어를 거의 몰라도 괜찮아요. 쉬운 표현으로 질문하고, 첫 전설로 다루기 어려운 선택은 조금 낮춰 추천해요.": {
+    "ko": "규칙과 카드 용어를 거의 몰라도 괜찮아요. 쉬운 표현으로 질문하고, 첫 전설로 다루기 어려운 선택은 조금 낮춰 추천해요.",
+    "en": "No rules or card terminology needed. Questions use plain language, and harder first Legends get a small ranking adjustment.",
+    "zh-CN": "不了解规则或卡牌术语也没关系。问题采用通俗表达，较难上手的传奇会得到轻微的排名调整。"
+  },
+  "몇 번 해봤어요": {
+    "ko": "몇 번 해봤어요",
+    "en": "Played a few times",
+    "zh-CN": "玩过几次"
+  },
+  "기본 경험": {
+    "ko": "기본 경험",
+    "en": "Some experience",
+    "zh-CN": "有些经验"
+  },
+  "전장, 룬, 유닛 같은 기본 흐름은 알아요. 기존 질문 표현을 쓰고, 아주 높은 난이도만 살짝 보정해요.": {
+    "ko": "전장, 룬, 유닛 같은 기본 흐름은 알아요. 기존 질문 표현을 쓰고, 아주 높은 난이도만 살짝 보정해요.",
+    "en": "I know the basics of battlefields, runes, and units. Use standard questions, with a small adjustment only for very difficult Legends.",
+    "zh-CN": "我了解战场、符文和单位等基础概念。使用标准问题，仅对难度很高的传奇作轻微调整。"
+  },
+  "익숙한 편이에요": {
+    "ko": "익숙한 편이에요",
+    "en": "Experienced",
+    "zh-CN": "经验丰富"
+  },
+  "경험자": {
+    "ko": "경험자",
+    "en": "Experienced",
+    "zh-CN": "有经验"
+  },
+  "덱과 전설의 차이를 어느 정도 알아요. 난이도 보정 없이 플레이 취향을 그대로 반영해요.": {
+    "ko": "덱과 전설의 차이를 어느 정도 알아요. 난이도 보정 없이 플레이 취향을 그대로 반영해요.",
+    "en": "I understand different decks and Legends. Match my playstyle without beginner difficulty adjustments.",
+    "zh-CN": "我了解不同套牌和传奇的区别。按玩法偏好推荐，不应用入门难度调整。"
+  },
+  "난이도 보정 없음": {
+    "ko": "난이도 보정 없음",
+    "en": "No difficulty adjustment",
+    "zh-CN": "无难度调整"
+  },
+  "몇 판 경험이 있다면 무리 없이 도전할 만해요": {
+    "ko": "몇 판 경험이 있다면 무리 없이 도전할 만해요",
+    "en": "Approachable after a few games",
+    "zh-CN": "玩过几局后便适合尝试"
+  },
+  "조금 익숙해질수록 강점이 잘 보이는 전설이에요": {
+    "ko": "조금 익숙해질수록 강점이 잘 보이는 전설이에요",
+    "en": "Its strengths become clearer with practice",
+    "zh-CN": "熟悉后更容易发挥优势"
+  },
+  "운영 선택지가 많아 충분히 연습한 뒤 도전하는 편이 좋아요": {
+    "ko": "운영 선택지가 많아 충분히 연습한 뒤 도전하는 편이 좋아요",
+    "en": "Many decisions to manage; some practice is recommended",
+    "zh-CN": "决策较多，建议充分练习后再尝试"
+  },
+  "첫 전설로 시작하기 좋은 난이도예요": {
+    "ko": "첫 전설로 시작하기 좋은 난이도예요",
+    "en": "A comfortable difficulty for your first Legend",
+    "zh-CN": "难度适合用作第一位传奇"
+  },
+  "처음에도 가능하지만 몇 판 익숙해지면 더 편해져요": {
+    "ko": "처음에도 가능하지만 몇 판 익숙해지면 더 편해져요",
+    "en": "You can start here, but a few practice games will help",
+    "zh-CN": "新手也能尝试，练习几局后会更顺手"
+  },
+  "취향은 맞아도 첫 전설로는 조금 어려울 수 있어요": {
+    "ko": "취향은 맞아도 첫 전설로는 조금 어려울 수 있어요",
+    "en": "Matches your taste, but may be challenging as a first Legend",
+    "zh-CN": "可能符合偏好，但作为第一位传奇略有难度"
+  },
+  "취향은 맞아도 입문 직후보다는 규칙에 익숙해진 뒤 추천해요": {
+    "ko": "취향은 맞아도 입문 직후보다는 규칙에 익숙해진 뒤 추천해요",
+    "en": "Matches your taste; better once you know the rules",
+    "zh-CN": "符合偏好，但建议熟悉规则后再尝试"
+  },
+  "운영 난도가 당신의 선호보다 높은 편": {
+    "ko": "운영 난도가 당신의 선호보다 높은 편",
+    "en": "More complex than your preferred difficulty",
+    "zh-CN": "操作难度高于你的偏好"
+  },
+  "소진(Exhaust): 이 카드를 기울여 사용": {
+    "ko": "소진(Exhaust): 이 카드를 기울여 사용",
+    "en": "Exhaust: turn this card sideways to use it",
+    "zh-CN": "横置（Exhaust）：将此牌横放以使用"
+  },
+  "에너지 비용": {
+    "ko": "에너지 비용",
+    "en": "Energy cost",
+    "zh-CN": "能量费用"
+  },
+  "파워: 아무 도메인 룬 1": {
+    "ko": "파워: 아무 도메인 룬 1",
+    "en": "Power: 1 rune of any domain",
+    "zh-CN": "符能：任意领域的1个符文"
+  },
+  "힘(Might)": {
+    "ko": "힘(Might)",
+    "en": "Might",
+    "zh-CN": "战力（Might）"
+  },
+  "조건 충족 시": {
+    "ko": "조건 충족 시",
+    "en": "When the condition is met",
+    "zh-CN": "满足条件时"
+  },
+  "램프, 버프, 큰 유닛으로 정면 승부": {
+    "ko": "램프, 버프, 큰 유닛으로 정면 승부",
+    "en": "Ramp, buffs, and big units in direct combat",
+    "zh-CN": "加速资源、强化与大型单位正面作战"
+  },
+  "빠른 압박, 정복, 직접 피해": {
+    "ko": "빠른 압박, 정복, 직접 피해",
+    "en": "Early pressure, conquest, and direct damage",
+    "zh-CN": "快速施压、征服与直接伤害"
+  },
+  "대응, 이동, 트릭으로 흐름 조율": {
+    "ko": "대응, 이동, 트릭으로 흐름 조율",
+    "en": "Reactions, movement, and combat tricks",
+    "zh-CN": "通过应对、移动与战斗技巧掌控节奏"
+  },
+  "드로우, 장비, 계획적인 선택지": {
+    "ko": "드로우, 장비, 계획적인 선택지",
+    "en": "Card draw, gear, and planned decisions",
+    "zh-CN": "抽牌、装备与计划性决策"
+  },
+  "방해, Hidden, 변칙과 리스크": {
+    "ko": "방해, Hidden, 변칙과 리스크",
+    "en": "Disruption, Hidden cards, surprises, and risk",
+    "zh-CN": "干扰、Hidden 伏牌、奇招与风险"
+  },
+  "토큰, 제거, Deathknell, 시스템": {
+    "ko": "토큰, 제거, Deathknell, 시스템",
+    "en": "Tokens, removal, Deathknell, and engines",
+    "zh-CN": "衍生物、移除、Deathknell 与运作体系"
+  },
+  "어그로": {
+    "ko": "어그로",
+    "en": "Aggro",
+    "zh-CN": "快攻"
+  },
+  "토큰": {
+    "ko": "토큰",
+    "en": "Tokens",
+    "zh-CN": "衍生物"
+  },
+  "빅 유닛": {
+    "ko": "빅 유닛",
+    "en": "Big units",
+    "zh-CN": "大型单位"
+  },
+  "주문": {
+    "ko": "주문",
+    "en": "Spells",
+    "zh-CN": "法术"
+  },
+  "버프": {
+    "ko": "버프",
+    "en": "Buffs",
+    "zh-CN": "强化"
+  },
+  "홀드": {
+    "ko": "홀드",
+    "en": "Holding",
+    "zh-CN": "驻守"
+  },
+  "종족": {
+    "ko": "종족",
+    "en": "Tribal",
+    "zh-CN": "族群"
+  },
+  "입문": {
+    "ko": "입문",
+    "en": "Beginner",
+    "zh-CN": "入门"
+  },
+  "쉬움": {
+    "ko": "쉬움",
+    "en": "Easy",
+    "zh-CN": "简单"
+  },
+  "보통": {
+    "ko": "보통",
+    "en": "Moderate",
+    "zh-CN": "普通"
+  },
+  "어려움": {
+    "ko": "어려움",
+    "en": "Difficult",
+    "zh-CN": "困难"
+  },
+  "숙련": {
+    "ko": "숙련",
+    "en": "Advanced",
+    "zh-CN": "进阶"
+  },
+  "에너지 {n}": {
+    "ko": "에너지 {n}",
+    "en": "Energy {n}",
+    "zh-CN": "能量 {n}"
+  },
+  "전설 비교 ({n}/3)": {
+    "ko": "전설 비교 ({n}/3)",
+    "en": "Compare Legends ({n}/3)",
+    "zh-CN": "传奇对比（{n}/3）"
+  },
+  "{name} 카드 자세히 보기": {
+    "ko": "{name} 카드 자세히 보기",
+    "en": "View {name} card details",
+    "zh-CN": "查看 {name} 卡牌详情"
+  },
+  "{name} 자세히 보기": {
+    "ko": "{name} 자세히 보기",
+    "en": "View {name} details",
+    "zh-CN": "查看 {name} 详情"
+  },
+  "{name} 카드": {
+    "ko": "{name} 카드",
+    "en": "{name} card",
+    "zh-CN": "{name} 卡牌"
+  },
+  "{n}번 문항이 비어 있어요": {
+    "ko": "{n}번 문항이 비어 있어요",
+    "en": "Question {n} is unanswered",
+    "zh-CN": "第 {n} 题尚未回答"
+  },
+  "{code} · {date} 발매": {
+    "ko": "{code} · {date} 발매",
+    "en": "{code} · Released {date}",
+    "zh-CN": "{code} · {date} 发售"
+  },
+  "출시일에 자동 활성화 ({date} 예정)": {
+    "ko": "출시일에 자동 활성화 ({date} 예정)",
+    "en": "Activates on release ({date} planned)",
+    "zh-CN": "发售日自动启用（预计 {date}）"
+  },
+  "공유 이미지: {persona}, {name} {score}점": {
+    "ko": "공유 이미지: {persona}, {name} {score}점",
+    "en": "Shared result: {persona}, {name}, {score} pts",
+    "zh-CN": "分享图片：{persona}，{name}，{score} 分"
+  },
+  "난이도 {n} / 5": {
+    "ko": "난이도 {n} / 5",
+    "en": "Difficulty {n} / 5",
+    "zh-CN": "难度 {n} / 5"
+  },
+  "도메인 성향: {summary}": {
+    "ko": "도메인 성향: {summary}",
+    "en": "Domain preferences: {summary}",
+    "zh-CN": "领域偏好：{summary}"
+  },
+  "{domain} 도메인 성향 일치": {
+    "ko": "{domain} 도메인 성향 일치",
+    "en": "Matching domain preferences: {domain}",
+    "zh-CN": "领域偏好相符：{domain}"
+  },
+  "선호하는 운영 난도와 비슷함 ({difficulty})": {
+    "ko": "선호하는 운영 난도와 비슷함 ({difficulty})",
+    "en": "Close to your preferred difficulty ({difficulty})",
+    "zh-CN": "接近你偏好的难度（{difficulty}）"
+  },
+  "{style} 성향이 비슷함": {
+    "ko": "{style} 성향이 비슷함",
+    "en": "Similar preference for {style}",
+    "zh-CN": "{style}偏好相近"
+  },
+  "{name}의 추천 수치를 적용했습니다.": {
+    "ko": "{name}의 추천 수치를 적용했습니다.",
+    "en": "Applied recommendation ratings for {name}.",
+    "zh-CN": "已应用 {name} 的推荐评分。"
+  },
+  "전설 {n}장을 가져왔습니다.": {
+    "ko": "전설 {n}장을 가져왔습니다.",
+    "en": "Imported {n} Legends.",
+    "zh-CN": "已导入 {n} 位传奇。"
+  },
+  "{n}장 적용": {
+    "ko": "{n}장 적용",
+    "en": "Apply {n} cards",
+    "zh-CN": "应用 {n} 张"
+  },
+  "누락된 점수 {n}개를 50으로 채움": {
+    "ko": "누락된 점수 {n}개를 50으로 채움",
+    "en": "Filled {n} missing scores with 50",
+    "zh-CN": "已将 {n} 个缺失评分补为50"
+  },
+  "setId \"{id}\"가 sets.json에 없습니다.": {
+    "ko": "setId \"{id}\"가 sets.json에 없습니다.",
+    "en": "setId \"{id}\" is not in sets.json.",
+    "zh-CN": "sets.json 中没有 setId“{id}”。"
+  },
+  "알 수 없는 도메인: {domain}": {
+    "ko": "알 수 없는 도메인: {domain}",
+    "en": "Unknown domain: {domain}",
+    "zh-CN": "未知领域：{domain}"
+  },
+  "{field} 값({value})이 0~100 범위를 벗어났습니다.": {
+    "ko": "{field} 값({value})이 0~100 범위를 벗어났습니다.",
+    "en": "{field} ({value}) is outside the 0–100 range.",
+    "zh-CN": "{field} 的值（{value}）超出0–100范围。"
+  },
+  "JSON 형식 오류: {message}": {
+    "ko": "JSON 형식 오류: {message}",
+    "en": "Invalid JSON: {message}",
+    "zh-CN": "JSON 格式错误：{message}"
+  },
+  "(id 없음)": {
+    "ko": "(id 없음)",
+    "en": "(no ID)",
+    "zh-CN": "（无 ID）"
+  },
+  "id가 없습니다. 카드 단위 고유 id가 필요합니다 (예: ahri-nine-tailed-fox-ogn).": {
+    "ko": "id가 없습니다. 카드 단위 고유 id가 필요합니다 (예: ahri-nine-tailed-fox-ogn).",
+    "en": "Missing ID. Each card needs a unique ID (e.g. ahri-nine-tailed-fox-ogn).",
+    "zh-CN": "缺少 ID。每张卡需要唯一 ID（如 ahri-nine-tailed-fox-ogn）。"
+  },
+  "id는 소문자 영문, 숫자, 하이픈만 쓸 수 있습니다.": {
+    "ko": "id는 소문자 영문, 숫자, 하이픈만 쓸 수 있습니다.",
+    "en": "IDs may contain only lowercase letters, digits, and hyphens.",
+    "zh-CN": "ID 只能包含小写英文字母、数字与连字符。"
+  },
+  "officialData.champion이 없습니다.": {
+    "ko": "officialData.champion이 없습니다.",
+    "en": "Missing officialData.champion.",
+    "zh-CN": "缺少 officialData.champion。"
+  },
+  "officialData.title이 없습니다.": {
+    "ko": "officialData.title이 없습니다.",
+    "en": "Missing officialData.title.",
+    "zh-CN": "缺少 officialData.title。"
+  },
+  "domains가 비어 있습니다.": {
+    "ko": "domains가 비어 있습니다.",
+    "en": "domains is empty.",
+    "zh-CN": "domains 为空。"
+  },
+  "collectorNumber가 비어 있습니다 (TODO).": {
+    "ko": "collectorNumber가 비어 있습니다 (TODO).",
+    "en": "collectorNumber is missing (TODO).",
+    "zh-CN": "collectorNumber 缺失（待补充）。"
+  },
+  "abilityText가 비어 있습니다 (TODO).": {
+    "ko": "abilityText가 비어 있습니다 (TODO).",
+    "en": "abilityText is missing (TODO).",
+    "zh-CN": "abilityText 缺失（待补充）。"
+  },
+  "imageUrl은 인증정보가 없는 HTTPS 주소여야 합니다.": {
+    "ko": "imageUrl은 인증정보가 없는 HTTPS 주소여야 합니다.",
+    "en": "imageUrl must use HTTPS and contain no credentials.",
+    "zh-CN": "imageUrl 必须是无凭证的 HTTPS 地址。"
+  },
+  "출처는 인증정보가 없는 HTTPS 주소여야 합니다.": {
+    "ko": "출처는 인증정보가 없는 HTTPS 주소여야 합니다.",
+    "en": "Source URLs must use HTTPS and contain no credentials.",
+    "zh-CN": "来源链接必须是无凭证的 HTTPS 地址。"
+  },
+  "imageUrl이 없습니다. 도메인 색 카드로 대체 표시됩니다.": {
+    "ko": "imageUrl이 없습니다. 도메인 색 카드로 대체 표시됩니다.",
+    "en": "No imageUrl. A domain-color placeholder will be shown.",
+    "zh-CN": "没有 imageUrl，将显示领域配色的替代卡面。"
+  },
+  "sourceUrls가 없습니다. 출처를 기록해 주세요.": {
+    "ko": "sourceUrls가 없습니다. 출처를 기록해 주세요.",
+    "en": "Missing sourceUrls. Please record the sources.",
+    "zh-CN": "缺少 sourceUrls，请填写来源。"
+  },
+  "difficulty는 1~5여야 합니다.": {
+    "ko": "difficulty는 1~5여야 합니다.",
+    "en": "difficulty must be between 1 and 5.",
+    "zh-CN": "difficulty 必须在1至5之间。"
+  },
+  "추천 수치 검토 필요 (needsReview)": {
+    "ko": "추천 수치 검토 필요 (needsReview)",
+    "en": "Recommendation ratings need review (needsReview)",
+    "zh-CN": "推荐评分待审核（needsReview）"
+  },
+  "추천 후보 비활성 (recommendationReady=false)": {
+    "ko": "추천 후보 비활성 (recommendationReady=false)",
+    "en": "Excluded from recommendations (recommendationReady=false)",
+    "zh-CN": "暂不参与推荐（recommendationReady=false）"
+  },
+  "가져오기 파일은 5MB 이하로 나눠 주세요.": {
+    "ko": "가져오기 파일은 5MB 이하로 나눠 주세요.",
+    "en": "Split imports into files no larger than 5MB.",
+    "zh-CN": "请将导入文件拆分为不超过5MB的文件。"
+  },
+  "객체가 아닙니다.": {
+    "ko": "객체가 아닙니다.",
+    "en": "Not an object.",
+    "zh-CN": "不是对象。"
+  },
+  "같은 id가 파일 안에 두 번 있습니다.": {
+    "ko": "같은 id가 파일 안에 두 번 있습니다.",
+    "en": "Duplicate ID in the file.",
+    "zh-CN": "文件中存在重复 ID。"
+  },
+  "@summary": {
+    "ko": "@summary",
+    "en": "Your strongest preferences are {a} and {b}. {name} excels at {styles}, making this Legend a good fit for those preferences.",
+    "zh-CN": "你的突出偏好是{a}和{b}。{name} 擅长{styles}，因此适合这些偏好。"
+  },
+  "@sharedTwo": {
+    "ko": "@sharedTwo",
+    "en": "You and {name} both score highly in {a} and {b}.",
+    "zh-CN": "你和 {name} 的{a}与{b}评分都很高。"
+  },
+  "@sharedOne": {
+    "ko": "@sharedOne",
+    "en": "You and {name} both score highly in {a}.",
+    "zh-CN": "你和 {name} 的{a}评分都很高。"
+  },
+  "@legendHigher": {
+    "ko": "@legendHigher",
+    "en": "However, {name} scores {n} points higher in {style}.",
+    "zh-CN": "不过，{name} 的{style}评分比你高 {n} 分。"
+  },
+  "@userHigher": {
+    "ko": "@userHigher",
+    "en": "However, you prefer {style} by {n} more points.",
+    "zh-CN": "不过，你对{style}的偏好高出 {n} 分。"
+  },
+  "@similarDistribution": {
+    "ko": "@similarDistribution",
+    "en": "There are few standout shared strengths, but your overall preference profile is similar to {name}.",
+    "zh-CN": "虽然突出的共同强项较少，但你的整体偏好分布与 {name} 相近。"
+  },
+  "@compareBlurb": {
+    "ko": "@compareBlurb",
+    "en": "A good fit for someone who wants {a} and {b}.",
+    "zh-CN": "适合追求{a}和{b}的玩家。"
+  },
+  "공격성": {
+    "ko": "공격성",
+    "en": "Aggression",
+    "zh-CN": "进攻性"
+  },
+  "먼저 몰아붙이는 공격성": {
+    "ko": "먼저 몰아붙이는 공격성",
+    "en": "Taking the initiative with aggression",
+    "zh-CN": "主动施压的进攻性"
+  },
+  "공격 성향이 강한 전설이라 느긋한 운영을 원하면 조급하게 느껴질 수 있음": {
+    "ko": "공격 성향이 강한 전설이라 느긋한 운영을 원하면 조급하게 느껴질 수 있음",
+    "en": "Its aggressive pace may feel rushed if you prefer patient play",
+    "zh-CN": "进攻节奏较快，偏好慢节奏时可能会觉得急促"
+  },
+  "당신이 원하는 만큼 빠르게 몰아붙이는 전설은 아님": {
+    "ko": "당신이 원하는 만큼 빠르게 몰아붙이는 전설은 아님",
+    "en": "Less aggressive than you may prefer",
+    "zh-CN": "进攻速度可能不及你的预期"
+  },
+  "컨트롤": {
+    "ko": "컨트롤",
+    "en": "Control",
+    "zh-CN": "控制"
+  },
+  "상대를 억제하는 컨트롤": {
+    "ko": "상대를 억제하는 컨트롤",
+    "en": "Keeping the opponent under control",
+    "zh-CN": "压制对手的控制打法"
+  },
+  "상대를 막고 버티는 시간이 길어 답답하게 느껴질 수 있음": {
+    "ko": "상대를 막고 버티는 시간이 길어 답답하게 느껴질 수 있음",
+    "en": "Long periods of defending and denying plays may feel slow",
+    "zh-CN": "防守与阻止对手的过程较长，可能感觉缓慢"
+  },
+  "상대를 완전히 틀어막는 컨트롤 덱을 원한다면 조금 다를 수 있음": {
+    "ko": "상대를 완전히 틀어막는 컨트롤 덱을 원한다면 조금 다를 수 있음",
+    "en": "May not fully satisfy a preference for hard control",
+    "zh-CN": "若想彻底封锁对手，控制能力可能不够"
+  },
+  "템포": {
+    "ko": "템포",
+    "en": "Tempo",
+    "zh-CN": "节奏"
+  },
+  "한 박자 빠른 템포": {
+    "ko": "한 박자 빠른 템포",
+    "en": "Staying one step ahead",
+    "zh-CN": "始终快人一步"
+  },
+  "매 턴 빠른 판단을 요구해 호흡이 가쁘게 느껴질 수 있음": {
+    "ko": "매 턴 빠른 판단을 요구해 호흡이 가쁘게 느껴질 수 있음",
+    "en": "Frequent quick decisions may feel demanding",
+    "zh-CN": "每回合都需快速决策，可能较为紧张"
+  },
+  "템포 싸움보다 묵직한 운영에 가까움": {
+    "ko": "템포 싸움보다 묵직한 운영에 가까움",
+    "en": "Favors heavier plays over a fast tempo battle",
+    "zh-CN": "更偏向稳重运营，而非快速争夺节奏"
+  },
+  "콤보": {
+    "ko": "콤보",
+    "en": "Combo",
+    "zh-CN": "组合技"
+  },
+  "카드끼리 맞물리는 콤보": {
+    "ko": "카드끼리 맞물리는 콤보",
+    "en": "Combining cards into powerful sequences",
+    "zh-CN": "让卡牌联动形成强力组合"
+  },
+  "카드 조합이 맞아야 힘을 내서 조각이 안 모이면 약해짐": {
+    "ko": "카드 조합이 맞아야 힘을 내서 조각이 안 모이면 약해짐",
+    "en": "Relies on assembling the right pieces",
+    "zh-CN": "依赖凑齐组合，缺少组件时较弱"
+  },
+  "콤보를 완성하는 쾌감은 덜한 편": {
+    "ko": "콤보를 완성하는 쾌감은 덜한 편",
+    "en": "Offers less of the payoff of completing a combo",
+    "zh-CN": "完成组合技的快感较少"
+  },
+  "미드레인지": {
+    "ko": "미드레인지",
+    "en": "Midrange",
+    "zh-CN": "中速"
+  },
+  "중반 보드 싸움": {
+    "ko": "중반 보드 싸움",
+    "en": "Midgame board battles",
+    "zh-CN": "中期场面争夺"
+  },
+  "중반 보드 싸움 중심이라 극단적인 전략을 원하면 밋밋할 수 있음": {
+    "ko": "중반 보드 싸움 중심이라 극단적인 전략을 원하면 밋밋할 수 있음",
+    "en": "Midgame board battles may feel plain if you prefer extreme strategies",
+    "zh-CN": "侧重中期场面争夺，偏好极端策略时可能感觉平淡"
+  },
+  "무난한 중반 운영보다 한쪽으로 치우친 전설": {
+    "ko": "무난한 중반 운영보다 한쪽으로 치우친 전설",
+    "en": "More specialized than a balanced midrange plan",
+    "zh-CN": "更偏向特定策略，而非均衡中期运营"
+  },
+  "램프": {
+    "ko": "램프",
+    "en": "Ramp",
+    "zh-CN": "资源加速"
+  },
+  "자원을 불리는 램프": {
+    "ko": "자원을 불리는 램프",
+    "en": "Growing your resources",
+    "zh-CN": "增加可用资源"
+  },
+  "자원을 늘리는 초반 몇 턴이 느리게 느껴질 수 있음": {
+    "ko": "자원을 늘리는 초반 몇 턴이 느리게 느껴질 수 있음",
+    "en": "Early turns spent growing resources can feel slow",
+    "zh-CN": "前几回合用于积累资源，节奏可能较慢"
+  },
+  "자원 가속으로 큰 카드를 먼저 쓰는 플레이는 드묾": {
+    "ko": "자원 가속으로 큰 카드를 먼저 쓰는 플레이는 드묾",
+    "en": "Rarely accelerates resources to play big cards early",
+    "zh-CN": "较少通过资源加速提前使用大型卡牌"
+  },
+  "물량전": {
+    "ko": "물량전",
+    "en": "Swarm",
+    "zh-CN": "铺场"
+  },
+  "유닛을 넓게 까는 물량전": {
+    "ko": "유닛을 넓게 까는 물량전",
+    "en": "Filling the board with units",
+    "zh-CN": "以大量单位铺满场面"
+  },
+  "유닛 수로 승부해서 광역 제거에 약할 수 있음": {
+    "ko": "유닛 수로 승부해서 광역 제거에 약할 수 있음",
+    "en": "A wide board can be vulnerable to area removal",
+    "zh-CN": "依靠数量取胜，可能怕范围清场"
+  },
+  "보드를 유닛으로 가득 채우는 전설은 아님": {
+    "ko": "보드를 유닛으로 가득 채우는 전설은 아님",
+    "en": "Does not focus on filling the board with units",
+    "zh-CN": "并非专注于铺满单位的传奇"
+  },
+  "대형 유닛": {
+    "ko": "대형 유닛",
+    "en": "Big units",
+    "zh-CN": "大型单位"
+  },
+  "강력한 유닛 중심": {
+    "ko": "강력한 유닛 중심",
+    "en": "Building around powerful units",
+    "zh-CN": "围绕强力单位作战"
+  },
+  "소수 정예 유닛에 의존해 제거기에 흔들릴 수 있음": {
+    "ko": "소수 정예 유닛에 의존해 제거기에 흔들릴 수 있음",
+    "en": "Reliance on a few strong units makes removal painful",
+    "zh-CN": "依赖少数强力单位，容易受移除牌影响"
+  },
+  "거대한 유닛 한 장으로 판을 뒤집는 맛은 적음": {
+    "ko": "거대한 유닛 한 장으로 판을 뒤집는 맛은 적음",
+    "en": "Less focused on turning a game with one huge unit",
+    "zh-CN": "较少用单个巨型单位扭转局势"
+  },
+  "상호작용": {
+    "ko": "상호작용",
+    "en": "Interaction",
+    "zh-CN": "互动"
+  },
+  "상대와 주고받는 대응 플레이": {
+    "ko": "상대와 주고받는 대응 플레이",
+    "en": "Trading plays and reacting to the opponent",
+    "zh-CN": "与对手来回应对"
+  },
+  "상대 행동에 계속 반응해야 해서 내 계획만 밀고 싶다면 번거로움": {
+    "ko": "상대 행동에 계속 반응해야 해서 내 계획만 밀고 싶다면 번거로움",
+    "en": "Constant reactions may distract from your own plan",
+    "zh-CN": "需要不断应对对手，可能妨碍专注自己的计划"
+  },
+  "상대 카드와 치열하게 주고받는 장면은 적은 편": {
+    "ko": "상대 카드와 치열하게 주고받는 장면은 적은 편",
+    "en": "Fewer back-and-forth exchanges with opposing cards",
+    "zh-CN": "与对方卡牌激烈互动的机会较少"
+  },
+  "방해": {
+    "ko": "방해",
+    "en": "Disruption",
+    "zh-CN": "干扰"
+  },
+  "상대 계획을 흔드는 방해": {
+    "ko": "상대 계획을 흔드는 방해",
+    "en": "Disrupting the opponent's plans",
+    "zh-CN": "打乱对手计划"
+  },
+  "상대를 흔드는 데 자원을 쓰느라 내 전개가 늦어질 수 있음": {
+    "ko": "상대를 흔드는 데 자원을 쓰느라 내 전개가 늦어질 수 있음",
+    "en": "Resources spent disrupting may slow your development",
+    "zh-CN": "用于干扰的资源可能拖慢自己的展开"
+  },
+  "상대 계획을 직접 무너뜨리는 수단은 많지 않음": {
+    "ko": "상대 계획을 직접 무너뜨리는 수단은 많지 않음",
+    "en": "Has fewer ways to directly disrupt opposing plans",
+    "zh-CN": "直接破坏对手计划的手段较少"
+  },
+  "카드 드로우": {
+    "ko": "카드 드로우",
+    "en": "Card draw",
+    "zh-CN": "抽牌"
+  },
+  "손패를 채우는 드로우": {
+    "ko": "손패를 채우는 드로우",
+    "en": "Keeping your hand stocked",
+    "zh-CN": "补充手牌选择"
+  },
+  "드로우로 이득을 쌓는 만큼 즉각적인 압박은 약할 수 있음": {
+    "ko": "드로우로 이득을 쌓는 만큼 즉각적인 압박은 약할 수 있음",
+    "en": "Building card advantage can mean less immediate pressure",
+    "zh-CN": "积累卡差时，即时压力可能较弱"
+  },
+  "손패를 넉넉히 채우는 능력은 약한 편": {
+    "ko": "손패를 넉넉히 채우는 능력은 약한 편",
+    "en": "Limited ability to refill your hand",
+    "zh-CN": "补充大量手牌的能力较弱"
+  },
+  "자원 관리": {
+    "ko": "자원 관리",
+    "en": "Resource management",
+    "zh-CN": "资源管理"
+  },
+  "빈틈없는 자원 계산": {
+    "ko": "빈틈없는 자원 계산",
+    "en": "Careful resource efficiency",
+    "zh-CN": "精细计算资源效率"
+  },
+  "룬과 에너지를 세밀하게 계산해야 해서 피로할 수 있음": {
+    "ko": "룬과 에너지를 세밀하게 계산해야 해서 피로할 수 있음",
+    "en": "Detailed rune and energy calculations can be tiring",
+    "zh-CN": "需要精细计算符文与能量，可能较累"
+  },
+  "자원을 극한까지 짜내는 재미는 덜함": {
+    "ko": "자원을 극한까지 짜내는 재미는 덜함",
+    "en": "Less emphasis on maximizing every resource",
+    "zh-CN": "较少体验极限利用资源的乐趣"
+  },
+  "이동": {
+    "ko": "이동",
+    "en": "Movement",
+    "zh-CN": "移动"
+  },
+  "전장을 오가는 이동": {
+    "ko": "전장을 오가는 이동",
+    "en": "Moving between battlefields",
+    "zh-CN": "在战场之间移动"
+  },
+  "유닛 위치를 계속 신경 써야 해서 판단이 늘어남": {
+    "ko": "유닛 위치를 계속 신경 써야 해서 판단이 늘어남",
+    "en": "Constant positioning adds more decisions",
+    "zh-CN": "需持续关注单位位置，增加决策量"
+  },
+  "유닛을 자유롭게 옮기는 플레이는 적음": {
+    "ko": "유닛을 자유롭게 옮기는 플레이는 적음",
+    "en": "Offers fewer ways to freely move units",
+    "zh-CN": "自由移动单位的玩法较少"
+  },
+  "장비": {
+    "ko": "장비",
+    "en": "Gear",
+    "zh-CN": "装备"
+  },
+  "장비(Gear) 활용": {
+    "ko": "장비(Gear) 활용",
+    "en": "Making use of gear",
+    "zh-CN": "运用装备"
+  },
+  "장비 카드 비중이 높아 덱 구성이 장비 쪽으로 묶임": {
+    "ko": "장비 카드 비중이 높아 덱 구성이 장비 쪽으로 묶임",
+    "en": "Gear requirements constrain deckbuilding",
+    "zh-CN": "装备占比较高，限制构筑方向"
+  },
+  "장비를 활용하는 전설은 아님": {
+    "ko": "장비를 활용하는 전설은 아님",
+    "en": "Does not focus on gear",
+    "zh-CN": "并非专注装备的传奇"
+  },
+  "숨겨 둔 카드로 기습": {
+    "ko": "숨겨 둔 카드로 기습",
+    "en": "Surprising opponents with hidden cards",
+    "zh-CN": "用伏牌出其不意"
+  },
+  "Hidden 카드를 꺼낼 타이밍 판단이 까다로움": {
+    "ko": "Hidden 카드를 꺼낼 타이밍 판단이 까다로움",
+    "en": "Timing Hidden cards can be tricky",
+    "zh-CN": "判断 Hidden 伏牌的使用时机较难"
+  },
+  "Hidden 카드로 기습하는 플레이는 적음": {
+    "ko": "Hidden 카드로 기습하는 플레이는 적음",
+    "en": "Fewer opportunities for Hidden-card surprises",
+    "zh-CN": "用 Hidden 伏牌突袭的机会较少"
+  },
+  "희생": {
+    "ko": "희생",
+    "en": "Sacrifice",
+    "zh-CN": "牺牲"
+  },
+  "쓰러짐을 이득으로 바꾸는 희생": {
+    "ko": "쓰러짐을 이득으로 바꾸는 희생",
+    "en": "Turning unit losses into value",
+    "zh-CN": "把单位损失转化为收益"
+  },
+  "유닛을 소모하는 운영이라 아끼는 유닛을 잃는 느낌이 들 수 있음": {
+    "ko": "유닛을 소모하는 운영이라 아끼는 유닛을 잃는 느낌이 들 수 있음",
+    "en": "Sacrificing units may feel costly if you like protecting them",
+    "zh-CN": "需要消耗单位，喜欢保护单位时可能感到不舍"
+  },
+  "Deathknell·희생 시너지는 거의 없음": {
+    "ko": "Deathknell·희생 시너지는 거의 없음",
+    "en": "Little Deathknell or sacrifice synergy",
+    "zh-CN": "几乎没有 Deathknell 或牺牲联动"
+  },
+  "직접 피해": {
+    "ko": "직접 피해",
+    "en": "Direct damage",
+    "zh-CN": "直接伤害"
+  },
+  "곧바로 꽂히는 직접 피해": {
+    "ko": "곧바로 꽂히는 직접 피해",
+    "en": "Dealing damage directly",
+    "zh-CN": "直接造成伤害"
+  },
+  "직접 피해 주문 비중이 높아 유닛전을 원하면 어색할 수 있음": {
+    "ko": "직접 피해 주문 비중이 높아 유닛전을 원하면 어색할 수 있음",
+    "en": "Damage spells take priority over unit combat",
+    "zh-CN": "直接伤害法术占比较高，偏好单位战斗时可能不适应"
+  },
+  "직접 피해로 끝내는 전설은 아님": {
+    "ko": "직접 피해로 끝내는 전설은 아님",
+    "en": "Does not focus on finishing through direct damage",
+    "zh-CN": "不侧重以直接伤害结束对局"
+  },
+  "유닛 전투": {
+    "ko": "유닛 전투",
+    "en": "Unit combat",
+    "zh-CN": "单位战斗"
+  },
+  "정면 유닛 전투": {
+    "ko": "정면 유닛 전투",
+    "en": "Head-on unit combat",
+    "zh-CN": "正面单位交战"
+  },
+  "전투 결과에 크게 좌우돼 전투를 피하고 싶다면 맞지 않음": {
+    "ko": "전투 결과에 크게 좌우돼 전투를 피하고 싶다면 맞지 않음",
+    "en": "Heavily dependent on combat, so it may not suit a combat-averse style",
+    "zh-CN": "较依赖战斗结果，不适合偏好避战的玩法"
+  },
+  "유닛끼리 치고받는 전투는 주력 무기가 아님": {
+    "ko": "유닛끼리 치고받는 전투는 주력 무기가 아님",
+    "en": "Unit-on-unit combat is not its main tool",
+    "zh-CN": "单位之间的交战并非主要手段"
+  },
+  "안정성": {
+    "ko": "안정성",
+    "en": "Consistency",
+    "zh-CN": "稳定性"
+  },
+  "매 게임 고른 안정성": {
+    "ko": "매 게임 고른 안정성",
+    "en": "Reliable performance across games",
+    "zh-CN": "每局都有稳定表现"
+  },
+  "안정적인 대신 극적인 역전의 짜릿함은 덜함": {
+    "ko": "안정적인 대신 극적인 역전의 짜릿함은 덜함",
+    "en": "Reliable, but offers fewer dramatic reversals",
+    "zh-CN": "较稳定，但戏剧性翻盘的快感较少"
+  },
+  "게임마다 결과 편차가 있는 편": {
+    "ko": "게임마다 결과 편차가 있는 편",
+    "en": "Results can vary between games",
+    "zh-CN": "不同对局之间表现波动较大"
+  },
+  "고점 추구": {
+    "ko": "고점 추구",
+    "en": "High ceiling",
+    "zh-CN": "追求上限"
+  },
+  "크게 터지는 고점": {
+    "ko": "크게 터지는 고점",
+    "en": "Explosive high-end payoffs",
+    "zh-CN": "爆发性的高上限收益"
+  },
+  "편차가 커서 잘 안 풀리는 게임도 감수해야 함": {
+    "ko": "편차가 커서 잘 안 풀리는 게임도 감수해야 함",
+    "en": "High variance means accepting some weak games",
+    "zh-CN": "波动较大，需要接受部分不顺的对局"
+  },
+  "크게 터지는 한 방은 적고 무난한 편": {
+    "ko": "크게 터지는 한 방은 적고 무난한 편",
+    "en": "Steady rather than explosively powerful",
+    "zh-CN": "较平稳，缺少爆发性的一击"
+  },
+  "운영 난도": {
+    "ko": "운영 난도",
+    "en": "Complexity",
+    "zh-CN": "操作复杂度"
+  },
+  "선택지가 많은 깊은 운영": {
+    "ko": "선택지가 많은 깊은 운영",
+    "en": "Deep play with many choices",
+    "zh-CN": "选择丰富的深度运营"
+  },
+  "운영 난도가 높아 익숙해지기까지 시간이 걸릴 수 있음": {
+    "ko": "운영 난도가 높아 익숙해지기까지 시간이 걸릴 수 있음",
+    "en": "Complex play takes time to learn",
+    "zh-CN": "操作复杂，需要时间熟悉"
+  },
+  "선택지가 적은 편이라 깊은 운영을 원하면 단조로울 수 있음": {
+    "ko": "선택지가 적은 편이라 깊은 운영을 원하면 단조로울 수 있음",
+    "en": "Fewer choices may feel repetitive if you prefer deep play",
+    "zh-CN": "选择较少，偏好深度运营时可能感觉单调"
+  },
+  "빌드업": {
+    "ko": "빌드업",
+    "en": "Setup",
+    "zh-CN": "铺垫"
+  },
+  "여러 턴 준비하는 빌드업": {
+    "ko": "여러 턴 준비하는 빌드업",
+    "en": "Building up over several turns",
+    "zh-CN": "经过多回合准备"
+  },
+  "준비 기간이 길어 초반 압박에 취약할 수 있음": {
+    "ko": "준비 기간이 길어 초반 압박에 취약할 수 있음",
+    "en": "Long setup can be vulnerable to early pressure",
+    "zh-CN": "准备时间较长，可能怕前期压力"
+  },
+  "여러 턴 준비해서 크게 터뜨리는 구조는 아님": {
+    "ko": "여러 턴 준비해서 크게 터뜨리는 구조는 아님",
+    "en": "Not built around a large payoff after several setup turns",
+    "zh-CN": "并非多回合准备后集中爆发的结构"
+  },
+  "게임 중 가장 짜릿한 순간은?": {
+    "ko": "게임 중 가장 짜릿한 순간은?",
+    "en": "What is the most exciting moment in a game?",
+    "zh-CN": "游戏中最让你兴奋的时刻是什么？"
+  },
+  "전략 게임에서 가장 짜릿하게 느껴질 순간은?": {
+    "ko": "전략 게임에서 가장 짜릿하게 느껴질 순간은?",
+    "en": "What would excite you most in a strategy game?",
+    "zh-CN": "策略游戏中，什么时刻最让你兴奋？"
+  },
+  "상대가 준비되기 전에 몰아붙여 먼저 점수를 따냈을 때": {
+    "ko": "상대가 준비되기 전에 몰아붙여 먼저 점수를 따냈을 때",
+    "en": "Rushing in and scoring before my opponent is ready",
+    "zh-CN": "趁对手尚未准备好，迅速进攻并抢先得分"
+  },
+  "상대가 준비하기 전에 빠르게 앞서 나갔을 때": {
+    "ko": "상대가 준비하기 전에 빠르게 앞서 나갔을 때",
+    "en": "Taking a quick lead before my opponent is ready",
+    "zh-CN": "趁对手尚未准备好，迅速取得领先"
+  },
+  "상대의 결정적인 한 수를 정확히 받아쳤을 때": {
+    "ko": "상대의 결정적인 한 수를 정확히 받아쳤을 때",
+    "en": "Perfectly countering my opponent's decisive play",
+    "zh-CN": "精准化解对手的关键一招"
+  },
+  "상대의 중요한 행동을 정확히 받아쳤을 때": {
+    "ko": "상대의 중요한 행동을 정확히 받아쳤을 때",
+    "en": "Responding perfectly to my opponent's key move",
+    "zh-CN": "精准应对对手的关键行动"
+  },
+  "몇 턴 동안 준비한 엔진이 드디어 돌아가기 시작할 때": {
+    "ko": "몇 턴 동안 준비한 엔진이 드디어 돌아가기 시작할 때",
+    "en": "Seeing the engine I built over several turns finally work",
+    "zh-CN": "经过数回合铺垫，构筑的运转体系终于启动"
+  },
+  "몇 턴 준비한 전략이나 조합이 제대로 돌아가기 시작했을 때": {
+    "ko": "몇 턴 준비한 전략이나 조합이 제대로 돌아가기 시작했을 때",
+    "en": "Seeing a strategy or combination I prepared finally work",
+    "zh-CN": "经过几轮准备，策略或组合终于发挥作用"
+  },
+  "큰 유닛으로 전장을 정면에서 밀어버렸을 때": {
+    "ko": "큰 유닛으로 전장을 정면에서 밀어버렸을 때",
+    "en": "Overrunning a battlefield with a big unit",
+    "zh-CN": "用大型单位正面碾压战场"
+  },
+  "강한 캐릭터로 정면 승부를 이겼을 때": {
+    "ko": "강한 캐릭터로 정면 승부를 이겼을 때",
+    "en": "Winning a head-on fight with a powerful character",
+    "zh-CN": "用强大的角色赢下正面对决"
+  },
+  "예상 밖의 한 수로 상대 계획을 꼬아버렸을 때": {
+    "ko": "예상 밖의 한 수로 상대 계획을 꼬아버렸을 때",
+    "en": "Ruining my opponent's plan with an unexpected play",
+    "zh-CN": "用出其不意的一招打乱对手计划"
+  },
+  "예상 밖의 한 수로 상대 계획을 꼬이게 만들었을 때": {
+    "ko": "예상 밖의 한 수로 상대 계획을 꼬이게 만들었을 때",
+    "en": "Disrupting my opponent's plan with a surprise move",
+    "zh-CN": "用意想不到的一招打乱对手计划"
+  },
+  "둘 중 하나를 고른다면?": {
+    "ko": "둘 중 하나를 고른다면?",
+    "en": "Which would you choose?",
+    "zh-CN": "你会选择哪一个？"
+  },
+  "둘 중 어느 쪽이 더 끌리나요?": {
+    "ko": "둘 중 어느 쪽이 더 끌리나요?",
+    "en": "Which appeals to you more?",
+    "zh-CN": "哪一种更吸引你？"
+  },
+  "매 게임 비슷하게 잘 굴러가는 덱": {
+    "ko": "매 게임 비슷하게 잘 굴러가는 덱",
+    "en": "A deck that performs reliably every game",
+    "zh-CN": "每局表现都比较稳定的牌组"
+  },
+  "가끔 망해도 터지면 엄청난 덱": {
+    "ko": "가끔 망해도 터지면 엄청난 덱",
+    "en": "A deck with huge highs, even if it sometimes fails",
+    "zh-CN": "偶尔失利，但爆发时非常强的牌组"
+  },
+  "매번 비슷하게 안정적으로 잘 굴러가는 전략": {
+    "ko": "매번 비슷하게 안정적으로 잘 굴러가는 전략",
+    "en": "A strategy that works reliably each time",
+    "zh-CN": "每次都能稳定发挥的策略"
+  },
+  "가끔 실패해도 성공하면 아주 강력한 전략": {
+    "ko": "가끔 실패해도 성공하면 아주 강력한 전략",
+    "en": "A strategy that can fail but is powerful when it works",
+    "zh-CN": "可能失败，但成功时非常强大的策略"
+  },
+  "상대와의 관계에서 더 끌리는 쪽은?": {
+    "ko": "상대와의 관계에서 더 끌리는 쪽은?",
+    "en": "How do you prefer to engage with your opponent?",
+    "zh-CN": "你更喜欢怎样与对手交锋？"
+  },
+  "상대와 게임할 때 어느 쪽이 더 재미있나요?": {
+    "ko": "상대와 게임할 때 어느 쪽이 더 재미있나요?",
+    "en": "What is more fun when playing against someone?",
+    "zh-CN": "与别人对战时，哪种方式更有趣？"
+  },
+  "상대 카드와 계속 주고받으며 싸우고 싶다": {
+    "ko": "상대 카드와 계속 주고받으며 싸우고 싶다",
+    "en": "Trading plays and interacting with their cards",
+    "zh-CN": "与对手的卡牌持续交锋、见招拆招"
+  },
+  "상대가 뭘 하든 내 계획을 밀어붙이고 싶다": {
+    "ko": "상대가 뭘 하든 내 계획을 밀어붙이고 싶다",
+    "en": "Pushing my own plan regardless of their plays",
+    "zh-CN": "无论对手做什么，都推进自己的计划"
+  },
+  "상대 행동을 계속 보고 그때그때 대응하기": {
+    "ko": "상대 행동을 계속 보고 그때그때 대응하기",
+    "en": "Watching their moves and responding as I go",
+    "zh-CN": "观察对手的行动，随时作出应对"
+  },
+  "상대가 뭘 하든 내가 준비한 계획을 밀어붙이기": {
+    "ko": "상대가 뭘 하든 내가 준비한 계획을 밀어붙이기",
+    "en": "Following my prepared plan regardless of their moves",
+    "zh-CN": "无论对手做什么，都坚持准备好的计划"
+  },
+  "유닛은 어떻게 쓰는 게 좋은가요?": {
+    "ko": "유닛은 어떻게 쓰는 게 좋은가요?",
+    "en": "How do you prefer to use units?",
+    "zh-CN": "你喜欢怎样使用单位？"
+  },
+  "캐릭터를 배치한다면 어느 쪽이 좋나요?": {
+    "ko": "캐릭터를 배치한다면 어느 쪽이 좋나요?",
+    "en": "How would you like to deploy your characters?",
+    "zh-CN": "你更喜欢怎样安排角色？"
+  },
+  "작은 유닛 여러 기를 넓게": {
+    "ko": "작은 유닛 여러 기를 넓게",
+    "en": "Spread out many small units",
+    "zh-CN": "广泛铺开多个小型单位"
+  },
+  "강력한 유닛 몇 장에 집중": {
+    "ko": "강력한 유닛 몇 장에 집중",
+    "en": "Focus on a few powerful units",
+    "zh-CN": "集中使用少数强大单位"
+  },
+  "작은 캐릭터 여러 명을 넓게 사용하기": {
+    "ko": "작은 캐릭터 여러 명을 넓게 사용하기",
+    "en": "Use many small characters across the board",
+    "zh-CN": "在各处使用多个小角色"
+  },
+  "강력한 캐릭터 몇 명에게 힘을 집중하기": {
+    "ko": "강력한 캐릭터 몇 명에게 힘을 집중하기",
+    "en": "Concentrate power on a few strong characters",
+    "zh-CN": "把力量集中在几个强大角色上"
+  },
+  "선호하는 카드의 성격은?": {
+    "ko": "선호하는 카드의 성격은?",
+    "en": "What kind of cards do you prefer?",
+    "zh-CN": "你偏好哪类卡牌？"
+  },
+  "어떤 카드나 효과가 더 끌리나요?": {
+    "ko": "어떤 카드나 효과가 더 끌리나요?",
+    "en": "What kind of card or effect appeals to you?",
+    "zh-CN": "哪种卡牌或效果更吸引你？"
+  },
+  "내자마자 바로 효과가 나오는 카드": {
+    "ko": "내자마자 바로 효과가 나오는 카드",
+    "en": "Cards with an immediate impact",
+    "zh-CN": "打出后立即生效的卡牌"
+  },
+  "여러 턴 준비해서 크게 이득 보는 카드": {
+    "ko": "여러 턴 준비해서 크게 이득 보는 카드",
+    "en": "Cards with a big payoff after several turns of setup",
+    "zh-CN": "准备数回合后获得巨大收益的卡牌"
+  },
+  "사용하자마자 바로 강한 효과가 나오는 것": {
+    "ko": "사용하자마자 바로 강한 효과가 나오는 것",
+    "en": "A strong effect as soon as I use it",
+    "zh-CN": "使用后立刻产生强大效果"
+  },
+  "여러 턴 준비한 뒤 크게 보상받는 것": {
+    "ko": "여러 턴 준비한 뒤 크게 보상받는 것",
+    "en": "A big reward after several rounds of preparation",
+    "zh-CN": "准备几轮后获得丰厚回报"
+  },
+  "어떤 덱을 운영하고 싶나요?": {
+    "ko": "어떤 덱을 운영하고 싶나요?",
+    "en": "What kind of deck would you like to pilot?",
+    "zh-CN": "你想操作怎样的牌组？"
+  },
+  "어떤 전략을 배우고 싶나요?": {
+    "ko": "어떤 전략을 배우고 싶나요?",
+    "en": "What kind of strategy would you like to learn?",
+    "zh-CN": "你想学习哪种策略？"
+  },
+  "단순해도 판단 하나하나가 묵직한 덱": {
+    "ko": "단순해도 판단 하나하나가 묵직한 덱",
+    "en": "A simple deck where every decision matters",
+    "zh-CN": "操作简单，但每个判断都很重要的牌组"
+  },
+  "선택지가 많고 운영 난도가 높은 덱": {
+    "ko": "선택지가 많고 운영 난도가 높은 덱",
+    "en": "A challenging deck with many options",
+    "zh-CN": "选择丰富、操作难度高的牌组"
+  },
+  "규칙은 단순하지만 중요한 선택에 집중하는 전략": {
+    "ko": "규칙은 단순하지만 중요한 선택에 집중하는 전략",
+    "en": "Simple rules, with a focus on meaningful decisions",
+    "zh-CN": "规则简单，专注于重要选择的策略"
+  },
+  "선택지가 많고 익힐수록 할 수 있는 게 늘어나는 전략": {
+    "ko": "선택지가 많고 익힐수록 할 수 있는 게 늘어나는 전략",
+    "en": "Many options, with more possibilities as I learn",
+    "zh-CN": "选择丰富，越熟练越能发挥的策略"
+  },
+  "Riftbound는 전장을 점령하고 지켜서 점수를 모아 이기는 게임입니다. 가장 끌리는 승리 방식은?": {
+    "ko": "Riftbound는 전장을 점령하고 지켜서 점수를 모아 이기는 게임입니다. 가장 끌리는 승리 방식은?",
+    "en": "In Riftbound, you win by conquering and holding battlefields to score points. How would you like to win?",
+    "zh-CN": "在 Riftbound 中，你通过占领和守住战场获得分数。你最喜欢哪种取胜方式？"
+  },
+  "게임에서 이긴다면 어떤 그림이 가장 마음에 드나요?": {
+    "ko": "게임에서 이긴다면 어떤 그림이 가장 마음에 드나요?",
+    "en": "What would your ideal victory look like?",
+    "zh-CN": "你最理想的获胜方式是什么？"
+  },
+  "여러 전장을 빠르게 정복해 상대가 수습하기 전에 끝낸다": {
+    "ko": "여러 전장을 빠르게 정복해 상대가 수습하기 전에 끝낸다",
+    "en": "Quickly conquer several battlefields and finish before they recover",
+    "zh-CN": "迅速征服多个战场，在对手重整旗鼓前结束比赛"
+  },
+  "여러 곳을 빠르게 장악해 상대가 대응하기 전에 끝낸다": {
+    "ko": "여러 곳을 빠르게 장악해 상대가 대응하기 전에 끝낸다",
+    "en": "Take control of several places and win before they can react",
+    "zh-CN": "迅速控制多个地点，在对手反应前获胜"
+  },
+  "한 전장을 단단히 붙잡고 매 턴 버티며 점수를 쌓는다": {
+    "ko": "한 전장을 단단히 붙잡고 매 턴 버티며 점수를 쌓는다",
+    "en": "Hold one battlefield firmly and score turn after turn",
+    "zh-CN": "牢牢守住一个战场，逐回合积累分数"
+  },
+  "중요한 한 곳을 단단히 지키며 차근차근 유리해진다": {
+    "ko": "중요한 한 곳을 단단히 지키며 차근차근 유리해진다",
+    "en": "Defend one important place and steadily build an advantage",
+    "zh-CN": "守住一个重要地点，逐步建立优势"
+  },
+  "빈틈을 찾아 유닛을 이리저리 옮기며 허를 찌른다": {
+    "ko": "빈틈을 찾아 유닛을 이리저리 옮기며 허를 찌른다",
+    "en": "Move units between openings to catch them off guard",
+    "zh-CN": "寻找空当，调动单位出奇制胜"
+  },
+  "빈 곳을 찾아 캐릭터를 옮기며 허를 찌른다": {
+    "ko": "빈 곳을 찾아 캐릭터를 옮기며 허를 찌른다",
+    "en": "Move characters into open areas to surprise them",
+    "zh-CN": "寻找空位，移动角色突袭对手"
+  },
+  "준비가 끝난 한 턴에 몰아서 대량으로 득점한다": {
+    "ko": "준비가 끝난 한 턴에 몰아서 대량으로 득점한다",
+    "en": "Set up a single turn that scores a burst of points",
+    "zh-CN": "充分准备后，在一回合内大量得分"
+  },
+  "준비를 마친 뒤 한 번에 큰 이득을 만든다": {
+    "ko": "준비를 마친 뒤 한 번에 큰 이득을 만든다",
+    "en": "Prepare, then gain a huge advantage all at once",
+    "zh-CN": "准备就绪后，一次取得巨大优势"
+  },
+  "상대의 자원과 손패를 말려서 아무것도 못 하게 만든다": {
+    "ko": "상대의 자원과 손패를 말려서 아무것도 못 하게 만든다",
+    "en": "Drain their resources and hand until they cannot act",
+    "zh-CN": "耗尽对手的资源和手牌，让其无计可施"
+  },
+  "상대가 할 수 있는 선택을 계속 줄여 움직이기 어렵게 만든다": {
+    "ko": "상대가 할 수 있는 선택을 계속 줄여 움직이기 어렵게 만든다",
+    "en": "Keep limiting their choices until it is hard for them to act",
+    "zh-CN": "不断减少对手的选择，让对手难以行动"
+  },
+  "손패와 자원, 어떤 운영이 편한가요?": {
+    "ko": "손패와 자원, 어떤 운영이 편한가요?",
+    "en": "How do you like to manage your hand and resources?",
+    "zh-CN": "你喜欢怎样管理手牌和资源？"
+  },
+  "카드와 자원을 다룬다면 어느 방식이 편할 것 같나요?": {
+    "ko": "카드와 자원을 다룬다면 어느 방식이 편할 것 같나요?",
+    "en": "How would you feel most comfortable managing cards and resources?",
+    "zh-CN": "管理卡牌和资源时，哪种方式最适合你？"
+  },
+  "손에 카드가 넉넉해야 안심된다": {
+    "ko": "손에 카드가 넉넉해야 안심된다",
+    "en": "I feel safe with plenty of cards in hand",
+    "zh-CN": "手牌充足才安心"
+  },
+  "손에 선택할 카드가 넉넉한 상태를 유지한다": {
+    "ko": "손에 선택할 카드가 넉넉한 상태를 유지한다",
+    "en": "Keep plenty of cards to choose from",
+    "zh-CN": "保持充足手牌，留有多种选择"
+  },
+  "매 턴 룬을 늘려서 남들보다 큰 카드를 먼저 쓴다": {
+    "ko": "매 턴 룬을 늘려서 남들보다 큰 카드를 먼저 쓴다",
+    "en": "Build up runes each turn to play big cards ahead of others",
+    "zh-CN": "每回合增加符文，比别人更早打出大型卡牌"
+  },
+  "초반에 자원을 늘려 남들보다 큰 카드를 빨리 사용한다": {
+    "ko": "초반에 자원을 늘려 남들보다 큰 카드를 빨리 사용한다",
+    "en": "Build resources early to use powerful cards sooner",
+    "zh-CN": "前期积累资源，更早使用强力卡牌"
+  },
+  "손패는 빨리 비우고 필드에 전부 쏟아낸다": {
+    "ko": "손패는 빨리 비우고 필드에 전부 쏟아낸다",
+    "en": "Empty my hand quickly and commit everything to the board",
+    "zh-CN": "快速打空手牌，把力量全部投入场上"
+  },
+  "카드를 아끼기보다 빠르게 사용해 내 쪽을 넓힌다": {
+    "ko": "카드를 아끼기보다 빠르게 사용해 내 쪽을 넓힌다",
+    "en": "Use cards quickly to expand my presence",
+    "zh-CN": "快速使用卡牌，扩大自己的阵容"
+  },
+  "자원 하나까지 계산해서 최대 효율을 뽑는다": {
+    "ko": "자원 하나까지 계산해서 최대 효율을 뽑는다",
+    "en": "Calculate every resource for maximum efficiency",
+    "zh-CN": "精打细算每一点资源，追求最大效率"
+  },
+  "자원 하나까지 계산해 매번 최대 효율을 노린다": {
+    "ko": "자원 하나까지 계산해 매번 최대 효율을 노린다",
+    "en": "Plan every resource to get the most out of each move",
+    "zh-CN": "仔细计算每一点资源，让每次行动都更高效"
+  },
+  "버리고 뒤집고 섞으면서 흐름에 맡겨도 즐겁다": {
+    "ko": "버리고 뒤집고 섞으면서 흐름에 맡겨도 즐겁다",
+    "en": "Enjoy discarding, revealing and shuffling, going with the flow",
+    "zh-CN": "享受弃牌、翻牌和洗牌带来的变化，顺势而为"
+  },
+  "카드를 버리거나 섞는 등 예측하기 어려운 흐름도 즐긴다": {
+    "ko": "카드를 버리거나 섞는 등 예측하기 어려운 흐름도 즐긴다",
+    "en": "Enjoy unpredictable turns from discarding or shuffling cards",
+    "zh-CN": "也享受弃牌、洗牌等带来的不可预测变化"
+  },
+  "덱을 짤 때 가장 먼저 손이 가는 카드는?": {
+    "ko": "덱을 짤 때 가장 먼저 손이 가는 카드는?",
+    "en": "Which cards do you reach for first when building a deck?",
+    "zh-CN": "构筑牌组时，你最先想加入哪类卡牌？"
+  },
+  "다음 중 가장 써 보고 싶은 전략 도구는?": {
+    "ko": "다음 중 가장 써 보고 싶은 전략 도구는?",
+    "en": "Which of these tools would you most like to try?",
+    "zh-CN": "你最想尝试以下哪种策略手段？"
+  },
+  "혼자서 전장을 책임지는 거대한 유닛": {
+    "ko": "혼자서 전장을 책임지는 거대한 유닛",
+    "en": "A huge unit that can hold a battlefield alone",
+    "zh-CN": "能独自撑起一个战场的巨型单位"
+  },
+  "혼자서 한 구역을 책임질 만큼 강한 캐릭터": {
+    "ko": "혼자서 한 구역을 책임질 만큼 강한 캐릭터",
+    "en": "A character strong enough to handle an area alone",
+    "zh-CN": "强到能独自镇守一片区域的角色"
+  },
+  "전투 도중에 판을 뒤집는 주문과 트릭": {
+    "ko": "전투 도중에 판을 뒤집는 주문과 트릭",
+    "en": "Spells and tricks that turn a fight around",
+    "zh-CN": "能在战斗中逆转局势的法术与技巧"
+  },
+  "상대와 싸우는 순간 결과를 뒤집는 주문이나 기술": {
+    "ko": "상대와 싸우는 순간 결과를 뒤집는 주문이나 기술",
+    "en": "A spell or skill that reverses a fight at the key moment",
+    "zh-CN": "能在交战关键时刻逆转结果的法术或技能"
+  },
+  "유닛에 장착해서 계속 성장시키는 장비(Gear)": {
+    "ko": "유닛에 장착해서 계속 성장시키는 장비(Gear)",
+    "en": "Gear that keeps making a unit stronger",
+    "zh-CN": "装备在单位上，让其持续变强的 Gear"
+  },
+  "한 캐릭터에게 장비를 붙여 계속 강하게 키우는 방식": {
+    "ko": "한 캐릭터에게 장비를 붙여 계속 강하게 키우는 방식",
+    "en": "Equip one character and keep making them stronger",
+    "zh-CN": "为一个角色装备道具，让其不断变强"
+  },
+  "뒷면으로 숨겨 뒀다가 튀어나오는 Hidden 카드": {
+    "ko": "뒷면으로 숨겨 뒀다가 튀어나오는 Hidden 카드",
+    "en": "Hidden cards revealed from face down to surprise opponents",
+    "zh-CN": "先盖放隐藏，再突然出现的 Hidden 卡牌"
+  },
+  "미리 숨겨 두었다가 예상 못 한 순간에 기습하는 카드": {
+    "ko": "미리 숨겨 두었다가 예상 못 한 순간에 기습하는 카드",
+    "en": "A card I hide in advance and reveal as a surprise",
+    "zh-CN": "提前藏好，在意想不到的时刻突袭的卡牌"
+  },
+  "상대에게 곧바로 꽂히는 직접 피해 주문": {
+    "ko": "상대에게 곧바로 꽂히는 직접 피해 주문",
+    "en": "Direct-damage spells that hit the opponent immediately",
+    "zh-CN": "直接对对手造成伤害的法术"
+  },
+  "상대에게 바로 피해를 주는 공격적인 주문": {
+    "ko": "상대에게 바로 피해를 주는 공격적인 주문",
+    "en": "An aggressive spell that damages the opponent directly",
+    "zh-CN": "直接伤害对手的进攻法术"
+  },
+  "상대가 강력한 유닛을 내놓았습니다. 당신의 대응은?": {
+    "ko": "상대가 강력한 유닛을 내놓았습니다. 당신의 대응은?",
+    "en": "Your opponent plays a powerful unit. How do you respond?",
+    "zh-CN": "对手打出了强大的单位，你如何应对？"
+  },
+  "상대가 아주 강한 캐릭터를 꺼냈습니다. 어떻게 하고 싶나요?": {
+    "ko": "상대가 아주 강한 캐릭터를 꺼냈습니다. 어떻게 하고 싶나요?",
+    "en": "Your opponent brings out a very strong character. What do you do?",
+    "zh-CN": "对手派出了非常强大的角色，你想怎么做？"
+  },
+  "즉시 제거하거나 무력화한다": {
+    "ko": "즉시 제거하거나 무력화한다",
+    "en": "Remove or disable it immediately",
+    "zh-CN": "立即移除或使其失去作用"
+  },
+  "바로 없애거나 힘을 못 쓰게 만든다": {
+    "ko": "바로 없애거나 힘을 못 쓰게 만든다",
+    "en": "Get rid of it or stop it from acting right away",
+    "zh-CN": "马上消灭它，或让它无法发挥力量"
+  },
+  "상대하지 않고 다른 전장을 점령하러 간다": {
+    "ko": "상대하지 않고 다른 전장을 점령하러 간다",
+    "en": "Ignore it and conquer another battlefield",
+    "zh-CN": "避开它，去占领其他战场"
+  },
+  "그 캐릭터를 피하고 다른 곳에서 이득을 본다": {
+    "ko": "그 캐릭터를 피하고 다른 곳에서 이득을 본다",
+    "en": "Avoid that character and gain an advantage elsewhere",
+    "zh-CN": "避开那个角色，在其他地方获取优势"
+  },
+  "더 큰 유닛으로 정면에서 맞선다": {
+    "ko": "더 큰 유닛으로 정면에서 맞선다",
+    "en": "Meet it head-on with an even bigger unit",
+    "zh-CN": "用更大的单位正面对抗"
+  },
+  "나도 더 강한 캐릭터를 꺼내 정면으로 맞선다": {
+    "ko": "나도 더 강한 캐릭터를 꺼내 정면으로 맞선다",
+    "en": "Bring out a stronger character and face it head-on",
+    "zh-CN": "也派出更强的角色，正面对抗"
+  },
+  "전투가 벌어지는 순간 트릭으로 뒤집는다": {
+    "ko": "전투가 벌어지는 순간 트릭으로 뒤집는다",
+    "en": "Turn the battle with a trick when combat starts",
+    "zh-CN": "在战斗开始时用技巧逆转局势"
+  },
+  "싸움이 시작되는 순간 예상 밖의 카드로 뒤집는다": {
+    "ko": "싸움이 시작되는 순간 예상 밖의 카드로 뒤집는다",
+    "en": "Use a surprise card to turn things around as the fight starts",
+    "zh-CN": "开战时用意想不到的卡牌逆转局势"
+  },
+  "애초에 그 유닛을 쓸 자원과 카드를 흔들어 둔다": {
+    "ko": "애초에 그 유닛을 쓸 자원과 카드를 흔들어 둔다",
+    "en": "Disrupt the resources and cards needed to play it in the first place",
+    "zh-CN": "提前破坏对手打出该单位所需的资源与卡牌"
+  },
+  "애초에 그런 강한 카드를 쓰기 어렵도록 상대 자원과 선택지를 흔든다": {
+    "ko": "애초에 그런 강한 카드를 쓰기 어렵도록 상대 자원과 선택지를 흔든다",
+    "en": "Disrupt their resources and options so it is hard to use such a card",
+    "zh-CN": "提前干扰对手的资源和选择，使其难以使用强力卡牌"
+  },
+  "이상적인 게임 길이는?": {
+    "ko": "이상적인 게임 길이는?",
+    "en": "What is your ideal game length?",
+    "zh-CN": "你理想的对局时长是？"
+  },
+  "어떤 경기 흐름이 가장 마음에 드나요?": {
+    "ko": "어떤 경기 흐름이 가장 마음에 드나요?",
+    "en": "What kind of game pace do you prefer?",
+    "zh-CN": "你最喜欢哪种对局节奏？"
+  },
+  "짧고 굵게, 초반에 승부를 낸다": {
+    "ko": "짧고 굵게, 초반에 승부를 낸다",
+    "en": "Short and intense: decide the game early",
+    "zh-CN": "短而激烈，前期决出胜负"
+  },
+  "짧고 빠르게, 초반부터 승부를 건다": {
+    "ko": "짧고 빠르게, 초반부터 승부를 건다",
+    "en": "Fast games where I push for a win from the start",
+    "zh-CN": "短而快，从一开始就争取胜利"
+  },
+  "중반의 보드 싸움에서 승부를 가른다": {
+    "ko": "중반의 보드 싸움에서 승부를 가른다",
+    "en": "Decide the game in midgame board battles",
+    "zh-CN": "通过中期场面争夺决出胜负"
+  },
+  "중간부터 힘싸움이 커지고 그때 승부를 가른다": {
+    "ko": "중간부터 힘싸움이 커지고 그때 승부를 가른다",
+    "en": "Build toward a decisive clash in the middle of the game",
+    "zh-CN": "中期逐步加大战斗强度，在交锋中决出胜负"
+  },
+  "길게 끌고 가서 후반에 확실하게 이긴다": {
+    "ko": "길게 끌고 가서 후반에 확실하게 이긴다",
+    "en": "Go long and secure a decisive late-game win",
+    "zh-CN": "拉长对局，在后期稳稳获胜"
+  },
+  "천천히 준비해 후반에 확실하게 강해진다": {
+    "ko": "천천히 준비해 후반에 확실하게 강해진다",
+    "en": "Prepare steadily and become powerful late in the game",
+    "zh-CN": "慢慢准备，在后期建立强大优势"
+  },
+  "상대에 맞춰 속도를 바꾸는 게 좋다": {
+    "ko": "상대에 맞춰 속도를 바꾸는 게 좋다",
+    "en": "Adjust my pace to suit the opponent",
+    "zh-CN": "根据对手调整节奏"
+  },
+  "상대가 하는 것에 맞춰 빠르게도 느리게도 바꾼다": {
+    "ko": "상대가 하는 것에 맞춰 빠르게도 느리게도 바꾼다",
+    "en": "Speed up or slow down depending on what they do",
+    "zh-CN": "根据对手的行动灵活加快或放慢节奏"
+  },
+  "유닛 배치 스타일은?": {
+    "ko": "유닛 배치 스타일은?",
+    "en": "How do you position your units?",
+    "zh-CN": "你怎样部署单位？"
+  },
+  "캐릭터를 움직일 수 있다면 어느 쪽이 좋나요?": {
+    "ko": "캐릭터를 움직일 수 있다면 어느 쪽이 좋나요?",
+    "en": "If you can move your characters, what would you prefer?",
+    "zh-CN": "如果可以移动角色，你更喜欢哪种方式？"
+  },
+  "한 전장에 자리 잡고 끝까지 버틴다": {
+    "ko": "한 전장에 자리 잡고 끝까지 버틴다",
+    "en": "Settle on one battlefield and hold it to the end",
+    "zh-CN": "驻守一个战场，坚持到底"
+  },
+  "유닛을 계속 옮기며 싸울 곳을 고른다": {
+    "ko": "유닛을 계속 옮기며 싸울 곳을 고른다",
+    "en": "Keep moving units to choose where to fight",
+    "zh-CN": "不断移动单位，选择交战地点"
+  },
+  "한 곳에 자리 잡고 끝까지 지키기": {
+    "ko": "한 곳에 자리 잡고 끝까지 지키기",
+    "en": "Stay in one place and defend it to the end",
+    "zh-CN": "驻守一处，守到最后"
+  },
+  "계속 옮겨 다니며 싸울 곳을 직접 고르기": {
+    "ko": "계속 옮겨 다니며 싸울 곳을 직접 고르기",
+    "en": "Keep moving and choose where I want to fight",
+    "zh-CN": "不断移动，主动选择交战地点"
+  },
+  "내 유닛이 전투에서 쓰러지려고 합니다.": {
+    "ko": "내 유닛이 전투에서 쓰러지려고 합니다.",
+    "en": "Your unit is about to fall in combat.",
+    "zh-CN": "你的单位即将在战斗中倒下。"
+  },
+  "내 캐릭터가 곧 쓰러질 상황입니다. 어떤 선택이 끌리나요?": {
+    "ko": "내 캐릭터가 곧 쓰러질 상황입니다. 어떤 선택이 끌리나요?",
+    "en": "Your character is about to fall. What would you prefer to do?",
+    "zh-CN": "你的角色即将倒下，你更想如何应对？"
+  },
+  "괜찮다. 쓰러질 때 발동하는 효과(Deathknell)로 이득을 본다": {
+    "ko": "괜찮다. 쓰러질 때 발동하는 효과(Deathknell)로 이득을 본다",
+    "en": "That is fine: gain value from its Deathknell effect",
+    "zh-CN": "没关系，利用倒下时触发的 Deathknell 效果获利"
+  },
+  "쓰러져도 괜찮다. 쓰러지는 순간 추가 이득을 얻고 싶다": {
+    "ko": "쓰러져도 괜찮다. 쓰러지는 순간 추가 이득을 얻고 싶다",
+    "en": "Let them fall if I get an extra benefit when it happens",
+    "zh-CN": "倒下也没关系，我想在那一刻获得额外收益"
+  },
+  "버프나 보호 효과로 끝까지 살려낸다": {
+    "ko": "버프나 보호 효과로 끝까지 살려낸다",
+    "en": "Keep it alive with buffs or protection",
+    "zh-CN": "通过强化或保护效果让它存活到底"
+  },
+  "강화하거나 보호해서 끝까지 살려내고 싶다": {
+    "ko": "강화하거나 보호해서 끝까지 살려내고 싶다",
+    "en": "Strengthen or protect them so they survive",
+    "zh-CN": "强化或保护角色，让其活下来"
+  },
+  "상관없다. 다음 유닛이 줄지어 기다리고 있다": {
+    "ko": "상관없다. 다음 유닛이 줄지어 기다리고 있다",
+    "en": "No problem: more units are waiting to take its place",
+    "zh-CN": "无所谓，后续单位已排队待命"
+  },
+  "한 명이 쓰러져도 다음 캐릭터를 계속 내보내고 싶다": {
+    "ko": "한 명이 쓰러져도 다음 캐릭터를 계속 내보내고 싶다",
+    "en": "Keep sending more characters even if one falls",
+    "zh-CN": "即使一个角色倒下，也能不断派出后续角色"
+  },
+  "쓰러지기 전에 전장에서 빼낸다": {
+    "ko": "쓰러지기 전에 전장에서 빼낸다",
+    "en": "Pull it out of the battlefield before it falls",
+    "zh-CN": "在倒下前将它撤离战场"
+  },
+  "쓰러지기 전에 다른 곳으로 빼내고 싶다": {
+    "ko": "쓰러지기 전에 다른 곳으로 빼내고 싶다",
+    "en": "Move them somewhere else before they fall",
+    "zh-CN": "在倒下前将角色转移到其他地方"
+  },
+  "희생해서라도 상대에게 더 큰 피해를 준다": {
+    "ko": "희생해서라도 상대에게 더 큰 피해를 준다",
+    "en": "Sacrifice it to inflict greater damage on the opponent",
+    "zh-CN": "即使牺牲它，也要对对手造成更大伤害"
+  },
+  "내 캐릭터를 잃더라도 상대에게 더 큰 손해를 주고 싶다": {
+    "ko": "내 캐릭터를 잃더라도 상대에게 더 큰 손해를 주고 싶다",
+    "en": "Make the opponent lose more, even if I lose my character",
+    "zh-CN": "即使失去角色，也要让对手付出更大代价"
+  },
+  "게임이 끝난 뒤 상대가 이렇게 말한다면, 가장 기분 좋은 말은?": {
+    "ko": "게임이 끝난 뒤 상대가 이렇게 말한다면, 가장 기분 좋은 말은?",
+    "en": "Which comment from your opponent would feel best after a game?",
+    "zh-CN": "对局结束后，对手说哪句话会让你最开心？"
+  },
+  "게임이 끝난 뒤 상대에게 어떤 말을 들으면 가장 뿌듯할까요?": {
+    "ko": "게임이 끝난 뒤 상대에게 어떤 말을 들으면 가장 뿌듯할까요?",
+    "en": "What would you be proudest to hear from your opponent afterward?",
+    "zh-CN": "对局结束后，对手的哪句话最让你自豪？"
+  },
+  "\"벌써 끝났어?\"": {
+    "ko": "\"벌써 끝났어?\"",
+    "en": "\"It is over already?\"",
+    "zh-CN": "“这就结束了？”"
+  },
+  "\"뭘 해도 다 막히네.\"": {
+    "ko": "\"뭘 해도 다 막히네.\"",
+    "en": "\"You stopped everything I tried.\"",
+    "zh-CN": "“我做什么都被你拦住了。”"
+  },
+  "\"그게 거기서 나와?\"": {
+    "ko": "\"그게 거기서 나와?\"",
+    "en": "\"Where did that come from?\"",
+    "zh-CN": "“这招是从哪冒出来的？”"
+  },
+  "\"카드가 끝이 없네.\"": {
+    "ko": "\"카드가 끝이 없네.\"",
+    "en": "\"You never run out of cards.\"",
+    "zh-CN": "“你的牌根本用不完。”"
+  },
+  "\"보드가 네 유닛으로 꽉 찼네.\"": {
+    "ko": "\"보드가 네 유닛으로 꽉 찼네.\"",
+    "en": "\"The board is full of your units.\"",
+    "zh-CN": "“场上全是你的单位。”"
+  },
+  "\"온통 네 캐릭터로 가득하네.\"": {
+    "ko": "\"온통 네 캐릭터로 가득하네.\"",
+    "en": "\"Your characters are everywhere.\"",
+    "zh-CN": "“到处都是你的角色。”"
+  },
+  "소진해서 주문 전용 파워 1을 더하는 능력으로, 주문을 더 많이·더 빨리 쓰는 전설입니다. 반응(Reaction) 타이밍에도 쓸 수 있어 상대 턴에도 흐름을 가져옵니다.": {
+    "ko": "소진해서 주문 전용 파워 1을 더하는 능력으로, 주문을 더 많이·더 빨리 쓰는 전설입니다. 반응(Reaction) 타이밍에도 쓸 수 있어 상대 턴에도 흐름을 가져옵니다.",
+    "en": "Exhausts to add 1 Power for spells, letting you cast more spells sooner. Usable at Reaction timing to influence the opponent's turn too.",
+    "zh-CN": "通过耗竭增加 1 点仅用于法术的 Power，让你更早施放更多法术。可在 Reaction 时机使用，在对手回合也能掌握节奏。"
+  },
+  "주문 전용 추가 자원으로 매 턴 선택지가 넓다": {
+    "ko": "주문 전용 추가 자원으로 매 턴 선택지가 넓다",
+    "en": "Extra spell resources give you more options each turn",
+    "zh-CN": "额外的法术资源让每回合选择更多"
+  },
+  "상대 턴에도 반응 타이밍에 자원을 보탤 수 있다": {
+    "ko": "상대 턴에도 반응 타이밍에 자원을 보탤 수 있다",
+    "en": "Can add resources at Reaction timing on the opponent's turn",
+    "zh-CN": "也能在对手回合的 Reaction 时机补充资源"
+  },
+  "유닛보다 주문 비중이 높아 카드 선택 판단이 중요하다": {
+    "ko": "유닛보다 주문 비중이 높아 카드 선택 판단이 중요하다",
+    "en": "A spell-heavy approach makes card choices important",
+    "zh-CN": "法术占比高于单位，卡牌选择很重要"
+  },
+  "Mighty(5+ 힘) 유닛을 낼 때 룬을 추가로 채널링해, 큰 유닛으로 자원을 불려 가는 램프형 전설입니다.": {
+    "ko": "Mighty(5+ 힘) 유닛을 낼 때 룬을 추가로 채널링해, 큰 유닛으로 자원을 불려 가는 램프형 전설입니다.",
+    "en": "A ramp Legend that channels an extra rune when you play a Mighty (5+ Might) unit, growing resources through big units.",
+    "zh-CN": "打出 Mighty（5 点及以上力量）单位时额外引导符文，通过大型单位积累资源的成长型 Legend。"
+  },
+  "대형 유닛을 낼수록 자원이 늘어 다음 턴이 더 강해진다": {
+    "ko": "대형 유닛을 낼수록 자원이 늘어 다음 턴이 더 강해진다",
+    "en": "Playing big units grows resources for stronger future turns",
+    "zh-CN": "打出大型单位会增加资源，让后续回合更强"
+  },
+  "정면 전투에서 버티기 쉬운 체급": {
+    "ko": "정면 전투에서 버티기 쉬운 체급",
+    "en": "Strong bodies make head-on combat easier to withstand",
+    "zh-CN": "身材强大，更容易承受正面战斗"
+  },
+  "Mighty 유닛을 뽑지 못하면 능력이 잠든다": {
+    "ko": "Mighty 유닛을 뽑지 못하면 능력이 잠든다",
+    "en": "The ability does nothing without Mighty units",
+    "zh-CN": "抽不到 Mighty 单位时，能力难以发挥"
+  },
+  "손패가 1장 이하이면 턴 시작마다 1장을 뽑아, 카드를 아낌없이 쏟아내는 공격형 전설입니다.": {
+    "ko": "손패가 1장 이하이면 턴 시작마다 1장을 뽑아, 카드를 아낌없이 쏟아내는 공격형 전설입니다.",
+    "en": "An aggressive Legend that draws a card at the start of each turn with one or fewer cards in hand, rewarding freely spending your hand.",
+    "zh-CN": "手牌不超过 1 张时，每回合开始抽 1 张牌，鼓励快速打出手牌的进攻型 Legend。"
+  },
+  "손패를 빨리 비울수록 연료가 계속 공급된다": {
+    "ko": "손패를 빨리 비울수록 연료가 계속 공급된다",
+    "en": "Emptying your hand quickly keeps the fuel coming",
+    "zh-CN": "越快用完手牌，越能持续获得补给"
+  },
+  "초반부터 강하게 몰아붙이기 좋다": {
+    "ko": "초반부터 강하게 몰아붙이기 좋다",
+    "en": "Good at applying heavy pressure from the start",
+    "zh-CN": "擅长从前期就施加强大压力"
+  },
+  "손을 비우지 못하는 느린 운영에서는 능력이 약하다": {
+    "ko": "손을 비우지 못하는 느린 운영에서는 능력이 약하다",
+    "en": "The ability is weaker in slow play that keeps a full hand",
+    "zh-CN": "节奏缓慢、手牌难以用完时，能力较弱"
+  },
+  "장기전에서 상대 대응에 밀릴 수 있다": {
+    "ko": "장기전에서 상대 대응에 밀릴 수 있다",
+    "en": "Can fall behind the opponent's answers in long games",
+    "zh-CN": "长局中可能被对手的应对手段压制"
+  },
+  "이번 턴에 카드를 냈다면 에너지 1을 더하는 Legion 능력으로, 여러 장을 연달아 내며 압박하는 전설입니다.": {
+    "ko": "이번 턴에 카드를 냈다면 에너지 1을 더하는 Legion 능력으로, 여러 장을 연달아 내며 압박하는 전설입니다.",
+    "en": "Uses Legion to add 1 Energy after you have played a card this turn, chaining cards together to apply pressure.",
+    "zh-CN": "本回合已打出卡牌后，利用 Legion 增加 1 点能量，通过连续出牌施压的 Legend。"
+  },
+  "저비용 카드를 이어 내며 한 턴에 많은 행동이 가능하다": {
+    "ko": "저비용 카드를 이어 내며 한 턴에 많은 행동이 가능하다",
+    "en": "Chains cheap cards for many actions in one turn",
+    "zh-CN": "连续打出低费用卡牌，一回合可多次行动"
+  },
+  "공격 템포를 유지하기 쉽다": {
+    "ko": "공격 템포를 유지하기 쉽다",
+    "en": "Makes it easier to sustain offensive tempo",
+    "zh-CN": "容易保持进攻节奏"
+  },
+  "첫 카드를 내야 능력이 켜져서 플레이 순서 계산이 필요하다": {
+    "ko": "첫 카드를 내야 능력이 켜져서 플레이 순서 계산이 필요하다",
+    "en": "Requires a first card to activate, so play order matters",
+    "zh-CN": "需先打出一张牌才能启动，必须计算出牌顺序"
+  },
+  "내가 점령한 전장을 공격하는 적 유닛의 힘을 1 낮춰, 전장을 지키며 버티는 수비형 전설입니다.": {
+    "ko": "내가 점령한 전장을 공격하는 적 유닛의 힘을 1 낮춰, 전장을 지키며 버티는 수비형 전설입니다.",
+    "en": "A defensive Legend that reduces the Might of enemies attacking your controlled battlefields by 1, helping you hold ground.",
+    "zh-CN": "使攻击己方控制战场的敌方单位力量降低 1，擅长坚守战场的防守型 Legend。"
+  },
+  "점령한 전장을 지키는 운영에 강하다": {
+    "ko": "점령한 전장을 지키는 운영에 강하다",
+    "en": "Strong at defending controlled battlefields",
+    "zh-CN": "擅长守住已控制的战场"
+  },
+  "상대의 공격 계산을 어렵게 만든다": {
+    "ko": "상대의 공격 계산을 어렵게 만든다",
+    "en": "Complicates the opponent's attack calculations",
+    "zh-CN": "让对手更难计算进攻结果"
+  },
+  "먼저 전장을 점령해야 능력이 의미가 있어 주도권을 잃으면 힘들다": {
+    "ko": "먼저 전장을 점령해야 능력이 의미가 있어 주도권을 잃으면 힘들다",
+    "en": "Needs battlefield control first and struggles when behind",
+    "zh-CN": "需要先控制战场，失去主动权后较难发挥"
+  },
+  "에너지 1과 소진으로 아군 유닛에 버프를 주어, 유닛을 한 단계씩 키워 가는 성장형 전설입니다.": {
+    "ko": "에너지 1과 소진으로 아군 유닛에 버프를 주어, 유닛을 한 단계씩 키워 가는 성장형 전설입니다.",
+    "en": "Spends 1 Energy and exhausts to buff a friendly unit, steadily growing your units.",
+    "zh-CN": "支付 1 点能量并耗竭，为友方单位提供增益，逐步培养单位的成长型 Legend。"
+  },
+  "매 턴 꾸준히 쓸 수 있는 능력": {
+    "ko": "매 턴 꾸준히 쓸 수 있는 능력",
+    "en": "An ability you can use steadily each turn",
+    "zh-CN": "每回合都能稳定使用的能力"
+  },
+  "버프 시너지 카드와 궁합이 좋다": {
+    "ko": "버프 시너지 카드와 궁합이 좋다",
+    "en": "Pairs well with buff synergies",
+    "zh-CN": "适合与增益联动卡牌搭配"
+  },
+  "버프는 유닛당 하나라 넓게 키우려면 유닛 수가 필요하다": {
+    "ko": "버프는 유닛당 하나라 넓게 키우려면 유닛 수가 필요하다",
+    "en": "Each unit holds only one buff, so wider growth needs more units",
+    "zh-CN": "每个单位只能有一个增益，全面成长需要更多单位"
+  },
+  "에너지 2와 소진으로 아군 유닛을 기지와 전장 사이로 옮기는, 이동 중심의 전설입니다.": {
+    "ko": "에너지 2와 소진으로 아군 유닛을 기지와 전장 사이로 옮기는, 이동 중심의 전설입니다.",
+    "en": "A movement-focused Legend that spends 2 Energy and exhausts to move a friendly unit between base and battlefield.",
+    "zh-CN": "支付 2 点能量并耗竭，将友方单位在基地与战场间移动的机动型 Legend。"
+  },
+  "유닛 위치를 바꿔 상대의 허를 찌를 수 있다": {
+    "ko": "유닛 위치를 바꿔 상대의 허를 찌를 수 있다",
+    "en": "Reposition units to catch opponents off guard",
+    "zh-CN": "调整单位位置，出其不意"
+  },
+  "불리한 전투에서 유닛을 빼내 보존할 수 있다": {
+    "ko": "불리한 전투에서 유닛을 빼내 보존할 수 있다",
+    "en": "Save units by pulling them out of unfavorable fights",
+    "zh-CN": "从不利战斗中撤出并保存单位"
+  },
+  "매 턴 에너지 2가 들어 자원 배분이 까다롭다": {
+    "ko": "매 턴 에너지 2가 들어 자원 배분이 까다롭다",
+    "en": "The 2-Energy cost makes resource allocation demanding",
+    "zh-CN": "每次需 2 点能量，资源分配较难"
+  },
+  "판단할 게 많아 숙련이 필요하다": {
+    "ko": "판단할 게 많아 숙련이 필요하다",
+    "en": "Many decisions require practice",
+    "zh-CN": "需要作出较多判断，依赖熟练度"
+  },
+  "적 유닛을 기절(Stun)시킬 때마다 아군 유닛에 버프를 주는, 제압과 성장을 함께 하는 전설입니다.": {
+    "ko": "적 유닛을 기절(Stun)시킬 때마다 아군 유닛에 버프를 주는, 제압과 성장을 함께 하는 전설입니다.",
+    "en": "Combines control and growth, buffing a friendly unit whenever you Stun an enemy unit.",
+    "zh-CN": "每当你 Stun 敌方单位时，为友方单位提供增益，兼具压制与成长的 Legend。"
+  },
+  "기절 카드가 곧 성장 카드가 된다": {
+    "ko": "기절 카드가 곧 성장 카드가 된다",
+    "en": "Stun cards also become growth tools",
+    "zh-CN": "眩晕卡牌也能带来成长"
+  },
+  "전투 주도권을 쥐기 쉽다": {
+    "ko": "전투 주도권을 쥐기 쉽다",
+    "en": "Helps you take the initiative in combat",
+    "zh-CN": "容易掌握战斗主动权"
+  },
+  "기절 수단이 부족하면 능력이 발동하지 않는다": {
+    "ko": "기절 수단이 부족하면 능력이 발동하지 않는다",
+    "en": "The ability will not trigger without Stun effects",
+    "zh-CN": "缺少眩晕手段时，能力无法触发"
+  },
+  "Hidden 카드를 룬 대신 에너지 1로 숨길 수 있고, 티모 유닛을 손으로 되돌리는 함정형 전설입니다.": {
+    "ko": "Hidden 카드를 룬 대신 에너지 1로 숨길 수 있고, 티모 유닛을 손으로 되돌리는 함정형 전설입니다.",
+    "en": "A trap-focused Legend that hides Hidden cards for 1 Energy instead of a rune and returns Teemo units to hand.",
+    "zh-CN": "可用 1 点能量代替符文来隐藏 Hidden 卡牌，并将 Teemo 单位返回手牌的陷阱型 Legend。"
+  },
+  "Hidden 카드를 저렴하게 여러 장 깔 수 있다": {
+    "ko": "Hidden 카드를 저렴하게 여러 장 깔 수 있다",
+    "en": "Set multiple Hidden cards cheaply",
+    "zh-CN": "能以低成本布置多张 Hidden 卡牌"
+  },
+  "상대가 다음 수를 예측하기 어렵다": {
+    "ko": "상대가 다음 수를 예측하기 어렵다",
+    "en": "Makes your next move hard to predict",
+    "zh-CN": "让对手难以预测下一步"
+  },
+  "숨긴 카드를 꺼내는 타이밍 판단이 어렵다": {
+    "ko": "숨긴 카드를 꺼내는 타이밍 판단이 어렵다",
+    "en": "Choosing when to reveal hidden cards is difficult",
+    "zh-CN": "较难判断亮出隐藏卡牌的时机"
+  },
+  "직접적인 전투력은 낮은 편": {
+    "ko": "직접적인 전투력은 낮은 편",
+    "en": "Relatively low direct combat strength",
+    "zh-CN": "直接战斗力偏低"
+  },
+  "에너지 1과 소진으로 매 턴 1 힘 Recruit 토큰을 만드는 토큰 엔진 전설입니다.": {
+    "ko": "에너지 1과 소진으로 매 턴 1 힘 Recruit 토큰을 만드는 토큰 엔진 전설입니다.",
+    "en": "A token engine that spends 1 Energy and exhausts to create a 1-Might Recruit token each turn.",
+    "zh-CN": "支付 1 点能量并耗竭，每回合创造一个 1 力量 Recruit 衍生物的铺场型 Legend。"
+  },
+  "매 턴 보드에 유닛이 늘어난다": {
+    "ko": "매 턴 보드에 유닛이 늘어난다",
+    "en": "Adds units to the board each turn",
+    "zh-CN": "每回合增加场上单位"
+  },
+  "물량·희생 시너지로 확장하기 좋다": {
+    "ko": "물량·희생 시너지로 확장하기 좋다",
+    "en": "Works well with swarm and sacrifice synergies",
+    "zh-CN": "适合扩展铺场与牺牲联动"
+  },
+  "토큰 하나하나가 작아 광역 피해에 약하다": {
+    "ko": "토큰 하나하나가 작아 광역 피해에 약하다",
+    "en": "Small tokens are vulnerable to area damage",
+    "zh-CN": "衍生物身材小，怕范围伤害"
+  },
+  "소진으로 유닛에게 Ganking(전장 간 이동)을 부여해, 여러 전장을 오가며 싸우는 기동형 전설입니다.": {
+    "ko": "소진으로 유닛에게 Ganking(전장 간 이동)을 부여해, 여러 전장을 오가며 싸우는 기동형 전설입니다.",
+    "en": "Exhausts to give a unit Ganking (movement between battlefields), enabling mobile fights across several battlefields.",
+    "zh-CN": "通过耗竭赋予单位 Ganking（战场间移动），在多个战场间灵活交战的机动型 Legend。"
+  },
+  "빈 전장을 찌르는 이동 공격이 쉽다": {
+    "ko": "빈 전장을 찌르는 이동 공격이 쉽다",
+    "en": "Makes mobile attacks on open battlefields easier",
+    "zh-CN": "容易通过移动进攻空虚战场"
+  },
+  "공격 경로가 다양하다": {
+    "ko": "공격 경로가 다양하다",
+    "en": "Offers varied attack routes",
+    "zh-CN": "进攻路线丰富"
+  },
+  "보드가 밀리면 움직일 유닛 자체가 부족해진다": {
+    "ko": "보드가 밀리면 움직일 유닛 자체가 부족해진다",
+    "en": "Falling behind on board leaves fewer units to move",
+    "zh-CN": "场面落后时，可移动的单位也会不足"
+  },
+  "버프 받은 유닛이 죽을 때 버프를 소모해 기지로 되돌리고, 정복하면 다시 준비되는 끈질긴 전설입니다.": {
+    "ko": "버프 받은 유닛이 죽을 때 버프를 소모해 기지로 되돌리고, 정복하면 다시 준비되는 끈질긴 전설입니다.",
+    "en": "A resilient Legend that spends a dying unit's buff to return it to base, and readies again when you conquer.",
+    "zh-CN": "带增益的单位死亡时，可消耗增益将其返回基地；征服后自身再次就绪的顽强型 Legend。"
+  },
+  "버프 유닛을 쉽게 잃지 않아 소모전에 강하다": {
+    "ko": "버프 유닛을 쉽게 잃지 않아 소모전에 강하다",
+    "en": "Preserves buffed units for strong attrition play",
+    "zh-CN": "不易损失带增益的单位，擅长消耗战"
+  },
+  "정복하면 능력을 다시 쓸 수 있다": {
+    "ko": "정복하면 능력을 다시 쓸 수 있다",
+    "en": "Conquering lets you use the ability again",
+    "zh-CN": "征服后可再次使用能力"
+  },
+  "버프를 먼저 깔아 둬야 해서 준비가 필요하다": {
+    "ko": "버프를 먼저 깔아 둬야 해서 준비가 필요하다",
+    "en": "Needs setup to put buffs in place first",
+    "zh-CN": "需先施加增益，因此需要准备"
+  },
+  "내 턴이 끝날 때 룬 2개를 준비(Ready)시켜, 상대 턴에도 쓸 자원을 남겨 두는 전설입니다.": {
+    "ko": "내 턴이 끝날 때 룬 2개를 준비(Ready)시켜, 상대 턴에도 쓸 자원을 남겨 두는 전설입니다.",
+    "en": "Readies 2 runes at the end of your turn, keeping resources available for the opponent's turn.",
+    "zh-CN": "己方回合结束时使 2 个符文 Ready，为对手回合保留可用资源的 Legend。"
+  },
+  "상대 턴에 반응 주문을 쓰기 쉽다": {
+    "ko": "상대 턴에 반응 주문을 쓰기 쉽다",
+    "en": "Makes Reaction spells easier to cast on the opponent's turn",
+    "zh-CN": "容易在对手回合施放反应法术"
+  },
+  "자원을 사실상 더 많이 활용한다": {
+    "ko": "자원을 사실상 더 많이 활용한다",
+    "en": "Gets more use out of your resources",
+    "zh-CN": "能更充分地利用资源"
+  },
+  "반응 카드가 적으면 남는 룬이 낭비된다": {
+    "ko": "반응 카드가 적으면 남는 룬이 낭비된다",
+    "en": "Unused runes go to waste with too few Reaction cards",
+    "zh-CN": "反应卡牌过少时，剩余符文会浪费"
+  },
+  "아군 유닛이 홀로 방어할 때 +2 힘을 주는, 1:1 수비에 강한 전설입니다.": {
+    "ko": "아군 유닛이 홀로 방어할 때 +2 힘을 주는, 1:1 수비에 강한 전설입니다.",
+    "en": "Gives a friendly unit +2 Might when defending alone, excelling at one-on-one defense.",
+    "zh-CN": "友方单位单独防守时获得 +2 力量，擅长单挑防守的 Legend。"
+  },
+  "소수 유닛으로도 전장을 지키기 쉽다": {
+    "ko": "소수 유닛으로도 전장을 지키기 쉽다",
+    "en": "Can defend battlefields with just a few units",
+    "zh-CN": "少量单位也容易守住战场"
+  },
+  "규칙이 단순해 입문용으로 좋다": {
+    "ko": "규칙이 단순해 입문용으로 좋다",
+    "en": "Simple rules make it beginner-friendly",
+    "zh-CN": "规则简单，适合入门"
+  },
+  "여러 유닛이 함께 방어할 때는 효과가 없다": {
+    "ko": "여러 유닛이 함께 방어할 때는 효과가 없다",
+    "en": "Has no effect when several units defend together",
+    "zh-CN": "多个单位共同防守时无效"
+  },
+  "비용 5 이상의 주문을 쓸 때마다 1장을 뽑는, 대형 주문 중심의 전설입니다.": {
+    "ko": "비용 5 이상의 주문을 쓸 때마다 1장을 뽑는, 대형 주문 중심의 전설입니다.",
+    "en": "A big-spell Legend that draws a card whenever you play a spell costing 5 or more.",
+    "zh-CN": "每当施放费用不低于 5 的法术时抽 1 张牌，以大型法术为核心的 Legend。"
+  },
+  "큰 주문이 곧 카드 이득으로 이어진다": {
+    "ko": "큰 주문이 곧 카드 이득으로 이어진다",
+    "en": "Big spells also generate card advantage",
+    "zh-CN": "大型法术也能带来卡牌收益"
+  },
+  "후반 파워가 높다": {
+    "ko": "후반 파워가 높다",
+    "en": "Strong late-game power",
+    "zh-CN": "后期强度高"
+  },
+  "초반에 할 일이 적어 빠른 덱에 밀릴 수 있다": {
+    "ko": "초반에 할 일이 적어 빠른 덱에 밀릴 수 있다",
+    "en": "Limited early plays can leave it behind fast decks",
+    "zh-CN": "前期行动较少，可能被快攻牌组压制"
+  },
+  "정복한 전장에 내 유닛이 4기 이상이면 2장을 뽑는, 물량 돌격형 전설입니다.": {
+    "ko": "정복한 전장에 내 유닛이 4기 이상이면 2장을 뽑는, 물량 돌격형 전설입니다.",
+    "en": "A swarm attacker that draws 2 cards when you have at least 4 units at a conquered battlefield.",
+    "zh-CN": "征服战场时，若该战场有至少 4 个己方单位则抽 2 张牌的铺场进攻型 Legend。"
+  },
+  "유닛을 모아 밀어붙일수록 손패가 보충된다": {
+    "ko": "유닛을 모아 밀어붙일수록 손패가 보충된다",
+    "en": "Massed unit attacks replenish your hand",
+    "zh-CN": "集结单位进攻时可以补充手牌"
+  },
+  "운영이 직관적이다": {
+    "ko": "운영이 직관적이다",
+    "en": "Intuitive to pilot",
+    "zh-CN": "操作直观"
+  },
+  "광역 제거에 한 번에 무너질 수 있다": {
+    "ko": "광역 제거에 한 번에 무너질 수 있다",
+    "en": "Can collapse to a single board wipe",
+    "zh-CN": "可能被一次范围清场击溃"
+  },
+  "내 Mech들에게 Shield(방어 시 +1 힘)를 주는, 메크 유닛 중심의 전설입니다.": {
+    "ko": "내 Mech들에게 Shield(방어 시 +1 힘)를 주는, 메크 유닛 중심의 전설입니다.",
+    "en": "A Mech-focused Legend that gives your Mechs Shield (+1 Might while defending).",
+    "zh-CN": "为己方 Mech 赋予 Shield（防守时 +1 力量），以 Mech 单位为核心的 Legend。"
+  },
+  "메크 유닛이 방어에서 한 단계 튼튼해진다": {
+    "ko": "메크 유닛이 방어에서 한 단계 튼튼해진다",
+    "en": "Makes Mechs tougher on defense",
+    "zh-CN": "让 Mech 单位防守时更坚固"
+  },
+  "덱 방향이 명확하다": {
+    "ko": "덱 방향이 명확하다",
+    "en": "Has a clear deckbuilding direction",
+    "zh-CN": "构筑方向明确"
+  },
+  "메크가 아닌 유닛에는 효과가 없어 덱 구성에 제약이 있다": {
+    "ko": "메크가 아닌 유닛에는 효과가 없어 덱 구성에 제약이 있다",
+    "en": "Only affects Mechs, restricting deckbuilding",
+    "zh-CN": "只对 Mech 有效，限制牌组构筑"
+  },
+  "내 장비마다 Assault(공격 시 +1 힘)를 부여하는, 장비 공격형 전설입니다.": {
+    "ko": "내 장비마다 Assault(공격 시 +1 힘)를 부여하는, 장비 공격형 전설입니다.",
+    "en": "A Gear attacker that gives each of your Gear Assault (+1 Might while attacking).",
+    "zh-CN": "为每件己方装备赋予 Assault（进攻时 +1 力量）的装备进攻型 Legend。"
+  },
+  "장비를 붙인 유닛이 공격에서 강해진다": {
+    "ko": "장비를 붙인 유닛이 공격에서 강해진다",
+    "en": "Equipped units become stronger attackers",
+    "zh-CN": "装备后的单位进攻更强"
+  },
+  "적극적으로 전장을 정복하기 좋다": {
+    "ko": "적극적으로 전장을 정복하기 좋다",
+    "en": "Good at aggressively conquering battlefields",
+    "zh-CN": "适合主动征服战场"
+  },
+  "장비가 없으면 능력도 없다": {
+    "ko": "장비가 없으면 능력도 없다",
+    "en": "No Gear means no ability benefit",
+    "zh-CN": "没有装备就无法发挥能力"
+  },
+  "수비 상황에서는 이점이 적다": {
+    "ko": "수비 상황에서는 이점이 적다",
+    "en": "Offers little benefit on defense",
+    "zh-CN": "防守时收益较少"
+  },
+  "전투에서 이길 때마다 1장을 뽑는, 싸울수록 손패가 늘어나는 전설입니다.": {
+    "ko": "전투에서 이길 때마다 1장을 뽑는, 싸울수록 손패가 늘어나는 전설입니다.",
+    "en": "Draws a card whenever you win a combat, growing your hand through successful fights.",
+    "zh-CN": "每次赢下战斗时抽 1 张牌，越战越能补充手牌的 Legend。"
+  },
+  "유리한 전투를 거듭하며 카드 이득을 쌓는다": {
+    "ko": "유리한 전투를 거듭하며 카드 이득을 쌓는다",
+    "en": "Builds card advantage by winning favorable fights",
+    "zh-CN": "通过反复赢下有利战斗积累卡牌优势"
+  },
+  "공격적인 운영과 궁합이 좋다": {
+    "ko": "공격적인 운영과 궁합이 좋다",
+    "en": "Fits aggressive play well",
+    "zh-CN": "适合进攻型打法"
+  },
+  "전투에서 지기 시작하면 이득이 끊긴다": {
+    "ko": "전투에서 지기 시작하면 이득이 끊긴다",
+    "en": "Benefits stop when you start losing fights",
+    "zh-CN": "开始输掉战斗后，收益就会中断"
+  },
+  "정복할 때 덱 위 2장을 공개해 그중 하나를 플레이할 수 있는, 공격하며 추가 선택지를 얻는 전설입니다.": {
+    "ko": "정복할 때 덱 위 2장을 공개해 그중 하나를 플레이할 수 있는, 공격하며 추가 선택지를 얻는 전설입니다.",
+    "en": "Reveals the top 2 cards when you conquer and lets you play one, earning extra options through attacks.",
+    "zh-CN": "征服时展示牌库顶 2 张牌，并可打出其中一张，通过进攻获得额外选择的 Legend。"
+  },
+  "정복할 때마다 덱에서 추가 선택지를 얻는다": {
+    "ko": "정복할 때마다 덱에서 추가 선택지를 얻는다",
+    "en": "Gets extra options from the deck on each conquest",
+    "zh-CN": "每次征服都能从牌库获得额外选择"
+  },
+  "공격이 곧 이득으로 이어진다": {
+    "ko": "공격이 곧 이득으로 이어진다",
+    "en": "Attacking directly generates value",
+    "zh-CN": "进攻直接带来收益"
+  },
+  "공개되는 카드에 따라 결과 편차가 크다": {
+    "ko": "공개되는 카드에 따라 결과 편차가 크다",
+    "en": "Results vary greatly with the revealed cards",
+    "zh-CN": "结果受展示卡牌影响，波动较大"
+  },
+  "소진으로 장비 전용 파워 1을 더해, 장비를 빠르게 깔고 활용하는 전설입니다.": {
+    "ko": "소진으로 장비 전용 파워 1을 더해, 장비를 빠르게 깔고 활용하는 전설입니다.",
+    "en": "Exhausts to add 1 Power for Gear, helping deploy and use Gear quickly.",
+    "zh-CN": "通过耗竭增加 1 点仅用于装备的 Power，快速部署并使用装备的 Legend。"
+  },
+  "장비를 남들보다 빨리 전개한다": {
+    "ko": "장비를 남들보다 빨리 전개한다",
+    "en": "Deploys Gear ahead of others",
+    "zh-CN": "比别人更早部署装备"
+  },
+  "장비 능력 사용에도 자원을 보탠다": {
+    "ko": "장비 능력 사용에도 자원을 보탠다",
+    "en": "Also provides resources for Gear abilities",
+    "zh-CN": "也能为装备能力补充资源"
+  },
+  "장비 비중이 낮은 덱에서는 능력이 무의미하다": {
+    "ko": "장비 비중이 낮은 덱에서는 능력이 무의미하다",
+    "en": "The ability has little use in decks with few Gear",
+    "zh-CN": "装备占比低的牌组难以利用能力"
+  },
+  "장비를 붙이고 옮겨 다는 능력으로, 상황에 맞춰 장비 위치를 바꾸는 전설입니다.": {
+    "ko": "장비를 붙이고 옮겨 다는 능력으로, 상황에 맞춰 장비 위치를 바꾸는 전설입니다.",
+    "en": "Attaches and moves Gear, adapting equipment placement to the situation.",
+    "zh-CN": "通过附加和转移装备，根据局势调整装备位置的 Legend。"
+  },
+  "장비를 가장 필요한 유닛에게 옮길 수 있다": {
+    "ko": "장비를 가장 필요한 유닛에게 옮길 수 있다",
+    "en": "Moves Gear to the unit that needs it most",
+    "zh-CN": "能把装备转移给最需要的单位"
+  },
+  "장비 활용 폭이 넓다": {
+    "ko": "장비 활용 폭이 넓다",
+    "en": "Offers flexible Gear use",
+    "zh-CN": "装备运用灵活"
+  },
+  "장비와 유닛이 모두 필요해 자원 관리가 까다롭다": {
+    "ko": "장비와 유닛이 모두 필요해 자원 관리가 까다롭다",
+    "en": "Needs both Gear and units, making resource management demanding",
+    "zh-CN": "装备和单位都需要，资源管理较难"
+  },
+  "아군 유닛을 선택(choose)할 때 그 유닛을 준비시키고, 정복하면 스스로 다시 준비되는 연계형 전설입니다.": {
+    "ko": "아군 유닛을 선택(choose)할 때 그 유닛을 준비시키고, 정복하면 스스로 다시 준비되는 연계형 전설입니다.",
+    "en": "A synergy Legend that readies friendly units when you choose them and readies itself again on conquest.",
+    "zh-CN": "选择友方单位时使其就绪，并在征服后使自身再次就绪的联动型 Legend。"
+  },
+  "유닛을 여러 번 행동시키는 연계가 가능하다": {
+    "ko": "유닛을 여러 번 행동시키는 연계가 가능하다",
+    "en": "Enables sequences where units act multiple times",
+    "zh-CN": "可通过联动让单位多次行动"
+  },
+  "고점이 높은 템포 플레이": {
+    "ko": "고점이 높은 템포 플레이",
+    "en": "High-ceiling tempo plays",
+    "zh-CN": "上限很高的节奏打法"
+  },
+  "타이밍과 순서 판단이 매우 복잡하다": {
+    "ko": "타이밍과 순서 판단이 매우 복잡하다",
+    "en": "Timing and sequencing decisions are very complex",
+    "zh-CN": "时机与顺序判断非常复杂"
+  },
+  "잘못 쓰면 자원이 꼬인다": {
+    "ko": "잘못 쓰면 자원이 꼬인다",
+    "en": "Misplays can disrupt your resource plan",
+    "zh-CN": "使用失误会打乱资源安排"
+  },
+  "장비를 낸 턴에 2 힘 Sand Soldier 토큰을 만들고, 모래 병사에게 Weaponmaster를 주는 전설입니다.": {
+    "ko": "장비를 낸 턴에 2 힘 Sand Soldier 토큰을 만들고, 모래 병사에게 Weaponmaster를 주는 전설입니다.",
+    "en": "Creates a 2-Might Sand Soldier token on turns when you play Gear and gives Sand Soldiers Weaponmaster.",
+    "zh-CN": "在打出装备的回合创造 2 力量 Sand Soldier 衍生物，并赋予 Sand Soldier Weaponmaster 的 Legend。"
+  },
+  "장비와 토큰이 서로를 강화한다": {
+    "ko": "장비와 토큰이 서로를 강화한다",
+    "en": "Gear and tokens reinforce each other",
+    "zh-CN": "装备与衍生物相互强化"
+  },
+  "보드를 넓게 채울 수 있다": {
+    "ko": "보드를 넓게 채울 수 있다",
+    "en": "Can fill the board with units",
+    "zh-CN": "能够广泛铺满场面"
+  },
+  "장비를 내야 토큰을 만들 수 있어 조건 관리가 필요하다": {
+    "ko": "장비를 내야 토큰을 만들 수 있어 조건 관리가 필요하다",
+    "en": "Must play Gear to create tokens, so the condition needs planning",
+    "zh-CN": "必须打出装备才能创造衍生物，需要规划条件"
+  },
+  "한 턴에 주문이나 유닛 능력으로 적 유닛·장비를 두 번 선택하면 1장을 뽑는, 정밀 타격형 전설입니다.": {
+    "ko": "한 턴에 주문이나 유닛 능력으로 적 유닛·장비를 두 번 선택하면 1장을 뽑는, 정밀 타격형 전설입니다.",
+    "en": "Draws a card after choosing enemy units or Gear twice in a turn with spells or unit abilities, rewarding precise interaction.",
+    "zh-CN": "一回合内通过法术或单位能力两次选择敌方单位或装备后抽 1 张牌的精准交互型 Legend。"
+  },
+  "상호작용할수록 카드가 보충된다": {
+    "ko": "상호작용할수록 카드가 보충된다",
+    "en": "Interaction replenishes your hand",
+    "zh-CN": "交互越多，越能补充手牌"
+  },
+  "반응 속도로 발동해 유연하다": {
+    "ko": "반응 속도로 발동해 유연하다",
+    "en": "Flexible activation at Reaction speed",
+    "zh-CN": "可在 Reaction 时机启动，较灵活"
+  },
+  "조건이 까다로워 카드 순서 설계가 필수다": {
+    "ko": "조건이 까다로워 카드 순서 설계가 필수다",
+    "en": "A demanding condition makes card sequencing essential",
+    "zh-CN": "条件较苛刻，必须规划出牌顺序"
+  },
+  "홀드할 때 Gold 장비 토큰을 만들고, 승리 점수에 가까워질수록 Gold가 에너지를 더 내는 전설입니다.": {
+    "ko": "홀드할 때 Gold 장비 토큰을 만들고, 승리 점수에 가까워질수록 Gold가 에너지를 더 내는 전설입니다.",
+    "en": "Creates Gold Gear tokens when you hold; Gold produces more Energy as you approach the winning score.",
+    "zh-CN": "坚守时创造 Gold 装备衍生物，越接近胜利分数，Gold 产生的能量越多的 Legend。"
+  },
+  "전장을 지킬수록 자원이 쌓인다": {
+    "ko": "전장을 지킬수록 자원이 쌓인다",
+    "en": "Holding battlefields builds resources",
+    "zh-CN": "守住战场就能积累资源"
+  },
+  "후반 마무리 폭발력이 있다": {
+    "ko": "후반 마무리 폭발력이 있다",
+    "en": "Has explosive late-game finishing power",
+    "zh-CN": "后期收尾爆发力强"
+  },
+  "초반 압박을 받으면 홀드 기회를 잃는다": {
+    "ko": "초반 압박을 받으면 홀드 기회를 잃는다",
+    "en": "Early pressure can deny opportunities to hold",
+    "zh-CN": "前期受压时容易失去坚守机会"
+  },
+  "룬을 재활용할 때 Gold 장비 토큰을 만들고, 적 유닛이 죽으면 다시 준비되는 전설입니다.": {
+    "ko": "룬을 재활용할 때 Gold 장비 토큰을 만들고, 적 유닛이 죽으면 다시 준비되는 전설입니다.",
+    "en": "Creates Gold Gear tokens when recycling runes and readies again when an enemy unit dies.",
+    "zh-CN": "回收符文时创造 Gold 装备衍生物，并在敌方单位死亡后再次就绪的 Legend。"
+  },
+  "자원을 굴려 추가 에너지를 확보한다": {
+    "ko": "자원을 굴려 추가 에너지를 확보한다",
+    "en": "Cycles resources to gain extra Energy",
+    "zh-CN": "通过资源运转获得额外能量"
+  },
+  "적을 처치할수록 능력을 다시 쓴다": {
+    "ko": "적을 처치할수록 능력을 다시 쓴다",
+    "en": "Enemy kills let you use the ability again",
+    "zh-CN": "击杀敌人后可再次使用能力"
+  },
+  "룬 재활용 수단에 의존한다": {
+    "ko": "룬 재활용 수단에 의존한다",
+    "en": "Depends on ways to recycle runes",
+    "zh-CN": "依赖符文回收手段"
+  },
+  "아군 유닛이 Mighty(5+ 힘)가 될 때 룬을 채널링하는, 강한 유닛으로 자원을 불리는 전설입니다.": {
+    "ko": "아군 유닛이 Mighty(5+ 힘)가 될 때 룬을 채널링하는, 강한 유닛으로 자원을 불리는 전설입니다.",
+    "en": "Channels a rune when a friendly unit becomes Mighty (5+ Might), growing resources through powerful units.",
+    "zh-CN": "友方单位变为 Mighty（5 点及以上力量）时引导符文，通过强大单位积累资源的 Legend。"
+  },
+  "버프로 Mighty를 만들면 자원까지 늘어난다": {
+    "ko": "버프로 Mighty를 만들면 자원까지 늘어난다",
+    "en": "Buffing a unit to Mighty also grows resources",
+    "zh-CN": "通过增益达到 Mighty，也能增加资源"
+  },
+  "대형 유닛 운영이 안정적이다": {
+    "ko": "대형 유닛 운영이 안정적이다",
+    "en": "Supports consistent big-unit play",
+    "zh-CN": "大型单位运营较稳定"
+  },
+  "유닛이 커지기 전인 초반에는 조용하다": {
+    "ko": "유닛이 커지기 전인 초반에는 조용하다",
+    "en": "Quiet early on before units grow large",
+    "zh-CN": "单位成长前的前期较弱"
+  },
+  "에너지 4 이상을 쓴 주문을 추방해 모으고, 4장이 모이면 룬 4개 채널링과 드로우를 하는 빌드업 전설입니다.": {
+    "ko": "에너지 4 이상을 쓴 주문을 추방해 모으고, 4장이 모이면 룬 4개 채널링과 드로우를 하는 빌드업 전설입니다.",
+    "en": "Exiles spells that cost at least 4 Energy; collecting four rewards you with four channeled runes and card draw.",
+    "zh-CN": "积攒已支付至少 4 点能量的放逐法术，集齐 4 张后引导 4 个符文并抽牌的准备型 Legend。"
+  },
+  "조건을 달성하면 한 번에 큰 자원 폭발": {
+    "ko": "조건을 달성하면 한 번에 큰 자원 폭발",
+    "en": "Meeting the condition yields a large resource burst",
+    "zh-CN": "达成条件后，一次获得大量资源"
+  },
+  "주문 중심 운영의 보상이 크다": {
+    "ko": "주문 중심 운영의 보상이 크다",
+    "en": "Strong rewards for spell-focused play",
+    "zh-CN": "以法术为核心的打法回报高"
+  },
+  "네 번째 주문까지 준비 시간이 길다": {
+    "ko": "네 번째 주문까지 준비 시간이 길다",
+    "en": "Takes a long time to reach the fourth spell",
+    "zh-CN": "到第四张法术前需要较长准备"
+  },
+  "계획이 틀어지면 회복이 어렵다": {
+    "ko": "계획이 틀어지면 회복이 어렵다",
+    "en": "Hard to recover when the plan is disrupted",
+    "zh-CN": "计划被打乱后较难恢复"
+  },
+  "유닛을 낼 때마다 유닛 하나에 이번 턴 +1 힘을 주는, 단순하고 강한 공격형 전설입니다.": {
+    "ko": "유닛을 낼 때마다 유닛 하나에 이번 턴 +1 힘을 주는, 단순하고 강한 공격형 전설입니다.",
+    "en": "A straightforward attacker that gives a unit +1 Might for the turn whenever you play a unit.",
+    "zh-CN": "每次打出单位时，使一个单位本回合获得 +1 力量，简单有力的进攻型 Legend。"
+  },
+  "유닛만 내도 전투가 강해진다": {
+    "ko": "유닛만 내도 전투가 강해진다",
+    "en": "Simply playing units improves your combat strength",
+    "zh-CN": "仅打出单位就能增强战斗力"
+  },
+  "규칙이 직관적이다": {
+    "ko": "규칙이 직관적이다",
+    "en": "Intuitive rules",
+    "zh-CN": "规则直观"
+  },
+  "상대의 반응 카드에 공격이 막히면 이득이 사라진다": {
+    "ko": "상대의 반응 카드에 공격이 막히면 이득이 사라진다",
+    "en": "The benefit fades if Reaction cards stop your attack",
+    "zh-CN": "进攻被对手反应卡牌阻止时，收益会消失"
+  },
+  "전장의 아군 유닛을 손으로 되돌리고 Gold 장비 토큰을 얻는, 재활용형 전설입니다.": {
+    "ko": "전장의 아군 유닛을 손으로 되돌리고 Gold 장비 토큰을 얻는, 재활용형 전설입니다.",
+    "en": "Returns a friendly unit from a battlefield to hand and gains a Gold Gear token, enabling reuse.",
+    "zh-CN": "将战场上的友方单位返回手牌并获得 Gold 装备衍生物的循环型 Legend。"
+  },
+  "등장 효과가 있는 유닛을 반복 활용한다": {
+    "ko": "등장 효과가 있는 유닛을 반복 활용한다",
+    "en": "Reuses units with entry effects",
+    "zh-CN": "重复利用带登场效果的单位"
+  },
+  "위험한 유닛을 구출하며 자원까지 확보한다": {
+    "ko": "위험한 유닛을 구출하며 자원까지 확보한다",
+    "en": "Saves endangered units while gaining resources",
+    "zh-CN": "救出危险中的单位，同时获得资源"
+  },
+  "보드를 스스로 비우는 판단이 어렵다": {
+    "ko": "보드를 스스로 비우는 판단이 어렵다",
+    "en": "Deciding when to reduce your own board is difficult",
+    "zh-CN": "较难判断何时主动减少己方场面"
+  },
+  "정복하면서 초과 피해를 3 이상 줬다면 유닛 하나를 준비시키는 강공형 전설입니다.": {
+    "ko": "정복하면서 초과 피해를 3 이상 줬다면 유닛 하나를 준비시키는 강공형 전설입니다.",
+    "en": "An aggressive Legend that readies a unit if you dealt at least 3 excess damage while conquering.",
+    "zh-CN": "征服时若造成至少 3 点溢出伤害，则使一个单位就绪的强攻型 Legend。"
+  },
+  "큰 유닛으로 강하게 밀어붙이면 추가 행동을 얻는다": {
+    "ko": "큰 유닛으로 강하게 밀어붙이면 추가 행동을 얻는다",
+    "en": "Big-unit pressure earns extra actions",
+    "zh-CN": "用大型单位强力进攻可获得额外行动"
+  },
+  "연속 공격으로 압박하기 좋다": {
+    "ko": "연속 공격으로 압박하기 좋다",
+    "en": "Good at applying pressure with repeated attacks",
+    "zh-CN": "适合通过连续进攻施压"
+  },
+  "초과 피해 조건 때문에 작은 유닛 위주 덱과는 맞지 않는다": {
+    "ko": "초과 피해 조건 때문에 작은 유닛 위주 덱과는 맞지 않는다",
+    "en": "The excess-damage condition does not suit small-unit decks",
+    "zh-CN": "溢出伤害条件不适合以小型单位为主的牌组"
+  },
+  "Temporary 3 힘 Sprite 토큰을 준비 상태로 만들고, Temporary 유닛이 많을수록 비용이 줄어드는 전설입니다.": {
+    "ko": "Temporary 3 힘 Sprite 토큰을 준비 상태로 만들고, Temporary 유닛이 많을수록 비용이 줄어드는 전설입니다.",
+    "en": "Creates ready 3-Might Temporary Sprite tokens, with the cost reduced by having more Temporary units.",
+    "zh-CN": "创造就绪的 3 力量 Temporary Sprite 衍生物，Temporary 单位越多费用越低的 Legend。"
+  },
+  "준비된 상태로 나오는 토큰으로 즉시 압박한다": {
+    "ko": "준비된 상태로 나오는 토큰으로 즉시 압박한다",
+    "en": "Ready tokens apply immediate pressure",
+    "zh-CN": "就绪登场的衍生物能立即施压"
+  },
+  "Temporary 시너지로 연쇄 전개가 가능하다": {
+    "ko": "Temporary 시너지로 연쇄 전개가 가능하다",
+    "en": "Temporary synergies enable chained deployment",
+    "zh-CN": "Temporary 联动可实现连续展开"
+  },
+  "Temporary 토큰은 오래 남지 않아 지속력이 약하다": {
+    "ko": "Temporary 토큰은 오래 남지 않아 지속력이 약하다",
+    "en": "Temporary tokens do not stay long, limiting staying power",
+    "zh-CN": "Temporary 衍生物无法久留，持续能力较弱"
+  },
+  "XP 6 이상이면 내 유닛 +1 힘, 11 이상이면 유닛이 준비 상태로 등장하는 레벨업 전설입니다.": {
+    "ko": "XP 6 이상이면 내 유닛 +1 힘, 11 이상이면 유닛이 준비 상태로 등장하는 레벨업 전설입니다.",
+    "en": "A leveling Legend: at 6+ XP your units gain +1 Might; at 11+ XP they enter ready.",
+    "zh-CN": "达到 6 XP 后己方单位获得 +1 力量，达到 11 XP 后单位就绪登场的升级型 Legend。"
+  },
+  "XP가 쌓일수록 팀 전체가 강해진다": {
+    "ko": "XP가 쌓일수록 팀 전체가 강해진다",
+    "en": "Your whole team grows stronger as XP accumulates",
+    "zh-CN": "XP 越多，全队越强"
+  },
+  "후반 폭발력이 있다": {
+    "ko": "후반 폭발력이 있다",
+    "en": "Has late-game burst potential",
+    "zh-CN": "后期爆发力强"
+  },
+  "XP를 모으기 전까지는 능력이 없다": {
+    "ko": "XP를 모으기 전까지는 능력이 없다",
+    "en": "No ability benefit before enough XP is collected",
+    "zh-CN": "积累足够 XP 前无法获得能力收益"
+  },
+  "나나 동료가 홀드할 때 1장을 뽑는, 지키며 카드를 쌓는 전설입니다.": {
+    "ko": "나나 동료가 홀드할 때 1장을 뽑는, 지키며 카드를 쌓는 전설입니다.",
+    "en": "Draws a card when you or a teammate holds, building a hand through defense.",
+    "zh-CN": "自己或队友坚守时抽 1 张牌，通过防守积累手牌的 Legend。"
+  },
+  "전장을 지킬수록 손패가 늘어난다": {
+    "ko": "전장을 지킬수록 손패가 늘어난다",
+    "en": "Holding battlefields grows your hand",
+    "zh-CN": "守住战场就能增加手牌"
+  },
+  "안정적인 수비 운영": {
+    "ko": "안정적인 수비 운영",
+    "en": "Consistent defensive play",
+    "zh-CN": "稳定的防守运营"
+  },
+  "홀드하지 못하면 이득이 없다": {
+    "ko": "홀드하지 못하면 이득이 없다",
+    "en": "No benefit if you cannot hold",
+    "zh-CN": "无法坚守时没有收益"
+  },
+  "정복·홀드한 전장을 Brush 전장 토큰으로 바꿔 동물·아이번 유닛을 강화하는 전장 변환 전설입니다.": {
+    "ko": "정복·홀드한 전장을 Brush 전장 토큰으로 바꿔 동물·아이번 유닛을 강화하는 전장 변환 전설입니다.",
+    "en": "Transforms conquered or held battlefields into Brush battlefield tokens to strengthen animal and Ivern units.",
+    "zh-CN": "将征服或坚守的战场变为 Brush 战场衍生物，强化动物和 Ivern 单位的战场变换型 Legend。"
+  },
+  "전장 자체를 내게 유리하게 바꾼다": {
+    "ko": "전장 자체를 내게 유리하게 바꾼다",
+    "en": "Changes the battlefield itself in your favor",
+    "zh-CN": "把战场本身变得对己方有利"
+  },
+  "종족 시너지로 확장된다": {
+    "ko": "종족 시너지로 확장된다",
+    "en": "Builds on creature-type synergies",
+    "zh-CN": "可通过类型联动扩展"
+  },
+  "특정 유닛 종류(새·고양이·개·포로·아이번)에 의존한다": {
+    "ko": "특정 유닛 종류(새·고양이·개·포로·아이번)에 의존한다",
+    "en": "Depends on specific types: Bird, Cat, Dog, Poro and Ivern",
+    "zh-CN": "依赖特定单位类型：Bird、Cat、Dog、Poro 和 Ivern"
+  },
+  "쇼다운 중에만 쓸 수 있는 에너지 1을 반응 속도로 더하는, 전투 트릭 전설입니다.": {
+    "ko": "쇼다운 중에만 쓸 수 있는 에너지 1을 반응 속도로 더하는, 전투 트릭 전설입니다.",
+    "en": "A combat-trick Legend that adds 1 Energy at Reaction speed, usable only during a showdown.",
+    "zh-CN": "可在 Reaction 时机增加 1 点仅限 showdown 使用的能量，擅长战斗技巧的 Legend。"
+  },
+  "전투 중 트릭을 한 장 더 쓰기 쉽다": {
+    "ko": "전투 중 트릭을 한 장 더 쓰기 쉽다",
+    "en": "Makes an extra combat trick easier to play",
+    "zh-CN": "容易在战斗中多使用一张技巧牌"
+  },
+  "상대가 전투 결과를 계산하기 어렵다": {
+    "ko": "상대가 전투 결과를 계산하기 어렵다",
+    "en": "Makes combat outcomes harder for opponents to calculate",
+    "zh-CN": "让对手难以计算战斗结果"
+  },
+  "쇼다운 밖에서는 도움이 되지 않는다": {
+    "ko": "쇼다운 밖에서는 도움이 되지 않는다",
+    "en": "Provides no help outside showdowns",
+    "zh-CN": "在 showdown 之外无法提供帮助"
+  },
+  "정복·홀드할 때 카드 1장을 버리고, 그 전장의 다른 유닛을 복사한 Reflection 토큰을 만드는 전설입니다.": {
+    "ko": "정복·홀드할 때 카드 1장을 버리고, 그 전장의 다른 유닛을 복사한 Reflection 토큰을 만드는 전설입니다.",
+    "en": "On conquest or hold, discards a card to create a Reflection token copying another unit at that battlefield.",
+    "zh-CN": "征服或坚守时弃 1 张牌，创造复制该战场另一个单位的 Reflection 衍生物的 Legend。"
+  },
+  "강한 유닛을 복제해 전력을 늘린다": {
+    "ko": "강한 유닛을 복제해 전력을 늘린다",
+    "en": "Copies powerful units to build your forces",
+    "zh-CN": "复制强大单位，扩充战力"
+  },
+  "변칙적인 전개가 가능하다": {
+    "ko": "변칙적인 전개가 가능하다",
+    "en": "Enables unconventional plays",
+    "zh-CN": "可进行出其不意的展开"
+  },
+  "손패를 버려야 해 자원 판단이 까다롭다": {
+    "ko": "손패를 버려야 해 자원 판단이 까다롭다",
+    "en": "Discarding cards makes resource decisions demanding",
+    "zh-CN": "需要弃牌，资源判断较难"
+  },
+  "복사할 대상이 필요하다": {
+    "ko": "복사할 대상이 필요하다",
+    "en": "Needs a suitable copy target",
+    "zh-CN": "需要可复制的目标"
+  },
+  "전투에서 이기면 XP를 얻고, XP로 버프하거나 지친 유닛을 기지로 빼는 진화형 전설입니다.": {
+    "ko": "전투에서 이기면 XP를 얻고, XP로 버프하거나 지친 유닛을 기지로 빼는 진화형 전설입니다.",
+    "en": "Gains XP from combat wins, then spends it on buffs or returning exhausted units to base.",
+    "zh-CN": "赢下战斗获得 XP，再用 XP 施加增益或将耗竭单位撤回基地的进化型 Legend。"
+  },
+  "싸울수록 성장한다": {
+    "ko": "싸울수록 성장한다",
+    "en": "Grows through combat",
+    "zh-CN": "越战越强"
+  },
+  "XP 사용처가 둘이라 선택지가 유연하다": {
+    "ko": "XP 사용처가 둘이라 선택지가 유연하다",
+    "en": "Two ways to spend XP offer flexible choices",
+    "zh-CN": "XP 有两种用途，选择灵活"
+  },
+  "전투에서 지면 성장이 멈춘다": {
+    "ko": "전투에서 지면 성장이 멈춘다",
+    "en": "Losing fights stops your growth",
+    "zh-CN": "输掉战斗会停止成长"
+  },
+  "홀드할 때 XP를 얻고, XP 3으로 1장을 뽑는 수비형 전설입니다.": {
+    "ko": "홀드할 때 XP를 얻고, XP 3으로 1장을 뽑는 수비형 전설입니다.",
+    "en": "A defensive Legend that gains XP on holding and spends 3 XP to draw a card.",
+    "zh-CN": "坚守时获得 XP，并可用 3 XP 抽 1 张牌的防守型 Legend。"
+  },
+  "전장을 지키는 만큼 카드가 보충된다": {
+    "ko": "전장을 지키는 만큼 카드가 보충된다",
+    "en": "Defending battlefields replenishes cards",
+    "zh-CN": "守住战场就能补充卡牌"
+  },
+  "단단하고 안정적인 운영": {
+    "ko": "단단하고 안정적인 운영",
+    "en": "Sturdy, consistent play",
+    "zh-CN": "坚实稳定的运营"
+  },
+  "능동적으로 몰아붙이는 힘은 약한 편": {
+    "ko": "능동적으로 몰아붙이는 힘은 약한 편",
+    "en": "Limited ability to apply proactive pressure",
+    "zh-CN": "主动施压能力偏弱"
+  },
+  "Empower된 뒤, 쇼다운 중인 아군 유닛을 기지로 빼고 준비시키는 기습형 전설입니다.": {
+    "ko": "Empower된 뒤, 쇼다운 중인 아군 유닛을 기지로 빼고 준비시키는 기습형 전설입니다.",
+    "en": "After being Empowered, can return a friendly unit in a showdown to base and ready it for surprise attacks.",
+    "zh-CN": "Empower 后，可将 showdown 中的友方单位撤回基地并使其就绪的突袭型 Legend。"
+  },
+  "전투에서 유닛을 빼내 손실 없이 다시 공격한다": {
+    "ko": "전투에서 유닛을 빼내 손실 없이 다시 공격한다",
+    "en": "Pulls units out of combat to attack again without losses",
+    "zh-CN": "从战斗中撤出单位，避免损失并再次进攻"
+  },
+  "상대의 전투 계산을 무너뜨린다": {
+    "ko": "상대의 전투 계산을 무너뜨린다",
+    "en": "Disrupts the opponent's combat calculations",
+    "zh-CN": "打乱对手的战斗计算"
+  },
+  "Empower 비용이 커서 자원 계획이 필요하다": {
+    "ko": "Empower 비용이 커서 자원 계획이 필요하다",
+    "en": "A high Empower cost requires resource planning",
+    "zh-CN": "Empower 费用高，需要规划资源"
+  },
+  "룬 2개 분량의 파워를 유닛 전용 에너지 2로 바꾸는, 유닛 전개를 가속하는 전설입니다.": {
+    "ko": "룬 2개 분량의 파워를 유닛 전용 에너지 2로 바꾸는, 유닛 전개를 가속하는 전설입니다.",
+    "en": "Converts two runes' worth of Power into 2 Energy for units, accelerating unit deployment.",
+    "zh-CN": "将相当于两个符文的 Power 转为 2 点仅用于单位的能量，加快单位部署的 Legend。"
+  },
+  "유닛 전개 속도가 빨라진다": {
+    "ko": "유닛 전개 속도가 빨라진다",
+    "en": "Speeds up unit deployment",
+    "zh-CN": "加快单位部署速度"
+  },
+  "고비용 유닛을 이른 턴에 낼 수 있다": {
+    "ko": "고비용 유닛을 이른 턴에 낼 수 있다",
+    "en": "Plays expensive units earlier",
+    "zh-CN": "可更早打出高费用单位"
+  },
+  "주문 위주 덱과는 맞지 않는다": {
+    "ko": "주문 위주 덱과는 맞지 않는다",
+    "en": "Does not suit spell-heavy decks",
+    "zh-CN": "不适合以法术为主的牌组"
+  },
+  "카드를 추방할 때 Empower되고, 그 힘을 소모해 1장 버리고 1장 뽑는 전설입니다.": {
+    "ko": "카드를 추방할 때 Empower되고, 그 힘을 소모해 1장 버리고 1장 뽑는 전설입니다.",
+    "en": "Becomes Empowered when you banish a card, then spends that power to discard a card and draw one.",
+    "zh-CN": "放逐卡牌时获得 Empower，再消耗该力量弃 1 张并抽 1 张的 Legend。"
+  },
+  "추방 시너지와 손패 교체로 원하는 카드를 찾는다": {
+    "ko": "추방 시너지와 손패 교체로 원하는 카드를 찾는다",
+    "en": "Finds desired cards through banish synergies and hand cycling",
+    "zh-CN": "通过放逐联动和手牌替换寻找所需卡牌"
+  },
+  "변칙적인 운영이 가능하다": {
+    "ko": "변칙적인 운영이 가능하다",
+    "en": "Supports unconventional play",
+    "zh-CN": "可采用变化多端的打法"
+  },
+  "추방 수단이 없으면 능력 회전이 느리다": {
+    "ko": "추방 수단이 없으면 능력 회전이 느리다",
+    "en": "The ability cycles slowly without banish effects",
+    "zh-CN": "缺少放逐手段时，能力运转缓慢"
+  },
+  "에너지 7 이상의 유닛·장비·능력을 쓸 때 룬 2개를 준비시키는 초대형 램프 전설입니다.": {
+    "ko": "에너지 7 이상의 유닛·장비·능력을 쓸 때 룬 2개를 준비시키는 초대형 램프 전설입니다.",
+    "en": "A heavy ramp Legend that readies 2 runes when you use a unit, Gear or ability costing at least 7 Energy.",
+    "zh-CN": "使用能量费用不低于 7 的单位、装备或能力时，使 2 个符文就绪的超大型成长型 Legend。"
+  },
+  "거대한 카드를 쓴 뒤에도 자원이 남는다": {
+    "ko": "거대한 카드를 쓴 뒤에도 자원이 남는다",
+    "en": "Keeps resources available after expensive plays",
+    "zh-CN": "使用巨型卡牌后仍有资源可用"
+  },
+  "후반 파괴력이 크다": {
+    "ko": "후반 파괴력이 크다",
+    "en": "Powerful late-game impact",
+    "zh-CN": "后期破坏力强"
+  },
+  "7코스트까지 버텨야 하는 초반이 약점이다": {
+    "ko": "7코스트까지 버텨야 하는 초반이 약점이다",
+    "en": "Vulnerable early while surviving until 7-cost plays",
+    "zh-CN": "前期必须撑到 7 费，是其弱点"
+  },
+  "소진으로 아군 유닛에게 이번 턴 Tank(먼저 피해를 받음)를 주는 수호형 전설입니다.": {
+    "ko": "소진으로 아군 유닛에게 이번 턴 Tank(먼저 피해를 받음)를 주는 수호형 전설입니다.",
+    "en": "A guardian that exhausts to give a friendly unit Tank (takes damage first) for the turn.",
+    "zh-CN": "通过耗竭，使友方单位本回合获得 Tank（优先承受伤害）的守护型 Legend。"
+  },
+  "중요한 유닛을 지키며 전투 결과를 조정한다": {
+    "ko": "중요한 유닛을 지키며 전투 결과를 조정한다",
+    "en": "Protects key units and shapes combat outcomes",
+    "zh-CN": "保护重要单位，调整战斗结果"
+  },
+  "단순하고 안정적이다": {
+    "ko": "단순하고 안정적이다",
+    "en": "Simple and consistent",
+    "zh-CN": "简单稳定"
+  },
+  "공격적인 이득을 직접 만들지는 않는다": {
+    "ko": "공격적인 이득을 직접 만들지는 않는다",
+    "en": "Does not directly generate offensive value",
+    "zh-CN": "不能直接创造进攻收益"
+  },
+  "장비를 준비(Ready)시키고, Empower되면 두 개를 준비시키는 장비 엔진 전설입니다.": {
+    "ko": "장비를 준비(Ready)시키고, Empower되면 두 개를 준비시키는 장비 엔진 전설입니다.",
+    "en": "A Gear engine that readies Gear, or readies two when Empowered.",
+    "zh-CN": "使装备 Ready，Empower 后可使两件装备就绪的装备运转型 Legend。"
+  },
+  "장비 능력을 한 턴에 여러 번 활용한다": {
+    "ko": "장비 능력을 한 턴에 여러 번 활용한다",
+    "en": "Uses Gear abilities multiple times per turn",
+    "zh-CN": "一回合多次利用装备能力"
+  },
+  "엔진이 돌면 강력하다": {
+    "ko": "엔진이 돌면 강력하다",
+    "en": "Powerful once the engine is running",
+    "zh-CN": "体系运转起来后很强"
+  },
+  "장비 구성이 갖춰지기 전에는 약하다": {
+    "ko": "장비 구성이 갖춰지기 전에는 약하다",
+    "en": "Weak before the Gear setup is assembled",
+    "zh-CN": "装备体系成型前较弱"
+  },
+  "Empower 비용이 부담된다": {
+    "ko": "Empower 비용이 부담된다",
+    "en": "The Empower cost is demanding",
+    "zh-CN": "Empower 费用负担较大"
+  },
+  "다른 것을 Empower할 때 함께 Empower되고, 그 힘을 소모해 전장의 유닛에 -2 힘을 주는 전설입니다.": {
+    "ko": "다른 것을 Empower할 때 함께 Empower되고, 그 힘을 소모해 전장의 유닛에 -2 힘을 주는 전설입니다.",
+    "en": "Becomes Empowered when you Empower something else, then spends it to give a battlefield unit -2 Might.",
+    "zh-CN": "当你对其他对象 Empower 时，自身也获得 Empower，再消耗该力量使战场上的单位 -2 力量的 Legend。"
+  },
+  "Empower 시너지로 반복 견제가 가능하다": {
+    "ko": "Empower 시너지로 반복 견제가 가능하다",
+    "en": "Empower synergies enable repeated disruption",
+    "zh-CN": "通过 Empower 联动反复牵制"
+  },
+  "전투 결과를 뒤집는 한 수가 있다": {
+    "ko": "전투 결과를 뒤집는 한 수가 있다",
+    "en": "Has a way to reverse combat outcomes",
+    "zh-CN": "有逆转战斗结果的手段"
+  },
+  "Empower 카드 비중이 필요하다": {
+    "ko": "Empower 카드 비중이 필요하다",
+    "en": "Needs enough Empower cards",
+    "zh-CN": "需要足够比例的 Empower 卡牌"
+  },
+  "다른 것을 Empower할 때 함께 Empower되고, 그 힘과 파워 1로 유닛 하나를 준비시키는 전설입니다.": {
+    "ko": "다른 것을 Empower할 때 함께 Empower되고, 그 힘과 파워 1로 유닛 하나를 준비시키는 전설입니다.",
+    "en": "Becomes Empowered when you Empower something else, then spends it and 1 Power to ready a unit.",
+    "zh-CN": "当你对其他对象 Empower 时，自身也获得 Empower，再消耗该力量及 1 点 Power 使一个单位就绪的 Legend。"
+  },
+  "유닛을 다시 행동시켜 공세를 연장한다": {
+    "ko": "유닛을 다시 행동시켜 공세를 연장한다",
+    "en": "Extends an offensive by letting units act again",
+    "zh-CN": "让单位再次行动，延续攻势"
+  },
+  "Empower 덱의 마무리 역할": {
+    "ko": "Empower 덱의 마무리 역할",
+    "en": "Acts as a finisher for Empower decks",
+    "zh-CN": "可作为 Empower 牌组的收尾手段"
+  },
+  "Empower 시너지 없이는 느리다": {
+    "ko": "Empower 시너지 없이는 느리다",
+    "en": "Slow without Empower synergies",
+    "zh-CN": "缺少 Empower 联动时较慢"
+  },
+  "손이 아닌 곳에서 카드를 플레이하면 Empower되고, 그 힘으로 유닛에 Assault 2를 주는 전설입니다.": {
+    "ko": "손이 아닌 곳에서 카드를 플레이하면 Empower되고, 그 힘으로 유닛에 Assault 2를 주는 전설입니다.",
+    "en": "Becomes Empowered when you play a card from outside your hand, then uses it to give a unit Assault 2.",
+    "zh-CN": "从手牌以外的区域打出卡牌时获得 Empower，再用该力量赋予单位 Assault 2 的 Legend。"
+  },
+  "트래시 등 손 밖에서 카드를 쓰는 시너지와 맞물린다": {
+    "ko": "트래시 등 손 밖에서 카드를 쓰는 시너지와 맞물린다",
+    "en": "Works with playing cards from outside the hand, such as the trash",
+    "zh-CN": "适合从弃牌区等手牌外区域出牌的联动"
+  },
+  "공격력을 순간적으로 크게 올린다": {
+    "ko": "공격력을 순간적으로 크게 올린다",
+    "en": "Provides a large burst of attacking power",
+    "zh-CN": "瞬间大幅提升攻击力"
+  },
+  "손 밖에서 카드를 쓰는 수단이 필요해 덱 구성이 까다롭다": {
+    "ko": "손 밖에서 카드를 쓰는 수단이 필요해 덱 구성이 까다롭다",
+    "en": "Needs ways to play cards outside the hand, complicating deckbuilding",
+    "zh-CN": "需要从手牌外出牌的手段，构筑较复杂"
+  },
+  "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요.": {
+    "ko": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요.",
+    "en": "Initial evaluation based on Legend ability text and domain tendencies. Needs review against actual decklists and the metagame.",
+    "zh-CN": "初步评估基于 Legend 能力文本和领域倾向，仍需结合实际牌表与环境复核。"
+  },
+  "공격적인 정복자": {
+    "ko": "공격적인 정복자",
+    "en": "Aggressive Conqueror",
+    "zh-CN": "进攻型征服者"
+  },
+  "상대가 자리 잡기 전에 전장을 먼저 빼앗는 것을 좋아합니다. 망설임보다 속도를 믿는 타입입니다.": {
+    "ko": "상대가 자리 잡기 전에 전장을 먼저 빼앗는 것을 좋아합니다. 망설임보다 속도를 믿는 타입입니다.",
+    "en": "You like taking battlefields before your opponent settles in. You trust speed over hesitation.",
+    "zh-CN": "你喜欢在对手站稳之前抢占战场，比起犹豫更相信速度。"
+  },
+  "계획형 전술가": {
+    "ko": "계획형 전술가",
+    "en": "Methodical Tactician",
+    "zh-CN": "规划型战术家"
+  },
+  "몇 턴 앞을 내다보고 손패와 자원을 설계합니다. 이기는 그림을 먼저 그리고 움직입니다.": {
+    "ko": "몇 턴 앞을 내다보고 손패와 자원을 설계합니다. 이기는 그림을 먼저 그리고 움직입니다.",
+    "en": "You plan your hand and resources several turns ahead. You picture the win before making your move.",
+    "zh-CN": "你会提前规划数回合的手牌与资源，先想好获胜路线再行动。"
+  },
+  "변칙적인 승부사": {
+    "ko": "변칙적인 승부사",
+    "en": "Unpredictable Risk-Taker",
+    "zh-CN": "奇招冒险家"
+  },
+  "상대가 예상하지 못한 한 수로 판을 흔드는 걸 즐깁니다. 가끔 무너져도 고점을 향해 갑니다.": {
+    "ko": "상대가 예상하지 못한 한 수로 판을 흔드는 걸 즐깁니다. 가끔 무너져도 고점을 향해 갑니다.",
+    "en": "You enjoy shaking up the game with unexpected plays. You chase big payoffs even if you sometimes stumble.",
+    "zh-CN": "你喜欢用意想不到的一招改变局势，即使偶尔失利也会追求高回报。"
+  },
+  "반응형 컨트롤러": {
+    "ko": "반응형 컨트롤러",
+    "en": "Reactive Controller",
+    "zh-CN": "应变型控场者"
+  },
+  "상대의 핵심 행동을 받아치며 흐름을 쥡니다. 서두르지 않고 빈틈이 생길 때를 기다립니다.": {
+    "ko": "상대의 핵심 행동을 받아치며 흐름을 쥡니다. 서두르지 않고 빈틈이 생길 때를 기다립니다.",
+    "en": "You control the flow by answering key plays. You patiently wait for an opening.",
+    "zh-CN": "你通过应对关键行动掌握节奏，不急不躁，等待对手露出空当。"
+  },
+  "전장 지배형 브루저": {
+    "ko": "전장 지배형 브루저",
+    "en": "Battlefield Brawler",
+    "zh-CN": "战场斗士"
+  },
+  "큰 유닛으로 정면에서 밀어붙이는 싸움을 좋아합니다. 전투에서 이기는 것이 곧 계획입니다.": {
+    "ko": "큰 유닛으로 정면에서 밀어붙이는 싸움을 좋아합니다. 전투에서 이기는 것이 곧 계획입니다.",
+    "en": "You like head-on fights with big units. Winning combat is your game plan.",
+    "zh-CN": "你喜欢用大型单位正面推进，赢下战斗就是你的计划。"
+  },
+  "엔진 설계자": {
+    "ko": "엔진 설계자",
+    "en": "Engine Builder",
+    "zh-CN": "组合设计师"
+  },
+  "카드끼리 맞물려 돌아가는 구조를 만드는 데서 재미를 찾습니다. 완성된 엔진은 한 턴에 판을 끝냅니다.": {
+    "ko": "카드끼리 맞물려 돌아가는 구조를 만드는 데서 재미를 찾습니다. 완성된 엔진은 한 턴에 판을 끝냅니다.",
+    "en": "You enjoy making cards work together. A completed engine can finish the game in one turn.",
+    "zh-CN": "你享受让卡牌相互配合，完整成型的组合可以在一回合内结束比赛。"
+  },
+  "템포 사냥꾼": {
+    "ko": "템포 사냥꾼",
+    "en": "Tempo Hunter",
+    "zh-CN": "节奏猎手"
+  },
+  "빈 전장을 찾아 유닛을 옮기고, 상대보다 한 박자 먼저 움직입니다. 위치 선정이 무기입니다.": {
+    "ko": "빈 전장을 찾아 유닛을 옮기고, 상대보다 한 박자 먼저 움직입니다. 위치 선정이 무기입니다.",
+    "en": "You move units into open battlefields and stay a step ahead. Positioning is your weapon.",
+    "zh-CN": "你把单位移向空虚战场，比对手快一步。位置选择就是你的武器。"
+  },
+  "토큰 지휘관": {
+    "ko": "토큰 지휘관",
+    "en": "Token Commander",
+    "zh-CN": "衍生物指挥官"
+  },
+  "작은 유닛을 줄지어 세우고 조직적으로 운용합니다. 하나가 쓰러져도 다음이 있습니다.": {
+    "ko": "작은 유닛을 줄지어 세우고 조직적으로 운용합니다. 하나가 쓰러져도 다음이 있습니다.",
+    "en": "You organize ranks of small units. When one falls, another is ready.",
+    "zh-CN": "你有序指挥成排的小型单位，一个倒下，还有下一个。"
+  },
+  "카이사": {
+    "ko": "카이사",
+    "en": "Kai'Sa",
+    "zh-CN": "Kai'Sa"
+  },
+  "볼리베어": {
+    "ko": "볼리베어",
+    "en": "Volibear",
+    "zh-CN": "Volibear"
+  },
+  "징크스": {
+    "ko": "징크스",
+    "en": "Jinx",
+    "zh-CN": "Jinx"
+  },
+  "다리우스": {
+    "ko": "다리우스",
+    "en": "Darius",
+    "zh-CN": "Darius"
+  },
+  "아리": {
+    "ko": "아리",
+    "en": "Ahri",
+    "zh-CN": "Ahri"
+  },
+  "리 신": {
+    "ko": "리 신",
+    "en": "Lee Sin",
+    "zh-CN": "Lee Sin"
+  },
+  "야스오": {
+    "ko": "야스오",
+    "en": "Yasuo",
+    "zh-CN": "Yasuo"
+  },
+  "레오나": {
+    "ko": "레오나",
+    "en": "Leona",
+    "zh-CN": "Leona"
+  },
+  "티모": {
+    "ko": "티모",
+    "en": "Teemo",
+    "zh-CN": "Teemo"
+  },
+  "빅토르": {
+    "ko": "빅토르",
+    "en": "Viktor",
+    "zh-CN": "Viktor"
+  },
+  "미스 포츈": {
+    "ko": "미스 포츈",
+    "en": "Miss Fortune",
+    "zh-CN": "Miss Fortune"
+  },
+  "애니": {
+    "ko": "애니",
+    "en": "Annie",
+    "zh-CN": "Annie"
+  },
+  "마스터 이": {
+    "ko": "마스터 이",
+    "en": "Master Yi",
+    "zh-CN": "Master Yi"
+  },
+  "럭스": {
+    "ko": "럭스",
+    "en": "Lux",
+    "zh-CN": "Lux"
+  },
+  "가렌": {
+    "ko": "가렌",
+    "en": "Garen",
+    "zh-CN": "Garen"
+  },
+  "럼블": {
+    "ko": "럼블",
+    "en": "Rumble",
+    "zh-CN": "Rumble"
+  },
+  "루시안": {
+    "ko": "루시안",
+    "en": "Lucian",
+    "zh-CN": "Lucian"
+  },
+  "드레이븐": {
+    "ko": "드레이븐",
+    "en": "Draven",
+    "zh-CN": "Draven"
+  },
+  "렉사이": {
+    "ko": "렉사이",
+    "en": "Rek'Sai",
+    "zh-CN": "Rek'Sai"
+  },
+  "오른": {
+    "ko": "오른",
+    "en": "Ornn",
+    "zh-CN": "Ornn"
+  },
+  "잭스": {
+    "ko": "잭스",
+    "en": "Jax",
+    "zh-CN": "Jax"
+  },
+  "이렐리아": {
+    "ko": "이렐리아",
+    "en": "Irelia",
+    "zh-CN": "Irelia"
+  },
+  "아지르": {
+    "ko": "아지르",
+    "en": "Azir",
+    "zh-CN": "Azir"
+  },
+  "이즈리얼": {
+    "ko": "이즈리얼",
+    "en": "Ezreal",
+    "zh-CN": "Ezreal"
+  },
+  "레나타 글라스크": {
+    "ko": "레나타 글라스크",
+    "en": "Renata Glasc",
+    "zh-CN": "Renata Glasc"
+  },
+  "시비르": {
+    "ko": "시비르",
+    "en": "Sivir",
+    "zh-CN": "Sivir"
+  },
+  "피오라": {
+    "ko": "피오라",
+    "en": "Fiora",
+    "zh-CN": "Fiora"
+  },
+  "진": {
+    "ko": "진",
+    "en": "Jhin",
+    "zh-CN": "Jhin"
+  },
+  "렝가": {
+    "ko": "렝가",
+    "en": "Rengar",
+    "zh-CN": "Rengar"
+  },
+  "파이크": {
+    "ko": "파이크",
+    "en": "Pyke",
+    "zh-CN": "Pyke"
+  },
+  "바이": {
+    "ko": "바이",
+    "en": "Vi",
+    "zh-CN": "Vi"
+  },
+  "릴리아": {
+    "ko": "릴리아",
+    "en": "Lillia",
+    "zh-CN": "Lillia"
+  },
+  "벡스": {
+    "ko": "벡스",
+    "en": "Vex",
+    "zh-CN": "Vex"
+  },
+  "아이번": {
+    "ko": "아이번",
+    "en": "Ivern",
+    "zh-CN": "Ivern"
+  },
+  "다이애나": {
+    "ko": "다이애나",
+    "en": "Diana",
+    "zh-CN": "Diana"
+  },
+  "르블랑": {
+    "ko": "르블랑",
+    "en": "LeBlanc",
+    "zh-CN": "LeBlanc"
+  },
+  "카직스": {
+    "ko": "카직스",
+    "en": "Kha'Zix",
+    "zh-CN": "Kha'Zix"
+  },
+  "뽀삐": {
+    "ko": "뽀삐",
+    "en": "Poppy",
+    "zh-CN": "Poppy"
+  },
+  "아칼리": {
+    "ko": "아칼리",
+    "en": "Akali",
+    "zh-CN": "Akali"
+  },
+  "레넥톤": {
+    "ko": "레넥톤",
+    "en": "Renekton",
+    "zh-CN": "Renekton"
+  },
+  "제드": {
+    "ko": "제드",
+    "en": "Zed",
+    "zh-CN": "Zed"
+  },
+  "나서스": {
+    "ko": "나서스",
+    "en": "Nasus",
+    "zh-CN": "Nasus"
+  },
+  "쉔": {
+    "ko": "쉔",
+    "en": "Shen",
+    "zh-CN": "Shen"
+  },
+  "제이스": {
+    "ko": "제이스",
+    "en": "Jayce",
+    "zh-CN": "Jayce"
+  },
+  "멜": {
+    "ko": "멜",
+    "en": "Mel",
+    "zh-CN": "Mel"
+  },
+  "암베사": {
+    "ko": "암베사",
+    "en": "Ambessa",
+    "zh-CN": "Ambessa"
+  },
+  "케넨": {
+    "ko": "케넨",
+    "en": "Kennen",
+    "zh-CN": "Kennen"
+  },
+  "오리진": {
+    "ko": "오리진",
+    "en": "Origins",
+    "zh-CN": "Origins"
+  },
+  "프루빙 그라운드": {
+    "ko": "프루빙 그라운드",
+    "en": "Origins: Proving Grounds",
+    "zh-CN": "Origins: Proving Grounds"
+  },
+  "스피릿포지드": {
+    "ko": "스피릿포지드",
+    "en": "Spiritforged",
+    "zh-CN": "Spiritforged"
+  },
+  "언리시드": {
+    "ko": "언리시드",
+    "en": "Unleashed",
+    "zh-CN": "Unleashed"
+  },
+  "벤데타": {
+    "ko": "벤데타",
+    "en": "Vendetta",
+    "zh-CN": "Vendetta"
+  },
+  "래디언스": {
+    "ko": "래디언스",
+    "en": "Radiance",
+    "zh-CN": "Radiance"
+  },
+  "보조 세트 {set} 포함": {
+    "ko": "보조 세트 {set} 포함",
+    "en": "Include supplemental set {set}",
+    "zh-CN": "包含补充系列 {set}"
+  },
+  "입문 추천 1위: {name}": {
+    "ko": "입문 추천 1위: {name}",
+    "en": "Top beginner recommendation: {name}",
+    "zh-CN": "入门推荐第 1 名：{name}"
+  },
+  "당신과 {name}의 스타일 점수 비교": {
+    "ko": "당신과 {name}의 스타일 점수 비교",
+    "en": "Your style scores compared with {name}",
+    "zh-CN": "你与 {name} 的风格评分对比"
+  },
+  "{name}의 기질도 엿보입니다.": {
+    "ko": "{name}의 기질도 엿보입니다.",
+    "en": "You also show traits of the {name}.",
+    "zh-CN": "你也带有{name}的特质。"
+  },
+  "{set}까지": {
+    "ko": "{set}까지",
+    "en": "Through {set}",
+    "zh-CN": "截至 {set}"
+  },
+  "{set}만": {
+    "ko": "{set}만",
+    "en": "Only {set}",
+    "zh-CN": "仅 {set}"
+  },
+  "보조 세트 제외": {
+    "ko": "보조 세트 제외",
+    "en": "Supplemental sets excluded",
+    "zh-CN": "不含补充系列"
+  },
+  "입문 안내: {guidance}": {
+    "ko": "입문 안내: {guidance}",
+    "en": "Beginner guidance: {guidance}",
+    "zh-CN": "入门提示：{guidance}"
+  },
+  "보조 세트 {set} 제외": {
+    "ko": "보조 세트 {set} 제외",
+    "en": "Exclude supplemental set {set}",
+    "zh-CN": "不含补充系列 {set}"
+  },
+  "TODO": {
+    "ko": "TODO",
+    "en": "Not available yet",
+    "zh-CN": "暂未收录"
+  },
+  "데이터 메모: {note}": {
+    "ko": "데이터 메모: {note}",
+    "en": "Data note: {note}",
+    "zh-CN": "资料备注：{note}"
+  },
+  "API name field reads 'Yordle, Kennen'; riftdecks lists 'Kennen, Heart of the Tempest'. Champion = Kennen.": {
+    "ko": "API name field reads 'Yordle, Kennen'; riftdecks lists 'Kennen, Heart of the Tempest'. Champion = Kennen.",
+    "en": "API name field reads 'Yordle, Kennen'; riftdecks lists 'Kennen, Heart of the Tempest'. Champion = Kennen.",
+    "zh-CN": "API 名称字段为 'Yordle, Kennen'；riftdecks 列为 'Kennen, Heart of the Tempest'。角色名为 Kennen。"
+  },
+  "전체 {total}장 · 가져온 데이터 {imported}장 · 수치 검토 필요 {review}장 · 데이터 오류 {errors}건": {
+    "ko": "전체 {total}장 · 가져온 데이터 {imported}장 · 수치 검토 필요 {review}장 · 데이터 오류 {errors}건",
+    "en": "{total} total cards · {imported} imported · {review} ratings to review · {errors} data errors",
+    "zh-CN": "共 {total} 张 · 已导入 {imported} 张 · {review} 张评分待审核 · {errors} 项数据错误"
+  },
+  "배열, { legends: [...] }, 단일 객체 모두 됩니다. 분리형(officialData/recommendationData)과 평면형 필드 모두 받으며, 누락된 점수는 50으로 채우고 검토 필요 + 추천 후보 비활성 상태로 표시합니다. 같은 id는 교체됩니다.": {
+    "ko": "배열, { legends: [...] }, 단일 객체 모두 됩니다. 분리형(officialData/recommendationData)과 평면형 필드 모두 받으며, 누락된 점수는 50으로 채우고 검토 필요 + 추천 후보 비활성 상태로 표시합니다. 같은 id는 교체됩니다.",
+    "en": "Accepts an array, { legends: [...] }, or a single object. Nested officialData/recommendationData and flat fields are supported. Missing scores default to 50, marked for review and excluded from recommendations. Matching IDs are replaced.",
+    "zh-CN": "支持数组、{ legends: [...] } 或单个对象。支持 officialData/recommendationData 分层字段与平铺字段。缺失评分补为 50，标记为待审核并暂不参与推荐。相同 ID 将被替换。"
+  },
+  "출시된 세트의 전설을 세트, 도메인, 성향으로 찾아보세요. 테스트 결과가 있으면 적합도가 함께 표시됩니다.": {
+    "ko": "출시된 세트의 전설을 세트, 도메인, 성향으로 찾아보세요. 테스트 결과가 있으면 적합도가 함께 표시됩니다.",
+    "en": "Browse released Legends by set, domain and playstyle. If you have a test result, matching scores are shown too.",
+    "zh-CN": "按系列、领域和风格浏览已发售的传奇。完成测试后，也会显示匹配评分。"
+  }
+}

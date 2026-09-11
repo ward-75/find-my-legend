@@ -1,7 +1,9 @@
 "use client";
+import { useLanguage, LocaleText } from "@/lib/i18n/react";
+import { displayLegendName } from "@/lib/i18n/names";
 import { useMemo, useState } from "react";
 import { isSetReleased } from "@/lib/setFilter";
-import { BASE_LEGENDS, SETS, championKo } from "@/lib/data";
+import { BASE_LEGENDS, SETS } from "@/lib/data";
 import { parseLegendImport, validateLegend, type Issue } from "@/lib/validate";
 import type { LegendRecord } from "@/lib/types";
 import { useLegendStore } from "./store";
@@ -14,7 +16,7 @@ function IssueList({ issues }: { issues: Issue[] }) {
   const errors = issues.filter((i) => i.level === "error");
   const warns = issues.filter((i) => i.level === "warning");
   return (
-    <div className="mt-3 space-y-2 text-sm">
+    <LocaleText><div className="mt-3 space-y-2 text-sm">
       <p>
         <span className={errors.length ? "text-fury" : "text-calm"}>오류 {errors.length}건</span>
         <span className="ml-3 text-brass">경고 {warns.length}건</span>
@@ -26,7 +28,7 @@ function IssueList({ issues }: { issues: Issue[] }) {
           </li>
         ))}
       </ul>
-    </div>
+    </div></LocaleText>
   );
 }
 
@@ -41,6 +43,7 @@ function download(name: string, text: string) {
 
 /** 데이터 관리: 새 세트 전설 JSON 가져오기, 추천 수치 조정, 내보내기 */
 export function DataAdmin({ onBack }: { onBack: () => void }) {
+  const { locale } = useLanguage();
   const { legends, imported, persisted, addImported, clearImported } = useLegendStore();
   const [text, setText] = useState("");
   const [checked, setChecked] = useState<{ legends: LegendRecord[]; issues: Issue[] } | null>(null);
@@ -73,11 +76,11 @@ export function DataAdmin({ onBack }: { onBack: () => void }) {
     try { rec = JSON.parse(editText); } catch (e) { setEditIssues([{ level: "error", id: editId, message: `JSON 형식 오류: ${(e as Error).message}` }]); return; }
     const res = parseLegendImport(JSON.stringify({ ...l, recommendationData: rec }), SETS);
     setEditIssues(res.issues);
-    if (res.legends.length) { addImported(res.legends); setNotice(`${championKo(l)}의 추천 수치를 적용했습니다.`); }
+    if (res.legends.length) { addImported(res.legends); setNotice(`${displayLegendName(l, locale)}의 추천 수치를 적용했습니다.`); }
   };
 
   return (
-    <section className="mx-auto max-w-4xl px-5 pb-32 pt-8">
+    <LocaleText><section className="mx-auto max-w-4xl px-5 pb-32 pt-8">
       <Button variant="quiet" onClick={onBack} className="-ml-2">돌아가기</Button>
       <h1 className="mt-3 font-display text-[clamp(28px,5vw,40px)] font-semibold">데이터 관리</h1>
       <p className="mt-1 text-vellum/75">
@@ -139,7 +142,7 @@ export function DataAdmin({ onBack }: { onBack: () => void }) {
         <p className="mt-1 text-sm text-haze">공식 카드 정보는 그대로 두고 recommendationData만 수정합니다. 검토를 마친 전설은 needsReview를 false로, 실제 추천에 넣을 준비가 끝나면 recommendationReady를 true로 바꾸세요.</p>
         <div className="mt-3 flex flex-wrap gap-2">
           <select value={editId} onChange={(e) => loadEditor(e.target.value)} className="rounded-lg border border-rim bg-deeper px-3 py-2 text-sm">
-            {legends.map((l) => <option key={l.id} value={l.id}>{championKo(l)} · {l.officialData.title} ({l.officialData.setCode}){l.recommendationData.needsReview ? " *" : ""}</option>)}
+            {legends.map((l) => <option key={l.id} value={l.id}>{displayLegendName(l, locale)} · {l.officialData.title} ({l.officialData.setCode}){l.recommendationData.needsReview ? " *" : ""}</option>)}
           </select>
           <Button variant="ghost" onClick={() => loadEditor(editId)}>불러오기</Button>
         </div>
@@ -164,6 +167,6 @@ export function DataAdmin({ onBack }: { onBack: () => void }) {
           새 세트 공식 데이터 초안은 <code className="text-brass">npm run data:fetch -- --set=RAD</code>로 Riftcodex API에서 받아 이 화면에서 가져올 수 있습니다. 추천 수치는 초안에서 모두 검토 필요 상태로 시작합니다.
         </p>
       </div>
-    </section>
+    </section></LocaleText>
   );
 }

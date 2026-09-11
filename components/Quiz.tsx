@@ -1,4 +1,5 @@
 "use client";
+import { LocaleText } from "@/lib/i18n/react";
 import { useEffect, useRef, useState } from "react";
 import { QUESTIONS } from "@/lib/data";
 import type { Answers, ExperienceLevel } from "@/lib/types";
@@ -42,7 +43,7 @@ export function Quiz({ answers, index, onAnswer, onIndex, onFinish, onExit, expe
   const firstUnanswered = answers.findIndex((a) => a === null);
 
   return (
-    <section className="mx-auto flex min-h-[calc(100svh-64px)] max-w-2xl flex-col px-5 pb-10 pt-6 sm:min-h-0 sm:pb-16">
+    <LocaleText><section className="mx-auto flex min-h-[calc(100svh-64px)] max-w-2xl flex-col px-5 pb-10 pt-6 sm:min-h-0 sm:pb-16">
       <ProgressBar index={index} answers={answers} />
       <div className="mt-10 flex-1 sm:flex-none">
         <QuestionCard question={q} value={answers[index]} onAnswer={answer} direction={dir} experience={experience} />
@@ -68,6 +69,6 @@ export function Quiz({ answers, index, onAnswer, onIndex, onFinish, onExit, expe
           </button>
         </p>
       )}
-    </section>
+    </section></LocaleText>
   );
 }

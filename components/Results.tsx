@@ -1,4 +1,6 @@
 "use client";
+import { useLanguage, LocaleText } from "@/lib/i18n/react";
+import { displayLegendName } from "@/lib/i18n/names";
 import { PERSONAS, SETS } from "@/lib/data";
 import { DOMAIN_META } from "@/lib/labels";
 import { pickPersonas } from "@/lib/persona";
@@ -26,6 +28,7 @@ export function Results({ profile, ranked, tasteTop, experience, pool, shareUrl,
   onBrowse: () => void;
   fromShare: boolean;
 }) {
+  const { locale } = useLanguage();
   const { primary, secondary } = pickPersonas(profile, PERSONAS);
   const top5 = ranked.slice(0, 5);
   const cutoff = resolveCutoff(SETS, pool.cutoff);
@@ -38,7 +41,7 @@ export function Results({ profile, ranked, tasteTop, experience, pool, shareUrl,
   });
 
   return (
-    <div className="mx-auto max-w-6xl px-5 pb-32 pt-8">
+    <LocaleText><div className="mx-auto max-w-6xl px-5 pb-32 pt-8">
       {fromShare && (
         <p className="mb-6 rounded-xl border border-rim bg-deep/60 px-4 py-3 text-sm text-vellum/85">
           공유받은 결과입니다. 나도 해 보고 싶다면 <button type="button" onClick={onRetake} className="underline underline-offset-4">테스트 시작</button>
@@ -79,10 +82,10 @@ export function Results({ profile, ranked, tasteTop, experience, pool, shareUrl,
 
           {experience !== "experienced" && tasteTop && top5[0] && tasteTop.legend.id !== top5[0].legend.id && (
             <div className="mt-5 rounded-xl border border-brass/40 bg-brass/[0.06] px-4 py-3 text-sm leading-6">
-              <p>입문 추천 1위: {top5[0].legend.localization?.championKo ?? top5[0].legend.officialData.champion}</p>
+              <p>입문 추천 1위: {displayLegendName(top5[0].legend, locale)}</p>
               <span className="text-haze">순수 취향 일치 1위: </span>
               <button type="button" onClick={() => onOpenDetail(tasteTop.legend.id)} className="font-display text-brass underline underline-offset-4">
-                {tasteTop.legend.localization?.championKo ?? tasteTop.legend.officialData.champion}
+                {displayLegendName(tasteTop.legend, locale)}
               </button>
               <p className="text-haze">지금 순위는 시작 난이도까지 함께 고려한 추천입니다. 어려운 전설도 취향이 맞으면 후보에 남습니다.</p>
             </div>
@@ -103,7 +106,7 @@ export function Results({ profile, ranked, tasteTop, experience, pool, shareUrl,
                 {ranked.slice(5).map((m) => (
                   <li key={m.legend.id} className="flex items-center justify-between gap-3">
                     <button type="button" onClick={() => onOpenDetail(m.legend.id)} className="truncate text-left hover:underline">
-                      <span className="mr-2 text-haze">{m.rank}</span>{m.legend.localization?.championKo ?? m.legend.officialData.champion}
+                      <span className="mr-2 text-haze">{m.rank}</span>{displayLegendName(m.legend, locale)}
                       <span className="ml-1.5 text-haze">{m.legend.officialData.title}</span>
                     </button>
                     <span className="tabular-nums text-vellum/80">{m.score}점</span>
@@ -126,6 +129,6 @@ export function Results({ profile, ranked, tasteTop, experience, pool, shareUrl,
           </p>
         </section>
       </div>
-    </div>
+    </div></LocaleText>
   );
 }

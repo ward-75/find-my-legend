@@ -12,6 +12,7 @@ vi.mock("../components/DomainRadar", () => ({ DomainRadar: () => null }));
 beforeEach(() => {
   window.history.replaceState(null, "", "/find-my-legend/");
   window.localStorage.clear();
+  window.localStorage.setItem("find-my-legend.language.v1", "ko");
   vi.spyOn(window, "scrollTo").mockImplementation(() => {});
   vi.spyOn(HTMLCanvasElement.prototype, "getContext").mockReturnValue(null);
   vi.spyOn(HTMLCanvasElement.prototype, "toDataURL").mockReturnValue("data:image/png;base64,test");

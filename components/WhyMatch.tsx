@@ -1,6 +1,7 @@
 "use client";
+import { useLanguage, LocaleText } from "@/lib/i18n/react";
+import { displayLegendName } from "@/lib/i18n/names";
 import { whyRows, whySentences } from "@/lib/explain";
-import { championKo } from "@/lib/data";
 import type { LegendMatch, UserProfile } from "@/lib/types";
 import { DomainRadar } from "./DomainRadar";
 
@@ -14,11 +15,12 @@ const PARTS: [keyof LegendMatch["breakdown"], string, number][] = [
 
 /** "왜 나랑 잘 맞지?" — 사용자 점수와 전설 점수를 나란히 비교 */
 export function WhyMatch({ profile, match }: { profile: UserProfile; match: LegendMatch }) {
+  const { locale } = useLanguage();
   const l = match.legend;
-  const name = championKo(l);
+  const name = displayLegendName(l, locale);
   const rows = whyRows(profile, l);
   return (
-    <div className="anim-fade mt-4 rounded-xl border border-rim bg-deeper/70 p-4 sm:p-5">
+    <LocaleText><div className="anim-fade mt-4 rounded-xl border border-rim bg-deeper/70 p-4 sm:p-5">
       <div className="space-y-1 text-[15px]">
         {whySentences(profile, l).map((s) => <p key={s}>{s}</p>)}
       </div>
@@ -71,6 +73,6 @@ export function WhyMatch({ profile, match }: { profile: UserProfile; match: Lege
           </ul>
         </div>
       </div>
-    </div>
+    </div></LocaleText>
   );
 }

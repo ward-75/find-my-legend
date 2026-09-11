@@ -1,4 +1,5 @@
 "use client";
+import { LocaleText } from "@/lib/i18n/react";
 import type { ExperienceLevel, Question } from "@/lib/types";
 
 const SCALE_SIZE = ["h-11 w-11", "h-9 w-9", "h-7 w-7", "h-9 w-9", "h-11 w-11"];
@@ -15,7 +16,7 @@ export function QuestionCard({ question, value, onAnswer, direction, experience 
   const prompt = beginner ? (question.beginnerPrompt ?? question.prompt) : question.prompt;
 
   return (
-    <div key={`${question.id}-${beginner ? "beginner" : "standard"}`} className={direction === 1 ? "anim-q" : "anim-q-back"}>
+    <LocaleText><div key={`${question.id}-${beginner ? "beginner" : "standard"}`} className={direction === 1 ? "anim-q" : "anim-q-back"}>
       <h2 className="font-display text-[clamp(22px,4.2vw,32px)] font-semibold leading-snug">{prompt}</h2>
       {beginner && <p className="mt-2 text-sm text-haze">Riftbound 용어를 몰라도 느낌대로 고르면 됩니다.</p>}
 
@@ -74,6 +75,6 @@ export function QuestionCard({ question, value, onAnswer, direction, experience 
           </div>
         </div>
       )}
-    </div>
+    </div></LocaleText>
   );
 }

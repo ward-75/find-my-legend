@@ -1,4 +1,5 @@
 "use client";
+import { LocaleText } from "@/lib/i18n/react";
 import type { Answers } from "@/lib/types";
 
 /** 문항 수만큼 나뉜 진행 막대: 답한 칸은 채움, 현재 칸은 밝은 테두리 */
@@ -6,7 +7,7 @@ export function ProgressBar({ index, answers }: { index: number; answers: Answer
   const total = answers.length;
   const done = answers.filter((a) => a !== null).length;
   return (
-    <div>
+    <LocaleText><div>
       <div className="flex items-baseline justify-between text-sm">
         <span className="text-haze">
           <span className="font-display text-lg text-vellum">{index + 1}</span> / {total}
@@ -23,6 +24,6 @@ export function ProgressBar({ index, answers }: { index: number; answers: Answer
           />
         ))}
       </div>
-    </div>
+    </div></LocaleText>
   );
 }

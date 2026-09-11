@@ -1,5 +1,7 @@
 "use client";
-import { SETS, championKo, setById } from "@/lib/data";
+import { useLanguage, LocaleText } from "@/lib/i18n/react";
+import { displayLegendName } from "@/lib/i18n/names";
+import { SETS, setById } from "@/lib/data";
 import { STYLE_META, DIFFICULTY_LABELS, archetypeLabel } from "@/lib/labels";
 import { legendTopStyles } from "@/lib/explain";
 import { experienceGuidance } from "@/lib/experience";
@@ -16,13 +18,14 @@ export function LegendDetail({ legend, onClose, inCompare, compareFull, onToggle
   compareFull: boolean;
   onToggleCompare: (id: string) => void;
 }) {
+  const { locale } = useLanguage();
   if (!legend) return null;
   const o = legend.officialData;
   const r = legend.recommendationData;
   const set = setById(SETS, o.setId);
   const top = legendTopStyles(legend, 6);
   return (
-    <Sheet open={!!legend} onClose={onClose} title={`${championKo(legend)} · ${o.title}`} wide>
+    <LocaleText><Sheet open={!!legend} onClose={onClose} title={`${displayLegendName(legend, locale)} · ${o.title}`} wide>
       <div className="grid gap-6 md:grid-cols-[260px_1fr]">
         <div className="mx-auto w-[220px] md:w-full"><LegendArt legend={legend} eager /></div>
         <div className="min-w-0 space-y-6">
@@ -89,6 +92,6 @@ export function LegendDetail({ legend, onClose, inCompare, compareFull, onToggle
           </div>
         </div>
       </div>
-    </Sheet>
+    </Sheet></LocaleText>
   );
 }

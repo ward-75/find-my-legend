@@ -1,5 +1,7 @@
 "use client";
-import { SETS, championKo, setById } from "@/lib/data";
+import { useLanguage, LocaleText } from "@/lib/i18n/react";
+import { displayLegendName } from "@/lib/i18n/names";
+import { SETS, setById } from "@/lib/data";
 import { STYLE_META, DIFFICULTY_LABELS } from "@/lib/labels";
 import { compareBlurb, compareKeys } from "@/lib/explain";
 import type { LegendMatch, LegendRecord, UserProfile } from "@/lib/types";
@@ -15,6 +17,7 @@ export function LegendCompare({ open, onClose, legends, profile, matches, onRemo
   matches: LegendMatch[];
   onRemove: (id: string) => void;
 }) {
+  const { locale } = useLanguage();
   const keys = compareKeys(profile);
   const pct = (id: string) => matches.find((m) => m.legend.id === id)?.score;
   const best = profile && legends.length > 1
@@ -22,13 +25,13 @@ export function LegendCompare({ open, onClose, legends, profile, matches, onRemo
     : null;
 
   return (
-    <Sheet open={open} onClose={onClose} title={`전설 비교 (${legends.length}/3)`} wide>
+    <LocaleText><Sheet open={open} onClose={onClose} title={`전설 비교 (${legends.length}/3)`} wide>
       {legends.length === 0 ? (
         <p className="text-haze">비교할 전설을 결과 화면이나 전설 목록에서 담아 주세요.</p>
       ) : (
         <>
           {best && pct(best.id) !== undefined && (
-            <p className="mb-4 text-[15px]">당신과 가장 가까운 선택은 <span className="font-display text-lg">{championKo(best)}</span>입니다.</p>
+            <p className="mb-4 text-[15px]">당신과 가장 가까운 선택은 <span className="font-display text-lg">{displayLegendName(best, locale)}</span>입니다.</p>
           )}
           <div className="scroll-x -mx-5 px-5">
             <table className="w-full min-w-[560px] border-separate border-spacing-0 text-sm">
@@ -38,7 +41,7 @@ export function LegendCompare({ open, onClose, legends, profile, matches, onRemo
                   {legends.map((l) => (
                     <th key={l.id} className="px-2 pb-3 align-bottom font-normal">
                       <div className="mx-auto w-20"><LegendArt legend={l} /></div>
-                      <p className="mt-2 font-display text-base text-vellum">{championKo(l)}</p>
+                      <p className="mt-2 font-display text-base text-vellum">{displayLegendName(l, locale)}</p>
                       <p className="text-xs text-haze">{l.officialData.title}</p>
                       <button type="button" className="mt-1 text-xs text-haze underline underline-offset-2 hover:text-vellum" onClick={() => onRemove(l.id)}>빼기</button>
                     </th>
@@ -102,12 +105,12 @@ export function LegendCompare({ open, onClose, legends, profile, matches, onRemo
           </div>
           <ul className="mt-6 space-y-2 text-[15px]">
             {legends.map((l) => (
-              <li key={l.id}><span className="font-display">{championKo(l)}</span>: {compareBlurb(l)}</li>
+              <li key={l.id}><span className="font-display">{displayLegendName(l, locale)}</span>: {compareBlurb(l)}</li>
             ))}
           </ul>
           <div className="mt-6 text-right"><Button onClick={onClose}>닫기</Button></div>
         </>
       )}
-    </Sheet>
+    </Sheet></LocaleText>
   );
 }

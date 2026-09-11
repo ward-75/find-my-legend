@@ -1,4 +1,5 @@
 "use client";
+import { LocaleText } from "@/lib/i18n/react";
 import { PolarAngleAxis, PolarGrid, PolarRadiusAxis, Radar, RadarChart, ResponsiveContainer } from "recharts";
 import { DOMAIN_KEYS } from "@/lib/types";
 import { DOMAIN_META } from "@/lib/labels";
@@ -10,9 +11,9 @@ function DomainTick({ x = 0, y = 0, payload, textAnchor }: TickProps) {
   if (!payload) return null;
   const m = DOMAIN_META[payload.value];
   return (
-    <text x={Number(x)} y={Number(y)} dy={4} textAnchor={(textAnchor as "start" | "middle" | "end") ?? "middle"} fill={m.color} fontSize={13} fontWeight={600}>
+    <LocaleText><text x={Number(x)} y={Number(y)} dy={4} textAnchor={(textAnchor as "start" | "middle" | "end") ?? "middle"} fill={m.color} fontSize={13} fontWeight={600}>
       {m.label}
-    </text>
+    </text></LocaleText>
   );
 }
 
@@ -21,7 +22,7 @@ export function DomainRadar({ user, compare, height = 280 }: { user: DomainVecto
   const data = DOMAIN_KEYS.map((d) => ({ domain: d, user: user[d], legend: compare?.values[d] ?? 0 }));
   const summary = DOMAIN_KEYS.map((d) => `${DOMAIN_META[d].label} ${Math.round(user[d])}`).join(", ");
   return (
-    <figure className="m-0" aria-label={`도메인 성향: ${summary}`}>
+    <LocaleText><figure className="m-0" aria-label={`도메인 성향: ${summary}`}>
       <div style={{ height }}>
         <ResponsiveContainer width="100%" height="100%">
           <RadarChart data={data} outerRadius="72%">
@@ -41,6 +42,6 @@ export function DomainRadar({ user, compare, height = 280 }: { user: DomainVecto
           <span className="inline-flex items-center gap-1.5"><span className="h-0 w-4 border-t-2 border-dashed border-brass" />{compare.label}</span>
         </figcaption>
       )}
-    </figure>
+    </figure></LocaleText>
   );
 }

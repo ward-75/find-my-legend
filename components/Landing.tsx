@@ -1,4 +1,5 @@
 "use client";
+import { LocaleText } from "@/lib/i18n/react";
 import { DOMAIN_KEYS } from "@/lib/types";
 import { DOMAIN_META } from "@/lib/labels";
 import { QUESTIONS } from "@/lib/data";
@@ -22,7 +23,7 @@ export function Landing({ onStart, onBrowse }: { onStart: () => void; onBrowse: 
   const minutes = Math.max(2, Math.round(QUESTIONS.length * 0.22));
 
   return (
-    <section className="mx-auto grid max-w-6xl items-center gap-10 px-5 pb-16 pt-10 md:grid-cols-[1.25fr_1fr] md:pt-20">
+    <LocaleText><section className="mx-auto grid max-w-6xl items-center gap-10 px-5 pb-16 pt-10 md:grid-cols-[1.25fr_1fr] md:pt-20">
       <div>
         <p className="text-haze">Riftbound 플레이스타일 테스트</p>
         <h1 className="mt-3 font-display text-[clamp(34px,5.4vw,58px)] font-semibold leading-[1.15] tracking-[-0.01em]">
@@ -73,6 +74,6 @@ export function Landing({ onStart, onBrowse }: { onStart: () => void; onBrowse: 
           ))}
         </ul>
       </div>
-    </section>
+    </section></LocaleText>
   );
 }

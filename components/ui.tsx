@@ -1,4 +1,5 @@
 "use client";
+import { LocaleText } from "@/lib/i18n/react";
 import { useEffect, useRef, type ButtonHTMLAttributes, type ReactNode } from "react";
 import { DOMAIN_META } from "@/lib/labels";
 import type { DomainKey } from "@/lib/types";
@@ -13,41 +14,41 @@ export function Button({ variant = "ghost", className = "", ...rest }: ButtonHTM
       : variant === "ghost"
         ? "border border-rim text-vellum hover:border-haze hover:bg-white/5"
         : "text-haze hover:text-vellum underline-offset-4 hover:underline px-2";
-  return <button type="button" className={`${base} ${v} ${className}`} {...rest} />;
+  return <LocaleText><button type="button" className={`${base} ${v} ${className}`} {...rest} /></LocaleText>;
 }
 
 export function DomainBadge({ domain, size = "md" }: { domain: DomainKey; size?: "sm" | "md" }) {
   const m = DOMAIN_META[domain];
   return (
-    <span
+    <LocaleText><span
       className={`inline-flex items-center gap-1.5 rounded-full border ${size === "sm" ? "px-2 py-0.5 text-xs" : "px-2.5 py-1 text-[13px]"}`}
       style={{ borderColor: m.color + "66", background: m.tint, color: m.color }}
     >
       <span className="h-1.5 w-1.5 rounded-full" style={{ background: m.color }} aria-hidden />
       {m.label}
-    </span>
+    </span></LocaleText>
   );
 }
 
 export function Chip({ children, tone = "plain" }: { children: ReactNode; tone?: "plain" | "warn" }) {
   return (
-    <span
+    <LocaleText><span
       className={`inline-flex items-center rounded-md px-2 py-0.5 text-xs ${
         tone === "warn" ? "border border-brass/50 text-brass" : "bg-white/[0.06] text-haze"
       }`}
     >
       {children}
-    </span>
+    </span></LocaleText>
   );
 }
 
 export function Difficulty({ value }: { value: number }) {
   return (
-    <span className="inline-flex items-center gap-1" aria-label={`난이도 ${value} / 5`}>
+    <LocaleText><span className="inline-flex items-center gap-1" aria-label={`난이도 ${value} / 5`}>
       {[1, 2, 3, 4, 5].map((i) => (
         <span key={i} className={`h-2 w-2 rotate-45 ${i <= value ? "bg-vellum" : "border border-rim"}`} aria-hidden />
       ))}
-    </span>
+    </span></LocaleText>
   );
 }
 
@@ -68,7 +69,7 @@ export function Sheet({ open, onClose, title, children, wide = false }: { open: 
   }, [open, onClose]);
   if (!open) return null;
   return (
-    <div className="fixed inset-0 z-50 flex items-end justify-center sm:items-center" role="dialog" aria-modal="true" aria-label={title}>
+    <LocaleText><div className="fixed inset-0 z-50 flex items-end justify-center sm:items-center" role="dialog" aria-modal="true" aria-label={title}>
       <div className="anim-fade absolute inset-0 bg-[#050a14]/80 backdrop-blur-sm" onClick={onClose} />
       <div
         ref={ref}
@@ -83,15 +84,15 @@ export function Sheet({ open, onClose, title, children, wide = false }: { open: 
         </div>
         <div className="p-5">{children}</div>
       </div>
-    </div>
+    </div></LocaleText>
   );
 }
 
 /** 0~100 막대 */
 export function Bar({ value, color = "var(--color-vellum)", label }: { value: number; color?: string; label?: string }) {
   return (
-    <div className="bar-track h-1.5 w-full overflow-hidden rounded-full" role="img" aria-label={label ?? `${Math.round(value)}`}>
+    <LocaleText><div className="bar-track h-1.5 w-full overflow-hidden rounded-full" role="img" aria-label={label ?? `${Math.round(value)}`}>
       <div className="h-full rounded-full transition-[width] duration-500" style={{ width: `${Math.max(2, Math.min(100, value))}%`, background: color }} />
-    </div>
+    </div></LocaleText>
   );
 }

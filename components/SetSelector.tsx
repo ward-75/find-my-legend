@@ -1,4 +1,5 @@
 "use client";
+import { useLanguage, LocaleText } from "@/lib/i18n/react";
 import { useToday } from "@/lib/useToday";
 import { useId } from "react";
 import { SETS } from "@/lib/data";
@@ -17,6 +18,7 @@ export function SetSelector({ pool, onChange, onStart, onBack, experience, onExp
   experience: ExperienceLevel;
   onExperienceChange: (v: ExperienceLevel) => void;
 }) {
+  const { locale } = useLanguage();
   const { legends } = useLegendStore();
   const uid = useId();
   const today = useToday();
@@ -30,7 +32,7 @@ export function SetSelector({ pool, onChange, onStart, onBack, experience, onExp
   const lit = (order: number) => !!cutoffSet && (pool.mode === "only" ? order === cutoffSet.order : order <= cutoffSet.order);
 
   return (
-    <section className="anim-fade mx-auto max-w-2xl px-5 pb-20 pt-8">
+    <LocaleText><section className="anim-fade mx-auto max-w-2xl px-5 pb-20 pt-8">
       <Button variant="quiet" onClick={onBack} className="-ml-2">처음으로</Button>
       <h1 className="mt-4 font-display text-[clamp(26px,4.5vw,38px)] font-semibold leading-snug">먼저 플레이 경험을 알려주세요</h1>
       <p className="mt-2 text-vellum/75">
@@ -100,9 +102,8 @@ export function SetSelector({ pool, onChange, onStart, onBack, experience, onExp
               >
                 <span>
                   <span className={`block ${on ? "text-vellum" : "text-vellum/70"}`}>
-                    <span className="font-medium">{s.name}</span>
-                    {pool.mode === "cumulative" ? "까지" : "만"}
-                    <span className="ml-2 text-sm text-haze">{s.koreanName}</span>
+                    <span className="font-medium">{s.name}{pool.mode === "cumulative" ? "까지" : "만"}</span>
+                    {locale === "ko" && <span className="ml-2 text-sm text-haze">{s.koreanName}</span>}
                   </span>
                   <span className="text-xs text-haze">
                     {released ? `${s.code} · ${s.releaseDate?.slice(0, 7).replace("-", ".")} 발매` : `출시일에 자동 활성화 (${s.releaseDate ?? "미정"} 예정)`}
@@ -144,6 +145,6 @@ export function SetSelector({ pool, onChange, onStart, onBack, experience, onExp
         </Button>
       </div>
       {total === 0 && <p className="mt-2 text-sm text-fury">이 범위에는 추천 준비가 완료된 전설이 없습니다. 다른 세트나 "선택한 세트까지 모두 포함"을 고르세요.</p>}
-    </section>
+    </section></LocaleText>
   );
 }

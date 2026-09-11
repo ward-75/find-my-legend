@@ -1,6 +1,8 @@
 "use client";
+import { useLanguage, LocaleText } from "@/lib/i18n/react";
+import { displayLegendName } from "@/lib/i18n/names";
 import { useState } from "react";
-import { SETS, championKo, setById } from "@/lib/data";
+import { SETS, setById } from "@/lib/data";
 import { DOMAIN_META, DIFFICULTY_LABELS, archetypeLabel } from "@/lib/labels";
 import { cautions, matchReasons, summarySentence } from "@/lib/explain";
 import type { ExperienceLevel, LegendMatch, UserProfile } from "@/lib/types";
@@ -23,9 +25,9 @@ interface Props {
 
 function CompareToggle({ on, disabled, onClick }: { on: boolean; disabled: boolean; onClick: () => void }) {
   return (
-    <Button variant="ghost" aria-pressed={on} disabled={!on && disabled} onClick={onClick} className={on ? "border-brass text-brass" : ""}>
+    <LocaleText><Button variant="ghost" aria-pressed={on} disabled={!on && disabled} onClick={onClick} className={on ? "border-brass text-brass" : ""}>
       {on ? "비교에 담김" : "비교에 담기"}
-    </Button>
+    </Button></LocaleText>
   );
 }
 
@@ -33,7 +35,7 @@ function Reasons({ profile, match, max = 5, warnList }: { profile: UserProfile; 
   const good = matchReasons(profile, match.legend).slice(0, max);
   const warn = warnList ?? cautions(profile, match.legend);
   return (
-    <div className="grid gap-4 sm:grid-cols-2">
+    <LocaleText><div className="grid gap-4 sm:grid-cols-2">
       <div>
         <p className="text-xs text-haze">잘 맞는 이유</p>
         <ul className="mt-1.5 space-y-1 text-[15px]">
@@ -50,12 +52,13 @@ function Reasons({ profile, match, max = 5, warnList }: { profile: UserProfile; 
           ))}
         </ul>
       </div>
-    </div>
+    </div></LocaleText>
   );
 }
 
 /** 1위: 카드 아트 + 도메인 색 후광 + 큰 적합도 숫자 */
 export function MainLegendCard({ match, profile, inCompare, compareFull, onToggleCompare, onOpenDetail, cautionList, experience }: Props) {
+  const { locale } = useLanguage();
   const [why, setWhy] = useState(false);
   const l = match.legend;
   const o = l.officialData;
@@ -67,7 +70,7 @@ export function MainLegendCard({ match, profile, inCompare, compareFull, onToggl
   const cb = DOMAIN_META[b ?? a].color;
 
   return (
-    <article className="anim-rise relative rounded-2xl border border-rim bg-deep/80 p-5 sm:p-7" aria-labelledby={`legend-${l.id}`}>
+    <LocaleText><article className="anim-rise relative rounded-2xl border border-rim bg-deep/80 p-5 sm:p-7" aria-labelledby={`legend-${l.id}`}>
       <div className="grid gap-7 md:grid-cols-[minmax(200px,280px)_1fr]">
         <button type="button" onClick={() => onOpenDetail(l.id)} className="relative mx-auto w-[220px] self-start md:w-full" aria-label={`${o.champion} 카드 자세히 보기`}>
           <span
@@ -83,7 +86,7 @@ export function MainLegendCard({ match, profile, inCompare, compareFull, onToggl
             <div>
               <p className="font-display text-brass">1위</p>
               <h3 id={`legend-${l.id}`} className="font-display text-[clamp(30px,5vw,44px)] font-semibold leading-tight">
-                {championKo(l)}
+                {displayLegendName(l, locale)}
               </h3>
               <p className="text-vellum/80">{o.champion}, {o.title}</p>
             </div>
@@ -120,12 +123,13 @@ export function MainLegendCard({ match, profile, inCompare, compareFull, onToggl
         </div>
       </div>
       {why && <WhyMatch profile={profile} match={match} />}
-    </article>
+    </article></LocaleText>
   );
 }
 
 /** 2~5위: 가로 행 레이아웃 */
 export function CompactLegendCard({ match, profile, inCompare, compareFull, onToggleCompare, onOpenDetail, cautionList, experience }: Props) {
+  const { locale } = useLanguage();
   const [why, setWhy] = useState(false);
   const l = match.legend;
   const o = l.officialData;
@@ -133,7 +137,7 @@ export function CompactLegendCard({ match, profile, inCompare, compareFull, onTo
   const set = setById(SETS, o.setId);
   const guidance = experienceGuidance(experience, r.difficulty);
   return (
-    <article className="anim-rise rounded-2xl border border-rim bg-deep/60 p-4 sm:p-5" style={{ animationDelay: `${150 + match.rank * 80}ms` }}>
+    <LocaleText><article className="anim-rise rounded-2xl border border-rim bg-deep/60 p-4 sm:p-5" style={{ animationDelay: `${150 + match.rank * 80}ms` }}>
       <div className="grid grid-cols-[84px_1fr] gap-4 sm:grid-cols-[108px_1fr]">
         <button type="button" onClick={() => onOpenDetail(l.id)} aria-label={`${o.champion} 카드 자세히 보기`}>
           <LegendArt legend={l} />
@@ -142,7 +146,7 @@ export function CompactLegendCard({ match, profile, inCompare, compareFull, onTo
           <div className="flex items-start justify-between gap-3">
             <div className="min-w-0">
               <p className="text-sm text-haze"><span className="font-display text-vellum">{match.rank}위</span></p>
-              <h3 className="font-display text-2xl font-semibold leading-tight">{championKo(l)}</h3>
+              <h3 className="font-display text-2xl font-semibold leading-tight">{displayLegendName(l, locale)}</h3>
               <p className="truncate text-sm text-vellum/75">{o.champion}, {o.title}</p>
             </div>
             <p className="shrink-0 font-display text-4xl font-semibold leading-none tabular-nums">
@@ -164,6 +168,6 @@ export function CompactLegendCard({ match, profile, inCompare, compareFull, onTo
         <CompareToggle on={inCompare} disabled={compareFull} onClick={() => onToggleCompare(l.id)} />
       </div>
       {why && <WhyMatch profile={profile} match={match} />}
-    </article>
+    </article></LocaleText>
   );
 }

@@ -1,4 +1,5 @@
 "use client";
+import { LanguageProvider, LanguageSelector, useLanguage, LocaleText } from "@/lib/i18n/react";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { QUESTIONS, QUESTION_VERSION, SETS } from "@/lib/data";
 import { computeProfile, isComplete } from "@/lib/scoring";
@@ -17,6 +18,7 @@ import { LegendDetail } from "./LegendDetail";
 import { DataAdmin } from "./DataAdmin";
 import { Button } from "./ui";
 
+import { withLanguage } from "@/lib/i18n/core";
 import { useToday } from "@/lib/useToday";
 
 type View = "landing" | "setup" | "quiz" | "result" | "browse" | "data";
@@ -34,6 +36,7 @@ function urlFor(view: View, code?: string): string {
 
 function Shell() {
   const { legends } = useLegendStore();
+  const { locale } = useLanguage();
   const today = useToday();
   const [view, setView] = useState<View>("landing");
   const [pool, setPool] = useState<PoolOptions>(DEFAULT_POOL);
@@ -48,7 +51,7 @@ function Shell() {
 
   const navigate = useCallback((next: View, code?: string, replace = false) => {
     setView(next);
-    const url = urlFor(next, code);
+    const url = withLanguage(urlFor(next, code), locale);
     try {
       if (replace) window.history.replaceState(null, "", url);
       else window.history.pushState(null, "", url);
@@ -56,7 +59,7 @@ function Shell() {
       // 샌드박스 iframe 등 history를 쓸 수 없는 환경: 화면 전환만 한다
     }
     window.scrollTo({ top: 0 });
-  }, []);
+  }, [locale]);
 
   // 첫 진입과 뒤로/앞으로 가기: URL을 읽어 화면을 복원
   useEffect(() => {
@@ -108,7 +111,7 @@ function Shell() {
     const cutoff = resolveCutoff(SETS, pool.cutoff, today)?.id ?? pool.cutoff; // "최신"은 공유 시점의 세트로 고정
     return encodeState({ questionVersion: QUESTION_VERSION, cutoff, mode: pool.mode, includeSupplemental: pool.includeSupplemental, experience, answers });
   }, [pool, experience, answers, today]);
-  const shareUrl = typeof window === "undefined" ? "" : `${window.location.origin}${window.location.pathname}?r=${resultCode}`;
+  const shareUrl = typeof window === "undefined" ? "" : `${window.location.origin}${window.location.pathname}?r=${resultCode}&lang=${locale}`;
 
   const toggleCompare = useCallback((id: string) => {
     setCompareIds((prev) => (prev.includes(id) ? prev.filter((x) => x !== id) : prev.length >= 3 ? prev : [...prev, id]));
@@ -129,13 +132,14 @@ function Shell() {
   const showCompareBar = compareIds.length > 0 && (view === "result" || view === "browse");
 
   return (
-    <div className="min-h-svh">
+    <LocaleText><div className="min-h-svh">
       <header className="sticky top-0 z-40 border-b border-white/5 bg-abyss/85 backdrop-blur">
-        <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-5">
+        <div className="mx-auto flex min-h-16 max-w-6xl gap-2 py-2 items-center justify-between px-5">
           <button type="button" onClick={() => navigate("landing")} className="font-display text-lg font-semibold tracking-tight">
             Find My Legend
           </button>
-          <nav className="flex items-center gap-1 text-sm">
+          <nav className="flex flex-wrap items-center justify-end gap-1 text-sm">
+            <LanguageSelector />
             {profile && view !== "result" && <Button variant="quiet" onClick={() => navigate("result", resultCode)}>내 결과</Button>}
             <Button variant="quiet" onClick={() => navigate("browse")} aria-current={view === "browse" ? "page" : undefined}>전설 목록</Button>
           </nav>
@@ -221,14 +225,14 @@ function Shell() {
           </p>
         </div>
       </footer>
-    </div>
+    </div></LocaleText>
   );
 }
 
 export default function App() {
   return (
-    <LegendStoreProvider>
+    <LanguageProvider><LegendStoreProvider>
       <Shell />
-    </LegendStoreProvider>
+    </LegendStoreProvider></LanguageProvider>
   );
 }
