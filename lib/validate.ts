@@ -90,6 +90,13 @@ export function normalizeLegendInput(input: unknown): LegendRecord | null {
   };
 }
 
+export function isSafeExternalUrl(value: string): boolean {
+  try {
+    const url = new URL(value);
+    return url.protocol === "https:" && !url.username && !url.password;
+  } catch { return false; }
+}
+
 export function validateLegend(l: LegendRecord, sets: CardSet[]): Issue[] {
   const issues: Issue[] = [];
   const id = l.id || "(id 없음)";
@@ -107,6 +114,8 @@ export function validateLegend(l: LegendRecord, sets: CardSet[]): Issue[] {
   o.domains.forEach((d) => { if (!(DOMAIN_KEYS as readonly string[]).includes(d)) err(`알 수 없는 도메인: ${d}`); });
   if (!o.collectorNumber) warn("collectorNumber가 비어 있습니다 (TODO).");
   if (!o.abilityText) warn("abilityText가 비어 있습니다 (TODO).");
+  if (o.imageUrl && !isSafeExternalUrl(o.imageUrl)) err("imageUrl은 인증정보가 없는 HTTPS 주소여야 합니다.");
+  if (o.sourceUrls.some((url) => !isSafeExternalUrl(url))) err("출처는 인증정보가 없는 HTTPS 주소여야 합니다.");
   if (!o.imageUrl) warn("imageUrl이 없습니다. 도메인 색 카드로 대체 표시됩니다.");
   if (o.sourceUrls.length === 0) warn("sourceUrls가 없습니다. 출처를 기록해 주세요.");
 
@@ -131,6 +140,7 @@ export interface ImportResult {
 
 /** 배열 / {legends:[...]} / 단일 객체 모두 허용 */
 export function parseLegendImport(text: string, sets: CardSet[]): ImportResult {
+  if (text.length > 5_000_000) return { legends: [], issues: [{ level: "error", id: "(JSON)", message: "가져오기 파일은 5MB 이하로 나눠 주세요." }] };
   let parsed: unknown;
   try {
     parsed = JSON.parse(text);

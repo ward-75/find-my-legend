@@ -58,3 +58,17 @@ describe("beginner release regressions", () => {
     }
   });
 });
+
+describe("import URL security", () => {
+  for (const url of ["javascript:alert(1)", "data:text/html,<script>alert(1)</script>", "http://example.com", "https://user:secret@example.com"]) {
+    it(`rejects unsafe source/image URL: ${url.split(':')[0]}`, () => {
+      const legend = structuredClone(BASE_LEGENDS[0]);
+      legend.officialData.sourceUrls = [url];
+      legend.officialData.imageUrl = url;
+      expect(parseLegendImport(JSON.stringify(legend), SETS).legends).toHaveLength(0);
+    });
+  }
+  it("limits oversized import payloads", () => {
+    expect(parseLegendImport(" ".repeat(5_000_001), SETS).issues[0].level).toBe("error");
+  });
+});
