@@ -1,0 +1,596 @@
+{
+  "schemaVersion": 1,
+  "version": "q2",
+  "note": "각 답변의 weights는 사용자에게 보이지 않습니다. 키 형식: domain.<id> 또는 style.<id>. 척도형(scale)은 1~5 선택값에 따라 left/right 가중치를 선형 보간합니다. 질문을 바꾸면 공유 링크 호환을 위해 version을 올리세요.",
+  "questions": [
+    {
+      "id": "thrill",
+      "type": "choice",
+      "prompt": "게임 중 가장 짜릿한 순간은?",
+      "options": [
+        {
+          "id": "rush",
+          "label": "상대가 준비되기 전에 몰아붙여 먼저 점수를 따냈을 때",
+          "weights": {
+            "domain.fury": 3,
+            "style.aggression": 3,
+            "style.tempo": 2,
+            "style.directDamage": 1
+          },
+          "beginnerLabel": "상대가 준비하기 전에 빠르게 앞서 나갔을 때"
+        },
+        {
+          "id": "counter",
+          "label": "상대의 결정적인 한 수를 정확히 받아쳤을 때",
+          "weights": {
+            "domain.calm": 3,
+            "style.interaction": 3,
+            "style.control": 2
+          },
+          "beginnerLabel": "상대의 중요한 행동을 정확히 받아쳤을 때"
+        },
+        {
+          "id": "engine",
+          "label": "몇 턴 동안 준비한 엔진이 드디어 돌아가기 시작할 때",
+          "weights": {
+            "domain.mind": 2,
+            "domain.order": 1,
+            "style.combo": 3,
+            "style.setup": 3
+          },
+          "beginnerLabel": "몇 턴 준비한 전략이나 조합이 제대로 돌아가기 시작했을 때"
+        },
+        {
+          "id": "smash",
+          "label": "큰 유닛으로 전장을 정면에서 밀어버렸을 때",
+          "weights": {
+            "domain.body": 3,
+            "style.bigUnits": 3,
+            "style.combat": 2
+          },
+          "beginnerLabel": "강한 캐릭터로 정면 승부를 이겼을 때"
+        },
+        {
+          "id": "twist",
+          "label": "예상 밖의 한 수로 상대 계획을 꼬아버렸을 때",
+          "weights": {
+            "domain.chaos": 3,
+            "style.disruption": 3,
+            "style.riskTaking": 1,
+            "style.hidden": 1
+          },
+          "beginnerLabel": "예상 밖의 한 수로 상대 계획을 꼬이게 만들었을 때"
+        }
+      ],
+      "beginnerPrompt": "전략 게임에서 가장 짜릿하게 느껴질 순간은?"
+    },
+    {
+      "id": "variance",
+      "type": "scale",
+      "prompt": "둘 중 하나를 고른다면?",
+      "leftLabel": "매 게임 비슷하게 잘 굴러가는 덱",
+      "rightLabel": "가끔 망해도 터지면 엄청난 덱",
+      "left": {
+        "style.consistency": 4,
+        "domain.order": 1
+      },
+      "right": {
+        "style.riskTaking": 4,
+        "domain.chaos": 1
+      },
+      "beginnerPrompt": "둘 중 어느 쪽이 더 끌리나요?",
+      "beginnerLeftLabel": "매번 비슷하게 안정적으로 잘 굴러가는 전략",
+      "beginnerRightLabel": "가끔 실패해도 성공하면 아주 강력한 전략"
+    },
+    {
+      "id": "interaction",
+      "type": "scale",
+      "prompt": "상대와의 관계에서 더 끌리는 쪽은?",
+      "leftLabel": "상대 카드와 계속 주고받으며 싸우고 싶다",
+      "rightLabel": "상대가 뭘 하든 내 계획을 밀어붙이고 싶다",
+      "left": {
+        "style.interaction": 4,
+        "style.control": 3,
+        "domain.calm": 2
+      },
+      "right": {
+        "style.aggression": 3,
+        "style.tempo": 1,
+        "domain.fury": 2,
+        "domain.body": 1
+      },
+      "beginnerPrompt": "상대와 게임할 때 어느 쪽이 더 재미있나요?",
+      "beginnerLeftLabel": "상대 행동을 계속 보고 그때그때 대응하기",
+      "beginnerRightLabel": "상대가 뭘 하든 내가 준비한 계획을 밀어붙이기"
+    },
+    {
+      "id": "board-width",
+      "type": "scale",
+      "prompt": "유닛은 어떻게 쓰는 게 좋은가요?",
+      "leftLabel": "작은 유닛 여러 기를 넓게",
+      "rightLabel": "강력한 유닛 몇 장에 집중",
+      "left": {
+        "style.swarm": 4,
+        "domain.order": 2
+      },
+      "right": {
+        "style.bigUnits": 4,
+        "domain.body": 2
+      },
+      "beginnerPrompt": "캐릭터를 배치한다면 어느 쪽이 좋나요?",
+      "beginnerLeftLabel": "작은 캐릭터 여러 명을 넓게 사용하기",
+      "beginnerRightLabel": "강력한 캐릭터 몇 명에게 힘을 집중하기"
+    },
+    {
+      "id": "payoff-timing",
+      "type": "scale",
+      "prompt": "선호하는 카드의 성격은?",
+      "leftLabel": "내자마자 바로 효과가 나오는 카드",
+      "rightLabel": "여러 턴 준비해서 크게 이득 보는 카드",
+      "left": {
+        "style.tempo": 3,
+        "style.aggression": 2,
+        "domain.fury": 1
+      },
+      "right": {
+        "style.setup": 4,
+        "style.combo": 2,
+        "style.ramp": 1,
+        "domain.mind": 1
+      },
+      "beginnerPrompt": "어떤 카드나 효과가 더 끌리나요?",
+      "beginnerLeftLabel": "사용하자마자 바로 강한 효과가 나오는 것",
+      "beginnerRightLabel": "여러 턴 준비한 뒤 크게 보상받는 것"
+    },
+    {
+      "id": "complexity",
+      "type": "scale",
+      "prompt": "어떤 덱을 운영하고 싶나요?",
+      "leftLabel": "단순해도 판단 하나하나가 묵직한 덱",
+      "rightLabel": "선택지가 많고 운영 난도가 높은 덱",
+      "left": {
+        "style.midrange": 1
+      },
+      "right": {
+        "style.complexity": 5,
+        "domain.mind": 1
+      },
+      "beginnerPrompt": "어떤 전략을 배우고 싶나요?",
+      "beginnerLeftLabel": "규칙은 단순하지만 중요한 선택에 집중하는 전략",
+      "beginnerRightLabel": "선택지가 많고 익힐수록 할 수 있는 게 늘어나는 전략"
+    },
+    {
+      "id": "win-route",
+      "type": "choice",
+      "prompt": "Riftbound는 전장을 점령하고 지켜서 점수를 모아 이기는 게임입니다. 가장 끌리는 승리 방식은?",
+      "options": [
+        {
+          "id": "blitz",
+          "label": "여러 전장을 빠르게 정복해 상대가 수습하기 전에 끝낸다",
+          "weights": {
+            "style.aggression": 3,
+            "style.tempo": 2,
+            "domain.fury": 2
+          },
+          "beginnerLabel": "여러 곳을 빠르게 장악해 상대가 대응하기 전에 끝낸다"
+        },
+        {
+          "id": "hold",
+          "label": "한 전장을 단단히 붙잡고 매 턴 버티며 점수를 쌓는다",
+          "weights": {
+            "style.control": 2,
+            "style.midrange": 2,
+            "style.consistency": 1,
+            "domain.calm": 1,
+            "domain.body": 1
+          },
+          "beginnerLabel": "중요한 한 곳을 단단히 지키며 차근차근 유리해진다"
+        },
+        {
+          "id": "flank",
+          "label": "빈틈을 찾아 유닛을 이리저리 옮기며 허를 찌른다",
+          "weights": {
+            "style.movement": 4,
+            "style.tempo": 2,
+            "domain.calm": 2
+          },
+          "beginnerLabel": "빈 곳을 찾아 캐릭터를 옮기며 허를 찌른다"
+        },
+        {
+          "id": "burst",
+          "label": "준비가 끝난 한 턴에 몰아서 대량으로 득점한다",
+          "weights": {
+            "style.combo": 4,
+            "style.setup": 2,
+            "style.riskTaking": 1,
+            "domain.mind": 1
+          },
+          "beginnerLabel": "준비를 마친 뒤 한 번에 큰 이득을 만든다"
+        },
+        {
+          "id": "starve",
+          "label": "상대의 자원과 손패를 말려서 아무것도 못 하게 만든다",
+          "weights": {
+            "style.disruption": 4,
+            "style.control": 1,
+            "domain.chaos": 3
+          },
+          "beginnerLabel": "상대가 할 수 있는 선택을 계속 줄여 움직이기 어렵게 만든다"
+        }
+      ],
+      "beginnerPrompt": "게임에서 이긴다면 어떤 그림이 가장 마음에 드나요?"
+    },
+    {
+      "id": "resources",
+      "type": "choice",
+      "prompt": "손패와 자원, 어떤 운영이 편한가요?",
+      "options": [
+        {
+          "id": "full-hand",
+          "label": "손에 카드가 넉넉해야 안심된다",
+          "weights": {
+            "style.cardDraw": 4,
+            "domain.mind": 2,
+            "style.consistency": 1
+          },
+          "beginnerLabel": "손에 선택할 카드가 넉넉한 상태를 유지한다"
+        },
+        {
+          "id": "ramp",
+          "label": "매 턴 룬을 늘려서 남들보다 큰 카드를 먼저 쓴다",
+          "weights": {
+            "style.ramp": 4,
+            "domain.body": 2,
+            "style.bigUnits": 1
+          },
+          "beginnerLabel": "초반에 자원을 늘려 남들보다 큰 카드를 빨리 사용한다"
+        },
+        {
+          "id": "dump",
+          "label": "손패는 빨리 비우고 필드에 전부 쏟아낸다",
+          "weights": {
+            "style.aggression": 3,
+            "style.tempo": 2,
+            "domain.fury": 2,
+            "style.swarm": 1
+          },
+          "beginnerLabel": "카드를 아끼기보다 빠르게 사용해 내 쪽을 넓힌다"
+        },
+        {
+          "id": "efficiency",
+          "label": "자원 하나까지 계산해서 최대 효율을 뽑는다",
+          "weights": {
+            "style.resourceManagement": 4,
+            "style.complexity": 1,
+            "domain.order": 1,
+            "domain.mind": 1
+          },
+          "beginnerLabel": "자원 하나까지 계산해 매번 최대 효율을 노린다"
+        },
+        {
+          "id": "chaos",
+          "label": "버리고 뒤집고 섞으면서 흐름에 맡겨도 즐겁다",
+          "weights": {
+            "style.riskTaking": 3,
+            "domain.chaos": 3,
+            "style.disruption": 1
+          },
+          "beginnerLabel": "카드를 버리거나 섞는 등 예측하기 어려운 흐름도 즐긴다"
+        }
+      ],
+      "beginnerPrompt": "카드와 자원을 다룬다면 어느 방식이 편할 것 같나요?"
+    },
+    {
+      "id": "favorite-card",
+      "type": "choice",
+      "prompt": "덱을 짤 때 가장 먼저 손이 가는 카드는?",
+      "options": [
+        {
+          "id": "titan",
+          "label": "혼자서 전장을 책임지는 거대한 유닛",
+          "weights": {
+            "style.bigUnits": 3,
+            "style.combat": 2,
+            "domain.body": 2
+          },
+          "beginnerLabel": "혼자서 한 구역을 책임질 만큼 강한 캐릭터"
+        },
+        {
+          "id": "trick",
+          "label": "전투 도중에 판을 뒤집는 주문과 트릭",
+          "weights": {
+            "style.interaction": 3,
+            "domain.calm": 2,
+            "domain.mind": 1,
+            "style.tempo": 1
+          },
+          "beginnerLabel": "상대와 싸우는 순간 결과를 뒤집는 주문이나 기술"
+        },
+        {
+          "id": "gear",
+          "label": "유닛에 장착해서 계속 성장시키는 장비(Gear)",
+          "weights": {
+            "style.gear": 5,
+            "domain.mind": 2,
+            "style.setup": 1
+          },
+          "beginnerLabel": "한 캐릭터에게 장비를 붙여 계속 강하게 키우는 방식"
+        },
+        {
+          "id": "hidden",
+          "label": "뒷면으로 숨겨 뒀다가 튀어나오는 Hidden 카드",
+          "weights": {
+            "style.hidden": 5,
+            "domain.chaos": 2,
+            "style.riskTaking": 1
+          },
+          "beginnerLabel": "미리 숨겨 두었다가 예상 못 한 순간에 기습하는 카드"
+        },
+        {
+          "id": "burn",
+          "label": "상대에게 곧바로 꽂히는 직접 피해 주문",
+          "weights": {
+            "style.directDamage": 5,
+            "domain.fury": 2,
+            "style.aggression": 1
+          },
+          "beginnerLabel": "상대에게 바로 피해를 주는 공격적인 주문"
+        }
+      ],
+      "beginnerPrompt": "다음 중 가장 써 보고 싶은 전략 도구는?"
+    },
+    {
+      "id": "big-threat",
+      "type": "choice",
+      "prompt": "상대가 강력한 유닛을 내놓았습니다. 당신의 대응은?",
+      "options": [
+        {
+          "id": "remove",
+          "label": "즉시 제거하거나 무력화한다",
+          "weights": {
+            "style.control": 3,
+            "style.interaction": 2,
+            "domain.order": 2
+          },
+          "beginnerLabel": "바로 없애거나 힘을 못 쓰게 만든다"
+        },
+        {
+          "id": "ignore",
+          "label": "상대하지 않고 다른 전장을 점령하러 간다",
+          "weights": {
+            "style.movement": 3,
+            "style.tempo": 2,
+            "domain.calm": 1,
+            "style.aggression": 1
+          },
+          "beginnerLabel": "그 캐릭터를 피하고 다른 곳에서 이득을 본다"
+        },
+        {
+          "id": "clash",
+          "label": "더 큰 유닛으로 정면에서 맞선다",
+          "weights": {
+            "style.combat": 3,
+            "style.bigUnits": 2,
+            "domain.body": 2
+          },
+          "beginnerLabel": "나도 더 강한 캐릭터를 꺼내 정면으로 맞선다"
+        },
+        {
+          "id": "ambush",
+          "label": "전투가 벌어지는 순간 트릭으로 뒤집는다",
+          "weights": {
+            "style.interaction": 3,
+            "domain.calm": 2,
+            "style.riskTaking": 1,
+            "style.complexity": 1
+          },
+          "beginnerLabel": "싸움이 시작되는 순간 예상 밖의 카드로 뒤집는다"
+        },
+        {
+          "id": "preempt",
+          "label": "애초에 그 유닛을 쓸 자원과 카드를 흔들어 둔다",
+          "weights": {
+            "style.disruption": 3,
+            "domain.chaos": 2,
+            "style.setup": 1
+          },
+          "beginnerLabel": "애초에 그런 강한 카드를 쓰기 어렵도록 상대 자원과 선택지를 흔든다"
+        }
+      ],
+      "beginnerPrompt": "상대가 아주 강한 캐릭터를 꺼냈습니다. 어떻게 하고 싶나요?"
+    },
+    {
+      "id": "game-length",
+      "type": "choice",
+      "prompt": "이상적인 게임 길이는?",
+      "options": [
+        {
+          "id": "short",
+          "label": "짧고 굵게, 초반에 승부를 낸다",
+          "weights": {
+            "style.aggression": 4,
+            "domain.fury": 2,
+            "style.tempo": 1
+          },
+          "beginnerLabel": "짧고 빠르게, 초반부터 승부를 건다"
+        },
+        {
+          "id": "mid",
+          "label": "중반의 보드 싸움에서 승부를 가른다",
+          "weights": {
+            "style.midrange": 4,
+            "style.combat": 2,
+            "domain.body": 1
+          },
+          "beginnerLabel": "중간부터 힘싸움이 커지고 그때 승부를 가른다"
+        },
+        {
+          "id": "long",
+          "label": "길게 끌고 가서 후반에 확실하게 이긴다",
+          "weights": {
+            "style.control": 3,
+            "style.setup": 2,
+            "style.cardDraw": 1,
+            "domain.mind": 1,
+            "style.ramp": 1
+          },
+          "beginnerLabel": "천천히 준비해 후반에 확실하게 강해진다"
+        },
+        {
+          "id": "adaptive",
+          "label": "상대에 맞춰 속도를 바꾸는 게 좋다",
+          "weights": {
+            "style.tempo": 2,
+            "style.complexity": 2,
+            "domain.calm": 1,
+            "style.interaction": 1
+          },
+          "beginnerLabel": "상대가 하는 것에 맞춰 빠르게도 느리게도 바꾼다"
+        }
+      ],
+      "beginnerPrompt": "어떤 경기 흐름이 가장 마음에 드나요?"
+    },
+    {
+      "id": "positioning",
+      "type": "scale",
+      "prompt": "유닛 배치 스타일은?",
+      "leftLabel": "한 전장에 자리 잡고 끝까지 버틴다",
+      "rightLabel": "유닛을 계속 옮기며 싸울 곳을 고른다",
+      "left": {
+        "style.control": 1,
+        "style.combat": 2,
+        "domain.body": 1,
+        "style.consistency": 1
+      },
+      "right": {
+        "style.movement": 5,
+        "style.tempo": 2,
+        "domain.calm": 2
+      },
+      "beginnerPrompt": "캐릭터를 움직일 수 있다면 어느 쪽이 좋나요?",
+      "beginnerLeftLabel": "한 곳에 자리 잡고 끝까지 지키기",
+      "beginnerRightLabel": "계속 옮겨 다니며 싸울 곳을 직접 고르기"
+    },
+    {
+      "id": "unit-death",
+      "type": "choice",
+      "prompt": "내 유닛이 전투에서 쓰러지려고 합니다.",
+      "options": [
+        {
+          "id": "deathknell",
+          "label": "괜찮다. 쓰러질 때 발동하는 효과(Deathknell)로 이득을 본다",
+          "weights": {
+            "style.sacrifice": 5,
+            "domain.order": 3
+          },
+          "beginnerLabel": "쓰러져도 괜찮다. 쓰러지는 순간 추가 이득을 얻고 싶다"
+        },
+        {
+          "id": "protect",
+          "label": "버프나 보호 효과로 끝까지 살려낸다",
+          "weights": {
+            "style.consistency": 2,
+            "style.bigUnits": 1,
+            "domain.body": 2,
+            "style.combat": 1
+          },
+          "beginnerLabel": "강화하거나 보호해서 끝까지 살려내고 싶다"
+        },
+        {
+          "id": "next",
+          "label": "상관없다. 다음 유닛이 줄지어 기다리고 있다",
+          "weights": {
+            "style.swarm": 3,
+            "style.aggression": 2,
+            "domain.order": 1
+          },
+          "beginnerLabel": "한 명이 쓰러져도 다음 캐릭터를 계속 내보내고 싶다"
+        },
+        {
+          "id": "escape",
+          "label": "쓰러지기 전에 전장에서 빼낸다",
+          "weights": {
+            "style.movement": 2,
+            "domain.calm": 2,
+            "style.tempo": 1,
+            "style.interaction": 1
+          },
+          "beginnerLabel": "쓰러지기 전에 다른 곳으로 빼내고 싶다"
+        },
+        {
+          "id": "trade",
+          "label": "희생해서라도 상대에게 더 큰 피해를 준다",
+          "weights": {
+            "style.sacrifice": 2,
+            "style.riskTaking": 2,
+            "style.directDamage": 1,
+            "domain.chaos": 1,
+            "domain.fury": 1
+          },
+          "beginnerLabel": "내 캐릭터를 잃더라도 상대에게 더 큰 손해를 주고 싶다"
+        }
+      ],
+      "beginnerPrompt": "내 캐릭터가 곧 쓰러질 상황입니다. 어떤 선택이 끌리나요?"
+    },
+    {
+      "id": "opponent-quote",
+      "type": "choice",
+      "prompt": "게임이 끝난 뒤 상대가 이렇게 말한다면, 가장 기분 좋은 말은?",
+      "options": [
+        {
+          "id": "fast",
+          "label": "\"벌써 끝났어?\"",
+          "weights": {
+            "style.aggression": 3,
+            "style.tempo": 1,
+            "domain.fury": 2
+          },
+          "beginnerLabel": "\"벌써 끝났어?\""
+        },
+        {
+          "id": "blocked",
+          "label": "\"뭘 해도 다 막히네.\"",
+          "weights": {
+            "style.control": 4,
+            "style.interaction": 1,
+            "domain.calm": 2
+          },
+          "beginnerLabel": "\"뭘 해도 다 막히네.\""
+        },
+        {
+          "id": "surprise",
+          "label": "\"그게 거기서 나와?\"",
+          "weights": {
+            "style.hidden": 2,
+            "style.riskTaking": 2,
+            "style.disruption": 1,
+            "domain.chaos": 2,
+            "style.complexity": 1
+          },
+          "beginnerLabel": "\"그게 거기서 나와?\""
+        },
+        {
+          "id": "endless",
+          "label": "\"카드가 끝이 없네.\"",
+          "weights": {
+            "style.cardDraw": 3,
+            "style.resourceManagement": 2,
+            "domain.mind": 2
+          },
+          "beginnerLabel": "\"카드가 끝이 없네.\""
+        },
+        {
+          "id": "army",
+          "label": "\"보드가 네 유닛으로 꽉 찼네.\"",
+          "weights": {
+            "style.swarm": 3,
+            "domain.order": 2,
+            "style.setup": 1
+          },
+          "beginnerLabel": "\"온통 네 캐릭터로 가득하네.\""
+        }
+      ],
+      "beginnerPrompt": "게임이 끝난 뒤 상대에게 어떤 말을 들으면 가장 뿌듯할까요?"
+    }
+  ]
+}

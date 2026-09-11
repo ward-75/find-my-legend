@@ -1,0 +1,7 @@
+node_modules/
+.next/
+out/
+preview/dist/
+next-env.d.ts
+*.tsbuildinfo
+data/import-*.json

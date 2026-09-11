@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+/* Tailwind v4: Next(app/)와 단일 파일 미리보기(preview/)가 같은 CSS를 쓴다 */
+@source "../components";
+@source "../app";
+@source "../lib";
+
+@theme {
+  --color-abyss: #0b1324;
+  --color-deep: #111d35;
+  --color-deeper: #0e182d;
+  --color-rim: #24365c;
+  --color-vellum: #ece4d0;
+  --color-haze: #8f9cb9;
+  --color-brass: #c8a15a;
+
+  --color-body: #f28a3a;
+  --color-fury: #e8474f;
+  --color-calm: #3db57e;
+  --color-mind: #4c8df6;
+  --color-chaos: #a064e8;
+  --color-order: #e3bf45;
+
+  --font-display: "Hahmlet", "Noto Serif KR", "Apple Myungjo", serif;
+  --font-sans: "IBM Plex Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
+}
+
+@layer base {
+  html { color-scheme: dark; -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background-color: var(--color-abyss);
+    background-image:
+      radial-gradient(1200px 520px at 50% -120px, rgba(56, 86, 150, 0.35), transparent 70%),
+      radial-gradient(900px 600px at 110% 40%, rgba(40, 60, 110, 0.18), transparent 70%);
+    background-attachment: fixed;
+    color: var(--color-vellum);
+    font-family: var(--font-sans);
+    line-height: 1.6;
+    word-break: keep-all;
+    overflow-wrap: anywhere;
+  }
+  :focus-visible { outline: 2px solid var(--color-vellum); outline-offset: 3px; border-radius: 6px; }
+  ::selection { background: rgba(200, 161, 90, 0.35); }
+}
+
+/* ── motion: 사용자 행동에 반응하는 것 + 결과 공개 한 번 ── */
+@keyframes q-in { from { opacity: 0; transform: translateX(18px); } to { opacity: 1; transform: none; } }
+@keyframes q-in-back { from { opacity: 0; transform: translateX(-18px); } to { opacity: 1; transform: none; } }
+@keyframes rise { from { opacity: 0; transform: translateY(24px) scale(0.98); } to { opacity: 1; transform: none; } }
+@keyframes halo { from { opacity: 0; transform: scale(0.9) rotate(-20deg); } to { opacity: 1; transform: none; } }
+@keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes sheet-up { from { transform: translateY(40px); opacity: 0; } to { transform: none; opacity: 1; } }
+
+.anim-q { animation: q-in 280ms cubic-bezier(.2,.7,.2,1) both; }
+.anim-q-back { animation: q-in-back 280ms cubic-bezier(.2,.7,.2,1) both; }
+.anim-rise { animation: rise 700ms cubic-bezier(.2,.7,.2,1) both; }
+.anim-halo { animation: halo 1100ms cubic-bezier(.2,.7,.2,1) 150ms both; }
+.anim-fade { animation: fade 400ms ease both; }
+.anim-sheet { animation: sheet-up 260ms cubic-bezier(.2,.7,.2,1) both; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 1ms !important; animation-delay: 0ms !important; transition-duration: 1ms !important; }
+}
+
+/* 카드 프레임: 실제 카드 비율 744×1039 */
+.card-ratio { aspect-ratio: 744 / 1039; }
+
+/* 스크롤바 없는 가로 스크롤 */
+.scroll-x { overflow-x: auto; scrollbar-width: thin; }
+
+/* 범위 슬라이더 대신 쓰는 막대 */
+.bar-track { background: rgba(236, 228, 208, 0.08); }

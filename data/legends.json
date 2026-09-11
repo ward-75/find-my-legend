@@ -1,0 +1,4245 @@
+{
+  "schemaVersion": 1,
+  "generatedFrom": "Riftcodex API (api.riftcodex.com) base printings; names cross-checked with riftdecks.com legend list",
+  "legends": [
+    {
+      "id": "kaisa-daughter-of-the-void-ogn",
+      "officialData": {
+        "champion": "Kai'Sa",
+        "title": "Daughter of the Void",
+        "setId": "origins",
+        "setCode": "OGN",
+        "collectorNumber": "OGN-247",
+        "riftboundId": "ogn-247-298",
+        "domains": [
+          "fury",
+          "mind"
+        ],
+        "abilityText": ":rb_exhaust:: [Reaction] — [Add] :rb_rune_rainbow:. Use only to play spells. (Abilities that add resources can't be reacted to.)",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a576472c7bb00f475882ac814e1d8f9be233b402-744x1040.png?accountingTag=RB",
+        "artist": "Kudos Productions",
+        "sourceUrls": [
+          "https://api.riftcodex.com/cards/riftbound/ogn-247-298",
+          "https://riftdecks.com/cards/details-kaisa-daughter-of-the-void"
+        ],
+        "verifiedAt": "2026-09-10"
+      },
+      "localization": {
+        "championKo": "카이사",
+        "titleKo": null
+      },
+      "recommendationData": {
+        "difficulty": 4,
+        "archetypes": [
+          "spells",
+          "tempo",
+          "control"
+        ],
+        "scores": {
+          "aggression": 60,
+          "control": 55,
+          "tempo": 70,
+          "combo": 50,
+          "midrange": 40,
+          "ramp": 45,
+          "swarm": 20,
+          "bigUnits": 30,
+          "interaction": 75,
+          "disruption": 40,
+          "cardDraw": 55,
+          "resourceManagement": 70,
+          "movement": 30,
+          "gear": 15,
+          "hidden": 30,
+          "sacrifice": 10,
+          "directDamage": 70,
+          "combat": 45,
+          "consistency": 60,
+          "riskTaking": 45,
+          "complexity": 70,
+          "setup": 45
+        },
+        "domainScores": {
+          "body": 15,
+          "fury": 90,
+          "calm": 15,
+          "mind": 90,
+          "chaos": 15,
+          "order": 15
+        },
+        "playstyleSummary": "소진해서 주문 전용 파워 1을 더하는 능력으로, 주문을 더 많이·더 빨리 쓰는 전설입니다. 반응(Reaction) 타이밍에도 쓸 수 있어 상대 턴에도 흐름을 가져옵니다.",
+        "strengths": [
+          "주문 전용 추가 자원으로 매 턴 선택지가 넓다",
+          "상대 턴에도 반응 타이밍에 자원을 보탤 수 있다"
+        ],
+        "weaknesses": [
+          "유닛보다 주문 비중이 높아 카드 선택 판단이 중요하다"
+        ],
+        "recommendedFor": [
+          "interaction",
+          "tempo",
+          "resourceManagement",
+          "directDamage"
+        ],
+        "notRecommendedFor": [
+          "swarm"
+        ],
+        "needsReview": true,
+        "reviewNote": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요."
+      }
+    },
+    {
+      "id": "volibear-relentless-storm-ogn",
+      "officialData": {
+        "champion": "Volibear",
+        "title": "Relentless Storm",
+        "setId": "origins",
+        "setCode": "OGN",
+        "collectorNumber": "OGN-249",
+        "riftboundId": "ogn-249-298",
+        "domains": [
+          "fury",
+          "body"
+        ],
+        "abilityText": "When you play a [Mighty] unit, you may exhaust me to channel 1 rune exhausted. (A unit is Mighty while it has 5+ :rb_might:.)",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f1842ef373434db3e8109d8959832f9d184866c3-744x1040.png?accountingTag=RB",
+        "artist": "Grafit Studio",
+        "sourceUrls": [
+          "https://api.riftcodex.com/cards/riftbound/ogn-249-298",
+          "https://riftdecks.com/cards/details-volibear-relentless-storm"
+        ],
+        "verifiedAt": "2026-09-10"
+      },
+      "localization": {
+        "championKo": "볼리베어",
+        "titleKo": null
+      },
+      "recommendationData": {
+        "difficulty": 2,
+        "archetypes": [
+          "ramp",
+          "bigUnits",
+          "midrange"
+        ],
+        "scores": {
+          "aggression": 60,
+          "control": 25,
+          "tempo": 45,
+          "combo": 30,
+          "midrange": 65,
+          "ramp": 85,
+          "swarm": 15,
+          "bigUnits": 95,
+          "interaction": 25,
+          "disruption": 15,
+          "cardDraw": 25,
+          "resourceManagement": 55,
+          "movement": 30,
+          "gear": 15,
+          "hidden": 10,
+          "sacrifice": 10,
+          "directDamage": 30,
+          "combat": 90,
+          "consistency": 60,
+          "riskTaking": 45,
+          "complexity": 35,
+          "setup": 50
+        },
+        "domainScores": {
+          "body": 90,
+          "fury": 90,
+          "calm": 15,
+          "mind": 15,
+          "chaos": 15,
+          "order": 15
+        },
+        "playstyleSummary": "Mighty(5+ 힘) 유닛을 낼 때 룬을 추가로 채널링해, 큰 유닛으로 자원을 불려 가는 램프형 전설입니다.",
+        "strengths": [
+          "대형 유닛을 낼수록 자원이 늘어 다음 턴이 더 강해진다",
+          "정면 전투에서 버티기 쉬운 체급"
+        ],
+        "weaknesses": [
+          "Mighty 유닛을 뽑지 못하면 능력이 잠든다"
+        ],
+        "recommendedFor": [
+          "bigUnits",
+          "combat",
+          "ramp",
+          "midrange"
+        ],
+        "notRecommendedFor": [
+          "swarm",
+          "control",
+          "interaction"
+        ],
+        "needsReview": true,
+        "reviewNote": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요."
+      }
+    },
+    {
+      "id": "jinx-loose-cannon-ogn",
+      "officialData": {
+        "champion": "Jinx",
+        "title": "Loose Cannon",
+        "setId": "origins",
+        "setCode": "OGN",
+        "collectorNumber": "OGN-251",
+        "riftboundId": "ogn-251-298",
+        "domains": [
+          "fury",
+          "chaos"
+        ],
+        "abilityText": "At start of your Beginning Phase, draw 1 if you have one or fewer cards in your hand.",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f57c14381b126e9f5a7b5bc4913151cb24c14fc3-744x1039.png?accountingTag=RB",
+        "artist": "Sugar Free",
+        "sourceUrls": [
+          "https://api.riftcodex.com/cards/riftbound/ogn-251-298",
+          "https://riftdecks.com/cards/details-jinx-loose-cannon"
+        ],
+        "verifiedAt": "2026-09-10"
+      },
+      "localization": {
+        "championKo": "징크스",
+        "titleKo": null
+      },
+      "recommendationData": {
+        "difficulty": 2,
+        "archetypes": [
+          "aggro",
+          "tempo"
+        ],
+        "scores": {
+          "aggression": 95,
+          "control": 10,
+          "tempo": 80,
+          "combo": 25,
+          "midrange": 25,
+          "ramp": 10,
+          "swarm": 55,
+          "bigUnits": 20,
+          "interaction": 25,
+          "disruption": 35,
+          "cardDraw": 55,
+          "resourceManagement": 45,
+          "movement": 35,
+          "gear": 15,
+          "hidden": 20,
+          "sacrifice": 20,
+          "directDamage": 75,
+          "combat": 60,
+          "consistency": 45,
+          "riskTaking": 75,
+          "complexity": 30,
+          "setup": 10
+        },
+        "domainScores": {
+          "body": 15,
+          "fury": 90,
+          "calm": 15,
+          "mind": 15,
+          "chaos": 90,
+          "order": 15
+        },
+        "playstyleSummary": "손패가 1장 이하이면 턴 시작마다 1장을 뽑아, 카드를 아낌없이 쏟아내는 공격형 전설입니다.",
+        "strengths": [
+          "손패를 빨리 비울수록 연료가 계속 공급된다",
+          "초반부터 강하게 몰아붙이기 좋다"
+        ],
+        "weaknesses": [
+          "손을 비우지 못하는 느린 운영에서는 능력이 약하다",
+          "장기전에서 상대 대응에 밀릴 수 있다"
+        ],
+        "recommendedFor": [
+          "aggression",
+          "tempo",
+          "directDamage",
+          "riskTaking"
+        ],
+        "notRecommendedFor": [
+          "control",
+          "setup",
+          "bigUnits"
+        ],
+        "needsReview": true,
+        "reviewNote": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요."
+      }
+    },
+    {
+      "id": "darius-hand-of-noxus-ogn",
+      "officialData": {
+        "champion": "Darius",
+        "title": "Hand of Noxus",
+        "setId": "origins",
+        "setCode": "OGN",
+        "collectorNumber": "OGN-253",
+        "riftboundId": "ogn-253-298",
+        "domains": [
+          "fury",
+          "order"
+        ],
+        "abilityText": ":rb_exhaust:: [Reaction], [Legion] — [Add] :rb_energy_1:. (Abilities that add resources can't be reacted to. Get the effect if you've played a card this turn.)",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5b9a904048b7fb936377844ec2d31564b7fedf81-744x1039.png?accountingTag=RB",
+        "artist": "Six More Vodka",
+        "sourceUrls": [
+          "https://api.riftcodex.com/cards/riftbound/ogn-253-298",
+          "https://riftdecks.com/cards/details-darius-hand-of-noxus"
+        ],
+        "verifiedAt": "2026-09-10"
+      },
+      "localization": {
+        "championKo": "다리우스",
+        "titleKo": null
+      },
+      "recommendationData": {
+        "difficulty": 3,
+        "archetypes": [
+          "aggro",
+          "tempo",
+          "midrange"
+        ],
+        "scores": {
+          "aggression": 80,
+          "control": 25,
+          "tempo": 80,
+          "combo": 50,
+          "midrange": 50,
+          "ramp": 50,
+          "swarm": 60,
+          "bigUnits": 30,
+          "interaction": 35,
+          "disruption": 20,
+          "cardDraw": 30,
+          "resourceManagement": 70,
+          "movement": 30,
+          "gear": 10,
+          "hidden": 10,
+          "sacrifice": 30,
+          "directDamage": 45,
+          "combat": 70,
+          "consistency": 60,
+          "riskTaking": 40,
+          "complexity": 55,
+          "setup": 35
+        },
+        "domainScores": {
+          "body": 15,
+          "fury": 90,
+          "calm": 15,
+          "mind": 15,
+          "chaos": 15,
+          "order": 90
+        },
+        "playstyleSummary": "이번 턴에 카드를 냈다면 에너지 1을 더하는 Legion 능력으로, 여러 장을 연달아 내며 압박하는 전설입니다.",
+        "strengths": [
+          "저비용 카드를 이어 내며 한 턴에 많은 행동이 가능하다",
+          "공격 템포를 유지하기 쉽다"
+        ],
+        "weaknesses": [
+          "첫 카드를 내야 능력이 켜져서 플레이 순서 계산이 필요하다"
+        ],
+        "recommendedFor": [
+          "aggression",
+          "tempo",
+          "resourceManagement",
+          "combat"
+        ],
+        "notRecommendedFor": [
+          "control"
+        ],
+        "needsReview": true,
+        "reviewNote": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요."
+      }
+    },
+    {
+      "id": "ahri-nine-tailed-fox-ogn",
+      "officialData": {
+        "champion": "Ahri",
+        "title": "Nine-Tailed Fox",
+        "setId": "origins",
+        "setCode": "OGN",
+        "collectorNumber": "OGN-255",
+        "riftboundId": "ogn-255-298",
+        "domains": [
+          "calm",
+          "mind"
+        ],
+        "abilityText": "When an enemy unit attacks a battlefield you control, give it -1 :rb_might: this turn, to a minimum of 1 :rb_might:.",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/fbce641f5e4d8cdf2956e8ead5884b6cd3ccd90d-744x1040.png?accountingTag=RB",
+        "artist": "Envar Studio",
+        "sourceUrls": [
+          "https://api.riftcodex.com/cards/riftbound/ogn-255-298",
+          "https://riftdecks.com/cards/details-ahri-nine-tailed-fox"
+        ],
+        "verifiedAt": "2026-09-10"
+      },
+      "localization": {
+        "championKo": "아리",
+        "titleKo": null
+      },
+      "recommendationData": {
+        "difficulty": 3,
+        "archetypes": [
+          "control",
+          "hold"
+        ],
+        "scores": {
+          "aggression": 25,
+          "control": 80,
+          "tempo": 55,
+          "combo": 30,
+          "midrange": 50,
+          "ramp": 20,
+          "swarm": 35,
+          "bigUnits": 30,
+          "interaction": 70,
+          "disruption": 45,
+          "cardDraw": 55,
+          "resourceManagement": 55,
+          "movement": 45,
+          "gear": 20,
+          "hidden": 30,
+          "sacrifice": 10,
+          "directDamage": 25,
+          "combat": 55,
+          "consistency": 75,
+          "riskTaking": 25,
+          "complexity": 55,
+          "setup": 45
+        },
+        "domainScores": {
+          "body": 15,
+          "fury": 15,
+          "calm": 90,
+          "mind": 90,
+          "chaos": 15,
+          "order": 15
+        },
+        "playstyleSummary": "내가 점령한 전장을 공격하는 적 유닛의 힘을 1 낮춰, 전장을 지키며 버티는 수비형 전설입니다.",
+        "strengths": [
+          "점령한 전장을 지키는 운영에 강하다",
+          "상대의 공격 계산을 어렵게 만든다"
+        ],
+        "weaknesses": [
+          "먼저 전장을 점령해야 능력이 의미가 있어 주도권을 잃으면 힘들다"
+        ],
+        "recommendedFor": [
+          "control",
+          "consistency",
+          "interaction"
+        ],
+        "notRecommendedFor": [
+          "aggression",
+          "riskTaking"
+        ],
+        "needsReview": true,
+        "reviewNote": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요."
+      }
+    },
+    {
+      "id": "lee-sin-blind-monk-ogn",
+      "officialData": {
+        "champion": "Lee Sin",
+        "title": "Blind Monk",
+        "setId": "origins",
+        "setCode": "OGN",
+        "collectorNumber": "OGN-257",
+        "riftboundId": "ogn-257-298",
+        "domains": [
+          "calm",
+          "body"
+        ],
+        "abilityText": ":rb_energy_1:, :rb_exhaust:: Buff a friendly unit. (If it doesn't have a buff, it gets a +1 :rb_might: buff.)",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ffe064e002d3b9a366748eb85102a769b2545835-744x1039.png?accountingTag=RB",
+        "artist": "Six More Vodka",
+        "sourceUrls": [
+          "https://api.riftcodex.com/cards/riftbound/ogn-257-298",
+          "https://riftdecks.com/cards/details-lee-sin-blind-monk"
+        ],
+        "verifiedAt": "2026-09-10"
+      },
+      "localization": {
+        "championKo": "리 신",
+        "titleKo": null
+      },
+      "recommendationData": {
+        "difficulty": 2,
+        "archetypes": [
+          "buff",
+          "midrange"
+        ],
+        "scores": {
+          "aggression": 50,
+          "control": 45,
+          "tempo": 50,
+          "combo": 35,
+          "midrange": 80,
+          "ramp": 20,
+          "swarm": 35,
+          "bigUnits": 65,
+          "interaction": 45,
+          "disruption": 15,
+          "cardDraw": 25,
+          "resourceManagement": 55,
+          "movement": 35,
+          "gear": 15,
+          "hidden": 10,
+          "sacrifice": 10,
+          "directDamage": 15,
+          "combat": 80,
+          "consistency": 75,
+          "riskTaking": 25,
+          "complexity": 45,
+          "setup": 55
+        },
+        "domainScores": {
+          "body": 90,
+          "fury": 15,
+          "calm": 90,
+          "mind": 15,
+          "chaos": 15,
+          "order": 15
+        },
+        "playstyleSummary": "에너지 1과 소진으로 아군 유닛에 버프를 주어, 유닛을 한 단계씩 키워 가는 성장형 전설입니다.",
+        "strengths": [
+          "매 턴 꾸준히 쓸 수 있는 능력",
+          "버프 시너지 카드와 궁합이 좋다"
+        ],
+        "weaknesses": [
+          "버프는 유닛당 하나라 넓게 키우려면 유닛 수가 필요하다"
+        ],
+        "recommendedFor": [
+          "midrange",
+          "combat",
+          "consistency",
+          "bigUnits"
+        ],
+        "notRecommendedFor": [
+          "cardDraw",
+          "riskTaking"
+        ],
+        "needsReview": true,
+        "reviewNote": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요."
+      }
+    },
+    {
+      "id": "yasuo-unforgiven-ogn",
+      "officialData": {
+        "champion": "Yasuo",
+        "title": "Unforgiven",
+        "setId": "origins",
+        "setCode": "OGN",
+        "collectorNumber": "OGN-259",
+        "riftboundId": "ogn-259-298",
+        "domains": [
+          "calm",
+          "chaos"
+        ],
+        "abilityText": ":rb_energy_2:, :rb_exhaust:: Move a friendly unit to or from its base.",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/68e4d3230b785738ae9d86f780f7f5607ef11807-744x1040.png?accountingTag=RB",
+        "artist": "TSWCK逍",
+        "sourceUrls": [
+          "https://api.riftcodex.com/cards/riftbound/ogn-259-298",
+          "https://riftdecks.com/cards/details-yasuo-unforgiven"
+        ],
+        "verifiedAt": "2026-09-10"
+      },
+      "localization": {
+        "championKo": "야스오",
+        "titleKo": null
+      },
+      "recommendationData": {
+        "difficulty": 4,
+        "archetypes": [
+          "movement",
+          "tempo"
+        ],
+        "scores": {
+          "aggression": 60,
+          "control": 40,
+          "tempo": 85,
+          "combo": 40,
+          "midrange": 40,
+          "ramp": 10,
+          "swarm": 30,
+          "bigUnits": 30,
+          "interaction": 55,
+          "disruption": 45,
+          "cardDraw": 30,
+          "resourceManagement": 50,
+          "movement": 95,
+          "gear": 15,
+          "hidden": 25,
+          "sacrifice": 10,
+          "directDamage": 25,
+          "combat": 60,
+          "consistency": 45,
+          "riskTaking": 60,
+          "complexity": 75,
+          "setup": 30
+        },
+        "domainScores": {
+          "body": 15,
+          "fury": 15,
+          "calm": 90,
+          "mind": 15,
+          "chaos": 90,
+          "order": 15
+        },
+        "playstyleSummary": "에너지 2와 소진으로 아군 유닛을 기지와 전장 사이로 옮기는, 이동 중심의 전설입니다.",
+        "strengths": [
+          "유닛 위치를 바꿔 상대의 허를 찌를 수 있다",
+          "불리한 전투에서 유닛을 빼내 보존할 수 있다"
+        ],
+        "weaknesses": [
+          "매 턴 에너지 2가 들어 자원 배분이 까다롭다",
+          "판단할 게 많아 숙련이 필요하다"
+        ],
+        "recommendedFor": [
+          "movement",
+          "tempo",
+          "complexity"
+        ],
+        "notRecommendedFor": [],
+        "needsReview": true,
+        "reviewNote": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요."
+      }
+    },
+    {
+      "id": "leona-radiant-dawn-ogn",
+      "officialData": {
+        "champion": "Leona",
+        "title": "Radiant Dawn",
+        "setId": "origins",
+        "setCode": "OGN",
+        "collectorNumber": "OGN-261",
+        "riftboundId": "ogn-261-298",
+        "domains": [
+          "calm",
+          "order"
+        ],
+        "abilityText": "When you stun one or more enemy units, buff a friendly unit. (If it doesn't have a buff, it gets a +1 :rb_might: buff.)",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/822b8bc7987a47498550708b18ef166b121fd620-744x1039.png?accountingTag=RB",
+        "artist": "Six More Vodka",
+        "sourceUrls": [
+          "https://api.riftcodex.com/cards/riftbound/ogn-261-298",
+          "https://riftdecks.com/cards/details-leona-radiant-dawn"
+        ],
+        "verifiedAt": "2026-09-10"
+      },
+      "localization": {
+        "championKo": "레오나",
+        "titleKo": null
+      },
+      "recommendationData": {
+        "difficulty": 3,
+        "archetypes": [
+          "control",
+          "buff",
+          "midrange"
+        ],
+        "scores": {
+          "aggression": 45,
+          "control": 70,
+          "tempo": 60,
+          "combo": 40,
+          "midrange": 70,
+          "ramp": 15,
+          "swarm": 30,
+          "bigUnits": 55,
+          "interaction": 75,
+          "disruption": 50,
+          "cardDraw": 25,
+          "resourceManagement": 50,
+          "movement": 30,
+          "gear": 15,
+          "hidden": 10,
+          "sacrifice": 10,
+          "directDamage": 20,
+          "combat": 75,
+          "consistency": 65,
+          "riskTaking": 30,
+          "complexity": 50,
+          "setup": 50
+        },
+        "domainScores": {
+          "body": 15,
+          "fury": 15,
+          "calm": 90,
+          "mind": 15,
+          "chaos": 15,
+          "order": 90
+        },
+        "playstyleSummary": "적 유닛을 기절(Stun)시킬 때마다 아군 유닛에 버프를 주는, 제압과 성장을 함께 하는 전설입니다.",
+        "strengths": [
+          "기절 카드가 곧 성장 카드가 된다",
+          "전투 주도권을 쥐기 쉽다"
+        ],
+        "weaknesses": [
+          "기절 수단이 부족하면 능력이 발동하지 않는다"
+        ],
+        "recommendedFor": [
+          "interaction",
+          "combat",
+          "control",
+          "midrange"
+        ],
+        "notRecommendedFor": [
+          "cardDraw"
+        ],
+        "needsReview": true,
+        "reviewNote": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요."
+      }
+    },
+    {
+      "id": "teemo-swift-scout-ogn",
+      "officialData": {
+        "champion": "Teemo",
+        "title": "Swift Scout",
+        "setId": "origins",
+        "setCode": "OGN",
+        "collectorNumber": "OGN-263",
+        "riftboundId": "ogn-263-298",
+        "domains": [
+          "mind",
+          "chaos"
+        ],
+        "abilityText": "You may pay :rb_energy_1: to hide a card with [Hidden] instead of :rb_rune_rainbow:.:rb_energy_1:, :rb_exhaust:: Put a Teemo unit you own into your hand from your Champion Zone or the board.",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9723181e3392bb61c2aabc804a44f7b0558cedf1-744x1039.png?accountingTag=RB",
+        "artist": "Shawn Lee",
+        "sourceUrls": [
+          "https://api.riftcodex.com/cards/riftbound/ogn-263-298",
+          "https://riftdecks.com/cards/details-teemo-swift-scout"
+        ],
+        "verifiedAt": "2026-09-10"
+      },
+      "localization": {
+        "championKo": "티모",
+        "titleKo": null
+      },
+      "recommendationData": {
+        "difficulty": 4,
+        "archetypes": [
+          "hidden",
+          "control"
+        ],
+        "scores": {
+          "aggression": 40,
+          "control": 55,
+          "tempo": 50,
+          "combo": 55,
+          "midrange": 30,
+          "ramp": 10,
+          "swarm": 30,
+          "bigUnits": 15,
+          "interaction": 65,
+          "disruption": 75,
+          "cardDraw": 40,
+          "resourceManagement": 60,
+          "movement": 35,
+          "gear": 15,
+          "hidden": 100,
+          "sacrifice": 15,
+          "directDamage": 50,
+          "combat": 35,
+          "consistency": 40,
+          "riskTaking": 70,
+          "complexity": 80,
+          "setup": 55
+        },
+        "domainScores": {
+          "body": 15,
+          "fury": 15,
+          "calm": 15,
+          "mind": 90,
+          "chaos": 90,
+          "order": 15
+        },
+        "playstyleSummary": "Hidden 카드를 룬 대신 에너지 1로 숨길 수 있고, 티모 유닛을 손으로 되돌리는 함정형 전설입니다.",
+        "strengths": [
+          "Hidden 카드를 저렴하게 여러 장 깔 수 있다",
+          "상대가 다음 수를 예측하기 어렵다"
+        ],
+        "weaknesses": [
+          "숨긴 카드를 꺼내는 타이밍 판단이 어렵다",
+          "직접적인 전투력은 낮은 편"
+        ],
+        "recommendedFor": [
+          "hidden",
+          "complexity",
+          "disruption",
+          "riskTaking"
+        ],
+        "notRecommendedFor": [
+          "bigUnits"
+        ],
+        "needsReview": true,
+        "reviewNote": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요."
+      }
+    },
+    {
+      "id": "viktor-herald-of-the-arcane-ogn",
+      "officialData": {
+        "champion": "Viktor",
+        "title": "Herald of the Arcane",
+        "setId": "origins",
+        "setCode": "OGN",
+        "collectorNumber": "OGN-265",
+        "riftboundId": "ogn-265-298",
+        "domains": [
+          "mind",
+          "order"
+        ],
+        "abilityText": ":rb_energy_1:, :rb_exhaust:: Play a 1 :rb_might: Recruit unit token.",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/913236dabf1e4f71650bbba46870fff8163e2eff-744x1039.png?accountingTag=RB",
+        "artist": "Fortiche Production",
+        "sourceUrls": [
+          "https://api.riftcodex.com/cards/riftbound/ogn-265-298",
+          "https://riftdecks.com/cards/details-viktor-herald-of-the-arcane"
+        ],
+        "verifiedAt": "2026-09-10"
+      },
+      "localization": {
+        "championKo": "빅토르",
+        "titleKo": null
+      },
+      "recommendationData": {
+        "difficulty": 3,
+        "archetypes": [
+          "tokens",
+          "midrange"
+        ],
+        "scores": {
+          "aggression": 40,
+          "control": 55,
+          "tempo": 40,
+          "combo": 45,
+          "midrange": 55,
+          "ramp": 20,
+          "swarm": 95,
+          "bigUnits": 10,
+          "interaction": 40,
+          "disruption": 20,
+          "cardDraw": 40,
+          "resourceManagement": 65,
+          "movement": 30,
+          "gear": 25,
+          "hidden": 15,
+          "sacrifice": 45,
+          "directDamage": 15,
+          "combat": 50,
+          "consistency": 75,
+          "riskTaking": 25,
+          "complexity": 55,
+          "setup": 70
+        },
+        "domainScores": {
+          "body": 15,
+          "fury": 15,
+          "calm": 15,
+          "mind": 90,
+          "chaos": 15,
+          "order": 90
+        },
+        "playstyleSummary": "에너지 1과 소진으로 매 턴 1 힘 Recruit 토큰을 만드는 토큰 엔진 전설입니다.",
+        "strengths": [
+          "매 턴 보드에 유닛이 늘어난다",
+          "물량·희생 시너지로 확장하기 좋다"
+        ],
+        "weaknesses": [
+          "토큰 하나하나가 작아 광역 피해에 약하다"
+        ],
+        "recommendedFor": [
+          "swarm",
+          "consistency",
+          "setup",
+          "resourceManagement"
+        ],
+        "notRecommendedFor": [
+          "bigUnits",
+          "riskTaking"
+        ],
+        "needsReview": true,
+        "reviewNote": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요."
+      }
+    },
+    {
+      "id": "miss-fortune-bounty-hunter-ogn",
+      "officialData": {
+        "champion": "Miss Fortune",
+        "title": "Bounty Hunter",
+        "setId": "origins",
+        "setCode": "OGN",
+        "collectorNumber": "OGN-267",
+        "riftboundId": "ogn-267-298",
+        "domains": [
+          "body",
+          "chaos"
+        ],
+        "abilityText": ":rb_exhaust:: Give a unit [Ganking] this turn. (It can move from battlefield to battlefield.)",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/cc11261fcdbf0851525030bd9e835b718efad3bc-744x1040.png?accountingTag=RB",
+        "artist": "Six More Vodka",
+        "sourceUrls": [
+          "https://api.riftcodex.com/cards/riftbound/ogn-267-298",
+          "https://riftdecks.com/cards/details-miss-fortune-bounty-hunter"
+        ],
+        "verifiedAt": "2026-09-10"
+      },
+      "localization": {
+        "championKo": "미스 포츈",
+        "titleKo": null
+      },
+      "recommendationData": {
+        "difficulty": 3,
+        "archetypes": [
+          "movement",
+          "aggro",
+          "midrange"
+        ],
+        "scores": {
+          "aggression": 75,
+          "control": 25,
+          "tempo": 75,
+          "combo": 30,
+          "midrange": 50,
+          "ramp": 25,
+          "swarm": 35,
+          "bigUnits": 50,
+          "interaction": 35,
+          "disruption": 35,
+          "cardDraw": 25,
+          "resourceManagement": 45,
+          "movement": 85,
+          "gear": 15,
+          "hidden": 20,
+          "sacrifice": 10,
+          "directDamage": 40,
+          "combat": 75,
+          "consistency": 50,
+          "riskTaking": 60,
+          "complexity": 50,
+          "setup": 25
+        },
+        "domainScores": {
+          "body": 90,
+          "fury": 15,
+          "calm": 15,
+          "mind": 15,
+          "chaos": 90,
+          "order": 15
+        },
+        "playstyleSummary": "소진으로 유닛에게 Ganking(전장 간 이동)을 부여해, 여러 전장을 오가며 싸우는 기동형 전설입니다.",
+        "strengths": [
+          "빈 전장을 찌르는 이동 공격이 쉽다",
+          "공격 경로가 다양하다"
+        ],
+        "weaknesses": [
+          "보드가 밀리면 움직일 유닛 자체가 부족해진다"
+        ],
+        "recommendedFor": [
+          "movement",
+          "aggression",
+          "tempo",
+          "combat"
+        ],
+        "notRecommendedFor": [
+          "control",
+          "cardDraw",
+          "setup"
+        ],
+        "needsReview": true,
+        "reviewNote": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요."
+      }
+    },
+    {
+      "id": "sett-the-boss-ogn",
+      "officialData": {
+        "champion": "Sett",
+        "title": "The Boss",
+        "setId": "origins",
+        "setCode": "OGN",
+        "collectorNumber": "OGN-269",
+        "riftboundId": "ogn-269-298",
+        "domains": [
+          "body",
+          "order"
+        ],
+        "abilityText": "When a buffed unit you control would die, you may pay :rb_rune_rainbow: and exhaust me to spend its buff and recall it exhausted instead. (Send it to base. This isn't a move.)When you conquer, ready me.",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b132becb843b2cf418cb110ead64758f49f51554-744x1039.png?accountingTag=RB",
+        "artist": "Envar Studio",
+        "sourceUrls": [
+          "https://api.riftcodex.com/cards/riftbound/ogn-269-298",
+          "https://riftdecks.com/cards/details-sett-the-boss"
+        ],
+        "verifiedAt": "2026-09-10"
+      },
+      "localization": {
+        "championKo": "세트",
+        "titleKo": null
+      },
+      "recommendationData": {
+        "difficulty": 2,
+        "archetypes": [
+          "buff",
+          "midrange"
+        ],
+        "scores": {
+          "aggression": 55,
+          "control": 45,
+          "tempo": 45,
+          "combo": 35,
+          "midrange": 85,
+          "ramp": 25,
+          "swarm": 30,
+          "bigUnits": 70,
+          "interaction": 40,
+          "disruption": 10,
+          "cardDraw": 20,
+          "resourceManagement": 55,
+          "movement": 30,
+          "gear": 15,
+          "hidden": 10,
+          "sacrifice": 25,
+          "directDamage": 15,
+          "combat": 85,
+          "consistency": 80,
+          "riskTaking": 25,
+          "complexity": 45,
+          "setup": 50
+        },
+        "domainScores": {
+          "body": 90,
+          "fury": 15,
+          "calm": 15,
+          "mind": 15,
+          "chaos": 15,
+          "order": 90
+        },
+        "playstyleSummary": "버프 받은 유닛이 죽을 때 버프를 소모해 기지로 되돌리고, 정복하면 다시 준비되는 끈질긴 전설입니다.",
+        "strengths": [
+          "버프 유닛을 쉽게 잃지 않아 소모전에 강하다",
+          "정복하면 능력을 다시 쓸 수 있다"
+        ],
+        "weaknesses": [
+          "버프를 먼저 깔아 둬야 해서 준비가 필요하다"
+        ],
+        "recommendedFor": [
+          "midrange",
+          "combat",
+          "consistency",
+          "bigUnits"
+        ],
+        "notRecommendedFor": [
+          "cardDraw",
+          "riskTaking"
+        ],
+        "needsReview": true,
+        "reviewNote": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요."
+      }
+    },
+    {
+      "id": "annie-dark-child-ogs",
+      "officialData": {
+        "champion": "Annie",
+        "title": "Dark Child",
+        "setId": "proving-grounds",
+        "setCode": "OGS",
+        "collectorNumber": "OGS-017",
+        "riftboundId": "ogs-017-024",
+        "domains": [
+          "fury",
+          "chaos"
+        ],
+        "abilityText": "At the end of your turn, ready 2 runes.",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/89963e1d1cffd69c620fb5d6b037f50d5c334463-744x1039.png?accountingTag=RB",
+        "artist": "Six More Vodka",
+        "sourceUrls": [
+          "https://api.riftcodex.com/cards/riftbound/ogs-017-024",
+          "https://riftdecks.com/cards/details-annie-dark-child"
+        ],
+        "verifiedAt": "2026-09-10"
+      },
+      "localization": {
+        "championKo": "애니",
+        "titleKo": null
+      },
+      "recommendationData": {
+        "difficulty": 2,
+        "archetypes": [
+          "spells",
+          "aggro"
+        ],
+        "scores": {
+          "aggression": 65,
+          "control": 45,
+          "tempo": 60,
+          "combo": 40,
+          "midrange": 35,
+          "ramp": 70,
+          "swarm": 20,
+          "bigUnits": 25,
+          "interaction": 60,
+          "disruption": 35,
+          "cardDraw": 30,
+          "resourceManagement": 65,
+          "movement": 20,
+          "gear": 10,
+          "hidden": 20,
+          "sacrifice": 10,
+          "directDamage": 80,
+          "combat": 45,
+          "consistency": 60,
+          "riskTaking": 45,
+          "complexity": 40,
+          "setup": 30
+        },
+        "domainScores": {
+          "body": 15,
+          "fury": 90,
+          "calm": 15,
+          "mind": 15,
+          "chaos": 90,
+          "order": 15
+        },
+        "playstyleSummary": "내 턴이 끝날 때 룬 2개를 준비(Ready)시켜, 상대 턴에도 쓸 자원을 남겨 두는 전설입니다.",
+        "strengths": [
+          "상대 턴에 반응 주문을 쓰기 쉽다",
+          "자원을 사실상 더 많이 활용한다"
+        ],
+        "weaknesses": [
+          "반응 카드가 적으면 남는 룬이 낭비된다"
+        ],
+        "recommendedFor": [
+          "directDamage",
+          "ramp",
+          "aggression",
+          "resourceManagement"
+        ],
+        "notRecommendedFor": [
+          "swarm",
+          "movement",
+          "bigUnits"
+        ],
+        "needsReview": true,
+        "reviewNote": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요."
+      }
+    },
+    {
+      "id": "master-yi-wuju-bladesman-ogs",
+      "officialData": {
+        "champion": "Master Yi",
+        "title": "Wuju Bladesman",
+        "setId": "proving-grounds",
+        "setCode": "OGS",
+        "collectorNumber": "OGS-019",
+        "riftboundId": "ogs-019-024",
+        "domains": [
+          "calm",
+          "body"
+        ],
+        "abilityText": "While a friendly unit defends alone, it gets +2 :rb_might:.",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8231ced23eaf22ca3bf62ec8cb86b83a3e222da6-744x1039.png?accountingTag=RB",
+        "artist": "Grafit Studio/Quy Ho",
+        "sourceUrls": [
+          "https://api.riftcodex.com/cards/riftbound/ogs-019-024",
+          "https://riftdecks.com/cards/details-master-yi-wuju-bladesman"
+        ],
+        "verifiedAt": "2026-09-10"
+      },
+      "localization": {
+        "championKo": "마스터 이",
+        "titleKo": null
+      },
+      "recommendationData": {
+        "difficulty": 1,
+        "archetypes": [
+          "hold",
+          "midrange"
+        ],
+        "scores": {
+          "aggression": 35,
+          "control": 60,
+          "tempo": 45,
+          "combo": 20,
+          "midrange": 65,
+          "ramp": 15,
+          "swarm": 10,
+          "bigUnits": 75,
+          "interaction": 40,
+          "disruption": 10,
+          "cardDraw": 20,
+          "resourceManagement": 45,
+          "movement": 40,
+          "gear": 20,
+          "hidden": 10,
+          "sacrifice": 10,
+          "directDamage": 10,
+          "combat": 80,
+          "consistency": 75,
+          "riskTaking": 25,
+          "complexity": 25,
+          "setup": 30
+        },
+        "domainScores": {
+          "body": 90,
+          "fury": 15,
+          "calm": 90,
+          "mind": 15,
+          "chaos": 15,
+          "order": 15
+        },
+        "playstyleSummary": "아군 유닛이 홀로 방어할 때 +2 힘을 주는, 1:1 수비에 강한 전설입니다.",
+        "strengths": [
+          "소수 유닛으로도 전장을 지키기 쉽다",
+          "규칙이 단순해 입문용으로 좋다"
+        ],
+        "weaknesses": [
+          "여러 유닛이 함께 방어할 때는 효과가 없다"
+        ],
+        "recommendedFor": [
+          "combat",
+          "bigUnits",
+          "consistency",
+          "midrange"
+        ],
+        "notRecommendedFor": [
+          "swarm",
+          "cardDraw",
+          "riskTaking"
+        ],
+        "needsReview": true,
+        "reviewNote": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요."
+      }
+    },
+    {
+      "id": "lux-lady-of-luminosity-ogs",
+      "officialData": {
+        "champion": "Lux",
+        "title": "Lady of Luminosity",
+        "setId": "proving-grounds",
+        "setCode": "OGS",
+        "collectorNumber": "OGS-021",
+        "riftboundId": "ogs-021-024",
+        "domains": [
+          "mind",
+          "order"
+        ],
+        "abilityText": "When you play a spell that costs :rb_energy_5: or more, draw 1.",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/44885d811b70621b188d9813b2b10b5cff1b81e6-744x1039.png?accountingTag=RB",
+        "artist": "Grafit Studio/Maki Planas Mata",
+        "sourceUrls": [
+          "https://api.riftcodex.com/cards/riftbound/ogs-021-024",
+          "https://riftdecks.com/cards/details-lux-lady-of-luminosity"
+        ],
+        "verifiedAt": "2026-09-10"
+      },
+      "localization": {
+        "championKo": "럭스",
+        "titleKo": null
+      },
+      "recommendationData": {
+        "difficulty": 2,
+        "archetypes": [
+          "spells",
+          "control"
+        ],
+        "scores": {
+          "aggression": 20,
+          "control": 80,
+          "tempo": 30,
+          "combo": 50,
+          "midrange": 30,
+          "ramp": 50,
+          "swarm": 15,
+          "bigUnits": 20,
+          "interaction": 65,
+          "disruption": 30,
+          "cardDraw": 75,
+          "resourceManagement": 70,
+          "movement": 20,
+          "gear": 15,
+          "hidden": 15,
+          "sacrifice": 10,
+          "directDamage": 55,
+          "combat": 30,
+          "consistency": 60,
+          "riskTaking": 30,
+          "complexity": 45,
+          "setup": 70
+        },
+        "domainScores": {
+          "body": 15,
+          "fury": 15,
+          "calm": 15,
+          "mind": 90,
+          "chaos": 15,
+          "order": 90
+        },
+        "playstyleSummary": "비용 5 이상의 주문을 쓸 때마다 1장을 뽑는, 대형 주문 중심의 전설입니다.",
+        "strengths": [
+          "큰 주문이 곧 카드 이득으로 이어진다",
+          "후반 파워가 높다"
+        ],
+        "weaknesses": [
+          "초반에 할 일이 적어 빠른 덱에 밀릴 수 있다"
+        ],
+        "recommendedFor": [
+          "control",
+          "cardDraw",
+          "resourceManagement",
+          "setup"
+        ],
+        "notRecommendedFor": [
+          "swarm",
+          "aggression",
+          "bigUnits"
+        ],
+        "needsReview": true,
+        "reviewNote": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요."
+      }
+    },
+    {
+      "id": "garen-might-of-demacia-ogs",
+      "officialData": {
+        "champion": "Garen",
+        "title": "Might of Demacia",
+        "setId": "proving-grounds",
+        "setCode": "OGS",
+        "collectorNumber": "OGS-023",
+        "riftboundId": "ogs-023-024",
+        "domains": [
+          "body",
+          "order"
+        ],
+        "abilityText": "When you conquer, if you have 4+ units at that battlefield, draw 2.",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e7185deb46f17770802d06aeddfe3b929afff880-744x1039.png?accountingTag=RB",
+        "artist": "Six More Vodka",
+        "sourceUrls": [
+          "https://api.riftcodex.com/cards/riftbound/ogs-023-024",
+          "https://riftdecks.com/cards/details-garen-might-of-demacia"
+        ],
+        "verifiedAt": "2026-09-10"
+      },
+      "localization": {
+        "championKo": "가렌",
+        "titleKo": null
+      },
+      "recommendationData": {
+        "difficulty": 1,
+        "archetypes": [
+          "tokens",
+          "aggro"
+        ],
+        "scores": {
+          "aggression": 65,
+          "control": 25,
+          "tempo": 55,
+          "combo": 25,
+          "midrange": 60,
+          "ramp": 15,
+          "swarm": 85,
+          "bigUnits": 30,
+          "interaction": 25,
+          "disruption": 10,
+          "cardDraw": 55,
+          "resourceManagement": 45,
+          "movement": 35,
+          "gear": 15,
+          "hidden": 5,
+          "sacrifice": 15,
+          "directDamage": 10,
+          "combat": 80,
+          "consistency": 70,
+          "riskTaking": 30,
+          "complexity": 25,
+          "setup": 35
+        },
+        "domainScores": {
+          "body": 90,
+          "fury": 15,
+          "calm": 15,
+          "mind": 15,
+          "chaos": 15,
+          "order": 90
+        },
+        "playstyleSummary": "정복한 전장에 내 유닛이 4기 이상이면 2장을 뽑는, 물량 돌격형 전설입니다.",
+        "strengths": [
+          "유닛을 모아 밀어붙일수록 손패가 보충된다",
+          "운영이 직관적이다"
+        ],
+        "weaknesses": [
+          "광역 제거에 한 번에 무너질 수 있다"
+        ],
+        "recommendedFor": [
+          "swarm",
+          "combat",
+          "consistency",
+          "aggression"
+        ],
+        "notRecommendedFor": [
+          "control",
+          "interaction",
+          "complexity"
+        ],
+        "needsReview": true,
+        "reviewNote": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요."
+      }
+    },
+    {
+      "id": "rumble-mechanized-menace-sfd",
+      "officialData": {
+        "champion": "Rumble",
+        "title": "Mechanized Menace",
+        "setId": "spiritforged",
+        "setCode": "SFD",
+        "collectorNumber": "SFD-181",
+        "riftboundId": "sfd-181-221",
+        "domains": [
+          "fury",
+          "mind"
+        ],
+        "abilityText": "Your Mechs have [Shield]. (+1 :rb_might: while they're defenders.)",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f311115e4c527ce82010596ce462d4050a9201b2-744x1039.png?accountingTag=RB",
+        "artist": "Pandart Studio",
+        "sourceUrls": [
+          "https://api.riftcodex.com/cards/riftbound/sfd-181-221",
+          "https://riftdecks.com/cards/details-rumble-mechanized-menace"
+        ],
+        "verifiedAt": "2026-09-10"
+      },
+      "localization": {
+        "championKo": "럼블",
+        "titleKo": null
+      },
+      "recommendationData": {
+        "difficulty": 2,
+        "archetypes": [
+          "tribal",
+          "midrange"
+        ],
+        "scores": {
+          "aggression": 55,
+          "control": 40,
+          "tempo": 45,
+          "combo": 45,
+          "midrange": 65,
+          "ramp": 25,
+          "swarm": 40,
+          "bigUnits": 55,
+          "interaction": 30,
+          "disruption": 15,
+          "cardDraw": 30,
+          "resourceManagement": 50,
+          "movement": 25,
+          "gear": 40,
+          "hidden": 15,
+          "sacrifice": 20,
+          "directDamage": 40,
+          "combat": 70,
+          "consistency": 60,
+          "riskTaking": 35,
+          "complexity": 45,
+          "setup": 55
+        },
+        "domainScores": {
+          "body": 15,
+          "fury": 90,
+          "calm": 15,
+          "mind": 90,
+          "chaos": 15,
+          "order": 15
+        },
+        "playstyleSummary": "내 Mech들에게 Shield(방어 시 +1 힘)를 주는, 메크 유닛 중심의 전설입니다.",
+        "strengths": [
+          "메크 유닛이 방어에서 한 단계 튼튼해진다",
+          "덱 방향이 명확하다"
+        ],
+        "weaknesses": [
+          "메크가 아닌 유닛에는 효과가 없어 덱 구성에 제약이 있다"
+        ],
+        "recommendedFor": [
+          "combat",
+          "midrange"
+        ],
+        "notRecommendedFor": [
+          "movement"
+        ],
+        "needsReview": true,
+        "reviewNote": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요."
+      }
+    },
+    {
+      "id": "lucian-purifier-sfd",
+      "officialData": {
+        "champion": "Lucian",
+        "title": "Purifier",
+        "setId": "spiritforged",
+        "setCode": "SFD",
+        "collectorNumber": "SFD-183",
+        "riftboundId": "sfd-183-221",
+        "domains": [
+          "fury",
+          "body"
+        ],
+        "abilityText": "Your Equipment each give [Assault]. (+1 :rb_might: while equipped unit is an attacker.)",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/450cfb71b8890904d48b37a24bbdc78f8d849614-744x1039.png?accountingTag=RB",
+        "artist": "Pandart Studio",
+        "sourceUrls": [
+          "https://api.riftcodex.com/cards/riftbound/sfd-183-221",
+          "https://riftdecks.com/cards/details-lucian-purifier"
+        ],
+        "verifiedAt": "2026-09-10"
+      },
+      "localization": {
+        "championKo": "루시안",
+        "titleKo": null
+      },
+      "recommendationData": {
+        "difficulty": 3,
+        "archetypes": [
+          "gear",
+          "aggro"
+        ],
+        "scores": {
+          "aggression": 85,
+          "control": 15,
+          "tempo": 65,
+          "combo": 35,
+          "midrange": 45,
+          "ramp": 15,
+          "swarm": 25,
+          "bigUnits": 50,
+          "interaction": 25,
+          "disruption": 10,
+          "cardDraw": 25,
+          "resourceManagement": 45,
+          "movement": 30,
+          "gear": 85,
+          "hidden": 10,
+          "sacrifice": 10,
+          "directDamage": 30,
+          "combat": 85,
+          "consistency": 60,
+          "riskTaking": 45,
+          "complexity": 45,
+          "setup": 40
+        },
+        "domainScores": {
+          "body": 90,
+          "fury": 90,
+          "calm": 15,
+          "mind": 15,
+          "chaos": 15,
+          "order": 15
+        },
+        "playstyleSummary": "내 장비마다 Assault(공격 시 +1 힘)를 부여하는, 장비 공격형 전설입니다.",
+        "strengths": [
+          "장비를 붙인 유닛이 공격에서 강해진다",
+          "적극적으로 전장을 정복하기 좋다"
+        ],
+        "weaknesses": [
+          "장비가 없으면 능력도 없다",
+          "수비 상황에서는 이점이 적다"
+        ],
+        "recommendedFor": [
+          "aggression",
+          "gear",
+          "combat",
+          "tempo"
+        ],
+        "notRecommendedFor": [
+          "control",
+          "swarm",
+          "interaction"
+        ],
+        "needsReview": true,
+        "reviewNote": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요."
+      }
+    },
+    {
+      "id": "draven-glorious-executioner-sfd",
+      "officialData": {
+        "champion": "Draven",
+        "title": "Glorious Executioner",
+        "setId": "spiritforged",
+        "setCode": "SFD",
+        "collectorNumber": "SFD-185",
+        "riftboundId": "sfd-185-221",
+        "domains": [
+          "fury",
+          "chaos"
+        ],
+        "abilityText": "When you win a combat, draw 1. (You win if only your units remain after combat.)",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b01b2d0454ceeffdc106c4c64a390b275ebf390b-744x1039.png?accountingTag=RB",
+        "artist": "Pandart Studio",
+        "sourceUrls": [
+          "https://api.riftcodex.com/cards/riftbound/sfd-185-221",
+          "https://riftdecks.com/cards/details-draven-glorious-executioner"
+        ],
+        "verifiedAt": "2026-09-10"
+      },
+      "localization": {
+        "championKo": "드레이븐",
+        "titleKo": null
+      },
+      "recommendationData": {
+        "difficulty": 2,
+        "archetypes": [
+          "aggro",
+          "midrange"
+        ],
+        "scores": {
+          "aggression": 85,
+          "control": 15,
+          "tempo": 70,
+          "combo": 20,
+          "midrange": 45,
+          "ramp": 10,
+          "swarm": 35,
+          "bigUnits": 45,
+          "interaction": 35,
+          "disruption": 25,
+          "cardDraw": 65,
+          "resourceManagement": 40,
+          "movement": 30,
+          "gear": 20,
+          "hidden": 15,
+          "sacrifice": 15,
+          "directDamage": 45,
+          "combat": 90,
+          "consistency": 50,
+          "riskTaking": 65,
+          "complexity": 35,
+          "setup": 15
+        },
+        "domainScores": {
+          "body": 15,
+          "fury": 90,
+          "calm": 15,
+          "mind": 15,
+          "chaos": 90,
+          "order": 15
+        },
+        "playstyleSummary": "전투에서 이길 때마다 1장을 뽑는, 싸울수록 손패가 늘어나는 전설입니다.",
+        "strengths": [
+          "유리한 전투를 거듭하며 카드 이득을 쌓는다",
+          "공격적인 운영과 궁합이 좋다"
+        ],
+        "weaknesses": [
+          "전투에서 지기 시작하면 이득이 끊긴다"
+        ],
+        "recommendedFor": [
+          "combat",
+          "aggression",
+          "tempo",
+          "cardDraw"
+        ],
+        "notRecommendedFor": [
+          "control",
+          "setup"
+        ],
+        "needsReview": true,
+        "reviewNote": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요."
+      }
+    },
+    {
+      "id": "reksai-void-burrower-sfd",
+      "officialData": {
+        "champion": "Rek'Sai",
+        "title": "Void Burrower",
+        "setId": "spiritforged",
+        "setCode": "SFD",
+        "collectorNumber": "SFD-187",
+        "riftboundId": "sfd-187-221",
+        "domains": [
+          "fury",
+          "order"
+        ],
+        "abilityText": "When you conquer, you may exhaust me to reveal the top 2 cards of your Main Deck. You may play one. Then recycle the rest.",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2db78549c30d8f9012af797fe075c4dc2355ec5d-744x1039.png?accountingTag=RB",
+        "artist": "Pandart Studio",
+        "sourceUrls": [
+          "https://api.riftcodex.com/cards/riftbound/sfd-187-221",
+          "https://riftdecks.com/cards/details-reksai-void-burrower"
+        ],
+        "verifiedAt": "2026-09-10"
+      },
+      "localization": {
+        "championKo": "렉사이",
+        "titleKo": null
+      },
+      "recommendationData": {
+        "difficulty": 3,
+        "archetypes": [
+          "aggro",
+          "tempo"
+        ],
+        "scores": {
+          "aggression": 80,
+          "control": 20,
+          "tempo": 75,
+          "combo": 35,
+          "midrange": 50,
+          "ramp": 30,
+          "swarm": 40,
+          "bigUnits": 40,
+          "interaction": 25,
+          "disruption": 20,
+          "cardDraw": 55,
+          "resourceManagement": 45,
+          "movement": 35,
+          "gear": 15,
+          "hidden": 15,
+          "sacrifice": 15,
+          "directDamage": 35,
+          "combat": 75,
+          "consistency": 40,
+          "riskTaking": 75,
+          "complexity": 45,
+          "setup": 25
+        },
+        "domainScores": {
+          "body": 15,
+          "fury": 90,
+          "calm": 15,
+          "mind": 15,
+          "chaos": 15,
+          "order": 90
+        },
+        "playstyleSummary": "정복할 때 덱 위 2장을 공개해 그중 하나를 플레이할 수 있는, 공격하며 추가 선택지를 얻는 전설입니다.",
+        "strengths": [
+          "정복할 때마다 덱에서 추가 선택지를 얻는다",
+          "공격이 곧 이득으로 이어진다"
+        ],
+        "weaknesses": [
+          "공개되는 카드에 따라 결과 편차가 크다"
+        ],
+        "recommendedFor": [
+          "aggression",
+          "tempo",
+          "combat",
+          "riskTaking"
+        ],
+        "notRecommendedFor": [
+          "control",
+          "interaction",
+          "setup"
+        ],
+        "needsReview": true,
+        "reviewNote": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요."
+      }
+    },
+    {
+      "id": "ornn-fire-below-the-mountain-sfd",
+      "officialData": {
+        "champion": "Ornn",
+        "title": "Fire Below the Mountain",
+        "setId": "spiritforged",
+        "setCode": "SFD",
+        "collectorNumber": "SFD-189",
+        "riftboundId": "sfd-189-221",
+        "domains": [
+          "calm",
+          "mind"
+        ],
+        "abilityText": ":rb_exhaust:: [Reaction] — [Add] :rb_rune_rainbow:. Use only to play gear or use gear abilities. (Abilities that add resources can't be reacted to.)",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ed58d654034d545e54c85d836f3a6552772dd75b-744x1039.png?accountingTag=RB",
+        "artist": "Pandart Studio",
+        "sourceUrls": [
+          "https://api.riftcodex.com/cards/riftbound/sfd-189-221",
+          "https://riftdecks.com/cards/details-ornn-fire-below-the-mountain"
+        ],
+        "verifiedAt": "2026-09-10"
+      },
+      "localization": {
+        "championKo": "오른",
+        "titleKo": null
+      },
+      "recommendationData": {
+        "difficulty": 3,
+        "archetypes": [
+          "gear",
+          "ramp"
+        ],
+        "scores": {
+          "aggression": 30,
+          "control": 55,
+          "tempo": 35,
+          "combo": 55,
+          "midrange": 55,
+          "ramp": 70,
+          "swarm": 15,
+          "bigUnits": 50,
+          "interaction": 40,
+          "disruption": 15,
+          "cardDraw": 35,
+          "resourceManagement": 75,
+          "movement": 20,
+          "gear": 100,
+          "hidden": 10,
+          "sacrifice": 10,
+          "directDamage": 20,
+          "combat": 55,
+          "consistency": 65,
+          "riskTaking": 30,
+          "complexity": 60,
+          "setup": 75
+        },
+        "domainScores": {
+          "body": 15,
+          "fury": 15,
+          "calm": 90,
+          "mind": 90,
+          "chaos": 15,
+          "order": 15
+        },
+        "playstyleSummary": "소진으로 장비 전용 파워 1을 더해, 장비를 빠르게 깔고 활용하는 전설입니다.",
+        "strengths": [
+          "장비를 남들보다 빨리 전개한다",
+          "장비 능력 사용에도 자원을 보탠다"
+        ],
+        "weaknesses": [
+          "장비 비중이 낮은 덱에서는 능력이 무의미하다"
+        ],
+        "recommendedFor": [
+          "gear",
+          "resourceManagement",
+          "setup",
+          "ramp"
+        ],
+        "notRecommendedFor": [
+          "swarm",
+          "movement"
+        ],
+        "needsReview": true,
+        "reviewNote": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요."
+      }
+    },
+    {
+      "id": "jax-grandmaster-at-arms-sfd",
+      "officialData": {
+        "champion": "Jax",
+        "title": "Grandmaster at Arms",
+        "setId": "spiritforged",
+        "setCode": "SFD",
+        "collectorNumber": "SFD-193",
+        "riftboundId": "sfd-193-221",
+        "domains": [
+          "calm",
+          "body"
+        ],
+        "abilityText": ":rb_energy_1:, :rb_exhaust:: Attach a detached Equipment you control to a unit you control.:rb_exhaust:: Attach an attached Equipment you control to a unit you control.",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c6ddf49d7249bc8ac194fd9b194bfcb8857a4466-744x1039.png?accountingTag=RB",
+        "artist": "Pandart Studio",
+        "sourceUrls": [
+          "https://api.riftcodex.com/cards/riftbound/sfd-193-221",
+          "https://riftdecks.com/cards/details-jax-grandmaster-at-arms"
+        ],
+        "verifiedAt": "2026-09-10"
+      },
+      "localization": {
+        "championKo": "잭스",
+        "titleKo": null
+      },
+      "recommendationData": {
+        "difficulty": 3,
+        "archetypes": [
+          "gear",
+          "midrange"
+        ],
+        "scores": {
+          "aggression": 55,
+          "control": 40,
+          "tempo": 70,
+          "combo": 45,
+          "midrange": 60,
+          "ramp": 15,
+          "swarm": 20,
+          "bigUnits": 60,
+          "interaction": 50,
+          "disruption": 15,
+          "cardDraw": 25,
+          "resourceManagement": 60,
+          "movement": 40,
+          "gear": 95,
+          "hidden": 10,
+          "sacrifice": 10,
+          "directDamage": 20,
+          "combat": 80,
+          "consistency": 60,
+          "riskTaking": 35,
+          "complexity": 65,
+          "setup": 55
+        },
+        "domainScores": {
+          "body": 90,
+          "fury": 15,
+          "calm": 90,
+          "mind": 15,
+          "chaos": 15,
+          "order": 15
+        },
+        "playstyleSummary": "장비를 붙이고 옮겨 다는 능력으로, 상황에 맞춰 장비 위치를 바꾸는 전설입니다.",
+        "strengths": [
+          "장비를 가장 필요한 유닛에게 옮길 수 있다",
+          "장비 활용 폭이 넓다"
+        ],
+        "weaknesses": [
+          "장비와 유닛이 모두 필요해 자원 관리가 까다롭다"
+        ],
+        "recommendedFor": [
+          "gear",
+          "combat",
+          "tempo",
+          "complexity"
+        ],
+        "notRecommendedFor": [
+          "swarm",
+          "cardDraw"
+        ],
+        "needsReview": true,
+        "reviewNote": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요."
+      }
+    },
+    {
+      "id": "irelia-blade-dancer-sfd",
+      "officialData": {
+        "champion": "Irelia",
+        "title": "Blade Dancer",
+        "setId": "spiritforged",
+        "setCode": "SFD",
+        "collectorNumber": "SFD-195",
+        "riftboundId": "sfd-195-221",
+        "domains": [
+          "calm",
+          "chaos"
+        ],
+        "abilityText": "When you choose a friendly unit, you may exhaust me and pay :rb_rune_rainbow: to ready it.When you conquer, you may pay :rb_energy_1: to ready me.",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/656ef2d1724b818e9e737ec5dcce923de067a316-744x1039.png?accountingTag=RB",
+        "artist": "Pandart Studio",
+        "sourceUrls": [
+          "https://api.riftcodex.com/cards/riftbound/sfd-195-221",
+          "https://riftdecks.com/cards/details-irelia-blade-dancer"
+        ],
+        "verifiedAt": "2026-09-10"
+      },
+      "localization": {
+        "championKo": "이렐리아",
+        "titleKo": null
+      },
+      "recommendationData": {
+        "difficulty": 5,
+        "archetypes": [
+          "tempo",
+          "combo"
+        ],
+        "scores": {
+          "aggression": 65,
+          "control": 35,
+          "tempo": 90,
+          "combo": 60,
+          "midrange": 40,
+          "ramp": 10,
+          "swarm": 25,
+          "bigUnits": 35,
+          "interaction": 55,
+          "disruption": 25,
+          "cardDraw": 25,
+          "resourceManagement": 60,
+          "movement": 50,
+          "gear": 20,
+          "hidden": 15,
+          "sacrifice": 10,
+          "directDamage": 25,
+          "combat": 70,
+          "consistency": 40,
+          "riskTaking": 60,
+          "complexity": 85,
+          "setup": 40
+        },
+        "domainScores": {
+          "body": 15,
+          "fury": 15,
+          "calm": 90,
+          "mind": 15,
+          "chaos": 90,
+          "order": 15
+        },
+        "playstyleSummary": "아군 유닛을 선택(choose)할 때 그 유닛을 준비시키고, 정복하면 스스로 다시 준비되는 연계형 전설입니다.",
+        "strengths": [
+          "유닛을 여러 번 행동시키는 연계가 가능하다",
+          "고점이 높은 템포 플레이"
+        ],
+        "weaknesses": [
+          "타이밍과 순서 판단이 매우 복잡하다",
+          "잘못 쓰면 자원이 꼬인다"
+        ],
+        "recommendedFor": [
+          "tempo",
+          "complexity",
+          "combat",
+          "aggression"
+        ],
+        "notRecommendedFor": [
+          "swarm",
+          "cardDraw"
+        ],
+        "needsReview": true,
+        "reviewNote": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요."
+      }
+    },
+    {
+      "id": "azir-emperor-of-the-sands-sfd",
+      "officialData": {
+        "champion": "Azir",
+        "title": "Emperor of the Sands",
+        "setId": "spiritforged",
+        "setCode": "SFD",
+        "collectorNumber": "SFD-197",
+        "riftboundId": "sfd-197-221",
+        "domains": [
+          "calm",
+          "order"
+        ],
+        "abilityText": "Your Sand Soldiers have [Weaponmaster].:rb_energy_1:, :rb_exhaust:: Play a 2 :rb_might: Sand Soldier unit token to your base. Use only if you've played an Equipment this turn.",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0472274c49f6540858758ebf9bd2f107a601541a-744x1039.png?accountingTag=RB",
+        "artist": "蛋费鸡丁",
+        "sourceUrls": [
+          "https://api.riftcodex.com/cards/riftbound/sfd-197-221",
+          "https://riftdecks.com/cards/details-azir-emperor-of-the-sands"
+        ],
+        "verifiedAt": "2026-09-10"
+      },
+      "localization": {
+        "championKo": "아지르",
+        "titleKo": null
+      },
+      "recommendationData": {
+        "difficulty": 4,
+        "archetypes": [
+          "tokens",
+          "gear"
+        ],
+        "scores": {
+          "aggression": 45,
+          "control": 50,
+          "tempo": 45,
+          "combo": 55,
+          "midrange": 55,
+          "ramp": 15,
+          "swarm": 80,
+          "bigUnits": 20,
+          "interaction": 35,
+          "disruption": 15,
+          "cardDraw": 25,
+          "resourceManagement": 65,
+          "movement": 30,
+          "gear": 80,
+          "hidden": 10,
+          "sacrifice": 25,
+          "directDamage": 15,
+          "combat": 60,
+          "consistency": 55,
+          "riskTaking": 30,
+          "complexity": 75,
+          "setup": 75
+        },
+        "domainScores": {
+          "body": 15,
+          "fury": 15,
+          "calm": 90,
+          "mind": 15,
+          "chaos": 15,
+          "order": 90
+        },
+        "playstyleSummary": "장비를 낸 턴에 2 힘 Sand Soldier 토큰을 만들고, 모래 병사에게 Weaponmaster를 주는 전설입니다.",
+        "strengths": [
+          "장비와 토큰이 서로를 강화한다",
+          "보드를 넓게 채울 수 있다"
+        ],
+        "weaknesses": [
+          "장비를 내야 토큰을 만들 수 있어 조건 관리가 필요하다"
+        ],
+        "recommendedFor": [
+          "swarm",
+          "gear",
+          "complexity",
+          "setup"
+        ],
+        "notRecommendedFor": [
+          "bigUnits",
+          "cardDraw"
+        ],
+        "needsReview": true,
+        "reviewNote": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요."
+      }
+    },
+    {
+      "id": "ezreal-prodigal-explorer-sfd",
+      "officialData": {
+        "champion": "Ezreal",
+        "title": "Prodigal Explorer",
+        "setId": "spiritforged",
+        "setCode": "SFD",
+        "collectorNumber": "SFD-199",
+        "riftboundId": "sfd-199-221",
+        "domains": [
+          "mind",
+          "chaos"
+        ],
+        "abilityText": ":rb_exhaust:: [Reaction] — Draw 1. Use only if you've chosen enemy units and/or gear twice this turn with spells or unit abilities.",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d0e143d9edbc14971b2a7b463b3c25b2b6a0c098-744x1039.png?accountingTag=RB",
+        "artist": "Pandart Studio",
+        "sourceUrls": [
+          "https://api.riftcodex.com/cards/riftbound/sfd-199-221",
+          "https://riftdecks.com/cards/details-ezreal-prodigal-explorer"
+        ],
+        "verifiedAt": "2026-09-10"
+      },
+      "localization": {
+        "championKo": "이즈리얼",
+        "titleKo": null
+      },
+      "recommendationData": {
+        "difficulty": 5,
+        "archetypes": [
+          "spells",
+          "tempo",
+          "control"
+        ],
+        "scores": {
+          "aggression": 50,
+          "control": 55,
+          "tempo": 65,
+          "combo": 60,
+          "midrange": 30,
+          "ramp": 10,
+          "swarm": 15,
+          "bigUnits": 15,
+          "interaction": 85,
+          "disruption": 45,
+          "cardDraw": 80,
+          "resourceManagement": 65,
+          "movement": 25,
+          "gear": 30,
+          "hidden": 25,
+          "sacrifice": 10,
+          "directDamage": 70,
+          "combat": 30,
+          "consistency": 50,
+          "riskTaking": 45,
+          "complexity": 90,
+          "setup": 45
+        },
+        "domainScores": {
+          "body": 15,
+          "fury": 15,
+          "calm": 15,
+          "mind": 90,
+          "chaos": 90,
+          "order": 15
+        },
+        "playstyleSummary": "한 턴에 주문이나 유닛 능력으로 적 유닛·장비를 두 번 선택하면 1장을 뽑는, 정밀 타격형 전설입니다.",
+        "strengths": [
+          "상호작용할수록 카드가 보충된다",
+          "반응 속도로 발동해 유연하다"
+        ],
+        "weaknesses": [
+          "조건이 까다로워 카드 순서 설계가 필수다"
+        ],
+        "recommendedFor": [
+          "complexity",
+          "interaction",
+          "cardDraw",
+          "directDamage"
+        ],
+        "notRecommendedFor": [
+          "swarm",
+          "bigUnits",
+          "movement"
+        ],
+        "needsReview": true,
+        "reviewNote": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요."
+      }
+    },
+    {
+      "id": "renata-glasc-chem-baroness-sfd",
+      "officialData": {
+        "champion": "Renata Glasc",
+        "title": "Chem-Baroness",
+        "setId": "spiritforged",
+        "setCode": "SFD",
+        "collectorNumber": "SFD-201",
+        "riftboundId": "sfd-201-221",
+        "domains": [
+          "mind",
+          "order"
+        ],
+        "abilityText": "When you or an ally hold, you may exhaust me to play a Gold gear token exhausted.While your score is within 3 points of the Victory Score, your Gold [ADD] an additional :rb_energy_1:.",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4bd289c281ad64229061ff909abf88c12a574833-744x1039.png?accountingTag=RB",
+        "artist": "Pandart Studio",
+        "sourceUrls": [
+          "https://api.riftcodex.com/cards/riftbound/sfd-201-221",
+          "https://riftdecks.com/cards/details-renata-glasc-chem-baroness"
+        ],
+        "verifiedAt": "2026-09-10"
+      },
+      "localization": {
+        "championKo": "레나타 글라스크",
+        "titleKo": null
+      },
+      "recommendationData": {
+        "difficulty": 4,
+        "archetypes": [
+          "ramp",
+          "hold",
+          "control"
+        ],
+        "scores": {
+          "aggression": 25,
+          "control": 70,
+          "tempo": 30,
+          "combo": 45,
+          "midrange": 50,
+          "ramp": 75,
+          "swarm": 25,
+          "bigUnits": 30,
+          "interaction": 50,
+          "disruption": 25,
+          "cardDraw": 30,
+          "resourceManagement": 85,
+          "movement": 20,
+          "gear": 60,
+          "hidden": 15,
+          "sacrifice": 15,
+          "directDamage": 25,
+          "combat": 45,
+          "consistency": 65,
+          "riskTaking": 30,
+          "complexity": 70,
+          "setup": 70
+        },
+        "domainScores": {
+          "body": 15,
+          "fury": 15,
+          "calm": 15,
+          "mind": 90,
+          "chaos": 15,
+          "order": 90
+        },
+        "playstyleSummary": "홀드할 때 Gold 장비 토큰을 만들고, 승리 점수에 가까워질수록 Gold가 에너지를 더 내는 전설입니다.",
+        "strengths": [
+          "전장을 지킬수록 자원이 쌓인다",
+          "후반 마무리 폭발력이 있다"
+        ],
+        "weaknesses": [
+          "초반 압박을 받으면 홀드 기회를 잃는다"
+        ],
+        "recommendedFor": [
+          "resourceManagement",
+          "ramp",
+          "control",
+          "complexity"
+        ],
+        "notRecommendedFor": [
+          "movement",
+          "aggression",
+          "swarm"
+        ],
+        "needsReview": true,
+        "reviewNote": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요."
+      }
+    },
+    {
+      "id": "sivir-battle-mistress-sfd",
+      "officialData": {
+        "champion": "Sivir",
+        "title": "Battle Mistress",
+        "setId": "spiritforged",
+        "setCode": "SFD",
+        "collectorNumber": "SFD-203",
+        "riftboundId": "sfd-203-221",
+        "domains": [
+          "body",
+          "chaos"
+        ],
+        "abilityText": "When you recycle a rune, you may exhaust me to play a Gold gear token exhausted.When one or more enemy units die, ready me.",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/fd060882c32a8deac04aea4241c6ab7b97236a05-744x1039.png?accountingTag=RB",
+        "artist": "Zhongqi Li",
+        "sourceUrls": [
+          "https://api.riftcodex.com/cards/riftbound/sfd-203-221",
+          "https://riftdecks.com/cards/details-sivir-battle-mistress"
+        ],
+        "verifiedAt": "2026-09-10"
+      },
+      "localization": {
+        "championKo": "시비르",
+        "titleKo": null
+      },
+      "recommendationData": {
+        "difficulty": 3,
+        "archetypes": [
+          "ramp",
+          "midrange",
+          "aggro"
+        ],
+        "scores": {
+          "aggression": 70,
+          "control": 30,
+          "tempo": 55,
+          "combo": 40,
+          "midrange": 60,
+          "ramp": 60,
+          "swarm": 30,
+          "bigUnits": 45,
+          "interaction": 35,
+          "disruption": 25,
+          "cardDraw": 20,
+          "resourceManagement": 70,
+          "movement": 30,
+          "gear": 55,
+          "hidden": 15,
+          "sacrifice": 15,
+          "directDamage": 45,
+          "combat": 75,
+          "consistency": 45,
+          "riskTaking": 60,
+          "complexity": 60,
+          "setup": 40
+        },
+        "domainScores": {
+          "body": 90,
+          "fury": 15,
+          "calm": 15,
+          "mind": 15,
+          "chaos": 90,
+          "order": 15
+        },
+        "playstyleSummary": "룬을 재활용할 때 Gold 장비 토큰을 만들고, 적 유닛이 죽으면 다시 준비되는 전설입니다.",
+        "strengths": [
+          "자원을 굴려 추가 에너지를 확보한다",
+          "적을 처치할수록 능력을 다시 쓴다"
+        ],
+        "weaknesses": [
+          "룬 재활용 수단에 의존한다"
+        ],
+        "recommendedFor": [
+          "combat",
+          "aggression",
+          "resourceManagement"
+        ],
+        "notRecommendedFor": [
+          "cardDraw"
+        ],
+        "needsReview": true,
+        "reviewNote": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요."
+      }
+    },
+    {
+      "id": "fiora-grand-duelist-sfd",
+      "officialData": {
+        "champion": "Fiora",
+        "title": "Grand Duelist",
+        "setId": "spiritforged",
+        "setCode": "SFD",
+        "collectorNumber": "SFD-205",
+        "riftboundId": "sfd-205-221",
+        "domains": [
+          "body",
+          "order"
+        ],
+        "abilityText": "When one of your units becomes [Mighty], you may exhaust me to channel 1 rune exhausted. (A unit is Mighty while it has 5+ :rb_might:.)",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/37064aa79c13316b5dd28f0a2b054821a43f6650-744x1039.png?accountingTag=RB",
+        "artist": "Pandart Studio",
+        "sourceUrls": [
+          "https://api.riftcodex.com/cards/riftbound/sfd-205-221",
+          "https://riftdecks.com/cards/details-fiora-grand-duelist"
+        ],
+        "verifiedAt": "2026-09-10"
+      },
+      "localization": {
+        "championKo": "피오라",
+        "titleKo": null
+      },
+      "recommendationData": {
+        "difficulty": 2,
+        "archetypes": [
+          "bigUnits",
+          "ramp",
+          "buff"
+        ],
+        "scores": {
+          "aggression": 55,
+          "control": 35,
+          "tempo": 45,
+          "combo": 35,
+          "midrange": 70,
+          "ramp": 75,
+          "swarm": 15,
+          "bigUnits": 90,
+          "interaction": 30,
+          "disruption": 10,
+          "cardDraw": 20,
+          "resourceManagement": 55,
+          "movement": 25,
+          "gear": 30,
+          "hidden": 10,
+          "sacrifice": 10,
+          "directDamage": 15,
+          "combat": 90,
+          "consistency": 65,
+          "riskTaking": 35,
+          "complexity": 40,
+          "setup": 50
+        },
+        "domainScores": {
+          "body": 90,
+          "fury": 15,
+          "calm": 15,
+          "mind": 15,
+          "chaos": 15,
+          "order": 90
+        },
+        "playstyleSummary": "아군 유닛이 Mighty(5+ 힘)가 될 때 룬을 채널링하는, 강한 유닛으로 자원을 불리는 전설입니다.",
+        "strengths": [
+          "버프로 Mighty를 만들면 자원까지 늘어난다",
+          "대형 유닛 운영이 안정적이다"
+        ],
+        "weaknesses": [
+          "유닛이 커지기 전인 초반에는 조용하다"
+        ],
+        "recommendedFor": [
+          "bigUnits",
+          "combat",
+          "ramp",
+          "midrange"
+        ],
+        "notRecommendedFor": [
+          "swarm",
+          "cardDraw",
+          "movement"
+        ],
+        "needsReview": true,
+        "reviewNote": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요."
+      }
+    },
+    {
+      "id": "jhin-virtuoso-unl",
+      "officialData": {
+        "champion": "Jhin",
+        "title": "Virtuoso",
+        "setId": "unleashed",
+        "setCode": "UNL",
+        "collectorNumber": "UNL-181",
+        "riftboundId": "unl-181-219",
+        "domains": [
+          "fury",
+          "mind"
+        ],
+        "abilityText": "When you play a spell, if you spent :rb_energy_4: or more, you may banish it. Then, if there are four spells banished with me, put each in its trash, channel 4 runes, and draw 1.",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d1e6947cf43a19488a2c31f71a4887aa0423a966-744x1039.png?accountingTag=RB",
+        "artist": "Pandart Studio",
+        "sourceUrls": [
+          "https://api.riftcodex.com/cards/riftbound/unl-181-219",
+          "https://riftdecks.com/cards/details-jhin-virtuoso"
+        ],
+        "verifiedAt": "2026-09-10"
+      },
+      "localization": {
+        "championKo": "진",
+        "titleKo": null
+      },
+      "recommendationData": {
+        "difficulty": 5,
+        "archetypes": [
+          "spells",
+          "combo",
+          "ramp"
+        ],
+        "scores": {
+          "aggression": 35,
+          "control": 60,
+          "tempo": 25,
+          "combo": 85,
+          "midrange": 25,
+          "ramp": 70,
+          "swarm": 10,
+          "bigUnits": 20,
+          "interaction": 55,
+          "disruption": 25,
+          "cardDraw": 50,
+          "resourceManagement": 80,
+          "movement": 15,
+          "gear": 15,
+          "hidden": 15,
+          "sacrifice": 10,
+          "directDamage": 70,
+          "combat": 25,
+          "consistency": 40,
+          "riskTaking": 55,
+          "complexity": 80,
+          "setup": 95
+        },
+        "domainScores": {
+          "body": 15,
+          "fury": 90,
+          "calm": 15,
+          "mind": 90,
+          "chaos": 15,
+          "order": 15
+        },
+        "playstyleSummary": "에너지 4 이상을 쓴 주문을 추방해 모으고, 4장이 모이면 룬 4개 채널링과 드로우를 하는 빌드업 전설입니다.",
+        "strengths": [
+          "조건을 달성하면 한 번에 큰 자원 폭발",
+          "주문 중심 운영의 보상이 크다"
+        ],
+        "weaknesses": [
+          "네 번째 주문까지 준비 시간이 길다",
+          "계획이 틀어지면 회복이 어렵다"
+        ],
+        "recommendedFor": [
+          "setup",
+          "combo",
+          "resourceManagement",
+          "complexity"
+        ],
+        "notRecommendedFor": [
+          "swarm",
+          "movement",
+          "bigUnits"
+        ],
+        "needsReview": true,
+        "reviewNote": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요."
+      }
+    },
+    {
+      "id": "rengar-pridestalker-unl",
+      "officialData": {
+        "champion": "Rengar",
+        "title": "Pridestalker",
+        "setId": "unleashed",
+        "setCode": "UNL",
+        "collectorNumber": "UNL-183",
+        "riftboundId": "unl-183-219",
+        "domains": [
+          "fury",
+          "body"
+        ],
+        "abilityText": "When you play a unit, give a unit +1 :rb_might: this turn.",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b3d3085f62aee993b9f5b80d4659a88439da83be-744x1039.png?accountingTag=RB",
+        "artist": "Envar Studio",
+        "sourceUrls": [
+          "https://api.riftcodex.com/cards/riftbound/unl-183-219",
+          "https://riftdecks.com/cards/details-rengar-pridestalker"
+        ],
+        "verifiedAt": "2026-09-10"
+      },
+      "localization": {
+        "championKo": "렝가",
+        "titleKo": null
+      },
+      "recommendationData": {
+        "difficulty": 1,
+        "archetypes": [
+          "aggro",
+          "midrange"
+        ],
+        "scores": {
+          "aggression": 85,
+          "control": 15,
+          "tempo": 75,
+          "combo": 25,
+          "midrange": 55,
+          "ramp": 15,
+          "swarm": 60,
+          "bigUnits": 40,
+          "interaction": 30,
+          "disruption": 10,
+          "cardDraw": 15,
+          "resourceManagement": 40,
+          "movement": 30,
+          "gear": 15,
+          "hidden": 10,
+          "sacrifice": 10,
+          "directDamage": 25,
+          "combat": 90,
+          "consistency": 65,
+          "riskTaking": 40,
+          "complexity": 25,
+          "setup": 15
+        },
+        "domainScores": {
+          "body": 90,
+          "fury": 90,
+          "calm": 15,
+          "mind": 15,
+          "chaos": 15,
+          "order": 15
+        },
+        "playstyleSummary": "유닛을 낼 때마다 유닛 하나에 이번 턴 +1 힘을 주는, 단순하고 강한 공격형 전설입니다.",
+        "strengths": [
+          "유닛만 내도 전투가 강해진다",
+          "규칙이 직관적이다"
+        ],
+        "weaknesses": [
+          "상대의 반응 카드에 공격이 막히면 이득이 사라진다"
+        ],
+        "recommendedFor": [
+          "combat",
+          "aggression",
+          "tempo",
+          "consistency"
+        ],
+        "notRecommendedFor": [
+          "control",
+          "cardDraw",
+          "setup"
+        ],
+        "needsReview": true,
+        "reviewNote": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요."
+      }
+    },
+    {
+      "id": "pyke-bloodharbor-ripper-unl",
+      "officialData": {
+        "champion": "Pyke",
+        "title": "Bloodharbor Ripper",
+        "setId": "unleashed",
+        "setCode": "UNL",
+        "collectorNumber": "UNL-185",
+        "riftboundId": "unl-185-219",
+        "domains": [
+          "fury",
+          "chaos"
+        ],
+        "abilityText": ":rb_energy_1:, :rb_exhaust:: Return a friendly unit at a battlefield to its owner's hand. Play a Gold gear token exhausted. (It has \"[Reaction][>] Kill this, :rb_exhaust:: [Add] :rb_rune_rainbow:.\")",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8ca1bfde8d898a11a6abc73bbab8fc7092b0dcb4-744x1039.png?accountingTag=RB",
+        "artist": "TSWCK逍",
+        "sourceUrls": [
+          "https://api.riftcodex.com/cards/riftbound/unl-185-219",
+          "https://riftdecks.com/cards/details-pyke-bloodharbor-ripper"
+        ],
+        "verifiedAt": "2026-09-10"
+      },
+      "localization": {
+        "championKo": "파이크",
+        "titleKo": null
+      },
+      "recommendationData": {
+        "difficulty": 4,
+        "archetypes": [
+          "tempo",
+          "combo"
+        ],
+        "scores": {
+          "aggression": 60,
+          "control": 35,
+          "tempo": 80,
+          "combo": 65,
+          "midrange": 35,
+          "ramp": 45,
+          "swarm": 25,
+          "bigUnits": 20,
+          "interaction": 50,
+          "disruption": 35,
+          "cardDraw": 25,
+          "resourceManagement": 75,
+          "movement": 55,
+          "gear": 45,
+          "hidden": 25,
+          "sacrifice": 25,
+          "directDamage": 35,
+          "combat": 50,
+          "consistency": 45,
+          "riskTaking": 60,
+          "complexity": 80,
+          "setup": 50
+        },
+        "domainScores": {
+          "body": 15,
+          "fury": 90,
+          "calm": 15,
+          "mind": 15,
+          "chaos": 90,
+          "order": 15
+        },
+        "playstyleSummary": "전장의 아군 유닛을 손으로 되돌리고 Gold 장비 토큰을 얻는, 재활용형 전설입니다.",
+        "strengths": [
+          "등장 효과가 있는 유닛을 반복 활용한다",
+          "위험한 유닛을 구출하며 자원까지 확보한다"
+        ],
+        "weaknesses": [
+          "보드를 스스로 비우는 판단이 어렵다"
+        ],
+        "recommendedFor": [
+          "tempo",
+          "complexity",
+          "resourceManagement",
+          "combo"
+        ],
+        "notRecommendedFor": [
+          "bigUnits",
+          "swarm",
+          "cardDraw"
+        ],
+        "needsReview": true,
+        "reviewNote": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요."
+      }
+    },
+    {
+      "id": "vi-piltover-enforcer-unl",
+      "officialData": {
+        "champion": "Vi",
+        "title": "Piltover Enforcer",
+        "setId": "unleashed",
+        "setCode": "UNL",
+        "collectorNumber": "UNL-187",
+        "riftboundId": "unl-187-219",
+        "domains": [
+          "fury",
+          "order"
+        ],
+        "abilityText": "When you conquer, if you assigned 3 or more excess damage, you may exhaust me to ready a unit.",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b52fca3d644599008c4b1a67ffd359a9f9c4d8d7-744x1039.png?accountingTag=RB",
+        "artist": "Pandart Studio",
+        "sourceUrls": [
+          "https://api.riftcodex.com/cards/riftbound/unl-187-219",
+          "https://riftdecks.com/cards/details-vi-piltover-enforcer"
+        ],
+        "verifiedAt": "2026-09-10"
+      },
+      "localization": {
+        "championKo": "바이",
+        "titleKo": null
+      },
+      "recommendationData": {
+        "difficulty": 2,
+        "archetypes": [
+          "aggro",
+          "bigUnits"
+        ],
+        "scores": {
+          "aggression": 85,
+          "control": 15,
+          "tempo": 75,
+          "combo": 30,
+          "midrange": 50,
+          "ramp": 15,
+          "swarm": 20,
+          "bigUnits": 75,
+          "interaction": 25,
+          "disruption": 10,
+          "cardDraw": 15,
+          "resourceManagement": 40,
+          "movement": 35,
+          "gear": 25,
+          "hidden": 10,
+          "sacrifice": 10,
+          "directDamage": 30,
+          "combat": 90,
+          "consistency": 55,
+          "riskTaking": 50,
+          "complexity": 35,
+          "setup": 25
+        },
+        "domainScores": {
+          "body": 15,
+          "fury": 90,
+          "calm": 15,
+          "mind": 15,
+          "chaos": 15,
+          "order": 90
+        },
+        "playstyleSummary": "정복하면서 초과 피해를 3 이상 줬다면 유닛 하나를 준비시키는 강공형 전설입니다.",
+        "strengths": [
+          "큰 유닛으로 강하게 밀어붙이면 추가 행동을 얻는다",
+          "연속 공격으로 압박하기 좋다"
+        ],
+        "weaknesses": [
+          "초과 피해 조건 때문에 작은 유닛 위주 덱과는 맞지 않는다"
+        ],
+        "recommendedFor": [
+          "combat",
+          "aggression",
+          "tempo",
+          "bigUnits"
+        ],
+        "notRecommendedFor": [
+          "control",
+          "cardDraw",
+          "swarm"
+        ],
+        "needsReview": true,
+        "reviewNote": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요."
+      }
+    },
+    {
+      "id": "lillia-bashful-bloom-unl",
+      "officialData": {
+        "champion": "Lillia",
+        "title": "Bashful Bloom",
+        "setId": "unleashed",
+        "setCode": "UNL",
+        "collectorNumber": "UNL-189",
+        "riftboundId": "unl-189-219",
+        "domains": [
+          "calm",
+          "mind"
+        ],
+        "abilityText": ":rb_energy_4:, :rb_exhaust:: Play a ready 3 :rb_might: Sprite unit token with [Temporary]. This ability costs :rb_energy_1: less for each friendly unit with [Temporary].",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7e1554365120c5042947aef8bcac48a07445e9f3-744x1039.png?accountingTag=RB",
+        "artist": "Pandart Studio",
+        "sourceUrls": [
+          "https://api.riftcodex.com/cards/riftbound/unl-189-219",
+          "https://riftdecks.com/cards/details-lillia-bashful-bloom"
+        ],
+        "verifiedAt": "2026-09-10"
+      },
+      "localization": {
+        "championKo": "릴리아",
+        "titleKo": null
+      },
+      "recommendationData": {
+        "difficulty": 3,
+        "archetypes": [
+          "tokens",
+          "tempo"
+        ],
+        "scores": {
+          "aggression": 50,
+          "control": 45,
+          "tempo": 65,
+          "combo": 60,
+          "midrange": 40,
+          "ramp": 20,
+          "swarm": 70,
+          "bigUnits": 20,
+          "interaction": 40,
+          "disruption": 20,
+          "cardDraw": 30,
+          "resourceManagement": 70,
+          "movement": 35,
+          "gear": 15,
+          "hidden": 15,
+          "sacrifice": 40,
+          "directDamage": 15,
+          "combat": 60,
+          "consistency": 55,
+          "riskTaking": 40,
+          "complexity": 65,
+          "setup": 60
+        },
+        "domainScores": {
+          "body": 15,
+          "fury": 15,
+          "calm": 90,
+          "mind": 90,
+          "chaos": 15,
+          "order": 15
+        },
+        "playstyleSummary": "Temporary 3 힘 Sprite 토큰을 준비 상태로 만들고, Temporary 유닛이 많을수록 비용이 줄어드는 전설입니다.",
+        "strengths": [
+          "준비된 상태로 나오는 토큰으로 즉시 압박한다",
+          "Temporary 시너지로 연쇄 전개가 가능하다"
+        ],
+        "weaknesses": [
+          "Temporary 토큰은 오래 남지 않아 지속력이 약하다"
+        ],
+        "recommendedFor": [
+          "swarm",
+          "resourceManagement",
+          "tempo",
+          "complexity"
+        ],
+        "notRecommendedFor": [
+          "bigUnits"
+        ],
+        "needsReview": true,
+        "reviewNote": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요."
+      }
+    },
+    {
+      "id": "master-yi-wuju-master-unl",
+      "officialData": {
+        "champion": "Master Yi",
+        "title": "Wuju Master",
+        "setId": "unleashed",
+        "setCode": "UNL",
+        "collectorNumber": "UNL-191",
+        "riftboundId": "unl-191-219",
+        "domains": [
+          "calm",
+          "body"
+        ],
+        "abilityText": "[Level 6][>] Your units have +1 :rb_might:. (While you have 6+ XP, get the effect.)[Level 11][>] Your units enter ready.",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ed9af55066593b4ee738b9529b847f2f738078e0-744x1039.png?accountingTag=RB",
+        "artist": "Envar Studio",
+        "sourceUrls": [
+          "https://api.riftcodex.com/cards/riftbound/unl-191-219",
+          "https://riftdecks.com/cards/details-master-yi-wuju-master"
+        ],
+        "verifiedAt": "2026-09-10"
+      },
+      "localization": {
+        "championKo": "마스터 이",
+        "titleKo": null
+      },
+      "recommendationData": {
+        "difficulty": 3,
+        "archetypes": [
+          "xp",
+          "midrange"
+        ],
+        "scores": {
+          "aggression": 55,
+          "control": 35,
+          "tempo": 55,
+          "combo": 35,
+          "midrange": 75,
+          "ramp": 20,
+          "swarm": 50,
+          "bigUnits": 40,
+          "interaction": 30,
+          "disruption": 10,
+          "cardDraw": 15,
+          "resourceManagement": 55,
+          "movement": 35,
+          "gear": 15,
+          "hidden": 10,
+          "sacrifice": 10,
+          "directDamage": 10,
+          "combat": 80,
+          "consistency": 60,
+          "riskTaking": 30,
+          "complexity": 45,
+          "setup": 75
+        },
+        "domainScores": {
+          "body": 90,
+          "fury": 15,
+          "calm": 90,
+          "mind": 15,
+          "chaos": 15,
+          "order": 15
+        },
+        "playstyleSummary": "XP 6 이상이면 내 유닛 +1 힘, 11 이상이면 유닛이 준비 상태로 등장하는 레벨업 전설입니다.",
+        "strengths": [
+          "XP가 쌓일수록 팀 전체가 강해진다",
+          "후반 폭발력이 있다"
+        ],
+        "weaknesses": [
+          "XP를 모으기 전까지는 능력이 없다"
+        ],
+        "recommendedFor": [
+          "combat",
+          "midrange",
+          "setup"
+        ],
+        "notRecommendedFor": [
+          "cardDraw"
+        ],
+        "needsReview": true,
+        "reviewNote": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요."
+      }
+    },
+    {
+      "id": "vex-gloomist-unl",
+      "officialData": {
+        "champion": "Vex",
+        "title": "Gloomist",
+        "setId": "unleashed",
+        "setCode": "UNL",
+        "collectorNumber": "UNL-193",
+        "riftboundId": "unl-193-219",
+        "domains": [
+          "calm",
+          "chaos"
+        ],
+        "abilityText": "When you or an ally hold, you may exhaust me to draw 1.",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/653e9b8fc4989bba59aa7ade4e0c33ffd5596e5a-744x1039.png?accountingTag=RB",
+        "artist": "Pandart Studio",
+        "sourceUrls": [
+          "https://api.riftcodex.com/cards/riftbound/unl-193-219",
+          "https://riftdecks.com/cards/details-vex-gloomist"
+        ],
+        "verifiedAt": "2026-09-10"
+      },
+      "localization": {
+        "championKo": "벡스",
+        "titleKo": null
+      },
+      "recommendationData": {
+        "difficulty": 3,
+        "archetypes": [
+          "hold",
+          "control"
+        ],
+        "scores": {
+          "aggression": 25,
+          "control": 80,
+          "tempo": 40,
+          "combo": 30,
+          "midrange": 50,
+          "ramp": 15,
+          "swarm": 25,
+          "bigUnits": 40,
+          "interaction": 65,
+          "disruption": 45,
+          "cardDraw": 75,
+          "resourceManagement": 55,
+          "movement": 30,
+          "gear": 15,
+          "hidden": 25,
+          "sacrifice": 10,
+          "directDamage": 25,
+          "combat": 55,
+          "consistency": 70,
+          "riskTaking": 30,
+          "complexity": 50,
+          "setup": 40
+        },
+        "domainScores": {
+          "body": 15,
+          "fury": 15,
+          "calm": 90,
+          "mind": 15,
+          "chaos": 90,
+          "order": 15
+        },
+        "playstyleSummary": "나나 동료가 홀드할 때 1장을 뽑는, 지키며 카드를 쌓는 전설입니다.",
+        "strengths": [
+          "전장을 지킬수록 손패가 늘어난다",
+          "안정적인 수비 운영"
+        ],
+        "weaknesses": [
+          "홀드하지 못하면 이득이 없다"
+        ],
+        "recommendedFor": [
+          "control",
+          "cardDraw",
+          "consistency",
+          "interaction"
+        ],
+        "notRecommendedFor": [
+          "aggression",
+          "swarm"
+        ],
+        "needsReview": true,
+        "reviewNote": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요."
+      }
+    },
+    {
+      "id": "ivern-green-father-unl",
+      "officialData": {
+        "champion": "Ivern",
+        "title": "Green Father",
+        "setId": "unleashed",
+        "setCode": "UNL",
+        "collectorNumber": "UNL-195",
+        "riftboundId": "unl-195-219",
+        "domains": [
+          "calm",
+          "order"
+        ],
+        "abilityText": "When you conquer or hold, you may exhaust me to replace that battlefield with a Brush battlefield token. (Bird, Cat, Dog, Poro, and Ivern units have +1 :rb_might: in Brush. It can be swapped back when scored.)",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a2ca02d26c1e95db03690729bd31113bda7e4140-744x1039.png?accountingTag=RB",
+        "artist": "Envar Studio",
+        "sourceUrls": [
+          "https://api.riftcodex.com/cards/riftbound/unl-195-219",
+          "https://riftdecks.com/cards/details-ivern-green-father"
+        ],
+        "verifiedAt": "2026-09-10"
+      },
+      "localization": {
+        "championKo": "아이번",
+        "titleKo": null
+      },
+      "recommendationData": {
+        "difficulty": 4,
+        "archetypes": [
+          "tribal",
+          "hold",
+          "midrange"
+        ],
+        "scores": {
+          "aggression": 40,
+          "control": 60,
+          "tempo": 40,
+          "combo": 55,
+          "midrange": 60,
+          "ramp": 20,
+          "swarm": 55,
+          "bigUnits": 30,
+          "interaction": 40,
+          "disruption": 30,
+          "cardDraw": 20,
+          "resourceManagement": 50,
+          "movement": 35,
+          "gear": 10,
+          "hidden": 15,
+          "sacrifice": 10,
+          "directDamage": 10,
+          "combat": 65,
+          "consistency": 55,
+          "riskTaking": 35,
+          "complexity": 70,
+          "setup": 70
+        },
+        "domainScores": {
+          "body": 15,
+          "fury": 15,
+          "calm": 90,
+          "mind": 15,
+          "chaos": 15,
+          "order": 90
+        },
+        "playstyleSummary": "정복·홀드한 전장을 Brush 전장 토큰으로 바꿔 동물·아이번 유닛을 강화하는 전장 변환 전설입니다.",
+        "strengths": [
+          "전장 자체를 내게 유리하게 바꾼다",
+          "종족 시너지로 확장된다"
+        ],
+        "weaknesses": [
+          "특정 유닛 종류(새·고양이·개·포로·아이번)에 의존한다"
+        ],
+        "recommendedFor": [
+          "complexity",
+          "setup",
+          "combat"
+        ],
+        "notRecommendedFor": [
+          "cardDraw"
+        ],
+        "needsReview": true,
+        "reviewNote": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요."
+      }
+    },
+    {
+      "id": "diana-scorn-of-the-moon-unl",
+      "officialData": {
+        "champion": "Diana",
+        "title": "Scorn of the Moon",
+        "setId": "unleashed",
+        "setCode": "UNL",
+        "collectorNumber": "UNL-197",
+        "riftboundId": "unl-197-219",
+        "domains": [
+          "mind",
+          "chaos"
+        ],
+        "abilityText": "[Reaction][>] :rb_exhaust:: [Add] :rb_energy_1:. Spend this Energy only during showdowns. (Abilities that add resources can't be reacted to.)",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b00d922d62daca19190e13149fe3cf725c900330-744x1039.png?accountingTag=RB",
+        "artist": "Envar Studio",
+        "sourceUrls": [
+          "https://api.riftcodex.com/cards/riftbound/unl-197-219",
+          "https://riftdecks.com/cards/details-diana-scorn-of-the-moon"
+        ],
+        "verifiedAt": "2026-09-10"
+      },
+      "localization": {
+        "championKo": "다이애나",
+        "titleKo": null
+      },
+      "recommendationData": {
+        "difficulty": 4,
+        "archetypes": [
+          "spells",
+          "tempo"
+        ],
+        "scores": {
+          "aggression": 55,
+          "control": 50,
+          "tempo": 70,
+          "combo": 45,
+          "midrange": 40,
+          "ramp": 30,
+          "swarm": 20,
+          "bigUnits": 30,
+          "interaction": 80,
+          "disruption": 40,
+          "cardDraw": 30,
+          "resourceManagement": 65,
+          "movement": 30,
+          "gear": 15,
+          "hidden": 35,
+          "sacrifice": 10,
+          "directDamage": 45,
+          "combat": 70,
+          "consistency": 45,
+          "riskTaking": 60,
+          "complexity": 70,
+          "setup": 30
+        },
+        "domainScores": {
+          "body": 15,
+          "fury": 15,
+          "calm": 15,
+          "mind": 90,
+          "chaos": 90,
+          "order": 15
+        },
+        "playstyleSummary": "쇼다운 중에만 쓸 수 있는 에너지 1을 반응 속도로 더하는, 전투 트릭 전설입니다.",
+        "strengths": [
+          "전투 중 트릭을 한 장 더 쓰기 쉽다",
+          "상대가 전투 결과를 계산하기 어렵다"
+        ],
+        "weaknesses": [
+          "쇼다운 밖에서는 도움이 되지 않는다"
+        ],
+        "recommendedFor": [
+          "interaction",
+          "tempo",
+          "combat",
+          "complexity"
+        ],
+        "notRecommendedFor": [
+          "swarm"
+        ],
+        "needsReview": true,
+        "reviewNote": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요."
+      }
+    },
+    {
+      "id": "leblanc-deceiver-unl",
+      "officialData": {
+        "champion": "LeBlanc",
+        "title": "Deceiver",
+        "setId": "unleashed",
+        "setCode": "UNL",
+        "collectorNumber": "UNL-199",
+        "riftboundId": "unl-199-219",
+        "domains": [
+          "mind",
+          "order"
+        ],
+        "abilityText": "When you conquer or hold, you may discard 1 and exhaust me to play a ready Reflection unit token there. It becomes a copy of another unit there. Give it [Temporary].",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c17d29602d61d6702372fec4db44c6fb2a29e8a2-744x1039.png?accountingTag=RB",
+        "artist": "黯荧岛Dark Glow",
+        "sourceUrls": [
+          "https://api.riftcodex.com/cards/riftbound/unl-199-219",
+          "https://riftdecks.com/cards/details-leblanc-deceiver"
+        ],
+        "verifiedAt": "2026-09-10"
+      },
+      "localization": {
+        "championKo": "르블랑",
+        "titleKo": null
+      },
+      "recommendationData": {
+        "difficulty": 5,
+        "archetypes": [
+          "combo",
+          "tokens"
+        ],
+        "scores": {
+          "aggression": 45,
+          "control": 50,
+          "tempo": 55,
+          "combo": 70,
+          "midrange": 45,
+          "ramp": 10,
+          "swarm": 45,
+          "bigUnits": 35,
+          "interaction": 45,
+          "disruption": 40,
+          "cardDraw": 25,
+          "resourceManagement": 60,
+          "movement": 25,
+          "gear": 10,
+          "hidden": 30,
+          "sacrifice": 35,
+          "directDamage": 20,
+          "combat": 60,
+          "consistency": 40,
+          "riskTaking": 60,
+          "complexity": 85,
+          "setup": 55
+        },
+        "domainScores": {
+          "body": 15,
+          "fury": 15,
+          "calm": 15,
+          "mind": 90,
+          "chaos": 15,
+          "order": 90
+        },
+        "playstyleSummary": "정복·홀드할 때 카드 1장을 버리고, 그 전장의 다른 유닛을 복사한 Reflection 토큰을 만드는 전설입니다.",
+        "strengths": [
+          "강한 유닛을 복제해 전력을 늘린다",
+          "변칙적인 전개가 가능하다"
+        ],
+        "weaknesses": [
+          "손패를 버려야 해 자원 판단이 까다롭다",
+          "복사할 대상이 필요하다"
+        ],
+        "recommendedFor": [
+          "complexity",
+          "combo"
+        ],
+        "notRecommendedFor": [
+          "cardDraw",
+          "movement"
+        ],
+        "needsReview": true,
+        "reviewNote": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요."
+      }
+    },
+    {
+      "id": "khazix-voidreaver-unl",
+      "officialData": {
+        "champion": "Kha'Zix",
+        "title": "Voidreaver",
+        "setId": "unleashed",
+        "setCode": "UNL",
+        "collectorNumber": "UNL-201",
+        "riftboundId": "unl-201-219",
+        "domains": [
+          "body",
+          "chaos"
+        ],
+        "abilityText": "When you win a combat, gain 1 XP.Spend 1 XP, :rb_exhaust:: [Buff] a unit.Spend 2 XP, :rb_exhaust:: Move an exhausted friendly unit from a battlefield to its base.",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a5db0b3340a189de1cf9d8174b11eb583f19ea28-744x1039.png?accountingTag=RB",
+        "artist": "Envar Studio",
+        "sourceUrls": [
+          "https://api.riftcodex.com/cards/riftbound/unl-201-219",
+          "https://riftdecks.com/cards/details-khazix-voidreaver"
+        ],
+        "verifiedAt": "2026-09-10"
+      },
+      "localization": {
+        "championKo": "카직스",
+        "titleKo": null
+      },
+      "recommendationData": {
+        "difficulty": 3,
+        "archetypes": [
+          "xp",
+          "aggro",
+          "midrange"
+        ],
+        "scores": {
+          "aggression": 75,
+          "control": 25,
+          "tempo": 65,
+          "combo": 35,
+          "midrange": 55,
+          "ramp": 10,
+          "swarm": 25,
+          "bigUnits": 50,
+          "interaction": 35,
+          "disruption": 25,
+          "cardDraw": 15,
+          "resourceManagement": 55,
+          "movement": 55,
+          "gear": 10,
+          "hidden": 20,
+          "sacrifice": 10,
+          "directDamage": 25,
+          "combat": 90,
+          "consistency": 50,
+          "riskTaking": 55,
+          "complexity": 50,
+          "setup": 45
+        },
+        "domainScores": {
+          "body": 90,
+          "fury": 15,
+          "calm": 15,
+          "mind": 15,
+          "chaos": 90,
+          "order": 15
+        },
+        "playstyleSummary": "전투에서 이기면 XP를 얻고, XP로 버프하거나 지친 유닛을 기지로 빼는 진화형 전설입니다.",
+        "strengths": [
+          "싸울수록 성장한다",
+          "XP 사용처가 둘이라 선택지가 유연하다"
+        ],
+        "weaknesses": [
+          "전투에서 지면 성장이 멈춘다"
+        ],
+        "recommendedFor": [
+          "combat",
+          "aggression",
+          "tempo"
+        ],
+        "notRecommendedFor": [
+          "cardDraw",
+          "control",
+          "swarm"
+        ],
+        "needsReview": true,
+        "reviewNote": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요."
+      }
+    },
+    {
+      "id": "poppy-keeper-of-the-hammer-unl",
+      "officialData": {
+        "champion": "Poppy",
+        "title": "Keeper of the Hammer",
+        "setId": "unleashed",
+        "setCode": "UNL",
+        "collectorNumber": "UNL-203",
+        "riftboundId": "unl-203-219",
+        "domains": [
+          "body",
+          "order"
+        ],
+        "abilityText": "When you hold, gain 1 XP.Spend 3 XP, :rb_exhaust:: Draw 1.",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ee1393b9bace7bfea4e87405b793bb5462305ed0-744x1039.png?accountingTag=RB",
+        "artist": "Pandart Studio",
+        "sourceUrls": [
+          "https://api.riftcodex.com/cards/riftbound/unl-203-219",
+          "https://riftdecks.com/cards/details-poppy-keeper-of-the-hammer"
+        ],
+        "verifiedAt": "2026-09-10"
+      },
+      "localization": {
+        "championKo": "뽀삐",
+        "titleKo": null
+      },
+      "recommendationData": {
+        "difficulty": 2,
+        "archetypes": [
+          "hold",
+          "xp",
+          "midrange"
+        ],
+        "scores": {
+          "aggression": 30,
+          "control": 65,
+          "tempo": 30,
+          "combo": 25,
+          "midrange": 75,
+          "ramp": 20,
+          "swarm": 30,
+          "bigUnits": 60,
+          "interaction": 35,
+          "disruption": 10,
+          "cardDraw": 55,
+          "resourceManagement": 55,
+          "movement": 20,
+          "gear": 25,
+          "hidden": 10,
+          "sacrifice": 10,
+          "directDamage": 10,
+          "combat": 75,
+          "consistency": 80,
+          "riskTaking": 20,
+          "complexity": 35,
+          "setup": 60
+        },
+        "domainScores": {
+          "body": 90,
+          "fury": 15,
+          "calm": 15,
+          "mind": 15,
+          "chaos": 15,
+          "order": 90
+        },
+        "playstyleSummary": "홀드할 때 XP를 얻고, XP 3으로 1장을 뽑는 수비형 전설입니다.",
+        "strengths": [
+          "전장을 지키는 만큼 카드가 보충된다",
+          "단단하고 안정적인 운영"
+        ],
+        "weaknesses": [
+          "능동적으로 몰아붙이는 힘은 약한 편"
+        ],
+        "recommendedFor": [
+          "consistency",
+          "midrange",
+          "combat",
+          "control"
+        ],
+        "notRecommendedFor": [
+          "movement",
+          "riskTaking"
+        ],
+        "needsReview": true,
+        "reviewNote": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요."
+      }
+    },
+    {
+      "id": "akali-rogue-assassin-ven",
+      "officialData": {
+        "champion": "Akali",
+        "title": "Rogue Assassin",
+        "setId": "vendetta",
+        "setCode": "VEN",
+        "collectorNumber": "VEN-139",
+        "riftboundId": "ven-139-166",
+        "domains": [
+          "fury",
+          "calm"
+        ],
+        "abilityText": "[Empower] :rb_energy_3::rb_rune_rainbow: (:rb_energy_3::rb_rune_rainbow:: Empower this. Use only if not Empowered.)[Action][>] :rb_exhaust:: If it's your turn, move a friendly unit in a showdown to base and if I'm [Empowered], ready it.",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0d53b477ed43fb9bbed84858443a606b2b51a2b5-744x1039.png?accountingTag=RB",
+        "artist": "Envar Studio",
+        "sourceUrls": [
+          "https://api.riftcodex.com/cards/riftbound/ven-139-166",
+          "https://riftdecks.com/cards/details-akali-rogue-assassin"
+        ],
+        "verifiedAt": "2026-09-10"
+      },
+      "localization": {
+        "championKo": "아칼리",
+        "titleKo": null
+      },
+      "recommendationData": {
+        "difficulty": 4,
+        "archetypes": [
+          "movement",
+          "tempo",
+          "empower"
+        ],
+        "scores": {
+          "aggression": 70,
+          "control": 35,
+          "tempo": 85,
+          "combo": 40,
+          "midrange": 35,
+          "ramp": 10,
+          "swarm": 25,
+          "bigUnits": 25,
+          "interaction": 60,
+          "disruption": 30,
+          "cardDraw": 20,
+          "resourceManagement": 55,
+          "movement": 85,
+          "gear": 10,
+          "hidden": 30,
+          "sacrifice": 10,
+          "directDamage": 35,
+          "combat": 60,
+          "consistency": 45,
+          "riskTaking": 60,
+          "complexity": 75,
+          "setup": 35
+        },
+        "domainScores": {
+          "body": 15,
+          "fury": 90,
+          "calm": 90,
+          "mind": 15,
+          "chaos": 15,
+          "order": 15
+        },
+        "playstyleSummary": "Empower된 뒤, 쇼다운 중인 아군 유닛을 기지로 빼고 준비시키는 기습형 전설입니다.",
+        "strengths": [
+          "전투에서 유닛을 빼내 손실 없이 다시 공격한다",
+          "상대의 전투 계산을 무너뜨린다"
+        ],
+        "weaknesses": [
+          "Empower 비용이 커서 자원 계획이 필요하다"
+        ],
+        "recommendedFor": [
+          "tempo",
+          "movement",
+          "complexity",
+          "aggression"
+        ],
+        "notRecommendedFor": [
+          "cardDraw",
+          "swarm",
+          "bigUnits"
+        ],
+        "needsReview": true,
+        "reviewNote": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요."
+      }
+    },
+    {
+      "id": "renekton-butcher-of-the-sands-ven",
+      "officialData": {
+        "champion": "Renekton",
+        "title": "Butcher of the Sands",
+        "setId": "vendetta",
+        "setCode": "VEN",
+        "collectorNumber": "VEN-141",
+        "riftboundId": "ven-141-166",
+        "domains": [
+          "fury",
+          "body"
+        ],
+        "abilityText": "[Reaction][>] :rb_rune_rainbow::rb_rune_rainbow:, :rb_exhaust:: [Add] :rb_energy_2:. Spend this Energy only to play units or activated abilities of units.",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7620595b36b40a0c3d05c4c5469b016d1c18c6f2-744x1039.png?accountingTag=RB",
+        "artist": "Envar Studio",
+        "sourceUrls": [
+          "https://api.riftcodex.com/cards/riftbound/ven-141-166",
+          "https://riftdecks.com/cards/details-renekton-butcher-of-the-sands"
+        ],
+        "verifiedAt": "2026-09-10"
+      },
+      "localization": {
+        "championKo": "레넥톤",
+        "titleKo": null
+      },
+      "recommendationData": {
+        "difficulty": 3,
+        "archetypes": [
+          "ramp",
+          "aggro",
+          "bigUnits"
+        ],
+        "scores": {
+          "aggression": 70,
+          "control": 20,
+          "tempo": 60,
+          "combo": 30,
+          "midrange": 60,
+          "ramp": 70,
+          "swarm": 35,
+          "bigUnits": 65,
+          "interaction": 25,
+          "disruption": 10,
+          "cardDraw": 15,
+          "resourceManagement": 65,
+          "movement": 25,
+          "gear": 10,
+          "hidden": 10,
+          "sacrifice": 10,
+          "directDamage": 25,
+          "combat": 85,
+          "consistency": 60,
+          "riskTaking": 40,
+          "complexity": 45,
+          "setup": 35
+        },
+        "domainScores": {
+          "body": 90,
+          "fury": 90,
+          "calm": 15,
+          "mind": 15,
+          "chaos": 15,
+          "order": 15
+        },
+        "playstyleSummary": "룬 2개 분량의 파워를 유닛 전용 에너지 2로 바꾸는, 유닛 전개를 가속하는 전설입니다.",
+        "strengths": [
+          "유닛 전개 속도가 빨라진다",
+          "고비용 유닛을 이른 턴에 낼 수 있다"
+        ],
+        "weaknesses": [
+          "주문 위주 덱과는 맞지 않는다"
+        ],
+        "recommendedFor": [
+          "combat",
+          "aggression",
+          "ramp",
+          "bigUnits"
+        ],
+        "notRecommendedFor": [
+          "cardDraw",
+          "control",
+          "interaction"
+        ],
+        "needsReview": true,
+        "reviewNote": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요."
+      }
+    },
+    {
+      "id": "zed-master-of-shadows-ven",
+      "officialData": {
+        "champion": "Zed",
+        "title": "Master of Shadows",
+        "setId": "vendetta",
+        "setCode": "VEN",
+        "collectorNumber": "VEN-143",
+        "riftboundId": "ven-143-166",
+        "domains": [
+          "fury",
+          "chaos"
+        ],
+        "abilityText": "When you banish a card you own, empower me. (I become Empowered if I'm not already.)[Action][>] Disempower me, :rb_exhaust:: Discard 1, then draw 1.",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/aa316eb1b01c8d036eaba84b03909027fe69f6e2-744x1039.png?accountingTag=RB",
+        "artist": "Envar Studio",
+        "sourceUrls": [
+          "https://api.riftcodex.com/cards/riftbound/ven-143-166",
+          "https://riftdecks.com/cards/details-zed-master-of-shadows"
+        ],
+        "verifiedAt": "2026-09-10"
+      },
+      "localization": {
+        "championKo": "제드",
+        "titleKo": null
+      },
+      "recommendationData": {
+        "difficulty": 4,
+        "archetypes": [
+          "tempo",
+          "combo",
+          "empower"
+        ],
+        "scores": {
+          "aggression": 70,
+          "control": 30,
+          "tempo": 65,
+          "combo": 60,
+          "midrange": 30,
+          "ramp": 10,
+          "swarm": 25,
+          "bigUnits": 25,
+          "interaction": 45,
+          "disruption": 45,
+          "cardDraw": 55,
+          "resourceManagement": 60,
+          "movement": 35,
+          "gear": 10,
+          "hidden": 30,
+          "sacrifice": 30,
+          "directDamage": 45,
+          "combat": 60,
+          "consistency": 45,
+          "riskTaking": 65,
+          "complexity": 75,
+          "setup": 45
+        },
+        "domainScores": {
+          "body": 15,
+          "fury": 90,
+          "calm": 15,
+          "mind": 15,
+          "chaos": 90,
+          "order": 15
+        },
+        "playstyleSummary": "카드를 추방할 때 Empower되고, 그 힘을 소모해 1장 버리고 1장 뽑는 전설입니다.",
+        "strengths": [
+          "추방 시너지와 손패 교체로 원하는 카드를 찾는다",
+          "변칙적인 운영이 가능하다"
+        ],
+        "weaknesses": [
+          "추방 수단이 없으면 능력 회전이 느리다"
+        ],
+        "recommendedFor": [
+          "complexity",
+          "aggression",
+          "tempo",
+          "riskTaking"
+        ],
+        "notRecommendedFor": [
+          "swarm",
+          "bigUnits"
+        ],
+        "needsReview": true,
+        "reviewNote": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요."
+      }
+    },
+    {
+      "id": "nasus-curator-of-the-sands-ven",
+      "officialData": {
+        "champion": "Nasus",
+        "title": "Curator of the Sands",
+        "setId": "vendetta",
+        "setCode": "VEN",
+        "collectorNumber": "VEN-145",
+        "riftboundId": "ven-145-166",
+        "domains": [
+          "calm",
+          "mind"
+        ],
+        "abilityText": "When you play a unit, gear, or activated ability with Energy cost :rb_energy_7: or more, you may exhaust me to ready up to 2 runes.",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f26a25c5fddba7da788455c3d82b85c5abc7a2eb-744x1039.png?accountingTag=RB",
+        "artist": "Envar Studio",
+        "sourceUrls": [
+          "https://api.riftcodex.com/cards/riftbound/ven-145-166",
+          "https://riftdecks.com/cards/details-nasus-curator-of-the-sands"
+        ],
+        "verifiedAt": "2026-09-10"
+      },
+      "localization": {
+        "championKo": "나서스",
+        "titleKo": null
+      },
+      "recommendationData": {
+        "difficulty": 3,
+        "archetypes": [
+          "ramp",
+          "bigUnits"
+        ],
+        "scores": {
+          "aggression": 20,
+          "control": 60,
+          "tempo": 20,
+          "combo": 50,
+          "midrange": 45,
+          "ramp": 95,
+          "swarm": 10,
+          "bigUnits": 85,
+          "interaction": 40,
+          "disruption": 15,
+          "cardDraw": 30,
+          "resourceManagement": 70,
+          "movement": 15,
+          "gear": 40,
+          "hidden": 10,
+          "sacrifice": 10,
+          "directDamage": 25,
+          "combat": 60,
+          "consistency": 50,
+          "riskTaking": 50,
+          "complexity": 50,
+          "setup": 85
+        },
+        "domainScores": {
+          "body": 15,
+          "fury": 15,
+          "calm": 90,
+          "mind": 90,
+          "chaos": 15,
+          "order": 15
+        },
+        "playstyleSummary": "에너지 7 이상의 유닛·장비·능력을 쓸 때 룬 2개를 준비시키는 초대형 램프 전설입니다.",
+        "strengths": [
+          "거대한 카드를 쓴 뒤에도 자원이 남는다",
+          "후반 파괴력이 크다"
+        ],
+        "weaknesses": [
+          "7코스트까지 버텨야 하는 초반이 약점이다"
+        ],
+        "recommendedFor": [
+          "ramp",
+          "bigUnits",
+          "setup",
+          "resourceManagement"
+        ],
+        "notRecommendedFor": [
+          "swarm",
+          "movement",
+          "aggression"
+        ],
+        "needsReview": true,
+        "reviewNote": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요."
+      }
+    },
+    {
+      "id": "shen-eye-of-twilight-ven",
+      "officialData": {
+        "champion": "Shen",
+        "title": "Eye of Twilight",
+        "setId": "vendetta",
+        "setCode": "VEN",
+        "collectorNumber": "VEN-147",
+        "riftboundId": "ven-147-166",
+        "domains": [
+          "calm",
+          "order"
+        ],
+        "abilityText": "[Action][>] :rb_exhaust:: Give a friendly unit [Tank] this turn. (It must be assigned combat damage first.)",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/54388a3124b7e1f0331e5970f952778db5f24500-744x1039.png?accountingTag=RB",
+        "artist": "Envar Studio",
+        "sourceUrls": [
+          "https://api.riftcodex.com/cards/riftbound/ven-147-166",
+          "https://riftdecks.com/cards/details-shen-eye-of-twilight"
+        ],
+        "verifiedAt": "2026-09-10"
+      },
+      "localization": {
+        "championKo": "쉔",
+        "titleKo": null
+      },
+      "recommendationData": {
+        "difficulty": 2,
+        "archetypes": [
+          "hold",
+          "midrange"
+        ],
+        "scores": {
+          "aggression": 35,
+          "control": 65,
+          "tempo": 45,
+          "combo": 30,
+          "midrange": 70,
+          "ramp": 15,
+          "swarm": 40,
+          "bigUnits": 55,
+          "interaction": 55,
+          "disruption": 15,
+          "cardDraw": 20,
+          "resourceManagement": 45,
+          "movement": 30,
+          "gear": 15,
+          "hidden": 10,
+          "sacrifice": 20,
+          "directDamage": 10,
+          "combat": 80,
+          "consistency": 80,
+          "riskTaking": 20,
+          "complexity": 40,
+          "setup": 40
+        },
+        "domainScores": {
+          "body": 15,
+          "fury": 15,
+          "calm": 90,
+          "mind": 15,
+          "chaos": 15,
+          "order": 90
+        },
+        "playstyleSummary": "소진으로 아군 유닛에게 이번 턴 Tank(먼저 피해를 받음)를 주는 수호형 전설입니다.",
+        "strengths": [
+          "중요한 유닛을 지키며 전투 결과를 조정한다",
+          "단순하고 안정적이다"
+        ],
+        "weaknesses": [
+          "공격적인 이득을 직접 만들지는 않는다"
+        ],
+        "recommendedFor": [
+          "combat",
+          "consistency",
+          "midrange",
+          "control"
+        ],
+        "notRecommendedFor": [
+          "cardDraw",
+          "riskTaking"
+        ],
+        "needsReview": true,
+        "reviewNote": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요."
+      }
+    },
+    {
+      "id": "jayce-defender-of-tomorrow-ven",
+      "officialData": {
+        "champion": "Jayce",
+        "title": "Defender of Tomorrow",
+        "setId": "vendetta",
+        "setCode": "VEN",
+        "collectorNumber": "VEN-149",
+        "riftboundId": "ven-149-166",
+        "domains": [
+          "mind",
+          "body"
+        ],
+        "abilityText": "[Empower] :rb_energy_2::rb_rune_rainbow::rb_rune_rainbow: (:rb_energy_2::rb_rune_rainbow::rb_rune_rainbow:: Empower me. Use only if not Empowered.):rb_energy_1:, :rb_exhaust:: Ready a gear.[Empowered][>] :rb_energy_1:, :rb_exhaust:: Ready 2 gear.",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/670b7efd367a42beba11c18fb59e240a7c574a57-744x1039.png?accountingTag=RB",
+        "artist": "Envar Studio",
+        "sourceUrls": [
+          "https://api.riftcodex.com/cards/riftbound/ven-149-166",
+          "https://riftdecks.com/cards/details-jayce-defender-of-tomorrow"
+        ],
+        "verifiedAt": "2026-09-10"
+      },
+      "localization": {
+        "championKo": "제이스",
+        "titleKo": null
+      },
+      "recommendationData": {
+        "difficulty": 4,
+        "archetypes": [
+          "gear",
+          "combo",
+          "empower"
+        ],
+        "scores": {
+          "aggression": 45,
+          "control": 45,
+          "tempo": 50,
+          "combo": 65,
+          "midrange": 55,
+          "ramp": 45,
+          "swarm": 15,
+          "bigUnits": 45,
+          "interaction": 40,
+          "disruption": 15,
+          "cardDraw": 30,
+          "resourceManagement": 75,
+          "movement": 20,
+          "gear": 95,
+          "hidden": 10,
+          "sacrifice": 10,
+          "directDamage": 30,
+          "combat": 60,
+          "consistency": 55,
+          "riskTaking": 35,
+          "complexity": 75,
+          "setup": 75
+        },
+        "domainScores": {
+          "body": 90,
+          "fury": 15,
+          "calm": 15,
+          "mind": 90,
+          "chaos": 15,
+          "order": 15
+        },
+        "playstyleSummary": "장비를 준비(Ready)시키고, Empower되면 두 개를 준비시키는 장비 엔진 전설입니다.",
+        "strengths": [
+          "장비 능력을 한 턴에 여러 번 활용한다",
+          "엔진이 돌면 강력하다"
+        ],
+        "weaknesses": [
+          "장비 구성이 갖춰지기 전에는 약하다",
+          "Empower 비용이 부담된다"
+        ],
+        "recommendedFor": [
+          "gear",
+          "resourceManagement",
+          "complexity",
+          "setup"
+        ],
+        "notRecommendedFor": [
+          "swarm",
+          "movement"
+        ],
+        "needsReview": true,
+        "reviewNote": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요."
+      }
+    },
+    {
+      "id": "mel-souls-reflection-ven",
+      "officialData": {
+        "champion": "Mel",
+        "title": "Soul's Reflection",
+        "setId": "vendetta",
+        "setCode": "VEN",
+        "collectorNumber": "VEN-151",
+        "riftboundId": "ven-151-166",
+        "domains": [
+          "mind",
+          "chaos"
+        ],
+        "abilityText": "When you empower something else, empower me. (I become Empowered if I'm not already.)Disempower me, :rb_exhaust:: Give a unit at a battlefield -2 :rb_might: this turn.",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2e9e60b3f161b41219c40ef0426049634fb7ba1a-744x1039.png?accountingTag=RB",
+        "artist": "Envar Studio",
+        "sourceUrls": [
+          "https://api.riftcodex.com/cards/riftbound/ven-151-166",
+          "https://riftdecks.com/cards/details-mel-souls-reflection"
+        ],
+        "verifiedAt": "2026-09-10"
+      },
+      "localization": {
+        "championKo": "멜",
+        "titleKo": null
+      },
+      "recommendationData": {
+        "difficulty": 4,
+        "archetypes": [
+          "empower",
+          "control",
+          "tempo"
+        ],
+        "scores": {
+          "aggression": 40,
+          "control": 65,
+          "tempo": 60,
+          "combo": 60,
+          "midrange": 35,
+          "ramp": 10,
+          "swarm": 15,
+          "bigUnits": 20,
+          "interaction": 75,
+          "disruption": 55,
+          "cardDraw": 30,
+          "resourceManagement": 60,
+          "movement": 20,
+          "gear": 15,
+          "hidden": 25,
+          "sacrifice": 10,
+          "directDamage": 40,
+          "combat": 50,
+          "consistency": 45,
+          "riskTaking": 50,
+          "complexity": 80,
+          "setup": 55
+        },
+        "domainScores": {
+          "body": 15,
+          "fury": 15,
+          "calm": 15,
+          "mind": 90,
+          "chaos": 90,
+          "order": 15
+        },
+        "playstyleSummary": "다른 것을 Empower할 때 함께 Empower되고, 그 힘을 소모해 전장의 유닛에 -2 힘을 주는 전설입니다.",
+        "strengths": [
+          "Empower 시너지로 반복 견제가 가능하다",
+          "전투 결과를 뒤집는 한 수가 있다"
+        ],
+        "weaknesses": [
+          "Empower 카드 비중이 필요하다"
+        ],
+        "recommendedFor": [
+          "complexity",
+          "interaction",
+          "control"
+        ],
+        "notRecommendedFor": [
+          "swarm",
+          "bigUnits",
+          "movement"
+        ],
+        "needsReview": true,
+        "reviewNote": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요."
+      }
+    },
+    {
+      "id": "ambessa-matriarch-of-war-ven",
+      "officialData": {
+        "champion": "Ambessa",
+        "title": "Matriarch of War",
+        "setId": "vendetta",
+        "setCode": "VEN",
+        "collectorNumber": "VEN-153",
+        "riftboundId": "ven-153-166",
+        "domains": [
+          "body",
+          "order"
+        ],
+        "abilityText": "When you empower something else, empower me. (I become Empowered if I'm not already.)Disempower me, :rb_rune_rainbow:, :rb_exhaust:: Ready a unit.",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/49e81916d7ae72b24de845223e1798652d26e789-744x1039.png?accountingTag=RB",
+        "artist": "Envar Studio",
+        "sourceUrls": [
+          "https://api.riftcodex.com/cards/riftbound/ven-153-166",
+          "https://riftdecks.com/cards/details-ambessa-matriarch-of-war"
+        ],
+        "verifiedAt": "2026-09-10"
+      },
+      "localization": {
+        "championKo": "암베사",
+        "titleKo": null
+      },
+      "recommendationData": {
+        "difficulty": 3,
+        "archetypes": [
+          "empower",
+          "midrange",
+          "aggro"
+        ],
+        "scores": {
+          "aggression": 65,
+          "control": 30,
+          "tempo": 65,
+          "combo": 55,
+          "midrange": 70,
+          "ramp": 15,
+          "swarm": 30,
+          "bigUnits": 60,
+          "interaction": 30,
+          "disruption": 10,
+          "cardDraw": 15,
+          "resourceManagement": 60,
+          "movement": 30,
+          "gear": 15,
+          "hidden": 10,
+          "sacrifice": 10,
+          "directDamage": 15,
+          "combat": 85,
+          "consistency": 55,
+          "riskTaking": 40,
+          "complexity": 60,
+          "setup": 55
+        },
+        "domainScores": {
+          "body": 90,
+          "fury": 15,
+          "calm": 15,
+          "mind": 15,
+          "chaos": 15,
+          "order": 90
+        },
+        "playstyleSummary": "다른 것을 Empower할 때 함께 Empower되고, 그 힘과 파워 1로 유닛 하나를 준비시키는 전설입니다.",
+        "strengths": [
+          "유닛을 다시 행동시켜 공세를 연장한다",
+          "Empower 덱의 마무리 역할"
+        ],
+        "weaknesses": [
+          "Empower 시너지 없이는 느리다"
+        ],
+        "recommendedFor": [
+          "combat",
+          "midrange",
+          "aggression",
+          "tempo"
+        ],
+        "notRecommendedFor": [
+          "cardDraw"
+        ],
+        "needsReview": true,
+        "reviewNote": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요."
+      }
+    },
+    {
+      "id": "kennen-heart-of-the-tempest-ven",
+      "officialData": {
+        "champion": "Kennen",
+        "title": "Heart of the Tempest",
+        "setId": "vendetta",
+        "setCode": "VEN",
+        "collectorNumber": "VEN-155",
+        "riftboundId": "ven-155-166",
+        "domains": [
+          "order",
+          "chaos"
+        ],
+        "abilityText": "When you play a card from anywhere other than your hand, empower me.[Action][>] Disempower me, :rb_exhaust:: Give a unit [Assault 2] this turn. (+2 :rb_might: while it's an attacker.)",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0eab83392b310417d2630d50a3bfee3dd02b31c4-744x1039.png?accountingTag=RB",
+        "artist": "Envar Studio",
+        "sourceUrls": [
+          "https://api.riftcodex.com/cards/riftbound/ven-155-166",
+          "https://riftdecks.com/cards/details-kennen-heart-of-the-tempest"
+        ],
+        "verifiedAt": "2026-09-10",
+        "dataNote": "API name field reads 'Yordle, Kennen'; riftdecks lists 'Kennen, Heart of the Tempest'. Champion = Kennen."
+      },
+      "localization": {
+        "championKo": "케넨",
+        "titleKo": null
+      },
+      "recommendationData": {
+        "difficulty": 4,
+        "archetypes": [
+          "combo",
+          "aggro",
+          "empower"
+        ],
+        "scores": {
+          "aggression": 70,
+          "control": 25,
+          "tempo": 65,
+          "combo": 70,
+          "midrange": 35,
+          "ramp": 15,
+          "swarm": 45,
+          "bigUnits": 20,
+          "interaction": 35,
+          "disruption": 35,
+          "cardDraw": 30,
+          "resourceManagement": 60,
+          "movement": 30,
+          "gear": 10,
+          "hidden": 20,
+          "sacrifice": 40,
+          "directDamage": 30,
+          "combat": 65,
+          "consistency": 40,
+          "riskTaking": 65,
+          "complexity": 80,
+          "setup": 60
+        },
+        "domainScores": {
+          "body": 15,
+          "fury": 15,
+          "calm": 15,
+          "mind": 15,
+          "chaos": 90,
+          "order": 90
+        },
+        "playstyleSummary": "손이 아닌 곳에서 카드를 플레이하면 Empower되고, 그 힘으로 유닛에 Assault 2를 주는 전설입니다.",
+        "strengths": [
+          "트래시 등 손 밖에서 카드를 쓰는 시너지와 맞물린다",
+          "공격력을 순간적으로 크게 올린다"
+        ],
+        "weaknesses": [
+          "손 밖에서 카드를 쓰는 수단이 필요해 덱 구성이 까다롭다"
+        ],
+        "recommendedFor": [
+          "complexity",
+          "aggression",
+          "combo",
+          "tempo"
+        ],
+        "notRecommendedFor": [
+          "bigUnits",
+          "control"
+        ],
+        "needsReview": true,
+        "reviewNote": "1차 평가값: 전설 능력 텍스트와 도메인 성향을 근거로 작성. 실제 덱리스트·메타 기준 검토 필요."
+      }
+    }
+  ]
+}

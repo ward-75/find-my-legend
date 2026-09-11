@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "note": "결과 별칭. signature의 가중치로 사용자 점수(50 기준 편차)를 가중평균해 가장 높은 별칭을 고릅니다.",
+  "personas": [
+    { "id": "conqueror", "name": "공격적인 정복자", "domain": "fury", "description": "상대가 자리 잡기 전에 전장을 먼저 빼앗는 것을 좋아합니다. 망설임보다 속도를 믿는 타입입니다.", "signature": { "style.aggression": 3, "style.tempo": 1, "domain.fury": 2, "style.directDamage": 1 } },
+    { "id": "tactician", "name": "계획형 전술가", "domain": "mind", "description": "몇 턴 앞을 내다보고 손패와 자원을 설계합니다. 이기는 그림을 먼저 그리고 움직입니다.", "signature": { "style.setup": 2, "style.cardDraw": 2, "style.resourceManagement": 1, "domain.mind": 2, "style.consistency": 1 } },
+    { "id": "gambler", "name": "변칙적인 승부사", "domain": "chaos", "description": "상대가 예상하지 못한 한 수로 판을 흔드는 걸 즐깁니다. 가끔 무너져도 고점을 향해 갑니다.", "signature": { "style.riskTaking": 3, "domain.chaos": 2, "style.disruption": 1, "style.hidden": 1 } },
+    { "id": "controller", "name": "반응형 컨트롤러", "domain": "calm", "description": "상대의 핵심 행동을 받아치며 흐름을 쥡니다. 서두르지 않고 빈틈이 생길 때를 기다립니다.", "signature": { "style.control": 3, "style.interaction": 2, "domain.calm": 2 } },
+    { "id": "brawler", "name": "전장 지배형 브루저", "domain": "body", "description": "큰 유닛으로 정면에서 밀어붙이는 싸움을 좋아합니다. 전투에서 이기는 것이 곧 계획입니다.", "signature": { "style.combat": 2, "style.bigUnits": 2, "domain.body": 2, "style.midrange": 1 } },
+    { "id": "engineer", "name": "엔진 설계자", "domain": "mind", "description": "카드끼리 맞물려 돌아가는 구조를 만드는 데서 재미를 찾습니다. 완성된 엔진은 한 턴에 판을 끝냅니다.", "signature": { "style.combo": 3, "style.setup": 2, "style.gear": 1, "style.complexity": 1 } },
+    { "id": "tempo-hunter", "name": "템포 사냥꾼", "domain": "calm", "description": "빈 전장을 찾아 유닛을 옮기고, 상대보다 한 박자 먼저 움직입니다. 위치 선정이 무기입니다.", "signature": { "style.tempo": 3, "style.movement": 2, "domain.calm": 1 } },
+    { "id": "commander", "name": "토큰 지휘관", "domain": "order", "description": "작은 유닛을 줄지어 세우고 조직적으로 운용합니다. 하나가 쓰러져도 다음이 있습니다.", "signature": { "style.swarm": 3, "domain.order": 2, "style.sacrifice": 1 } }
+  ]
+}

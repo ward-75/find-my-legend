@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "note": "새 세트 추가: 이 배열에 메타데이터를 추가 + legends.json에 전설 추가. releaseDate(YYYY-MM-DD)가 있으면 해당 날짜부터 자동 활성화되며 order가 카드풀 cutoff 기준입니다. released는 releaseDate가 없을 때만 쓰는 legacy fallback입니다.",
+  "sets": [
+    {
+      "id": "origins",
+      "name": "Origins",
+      "koreanName": "오리진",
+      "code": "OGN",
+      "order": 1,
+      "releaseDate": "2025-10-31",
+      "released": true,
+      "isSupplemental": false
+    },
+    {
+      "id": "proving-grounds",
+      "name": "Origins: Proving Grounds",
+      "koreanName": "프루빙 그라운드",
+      "code": "OGS",
+      "order": 1,
+      "releaseDate": "2025-10-31",
+      "released": true,
+      "isSupplemental": true,
+      "parentSetId": "origins"
+    },
+    {
+      "id": "spiritforged",
+      "name": "Spiritforged",
+      "koreanName": "스피릿포지드",
+      "code": "SFD",
+      "order": 2,
+      "releaseDate": "2026-02-13",
+      "released": true,
+      "isSupplemental": false
+    },
+    {
+      "id": "unleashed",
+      "name": "Unleashed",
+      "koreanName": "언리시드",
+      "code": "UNL",
+      "order": 3,
+      "releaseDate": "2026-05-08",
+      "released": true,
+      "isSupplemental": false
+    },
+    {
+      "id": "vendetta",
+      "name": "Vendetta",
+      "koreanName": "벤데타",
+      "code": "VEN",
+      "order": 4,
+      "releaseDate": "2026-07-31",
+      "released": true,
+      "isSupplemental": false
+    },
+    {
+      "id": "radiance",
+      "name": "Radiance",
+      "koreanName": "래디언스",
+      "code": "RAD",
+      "order": 5,
+      "releaseDate": "2026-10-23",
+      "released": false,
+      "isSupplemental": false
+    }
+  ]
+}
