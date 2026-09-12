@@ -2,12 +2,30 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "나의 Riftbound 전설 찾기 · Find My Legend",
-  description: "Riftbound를 처음 보는 사람도 답할 수 있는 14개의 질문으로 플레이 성향을 분석하고, 경험 수준과 카드풀을 고려해 잘 맞는 전설 TOP 5를 추천합니다.",
+  metadataBase: new URL("https://ward-75.github.io/find-my-legend/"),
+  title: "Find My Legend · 나의 Riftbound 전설 찾기",
+  description: "14개의 질문으로 나의 플레이스타일을 알아보고, 경험 수준과 카드풀에 맞는 Riftbound 전설 TOP 5를 만나보세요.",
   openGraph: {
-    title: "나와 가장 잘 맞는 Riftbound 전설은?",
-    description: "플레이스타일 성향 테스트 + 전설 추천기",
+    title: "Find My Legend · 나의 Riftbound 전설 찾기",
+    description: "14개의 질문으로 나의 플레이스타일을 알아보고, 경험 수준과 카드풀에 맞는 Riftbound 전설 TOP 5를 만나보세요.",
     type: "website",
+    url: "https://ward-75.github.io/find-my-legend/",
+    siteName: "Find My Legend",
+    images: [{
+      url: "https://ward-75.github.io/find-my-legend/og-image.png",
+      width: 1731,
+      height: 909,
+      alt: "Find My Legend — Discover your Riftbound Legend",
+    }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Find My Legend · 나의 Riftbound 전설 찾기",
+    description: "14개의 질문으로 나의 플레이스타일을 알아보고, 경험 수준과 카드풀에 맞는 Riftbound 전설 TOP 5를 만나보세요.",
+    images: [{
+      url: "https://ward-75.github.io/find-my-legend/og-image.png",
+      alt: "Find My Legend — Discover your Riftbound Legend",
+    }],
   },
 };
 
