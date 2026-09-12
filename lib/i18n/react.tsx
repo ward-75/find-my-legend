@@ -2,6 +2,7 @@
 import { createContext, useContext, useEffect, useState, cloneElement, isValidElement, type ReactNode, type ReactElement } from 'react';
 import { LANGUAGE_NAMES, LANGUAGE_STORAGE_KEY, LOCALES, resolveLocale, validLocale, withLanguage, type Locale } from './core';
 import { translate } from './translate';
+import { trackEvent } from '../analytics';
 const Context = createContext<{ locale: Locale; setLocale: (locale: Locale) => void }>({ locale: 'ko', setLocale: () => {} });
 export function LanguageProvider({ children }: { children: ReactNode }) {
   const [locale, updateLocale] = useState<Locale>('ko');
@@ -20,6 +21,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
     document.title = translate('나의 Riftbound 전설 찾기 · Find My Legend', locale);
   }, [locale]);
   const setLocale = (next: Locale) => {
+    if (next !== locale) trackEvent('language_change', { language: next });
     updateLocale(next);
     try { localStorage.setItem(LANGUAGE_STORAGE_KEY, next); } catch { /* in-memory choice still works */ }
     try { history.replaceState(null, '', withLanguage(location.href, next)); } catch { /* embedded preview */ }

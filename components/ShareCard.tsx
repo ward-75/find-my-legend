@@ -66,7 +66,7 @@ function copyFallback(text: string): boolean {
 }
 
 /** 결과 이미지 카드 + 링크 복사 */
-export function ShareCard({ persona, profile, top, url }: { persona: Persona; profile: UserProfile; top: LegendMatch; url: string }) {
+export function ShareCard({ persona, profile, top, url, onShare }: { persona: Persona; profile: UserProfile; top: LegendMatch; url: string; onShare?: () => void }) {
   const { locale, t } = useLanguage();
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const [preview, setPreview] = useState<string | null>(null);
@@ -81,8 +81,12 @@ export function ShareCard({ persona, profile, top, url }: { persona: Persona; pr
   }, [persona, profile, top, locale]);
 
   const copy = async () => {
-    try { await navigator.clipboard.writeText(url); setMsg("링크를 복사했습니다."); }
-    catch { setMsg(copyFallback(url) ? "링크를 복사했습니다." : "복사가 막힌 환경입니다. 아래 링크를 직접 복사해 주세요."); }
+    try { await navigator.clipboard.writeText(url); setMsg("링크를 복사했습니다."); onShare?.(); }
+    catch {
+      const copied = copyFallback(url);
+      setMsg(copied ? "링크를 복사했습니다." : "복사가 막힌 환경입니다. 아래 링크를 직접 복사해 주세요.");
+      if (copied) onShare?.();
+    }
   };
 
   const save = () => {
@@ -93,12 +97,13 @@ export function ShareCard({ persona, profile, top, url }: { persona: Persona; pr
       const file = new File([blob], "my-riftbound-legend.png", { type: "image/png" });
       const nav = navigator as Navigator & { canShare?: (d: ShareData) => boolean };
       if (nav.canShare?.({ files: [file] })) {
-        try { await nav.share({ files: [file], title: t("나의 Riftbound 전설"), url }); return; } catch { /* 사용자가 취소 */ }
+        try { await nav.share({ files: [file], title: t("나의 Riftbound 전설"), url }); onShare?.(); return; } catch { /* 사용자가 취소 */ }
       }
       const a = document.createElement("a");
       a.href = URL.createObjectURL(blob); a.download = file.name; a.click();
       setTimeout(() => URL.revokeObjectURL(a.href), 2000);
       setMsg("이미지를 저장했습니다.");
+      onShare?.();
     }, "image/png");
   };
 

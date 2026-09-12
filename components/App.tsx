@@ -1,7 +1,9 @@
 "use client";
 import Link from "next/link";
 import { LanguageProvider, LanguageSelector, useLanguage, LocaleText } from "@/lib/i18n/react";
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { createQuizAnalytics } from "@/lib/analytics";
+import { Analytics } from "./Analytics";
 import { QUESTIONS, QUESTION_VERSION, SETS } from "@/lib/data";
 import { computeProfile, isComplete } from "@/lib/scoring";
 import { rankLegends } from "@/lib/recommendation";
@@ -38,6 +40,7 @@ function urlFor(view: View, code?: string): string {
 function Shell() {
   const { legends } = useLegendStore();
   const { locale } = useLanguage();
+  const analytics = useRef(createQuizAnalytics());
   const today = useToday();
   const [view, setView] = useState<View>("landing");
   const [pool, setPool] = useState<PoolOptions>(DEFAULT_POOL);
@@ -118,9 +121,20 @@ function Shell() {
     setCompareIds((prev) => (prev.includes(id) ? prev.filter((x) => x !== id) : prev.length >= 3 ? prev : [...prev, id]));
   }, []);
 
-  const startSetup = () => { setFromShare(false); navigate("setup"); };
+  const startSetup = () => { analytics.current.reset(); setFromShare(false); navigate("setup"); };
   const startQuiz = () => { setAnswers(EMPTY); setQIndex(0); navigate("quiz"); };
-  const finish = () => navigate("result", resultCode);
+  const finish = () => {
+    if (profile) analytics.current.complete({ language: locale, experienceLevel: experience });
+    navigate("result", resultCode);
+  };
+  const resultLegendId = ranked[0]?.legend.id;
+  useEffect(() => {
+    if (view === "setup") analytics.current.reset();
+    if (view === "quiz") analytics.current.start({ language: locale, experienceLevel: experience });
+    if (view === "result" && profile && resultLegendId) {
+      analytics.current.result({ language: locale, experienceLevel: experience, resultLegendId });
+    }
+  }, [view, locale, experience, profile, resultLegendId]);
 
   // 퀴즈 URL로 바로 들어왔는데 진행 상태가 없으면 세트 선택으로
   useEffect(() => {
@@ -180,6 +194,7 @@ function Shell() {
             onRetake={startSetup}
             onBrowse={() => navigate("browse")}
             fromShare={fromShare}
+            onShare={() => analytics.current.share({ language: locale, experienceLevel: experience, resultLegendId })}
           />
         )}
         {view === "browse" && (
@@ -234,6 +249,7 @@ function Shell() {
 export default function App() {
   return (
     <LanguageProvider><LegendStoreProvider>
+      <Analytics />
       <Shell />
     </LegendStoreProvider></LanguageProvider>
   );

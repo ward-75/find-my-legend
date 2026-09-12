@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import { Analytics } from "./Analytics";
 import { LanguageProvider, LanguageSelector, LocaleText, useLanguage } from "@/lib/i18n/react";
 
 function PrivacyContent() {
@@ -26,7 +27,7 @@ function PrivacyContent() {
         <p className="mt-3 leading-7 text-vellum/80">사이트는 GitHub Pages에서 제공됩니다. 글꼴은 Google Fonts의 fonts.googleapis.com 및 fonts.gstatic.com에서, 기본 카드 이미지는 Riot Games의 cmsassets.rgpub.io에서 불러옵니다. 가져온 카드 데이터에 다른 HTTPS 이미지 주소가 있으면 그 주소로 요청할 수 있습니다. 외부 링크를 클릭하면 해당 사이트로 이동합니다.</p>
         <p className="mt-3 leading-7 text-vellum/80">이러한 요청을 받는 제공업체는 통신에 필요한 IP 주소, 요청 시각, 브라우저 정보 등의 접속 정보를 처리할 수 있으며 각자의 정책이 적용됩니다. 앱 운영자가 외부 제공업체의 로그 보관 기간이나 처리를 통제하지 않습니다.</p>
         <h2 className="mt-8 font-display text-xl">쿠키와 분석·광고</h2>
-        <p className="mt-3 leading-7 text-vellum/80">현재 앱 코드에는 쿠키를 직접 설정하거나 읽는 기능, Analytics 또는 AdSense 같은 방문 분석·광고 기능이 없습니다. localStorage는 쿠키와 별개의 브라우저 저장소입니다. 외부 제공업체의 데이터 처리는 해당 업체의 정책을 따릅니다.</p>
+        <p className="mt-3 leading-7 text-vellum/80">Google Analytics 4(GA4)를 사용해 페이지 방문, 퀴즈 시작·완료, 추천 결과, 공유 및 언어 변경을 분석하고 서비스 이용 흐름을 개선합니다. 이벤트에는 언어, 경험 수준, 결과 전설 ID와 퀴즈 완료 여부만 추가하며, 답변과 결과 URL의 쿼리는 전송하지 않습니다. 분석·광고 저장 동의를 거부한 설정으로 쿠키 없는 분석 신호를 전송하며, 앱에서 사용자 식별 ID를 만들지 않습니다. Google은 통신에 필요한 접속 정보를 처리할 수 있으며 Google의 개인정보처리방침이 적용됩니다.</p>
         <h2 className="mt-8 font-display text-xl">문의</h2>
         <p className="mt-3 leading-7 text-vellum/80">개인정보 관련 문의는 프로젝트 저장소의 Issues를 이용할 수 있습니다. Issues는 공개되므로 비밀번호, 토큰 또는 비공개로 유지할 결과 링크를 게시하지 마세요.</p>
       <a className="mt-3 inline-block text-brass underline" href="https://github.com/ward-75/find-my-legend/issues" rel="noreferrer">프로젝트 문의 (공개 Issues)</a>
@@ -35,5 +36,5 @@ function PrivacyContent() {
   </div></LocaleText>;
 }
 export default function PrivacyPage() {
-  return <LanguageProvider><PrivacyContent /></LanguageProvider>;
+  return <LanguageProvider><Analytics /><PrivacyContent /></LanguageProvider>;
 }

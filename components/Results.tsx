@@ -14,7 +14,7 @@ import { CompactLegendCard, MainLegendCard } from "./LegendResultCard";
 import { ShareCard } from "./ShareCard";
 import { Button, Chip } from "./ui";
 
-export function Results({ profile, ranked, tasteTop, experience, pool, shareUrl, compareIds, onToggleCompare, onOpenDetail, onRetake, onBrowse, fromShare }: {
+export function Results({ profile, ranked, tasteTop, experience, pool, shareUrl, compareIds, onToggleCompare, onOpenDetail, onRetake, onBrowse, fromShare, onShare }: {
   profile: UserProfile;
   ranked: LegendMatch[];
   tasteTop: LegendMatch | null;
@@ -27,6 +27,7 @@ export function Results({ profile, ranked, tasteTop, experience, pool, shareUrl,
   onRetake: () => void;
   onBrowse: () => void;
   fromShare: boolean;
+  onShare?: () => void;
 }) {
   const { locale } = useLanguage();
   const { primary, secondary } = pickPersonas(profile, PERSONAS);
@@ -117,7 +118,7 @@ export function Results({ profile, ranked, tasteTop, experience, pool, shareUrl,
           )}
 
           <div className="mt-8">
-            {top5[0] && <ShareCard persona={primary} profile={profile} top={top5[0]} url={shareUrl} />}
+            {top5[0] && <ShareCard persona={primary} profile={profile} top={top5[0]} url={shareUrl} onShare={onShare} />}
           </div>
 
           <div className="mt-8 flex flex-wrap gap-2">

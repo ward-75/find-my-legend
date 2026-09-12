@@ -3984,10 +3984,10 @@
     "en": "Cookies, analytics and advertising",
     "zh-CN": "Cookie、分析与广告"
   },
-  "현재 앱 코드에는 쿠키를 직접 설정하거나 읽는 기능, Analytics 또는 AdSense 같은 방문 분석·광고 기능이 없습니다. localStorage는 쿠키와 별개의 브라우저 저장소입니다. 외부 제공업체의 데이터 처리는 해당 업체의 정책을 따릅니다.": {
-    "ko": "현재 앱 코드에는 쿠키를 직접 설정하거나 읽는 기능, Analytics 또는 AdSense 같은 방문 분석·광고 기능이 없습니다. localStorage는 쿠키와 별개의 브라우저 저장소입니다. 외부 제공업체의 데이터 처리는 해당 업체의 정책을 따릅니다.",
-    "en": "The current app code does not set or read cookies and does not implement visitor analytics or advertising such as Analytics or AdSense. localStorage is separate from cookies. External providers process data under their own policies.",
-    "zh-CN": "当前应用代码不设置或读取 Cookie，也未实现 Analytics 或 AdSense 等访问分析或广告功能。localStorage 是独立于 Cookie 的浏览器存储。外部提供商依据各自政策处理数据。"
+  "Google Analytics 4(GA4)를 사용해 페이지 방문, 퀴즈 시작·완료, 추천 결과, 공유 및 언어 변경을 분석하고 서비스 이용 흐름을 개선합니다. 이벤트에는 언어, 경험 수준, 결과 전설 ID와 퀴즈 완료 여부만 추가하며, 답변과 결과 URL의 쿼리는 전송하지 않습니다. 분석·광고 저장 동의를 거부한 설정으로 쿠키 없는 분석 신호를 전송하며, 앱에서 사용자 식별 ID를 만들지 않습니다. Google은 통신에 필요한 접속 정보를 처리할 수 있으며 Google의 개인정보처리방침이 적용됩니다.": {
+    "ko": "Google Analytics 4(GA4)를 사용해 페이지 방문, 퀴즈 시작·완료, 추천 결과, 공유 및 언어 변경을 분석하고 서비스 이용 흐름을 개선합니다. 이벤트에는 언어, 경험 수준, 결과 전설 ID와 퀴즈 완료 여부만 추가하며, 답변과 결과 URL의 쿼리는 전송하지 않습니다. 분석·광고 저장 동의를 거부한 설정으로 쿠키 없는 분석 신호를 전송하며, 앱에서 사용자 식별 ID를 만들지 않습니다. Google은 통신에 필요한 접속 정보를 처리할 수 있으며 Google의 개인정보처리방침이 적용됩니다.",
+    "en": "We use Google Analytics 4 (GA4) to analyze page visits, quiz starts and completions, recommended results, sharing and language changes to improve the service flow. Events add only language, experience level, result Legend ID and quiz completion status; answers and result URL queries are not sent. Analytics and advertising storage consent is denied, so cookieless analytics signals are sent without an app-generated user identifier. Google may process connection information under its Privacy Policy.",
+    "zh-CN": "我们使用 Google Analytics 4（GA4）分析页面访问、测验开始与完成、推荐结果、分享及语言切换，以改善服务使用流程。事件仅附加语言、经验水平、结果传奇 ID 和测验完成状态，不发送答案或结果网址的查询参数。分析和广告存储同意设为拒绝，以发送无 Cookie 的分析信号，应用不生成用户标识符。Google 可能依据其隐私政策处理连接信息。"
   },
   "문의": {
     "ko": "문의",
