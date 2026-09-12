@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { LanguageProvider, LanguageSelector, useLanguage, LocaleText } from "@/lib/i18n/react";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { QUESTIONS, QUESTION_VERSION, SETS } from "@/lib/data";
@@ -221,8 +222,9 @@ function Shell() {
             카드 데이터 출처: Riftcodex API, riftdecks.com (각 전설 상세에 개별 링크). 카드 이미지는 Riot Games 서버의 원본을 직접 불러옵니다.
           </p>
           <p className="mt-1">
-            Find My Legend는 Riot Games의 &quot;Legal Jibber Jabber&quot; 정책에 따라 Riot Games 소유 자산을 사용한 팬 프로젝트이며, Riot Games가 보증하거나 후원하지 않습니다.
+            Find My Legend는 Riot Games의 공식 서비스가 아닌 비공식 팬 프로젝트입니다. Riot Games의 승인, 후원 또는 제휴를 의미하지 않습니다. Riot Games, Riftbound 및 관련 상표와 자산의 권리는 각 권리자에게 있습니다.
           </p>
+          <Link href={`/privacy/?lang=${locale}`} className="mt-2 inline-block underline underline-offset-4">개인정보처리방침</Link>
         </div>
       </footer>
     </div></LocaleText>

@@ -3913,5 +3913,100 @@
     "ko": "출시된 세트의 전설을 세트, 도메인, 성향으로 찾아보세요. 테스트 결과가 있으면 적합도가 함께 표시됩니다.",
     "en": "Browse released Legends by set, domain and playstyle. If you have a test result, matching scores are shown too.",
     "zh-CN": "按系列、领域和风格浏览已发售的传奇。完成测试后，也会显示匹配评分。"
+  },
+  "개인정보처리방침": {
+    "ko": "개인정보처리방침",
+    "en": "Privacy Policy",
+    "zh-CN": "隐私政策"
+  },
+  "최종 업데이트: 2026-09-12": {
+    "ko": "최종 업데이트: 2026-09-12",
+    "en": "Last updated: 2026-09-12",
+    "zh-CN": "最后更新：2026-09-12"
+  },
+  "서비스와 데이터 처리": {
+    "ko": "서비스와 데이터 처리",
+    "en": "Service and data processing",
+    "zh-CN": "服务与数据处理"
+  },
+  "Find My Legend는 회원가입이나 로그인 없이 사용하는 정적 웹앱입니다. 답변과 추천 계산은 브라우저에서 처리하며, 앱 자체의 서버나 데이터베이스에 계정·답변·추천 결과를 저장하는 기능은 없습니다.": {
+    "ko": "Find My Legend는 회원가입이나 로그인 없이 사용하는 정적 웹앱입니다. 답변과 추천 계산은 브라우저에서 처리하며, 앱 자체의 서버나 데이터베이스에 계정·답변·추천 결과를 저장하는 기능은 없습니다.",
+    "en": "Find My Legend is a static web app with no registration or login. Answers and recommendations are processed in your browser. The app has no backend or database feature that stores accounts, answers, or results.",
+    "zh-CN": "Find My Legend 是无需注册或登录的静态网页应用。答案和推荐计算在浏览器中处理。应用没有用于保存账户、答案或结果的后端或数据库功能。"
+  },
+  "브라우저 저장소": {
+    "ko": "브라우저 저장소",
+    "en": "Browser storage",
+    "zh-CN": "浏览器存储"
+  },
+  "직접 선택한 언어는 localStorage의 find-my-legend.language.v1에 저장합니다. 데이터 관리에서 가져온 전설 데이터와 수정값은 find-my-legend.imported.v1에 저장합니다. 이 정보는 별도의 자동 만료 없이 해당 브라우저에 남으며, 앱이 서버로 업로드하지 않습니다. 브라우저의 사이트 데이터 삭제로 지울 수 있고, 가져온 데이터는 데이터 관리 화면에서도 초기화할 수 있습니다.": {
+    "ko": "직접 선택한 언어는 localStorage의 find-my-legend.language.v1에 저장합니다. 데이터 관리에서 가져온 전설 데이터와 수정값은 find-my-legend.imported.v1에 저장합니다. 이 정보는 별도의 자동 만료 없이 해당 브라우저에 남으며, 앱이 서버로 업로드하지 않습니다. 브라우저의 사이트 데이터 삭제로 지울 수 있고, 가져온 데이터는 데이터 관리 화면에서도 초기화할 수 있습니다.",
+    "en": "Your manually selected language is saved in localStorage under find-my-legend.language.v1. Legend data and edits imported through data management are saved under find-my-legend.imported.v1. These remain in that browser without automatic expiry and are not uploaded by the app. You can delete them by clearing site data in your browser; imported data can also be reset in data management.",
+    "zh-CN": "手动选择的语言保存在 localStorage 的 find-my-legend.language.v1 中。通过数据管理导入的传奇数据及修改值保存在 find-my-legend.imported.v1 中。这些信息保留在该浏览器内，不会自动过期，应用不会将其上传。你可以清除浏览器的网站数据，也可以在数据管理页面重置导入的数据。"
+  },
+  "진행 중인 답변은 localStorage에 저장하지 않습니다. 첫 방문에는 브라우저 언어를 읽어 표시 언어를 정하며, 언어 감지가 실패하면 한국어를 사용합니다.": {
+    "ko": "진행 중인 답변은 localStorage에 저장하지 않습니다. 첫 방문에는 브라우저 언어를 읽어 표시 언어를 정하며, 언어 감지가 실패하면 한국어를 사용합니다.",
+    "en": "In-progress answers are not stored in localStorage. On first visit, the app reads your browser language to select a display language, defaulting to Korean if detection fails.",
+    "zh-CN": "进行中的答案不会保存在 localStorage 中。首次访问时，应用读取浏览器语言以选择显示语言；检测失败时使用韩语。"
+  },
+  "결과와 공유 URL": {
+    "ko": "결과와 공유 URL",
+    "en": "Results and shared URLs",
+    "zh-CN": "结果与分享链接"
+  },
+  "결과 URL의 r 값에는 질문 버전, 답변, 경험 수준, 선택한 세트, 세트 포함 방식과 보조 세트 포함 여부가 인코딩됩니다. lang 값은 표시 언어입니다. 이는 암호화가 아니므로 링크를 가진 사람은 답변과 결과를 복원할 수 있습니다. URL은 브라우저 기록에 남거나 링크를 여는 호스팅 서비스의 요청 로그에 포함될 수 있으므로 공개를 원하지 않는 결과 링크는 공유하지 마세요.": {
+    "ko": "결과 URL의 r 값에는 질문 버전, 답변, 경험 수준, 선택한 세트, 세트 포함 방식과 보조 세트 포함 여부가 인코딩됩니다. lang 값은 표시 언어입니다. 이는 암호화가 아니므로 링크를 가진 사람은 답변과 결과를 복원할 수 있습니다. URL은 브라우저 기록에 남거나 링크를 여는 호스팅 서비스의 요청 로그에 포함될 수 있으므로 공개를 원하지 않는 결과 링크는 공유하지 마세요.",
+    "en": "The r parameter in a result URL encodes the question version, answers, experience level, selected set, set inclusion mode, and supplemental-set choice. The lang parameter specifies the display language. This is encoding, not encryption: anyone with the link can restore the answers and result. URLs may remain in browser history or appear in hosting request logs when opened. Do not share result links you want to keep private.",
+    "zh-CN": "结果链接的 r 参数编码了问题版本、答案、经验水平、所选系列、系列包含方式及是否包含补充系列。lang 参数表示显示语言。这是编码而非加密，持有链接的人可以恢复答案与结果。链接可能留在浏览器历史记录中，或在打开时出现在托管服务的请求日志中。请勿分享希望保密的结果链接。"
+  },
+  "공유 이미지는 브라우저에서 생성합니다. 링크 복사, 이미지 저장 또는 기기의 공유 기능은 사용자가 해당 버튼을 누를 때 실행됩니다. 앱이 결과를 별도의 공유 서버에 자동 업로드하지 않습니다.": {
+    "ko": "공유 이미지는 브라우저에서 생성합니다. 링크 복사, 이미지 저장 또는 기기의 공유 기능은 사용자가 해당 버튼을 누를 때 실행됩니다. 앱이 결과를 별도의 공유 서버에 자동 업로드하지 않습니다.",
+    "en": "Share images are generated in your browser. Copying links, saving images, or using your device’s share feature happens when you press the relevant button. The app does not automatically upload results to a separate sharing server.",
+    "zh-CN": "分享图片在浏览器中生成。复制链接、保存图片或使用设备分享功能，仅在你点击相应按钮时执行。应用不会自动将结果上传到单独的分享服务器。"
+  },
+  "호스팅과 외부 리소스": {
+    "ko": "호스팅과 외부 리소스",
+    "en": "Hosting and external resources",
+    "zh-CN": "托管与外部资源"
+  },
+  "사이트는 GitHub Pages에서 제공됩니다. 글꼴은 Google Fonts의 fonts.googleapis.com 및 fonts.gstatic.com에서, 기본 카드 이미지는 Riot Games의 cmsassets.rgpub.io에서 불러옵니다. 가져온 카드 데이터에 다른 HTTPS 이미지 주소가 있으면 그 주소로 요청할 수 있습니다. 외부 링크를 클릭하면 해당 사이트로 이동합니다.": {
+    "ko": "사이트는 GitHub Pages에서 제공됩니다. 글꼴은 Google Fonts의 fonts.googleapis.com 및 fonts.gstatic.com에서, 기본 카드 이미지는 Riot Games의 cmsassets.rgpub.io에서 불러옵니다. 가져온 카드 데이터에 다른 HTTPS 이미지 주소가 있으면 그 주소로 요청할 수 있습니다. 외부 링크를 클릭하면 해당 사이트로 이동합니다.",
+    "en": "The site is hosted on GitHub Pages. Fonts load from Google Fonts at fonts.googleapis.com and fonts.gstatic.com; default card images load from Riot Games at cmsassets.rgpub.io. Imported card data may request images from other HTTPS addresses it contains. Clicking an external link takes you to that site.",
+    "zh-CN": "网站由 GitHub Pages 托管。字体从 Google Fonts 的 fonts.googleapis.com 和 fonts.gstatic.com 加载，默认卡牌图片从 Riot Games 的 cmsassets.rgpub.io 加载。导入的卡牌数据可能请求其中指定的其他 HTTPS 图片地址。点击外部链接会前往相应网站。"
+  },
+  "이러한 요청을 받는 제공업체는 통신에 필요한 IP 주소, 요청 시각, 브라우저 정보 등의 접속 정보를 처리할 수 있으며 각자의 정책이 적용됩니다. 앱 운영자가 외부 제공업체의 로그 보관 기간이나 처리를 통제하지 않습니다.": {
+    "ko": "이러한 요청을 받는 제공업체는 통신에 필요한 IP 주소, 요청 시각, 브라우저 정보 등의 접속 정보를 처리할 수 있으며 각자의 정책이 적용됩니다. 앱 운영자가 외부 제공업체의 로그 보관 기간이나 처리를 통제하지 않습니다.",
+    "en": "Providers receiving these requests may process connection information such as your IP address, request time, and browser information under their own policies. The app operator does not control external providers’ log retention or processing.",
+    "zh-CN": "接收这些请求的服务提供商可能依据各自政策处理 IP 地址、请求时间、浏览器信息等连接信息。应用运营者不控制外部提供商的日志保存期限或处理方式。"
+  },
+  "쿠키와 분석·광고": {
+    "ko": "쿠키와 분석·광고",
+    "en": "Cookies, analytics and advertising",
+    "zh-CN": "Cookie、分析与广告"
+  },
+  "현재 앱 코드에는 쿠키를 직접 설정하거나 읽는 기능, Analytics 또는 AdSense 같은 방문 분석·광고 기능이 없습니다. localStorage는 쿠키와 별개의 브라우저 저장소입니다. 외부 제공업체의 데이터 처리는 해당 업체의 정책을 따릅니다.": {
+    "ko": "현재 앱 코드에는 쿠키를 직접 설정하거나 읽는 기능, Analytics 또는 AdSense 같은 방문 분석·광고 기능이 없습니다. localStorage는 쿠키와 별개의 브라우저 저장소입니다. 외부 제공업체의 데이터 처리는 해당 업체의 정책을 따릅니다.",
+    "en": "The current app code does not set or read cookies and does not implement visitor analytics or advertising such as Analytics or AdSense. localStorage is separate from cookies. External providers process data under their own policies.",
+    "zh-CN": "当前应用代码不设置或读取 Cookie，也未实现 Analytics 或 AdSense 等访问分析或广告功能。localStorage 是独立于 Cookie 的浏览器存储。外部提供商依据各自政策处理数据。"
+  },
+  "문의": {
+    "ko": "문의",
+    "en": "Contact",
+    "zh-CN": "联系"
+  },
+  "개인정보 관련 문의는 프로젝트 저장소의 Issues를 이용할 수 있습니다. Issues는 공개되므로 비밀번호, 토큰 또는 비공개로 유지할 결과 링크를 게시하지 마세요.": {
+    "ko": "개인정보 관련 문의는 프로젝트 저장소의 Issues를 이용할 수 있습니다. Issues는 공개되므로 비밀번호, 토큰 또는 비공개로 유지할 결과 링크를 게시하지 마세요.",
+    "en": "For privacy questions, use Issues in the project repository. Issues are public, so do not post passwords, tokens, or result links you want to keep private.",
+    "zh-CN": "隐私相关问题可通过项目仓库的 Issues 提出。Issues 是公开的，请勿发布密码、令牌或希望保密的结果链接。"
+  },
+  "프로젝트 문의 (공개 Issues)": {
+    "ko": "프로젝트 문의 (공개 Issues)",
+    "en": "Project contact (public Issues)",
+    "zh-CN": "项目联系（公开 Issues）"
+  },
+  "Find My Legend는 Riot Games의 공식 서비스가 아닌 비공식 팬 프로젝트입니다. Riot Games의 승인, 후원 또는 제휴를 의미하지 않습니다. Riot Games, Riftbound 및 관련 상표와 자산의 권리는 각 권리자에게 있습니다.": {
+    "ko": "Find My Legend는 Riot Games의 공식 서비스가 아닌 비공식 팬 프로젝트입니다. Riot Games의 승인, 후원 또는 제휴를 의미하지 않습니다. Riot Games, Riftbound 및 관련 상표와 자산의 권리는 각 권리자에게 있습니다.",
+    "en": "Find My Legend is an unofficial fan project, not an official Riot Games service. It does not imply approval, sponsorship, or affiliation by Riot Games. Rights to Riot Games, Riftbound, and related trademarks and assets belong to their respective owners.",
+    "zh-CN": "Find My Legend 是非官方粉丝项目，并非 Riot Games 官方服务，也不代表获得 Riot Games 的批准、赞助或合作。Riot Games、Riftbound 及相关商标与资产的权利归各自权利人所有。"
   }
 }
